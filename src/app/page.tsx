@@ -3,6 +3,9 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import locationsData from '@/data/locations.json';
 import SmartDownloadButton from '@/components/SmartDownloadButton';
+import NewsSection from '@/components/NewsSection';
+import NationalPriceChart from '@/components/NationalPriceChart';
+import { fetchNews } from '@/lib/news';
 
 export const metadata: Metadata = {
     title: 'Gasolina Barata — Directorio de Precios en España Hoy',
@@ -18,7 +21,9 @@ export const metadata: Metadata = {
 };
 
 export default async function Home() {
-    const provincias = locationsData.locations;
+    const provincias = (locationsData as any).locations;
+    const news = await fetchNews(6);
+    const historicoNacional = (locationsData as any).historicoNacional || [];
 
     return (
         <div className="rg-landing">
@@ -29,6 +34,7 @@ export default async function Home() {
                     </Link>
                     <div className="rg-nav-links">
                         <Link href="/">Inicio</Link>
+                        <a href="#noticias">Noticias</a>
                         <SmartDownloadButton variant="nav" className="rg-nav-cta" />
                     </div>
                 </div>
@@ -55,6 +61,16 @@ export default async function Home() {
                     </div>
                 </div>
             </section>
+
+            {/* GRÁFICA NACIONAL DE EVOLUCIÓN DE PRECIOS */}
+            <section style={{ padding: '60px 0', background: 'var(--rg-bg)' }}>
+                <div className="rg-container">
+                    <NationalPriceChart historico={historicoNacional} />
+                </div>
+            </section>
+
+            {/* NOTICIAS SOBRE GASOLINA */}
+            <NewsSection news={news} />
 
             {/* DIRECTORIO DE PROVINCIAS (INTERLINKING SILO) */}
             <section id="provincias" style={{ padding: '60px 0', background: 'var(--rg-bg-alt)' }}>
@@ -134,3 +150,4 @@ export default async function Home() {
         </div>
     );
 }
+

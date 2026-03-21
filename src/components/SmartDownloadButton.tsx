@@ -10,6 +10,12 @@ const STORE_LINKS = {
   fallback: 'https://app.radargas.com',
 };
 
+/* Official badge URLs (Spanish locale) */
+const BADGE_IOS =
+  'https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/es-es?size=250x83';
+const BADGE_ANDROID =
+  'https://play.google.com/intl/es/badges/static/images/badges/es_badge_web_generic.png';
+
 function detectPlatform(): Platform {
   if (typeof navigator === 'undefined') return 'desktop';
   const ua = navigator.userAgent || navigator.vendor || '';
@@ -21,10 +27,34 @@ function detectPlatform(): Platform {
 interface SmartDownloadButtonProps {
   className?: string;
   style?: React.CSSProperties;
-  /** Variant controls the look: 'primary' = main CTA btn, 'nav' = navbar link, 'badge' = store badges */
+  /** 'primary' = main CTA btn, 'nav' = navbar link, 'badge' = store badges */
   variant?: 'primary' | 'nav' | 'badge';
-  /** Custom label — overrides the auto-generated text */
+  /** Custom label — overrides auto-generated text (only for nav/primary variants) */
   label?: string;
+}
+
+/* ─── Badge link (reusable) ─── */
+function StoreBadge({ store }: { store: 'ios' | 'android' }) {
+  const href = store === 'ios' ? STORE_LINKS.ios : STORE_LINKS.android;
+  const src = store === 'ios' ? BADGE_IOS : BADGE_ANDROID;
+  const alt =
+    store === 'ios'
+      ? 'Descargar en el App Store'
+      : 'Disponible en Google Play';
+
+  return (
+    <a href={href} target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block' }}>
+      <img
+        src={src}
+        alt={alt}
+        style={{
+          height: store === 'ios' ? '54px' : '78px',  /* Google badge has built-in padding so needs bigger size */
+          marginTop: store === 'android' ? '-12px' : '0',
+          objectFit: 'contain',
+        }}
+      />
+    </a>
+  );
 }
 
 export default function SmartDownloadButton({
@@ -39,7 +69,7 @@ export default function SmartDownloadButton({
     setPlatform(detectPlatform());
   }, []);
 
-  // --- NAV variant: simple link ---
+  /* ── NAV variant: simple text link ── */
   if (variant === 'nav') {
     const href =
       platform === 'ios'
@@ -62,78 +92,34 @@ export default function SmartDownloadButton({
     );
   }
 
-  // --- BADGE variant: on desktop show both store badges side-by-side ---
-  if (variant === 'badge' || (variant === 'primary' && platform === 'desktop')) {
+  /* ── BADGE variant: official store badges ── */
+  if (variant === 'badge') {
     if (platform === 'ios') {
-      return (
-        <a
-          href={STORE_LINKS.ios}
-          className={className || 'rg-btn primary'}
-          style={style}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          {label || ' Descargar en App Store'}
-        </a>
-      );
+      return <StoreBadge store="ios" />;
     }
     if (platform === 'android') {
-      return (
-        <a
-          href={STORE_LINKS.android}
-          className={className || 'rg-btn primary'}
-          style={style}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          {label || '🤖 Descargar en Google Play'}
-        </a>
-      );
+      return <StoreBadge store="android" />;
     }
-
-    // Desktop: show both buttons
+    /* Desktop → both badges */
     return (
-      <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap', justifyContent: 'center', ...style }}>
-        <a
-          href={STORE_LINKS.ios}
-          className="rg-btn primary"
-          style={{ display: 'inline-flex', alignItems: 'center', gap: '8px' }}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-           App Store
-        </a>
-        <a
-          href={STORE_LINKS.android}
-          className="rg-btn primary"
-          style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', background: 'var(--rg-surface)', border: '1px solid var(--rg-primary)', color: 'var(--rg-primary)' }}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          🤖 Google Play
-        </a>
+      <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap', justifyContent: 'center', alignItems: 'center', ...style }}>
+        <StoreBadge store="ios" />
+        <StoreBadge store="android" />
       </div>
     );
   }
 
-  // --- PRIMARY variant on mobile ---
-  const href =
-    platform === 'ios' ? STORE_LINKS.ios : STORE_LINKS.android;
-  const text =
-    label ||
-    (platform === 'ios'
-      ? '🚀 Descargar en App Store'
-      : '🚀 Descargar en Google Play');
+  /* ── PRIMARY variant ── */
+  if (platform === 'desktop') {
+    /* Desktop with primary variant → also show both badges */
+    return (
+      <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap', justifyContent: 'center', alignItems: 'center', ...style }}>
+        <StoreBadge store="ios" />
+        <StoreBadge store="android" />
+      </div>
+    );
+  }
 
-  return (
-    <a
-      href={href}
-      className={className || 'rg-btn primary'}
-      style={style}
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      {text}
-    </a>
-  );
+  /* Mobile with primary → single badge */
+  return platform === 'ios' ? <StoreBadge store="ios" /> : <StoreBadge store="android" />;
 }

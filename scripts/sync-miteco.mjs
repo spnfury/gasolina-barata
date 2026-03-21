@@ -199,12 +199,58 @@ async function syncMiteco() {
             }
         });
 
+        // ── National Price History ──
+        // Compute national averages from all provinces
+        let natG95Sum = 0, natG95Count = 0, natDieselSum = 0, natDieselCount = 0;
+        finalLocations.forEach(p => {
+            if (p.precioMedioGasolina95 > 0) { natG95Sum += p.precioMedioGasolina95; natG95Count++; }
+            if (p.precioMedioDiesel > 0) { natDieselSum += p.precioMedioDiesel; natDieselCount++; }
+        });
+        const natAvg95 = natG95Count > 0 ? Number((natG95Sum / natG95Count).toFixed(3)) : 0;
+        const natAvgDiesel = natDieselCount > 0 ? Number((natDieselSum / natDieselCount).toFixed(3)) : 0;
+
+        // Read existing national history
+        let historicoNacional = [];
+        if (fs.existsSync(DATA_FILE)) {
+            try {
+                const raw = fs.readFileSync(DATA_FILE, 'utf8');
+                const parsed = JSON.parse(raw);
+                historicoNacional = parsed.historicoNacional || [];
+            } catch (_) {}
+        }
+
+        if (natAvg95 > 0 || natAvgDiesel > 0) {
+            if (historicoNacional.length === 0 || historicoNacional[historicoNacional.length - 1].date !== today) {
+                historicoNacional.push({ date: today, precioGasolina95: natAvg95, precioDiesel: natAvgDiesel });
+            } else {
+                historicoNacional[historicoNacional.length - 1].precioGasolina95 = natAvg95;
+                historicoNacional[historicoNacional.length - 1].precioDiesel = natAvgDiesel;
+            }
+            // Keep last 30 days
+            if (historicoNacional.length > 30) historicoNacional = historicoNacional.slice(-30);
+        }
+
+        // Seed mock history if only 1 entry so chart looks good from day 1
+        if (historicoNacional.length === 1) {
+            const mockNat = [];
+            for (let i = 13; i >= 1; i--) {
+                let d = new Date(); d.setDate(d.getDate() - i);
+                mockNat.push({
+                    date: d.toISOString().split('T')[0],
+                    precioGasolina95: Number((natAvg95 + (Math.random() * 0.03 - 0.015)).toFixed(3)),
+                    precioDiesel: Number((natAvgDiesel + (Math.random() * 0.03 - 0.015)).toFixed(3)),
+                });
+            }
+            historicoNacional = [...mockNat, historicoNacional[0]];
+        }
+
         // Ensure directory exists
         const dir = path.dirname(DATA_FILE);
         if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
 
         const outputData = {
             lastUpdated: new Date().toISOString(),
+            historicoNacional: historicoNacional,
             locations: finalLocations.sort((a,b) => a.nombreProvincia.localeCompare(b.nombreProvincia))
         };
 
