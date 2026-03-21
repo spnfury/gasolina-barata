@@ -2,6 +2,7 @@ import React from 'react';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import locationsData from '@/data/locations.json';
+import SmartDownloadButton from '@/components/SmartDownloadButton';
 
 export const metadata: Metadata = {
     title: 'Gasolina Barata — Directorio de Precios en España Hoy',
@@ -28,9 +29,7 @@ export default async function Home() {
                     </Link>
                     <div className="rg-nav-links">
                         <Link href="/">Inicio</Link>
-                        <a href="https://app.radargas.com" className="rg-nav-cta">
-                            Descargar RadarGas
-                        </a>
+                        <SmartDownloadButton variant="nav" className="rg-nav-cta" />
                     </div>
                 </div>
             </nav>
@@ -49,9 +48,7 @@ export default async function Home() {
                         Selecciona tu provincia a continuación para descubrir las gasolineras más baratas de tu zona, o descarga nuestra App gratuita <strong>RadarGas</strong> para ver el mapa interactivo.
                     </p>
                     <div className="rg-hero-buttons" style={{ marginTop: '32px' }}>
-                        <a href="https://app.radargas.com" className="rg-btn primary">
-                            🚀 Descargar RadarGas
-                        </a>
+                        <SmartDownloadButton variant="primary" label="🚀 Descargar RadarGas" />
                         <a href="#provincias" className="rg-btn secondary">
                             Ver Listado por Provincias
                         </a>
@@ -121,7 +118,7 @@ export default async function Home() {
                         Mientras que este portal web funciona de manera excepcional para revisar el precio por comunidad autónoma, el **verdadero poder reside en la App Móvil RadarGas**. Utiliza geolocalización avanzada en tiempo real, trazado de rutas GPS y favoritos para que el ahorro forme parte de tu conducción diaria de manera invisible.
                     </p>
                     <div style={{ textAlign: 'center', marginTop: '40px' }}>
-                        <a href="https://app.radargas.com" className="rg-btn primary">📱 Descargar la App (iOS y Android)</a>
+                        <SmartDownloadButton variant="badge" />
                     </div>
                 </div>
             </section>

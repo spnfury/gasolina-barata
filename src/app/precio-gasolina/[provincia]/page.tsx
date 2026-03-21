@@ -5,6 +5,7 @@ import type { Metadata } from 'next';
 import locationsData from '@/data/locations.json';
 import AppDownloadCta from '@/components/AppDownloadCta';
 import Breadcrumbs from '@/components/Breadcrumbs';
+import SmartDownloadButton from '@/components/SmartDownloadButton';
 
 export async function generateMetadata(
     { params }: { params: Promise<{ provincia: string }> }
@@ -43,9 +44,7 @@ export default async function ProvinciaPage({ params }: { params: Promise<{ prov
                     </Link>
                     <div className="rg-nav-links">
                         <Link href="/">Inicio</Link>
-                        <a href="https://app.radargas.com" className="rg-nav-cta">
-                            Mapa de Precios →
-                        </a>
+                        <SmartDownloadButton variant="nav" className="rg-nav-cta" label="Mapa de Precios →" />
                     </div>
                 </div>
             </nav>

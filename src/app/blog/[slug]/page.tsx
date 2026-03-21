@@ -1,6 +1,7 @@
 // Gasolina Barata — Article Page (Precios)
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import SmartDownloadButton from '@/components/SmartDownloadButton';
 import { getAllSlugs, getPostBySlug } from '@/lib/nocodb';
 import { notFound } from 'next/navigation';
 
@@ -70,7 +71,7 @@ export default async function ArticlePage(props: PageProps) {
                     <Link href="/" className="rg-nav-logo">💰 <span>Gasolina</span>Barata</Link>
                     <div className="rg-nav-links">
                         <Link href="/">Blog</Link>
-                        <a href="https://app.radargas.com" className="rg-nav-cta">Mapa de Precios →</a>
+                        <SmartDownloadButton variant="nav" className="rg-nav-cta" label="Mapa de Precios →" />
                     </div>
                 </div>
             </nav>
@@ -111,7 +112,7 @@ export default async function ArticlePage(props: PageProps) {
                     <h2>Compara precios en tu zona</h2>
                     <p>Usa RadarGas para ver el mapa de precios en tiempo real.</p>
                     <div className="rg-hero-buttons">
-                        <a href="https://app.radargas.com" className="rg-btn primary">🚀 Ver Precios</a>
+                        <SmartDownloadButton variant="primary" label="🚀 Ver Precios" />
                         <Link href="/" className="rg-btn secondary">← Volver al blog</Link>
                     </div>
                 </div>
