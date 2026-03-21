@@ -1,0 +1,46 @@
+name: Automatización Sincronización MITECO
+on:
+  schedule:
+    # Se ejecuta todos los días a las 00:00 UTC (01:00/02:00 Península)
+    - cron: '0 0 * * *'
+  # Permite ejecutarlo manualmente desde la pestaña "Actions" de GitHub
+  workflow_dispatch:
+
+jobs:
+  sync_and_deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar Repositorio
+        uses: actions/checkout@v4
+        with:
+          # Para poder hacer commit de vuelta, usamos token automático o PAT
+          token: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Instalar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          
+      - name: Instalar dependencias
+        run: npm ci
+        
+      - name: Ejecutar script de sincronización
+        run: node scripts/sync-miteco.mjs
+        
+      - name: Guardar histórico y desplegar a Vercel
+        run: |
+          git config --global user.name "Sincronizador MITECO [Bot]"
+          git config --global user.email "bot@radargas.app"
+          
+          # Añadir archivo json modificado
+          git add src/data/locations.json
+          
+          # Hacer commit solo si hay cambios. El push activará Vercel automáticamente.
+          if git diff --staged --quiet; then
+            echo "No hay cambios en los precios hoy."
+          else
+            git commit -m "chore(data): 🔄 Sincronización diaria MITECO"
+            git push
+            echo "✅ Datos sincronizados. Vercel comenzará el despliegue automático de las 8.100 webs."
+          fi

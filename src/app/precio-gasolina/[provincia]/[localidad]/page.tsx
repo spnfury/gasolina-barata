@@ -8,6 +8,7 @@ import PriceHistoryCard from '@/components/PriceHistoryCard';
 import FaqAccordion from '@/components/FaqAccordion';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import styles from '@/components/Seo.module.css';
+import MapWrapper from '@/components/MapWrapper';
 
 interface PageProps {
     params: Promise<{ provincia: string; localidad: string }>;
@@ -15,7 +16,8 @@ interface PageProps {
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
     const { provincia, localidad } = await params;
-    const loc = locationsData.locations.find((l: any) => l.provincia === provincia);
+    const data = locationsData as any;
+    const loc = data.locations.find((l: any) => l.provincia === provincia);
     const town = loc?.localidades.find((t: any) => t.slug === localidad);
 
     if (!town || !loc) return { title: 'No encontrado' };
@@ -29,7 +31,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 export async function generateStaticParams() {
     const params: { provincia: string; localidad: string }[] = [];
-    locationsData.locations.forEach((prov: any) => {
+    const data = locationsData as any;
+    data.locations.forEach((prov: any) => {
         prov.localidades.forEach((loc: any) => {
             params.push({ provincia: prov.provincia, localidad: loc.slug });
         });
@@ -40,7 +43,8 @@ export async function generateStaticParams() {
 export default async function LocalidadPage({ params }: PageProps) {
     const { provincia, localidad } = await params;
     
-    const provData = locationsData.locations.find((l: any) => l.provincia === provincia);
+    const data = locationsData as any;
+    const provData = data.locations.find((l: any) => l.provincia === provincia);
     const townData = provData?.localidades.find((t: any) => t.slug === localidad);
 
     if (!provData || !townData) {
@@ -107,7 +111,7 @@ export default async function LocalidadPage({ params }: PageProps) {
                     ]} />
                     <div className="rg-hero-badge" style={{ marginBottom: '16px' }}>
                         <span className="dot" />
-                        Actualizado el {new Date(locationsData.lastUpdated).toLocaleDateString()}
+                        Actualizado el {new Date((locationsData as any).lastUpdated).toLocaleDateString()}
                     </div>
                     <h1>Precios de Gasolina en <span className="green">{townData.nombre}</span></h1>
                     <p className="blog-hero-sub">
@@ -146,6 +150,60 @@ export default async function LocalidadPage({ params }: PageProps) {
                     currentPriceDiesel={townData.precioDiesel} 
                     historico={townData.historico || []}
                 />
+
+                {/* NUEVO: MAPA INTERACTIVO */}
+                {townData.top5 && townData.top5.length > 0 && (
+                    <div className={styles.card} style={{ marginTop: '32px' }}>
+                        <h3 className={styles.priceTitle}>🗺️ Mapa de Gasolineras Baratas en {townData.nombre}</h3>
+                        <p style={{ color: 'var(--rg-text-secondary)', marginBottom: '24px' }}>
+                            Navega por el mapa interactivo para localizar los surtidores más económicos de la zona.
+                        </p>
+                        <MapWrapper stations={townData.top5} />
+                    </div>
+                )}
+
+                {/* NUEVO: TOP 5 Gasolineras Listado */}
+                {townData.top5 && townData.top5.length > 0 && (
+                    <div className={styles.card} style={{ marginTop: '32px' }}>
+                        <h3 className={styles.priceTitle}>🏆 Top {townData.top5.length} Gasolineras más baratas en {townData.nombre}</h3>
+                        <p style={{ color: 'var(--rg-text-secondary)', marginBottom: '24px' }}>
+                            Conoce dónde repostar hoy mismo ahorrando al máximo en {townData.nombre}.
+                        </p>
+                        
+                        <div style={{ overflowX: 'auto' }}>
+                            <table style={{ width: '100%', borderCollapse: 'collapse', textAlign: 'left', minWidth: '600px' }}>
+                                <thead>
+                                    <tr style={{ borderBottom: '1px solid var(--rg-border)', color: 'var(--rg-text-secondary)', fontSize: '0.9rem' }}>
+                                        <th style={{ padding: '12px 16px' }}>Rótulo / Marca</th>
+                                        <th style={{ padding: '12px 16px' }}>Dirección</th>
+                                        <th style={{ padding: '12px 16px' }}>Gasolina 95</th>
+                                        <th style={{ padding: '12px 16px' }}>Diésel</th>
+                                        <th style={{ padding: '12px 16px' }}>Horario</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {townData.top5.map((station: any, i: number) => (
+                                        <tr key={i} style={{ borderBottom: '1px solid var(--rg-border)' }}>
+                                            <td style={{ padding: '16px', fontWeight: 600, color: 'var(--rg-primary)' }}>
+                                                {i + 1}. {station.rotulo}
+                                            </td>
+                                            <td style={{ padding: '16px', fontSize: '0.9rem' }}>{station.direccion}</td>
+                                            <td style={{ padding: '16px', fontWeight: 600 }}>
+                                                {station.precio95 ? `${station.precio95}€` : '-'}
+                                            </td>
+                                            <td style={{ padding: '16px', fontWeight: 600 }}>
+                                                {station.precioDiesel ? `${station.precioDiesel}€` : '-'}
+                                            </td>
+                                            <td style={{ padding: '16px', fontSize: '0.85rem', color: 'var(--rg-text-secondary)' }}>
+                                                {station.horario}
+                                            </td>
+                                        </tr>
+                                    ))}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                )}
 
                 {/* 4. Opiniones (Estilo Blog) */}
                 <div className={styles.card}>

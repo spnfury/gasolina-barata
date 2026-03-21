@@ -68,12 +68,23 @@ async function syncMiteco() {
                     nombre: municipio,
                     totalG95: 0, countG95: 0,
                     totalDiesel: 0, countDiesel: 0,
+                    estaciones: []
                 });
             }
 
             const m = p.localidadesMap.get(muniSlug);
             if (precio95) { m.totalG95 += precio95; m.countG95++; }
             if (precioDiesel) { m.totalDiesel += precioDiesel; m.countDiesel++; }
+
+            m.estaciones.push({
+                rotulo: estacion['Rótulo'] || 'Estación independiente',
+                direccion: estacion['Dirección'] || '',
+                horario: estacion['Horario'] || '',
+                latitud: estacion['Latitud'] ? parseFloat(estacion['Latitud'].replace(',', '.')) : null,
+                longitud: estacion['Longitud (WGS84)'] ? parseFloat(estacion['Longitud (WGS84)'].replace(',', '.')) : null,
+                precio95: precio95 || 999,
+                precioDiesel: precioDiesel || 999
+            });
         });
 
         // Load existing history to preserve it
@@ -147,13 +158,32 @@ async function syncMiteco() {
                     historico = [...mockHist, historico[0]];
                 }
 
+                // Calculate top 5 stations based on Gasolina 95 (or Diesel if 95 not available)
+                const top5 = m.estaciones
+                    .sort((a, b) => {
+                        const priceA = a.precio95 !== 999 ? a.precio95 : a.precioDiesel;
+                        const priceB = b.precio95 !== 999 ? b.precio95 : b.precioDiesel;
+                        return priceA - priceB;
+                    })
+                    .slice(0, 5)
+                    .map(est => ({
+                        rotulo: est.rotulo,
+                        direccion: est.direccion,
+                        horario: est.horario,
+                        latitud: est.latitud,
+                        longitud: est.longitud,
+                        precio95: est.precio95 === 999 ? null : est.precio95,
+                        precioDiesel: est.precioDiesel === 999 ? null : est.precioDiesel
+                    }));
+
                 if (avgLoc95 > 0 || avgLocDiesel > 0) {
                     locs.push({
                         slug: m.slug,
                         nombre: m.nombre,
                         precioGasolina95: Number(avgLoc95.toFixed(3)),
                         precioDiesel: Number(avgLocDiesel.toFixed(3)),
-                        historico: historico
+                        historico: historico,
+                        top5: top5
                     });
                 }
             });
