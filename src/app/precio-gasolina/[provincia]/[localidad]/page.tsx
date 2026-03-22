@@ -23,10 +23,26 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
     if (!town || !loc) return { title: 'No encontrado' };
 
+    const title = `Gasolina Barata en ${town.nombre} Hoy - Precios Diésel y 95 | RadarGas`;
+    const description = `Descubre las gasolineras más baratas en ${town.nombre} (${loc.nombreProvincia}). Consulta la evolución del precio de la gasolina 95 y diésel hoy para ahorrar al máximo.`;
+
     return {
-        title: `Gasolina Barata en ${town.nombre} Hoy - Precios Diésel y 95 | RadarGas`,
-        description: `Descubre las gasolineras más baratas en ${town.nombre} (${loc.nombreProvincia}). Consulta la evolución del precio de la gasolina 95 y diésel hoy para ahorrar al máximo.`,
+        title,
+        description,
         alternates: { canonical: `https://gasolinabarata.org/precio-gasolina/${provincia}/${localidad}` },
+        openGraph: {
+            title,
+            description,
+            type: 'article',
+            locale: 'es_ES',
+            url: `https://gasolinabarata.org/precio-gasolina/${provincia}/${localidad}`,
+            siteName: 'Gasolina Barata',
+        },
+        twitter: {
+            card: 'summary_large_image',
+            title,
+            description,
+        },
     };
 }
 

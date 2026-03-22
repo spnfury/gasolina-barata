@@ -27,36 +27,56 @@ export default async function Home() {
 
     return (
         <div className="rg-landing">
+            {/* JSON-LD WebSite + SearchAction */}
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: JSON.stringify({
+                        '@context': 'https://schema.org',
+                        '@type': 'WebSite',
+                        name: 'Gasolina Barata',
+                        url: 'https://gasolinabarata.org',
+                        description: 'Directorio completo con los precios de gasolina y diésel actualizados hoy en todas las provincias y localidades de España.',
+                        potentialAction: {
+                            '@type': 'SearchAction',
+                            target: 'https://gasolinabarata.org/precio-gasolina/{search_term_string}',
+                            'query-input': 'required name=search_term_string',
+                        },
+                    }),
+                }}
+            />
             <nav className="rg-navbar">
                 <div className="rg-navbar-inner">
                     <Link href="/" className="rg-nav-logo">
-                        💰 <span>Gasolina</span>Barata
+                        ⛽ <span>Gasolina</span>Barata
                     </Link>
                     <div className="rg-nav-links">
                         <Link href="/">Inicio</Link>
+                        <a href="#provincias">Provincias</a>
                         <a href="#noticias">Noticias</a>
                         <SmartDownloadButton variant="nav" className="rg-nav-cta" />
                     </div>
                 </div>
             </nav>
 
-            {/* SECCIÓN HERO - BUSCADOR / ACCIÓN PRINCIPAL */}
+            {/* SECCIÓN HERO */}
             <section className="blog-hero">
                 <div className="rg-container">
                     <div className="rg-hero-badge">
                         <span className="dot" />
-                        Millones de precios actualizados a diario
+                        Precios actualizados a diario · Datos oficiales MITECO
                     </div>
                     <h1>
-                        El precio de la <span className="green">Gasolina en España</span>
+                        Encuentra la <span className="green">Gasolina más Barata</span> de España
                     </h1>
                     <p className="blog-hero-sub">
-                        Selecciona tu provincia a continuación para descubrir las gasolineras más baratas de tu zona, o descarga nuestra App gratuita <strong>RadarGas</strong> para ver el mapa interactivo.
+                        Compara precios de gasolina 95 y diésel en todas las provincias.
+                        Descarga <strong>RadarGas</strong> para ver el mapa interactivo en tiempo real.
                     </p>
                     <div className="rg-hero-buttons" style={{ marginTop: '32px' }}>
                         <SmartDownloadButton variant="primary" label="🚀 Descargar RadarGas" />
                         <a href="#provincias" className="rg-btn secondary">
-                            Ver Listado por Provincias
+                            Ver por Provincias
                         </a>
                     </div>
                 </div>
@@ -72,38 +92,27 @@ export default async function Home() {
             {/* NOTICIAS SOBRE GASOLINA */}
             <NewsSection news={news} />
 
-            {/* DIRECTORIO DE PROVINCIAS (INTERLINKING SILO) */}
-            <section id="provincias" style={{ padding: '60px 0', background: 'var(--rg-bg-alt)' }}>
+            {/* DIRECTORIO DE PROVINCIAS */}
+            <section id="provincias" style={{ padding: '80px 0', background: 'linear-gradient(180deg, var(--rg-bg-alt) 0%, var(--rg-bg) 100%)' }}>
                 <div className="rg-container">
-                    <h2 style={{ fontSize: '2rem', fontWeight: 800, textAlign: 'center', marginBottom: '40px' }}>
-                        ⛽ Consulta el precio por Provincia
-                    </h2>
+                    <div className="rg-section-title">
+                        <h2>⛽ Consulta el precio por Provincia</h2>
+                        <p>Selecciona tu provincia para ver las gasolineras más baratas cerca de ti.</p>
+                    </div>
                     
                     <div style={{
                         display: 'grid',
-                        gridTemplateColumns: 'repeat(auto-fill, minmax(240px, 1fr))',
-                        gap: '16px'
+                        gridTemplateColumns: 'repeat(auto-fill, minmax(260px, 1fr))',
+                        gap: '12px'
                     }}>
                         {provincias.map((prov: any) => (
                             <Link 
                                 href={`/precio-gasolina/${prov.provincia}`} 
                                 key={prov.provincia}
-                                style={{
-                                    display: 'flex',
-                                    justifyContent: 'space-between',
-                                    alignItems: 'center',
-                                    padding: '16px 20px',
-                                    background: 'var(--rg-surface)',
-                                    border: '1px solid var(--rg-border)',
-                                    borderRadius: '12px',
-                                    textDecoration: 'none',
-                                    color: 'var(--rg-text)',
-                                    transition: 'all 0.2s',
-                                    fontWeight: 600
-                                }}
+                                className="prov-card"
                             >
-                                <span>{prov.nombreProvincia}</span>
-                                <span style={{ color: 'var(--rg-primary)' }}>➔</span>
+                                <span className="prov-card-name">Gasolina en {prov.nombreProvincia}</span>
+                                <span className="prov-card-arrow">→</span>
                             </Link>
                         ))}
                     </div>
@@ -111,27 +120,27 @@ export default async function Home() {
             </section>
 
             {/* SEMÁNTICA SEO Y CONVERSIÓN */}
-            <section style={{ padding: '80px 0' }}>
-                <div className="rg-container" style={{ maxWidth: '800px', margin: '0 auto', fontSize: '1.05rem', lineHeight: 1.8, color: 'var(--rg-text-secondary)' }}>
-                    <h2 style={{ fontSize: '1.8rem', fontWeight: 800, color: 'var(--rg-text)', marginBottom: '24px' }}>
+            <section className="seo-section">
+                <div className="rg-container seo-content">
+                    <h2>
                         ¿Por qué es importante comparar el precio de la gasolina hoy?
                     </h2>
-                    <p style={{ marginBottom: '24px' }}>
+                    <p>
                         En un escenario de fluctuación constante en el mercado energético, el precio del barril de Brent y los impuestos repercuten diariamente en el importe final del <strong>diésel y la gasolina 95 o 98</strong>. En Gasolina Barata hemos diseñado nuestra plataforma mediante algoritmos de inteligencia de datos extraídos al instante del MITECO, lo cual te permite identificar gasolineras low-cost cerca de ti para que puedas optimizar tu ruta diaria.
                     </p>
                     
-                    <div style={{ background: 'linear-gradient(135deg, rgba(0, 230, 118, 0.1) 0%, rgba(0, 230, 118, 0.05) 100%)', borderLeft: '4px solid var(--rg-primary)', padding: '24px', borderRadius: '0 12px 12px 0', margin: '32px 0' }}>
-                        <h3 style={{ fontSize: '1.3rem', color: 'var(--rg-primary)', margin: '0 0 12px' }}>Ahorro comprobado de hasta 250€ al año</h3>
-                        <p style={{ margin: 0, color: 'var(--rg-text)' }}>
+                    <div className="seo-callout">
+                        <h3>💰 Ahorro comprobado de hasta 250€ al año</h3>
+                        <p>
                             Nuestros usuarios recurrentes aseguran ahorrar decenas de euros en cada periodo vacacional simplemente evitando las estaciones premium en autopistas y acercándose a cooperativas o polígonos utilizando nuestra aplicación en tiempo real.
                         </p>
                     </div>
 
-                    <h2 style={{ fontSize: '1.8rem', fontWeight: 800, color: 'var(--rg-text)', marginBottom: '24px', marginTop: '48px' }}>
+                    <h2 style={{ marginTop: '48px' }}>
                         El ecosistema absoluto: RadarGas App
                     </h2>
-                    <p style={{ marginBottom: '24px' }}>
-                        Mientras que este portal web funciona de manera excepcional para revisar el precio por comunidad autónoma, el **verdadero poder reside en la App Móvil RadarGas**. Utiliza geolocalización avanzada en tiempo real, trazado de rutas GPS y favoritos para que el ahorro forme parte de tu conducción diaria de manera invisible.
+                    <p>
+                        Mientras que este portal web funciona de manera excepcional para revisar el precio por comunidad autónoma, el <strong>verdadero poder reside en la App Móvil RadarGas</strong>. Utiliza geolocalización avanzada en tiempo real, trazado de rutas GPS y favoritos para que el ahorro forme parte de tu conducción diaria de manera invisible.
                     </p>
                     <div style={{ textAlign: 'center', marginTop: '40px' }}>
                         <SmartDownloadButton variant="badge" />

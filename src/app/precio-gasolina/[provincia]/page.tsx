@@ -14,10 +14,26 @@ export async function generateMetadata(
     const loc = locationsData.locations.find((l: any) => l.provincia === provincia);
     if (!loc) return { title: 'No encontrado' };
 
+    const title = `Precio de la Gasolina en ${loc.nombreProvincia} Hoy | Gasolina Barata`;
+    const description = `Descubre las gasolineras más baratas y la evolución del precio de la gasolina y diésel en la provincia de ${loc.nombreProvincia}. Ahorra en cada repostaje con RadarGas.`;
+
     return {
-        title: `Precio de la Gasolina en ${loc.nombreProvincia} Hoy | Gasolina Barata`,
-        description: `Descubre las gasolineras más baratas y la evolución del precio de la gasolina y diésel en la provincia de ${loc.nombreProvincia}. Ahorra en cada repostaje con RadarGas.`,
+        title,
+        description,
         alternates: { canonical: `https://gasolinabarata.org/precio-gasolina/${provincia}` },
+        openGraph: {
+            title,
+            description,
+            type: 'website',
+            locale: 'es_ES',
+            url: `https://gasolinabarata.org/precio-gasolina/${provincia}`,
+            siteName: 'Gasolina Barata',
+        },
+        twitter: {
+            card: 'summary_large_image',
+            title,
+            description,
+        },
     };
 }
 
@@ -104,7 +120,7 @@ export default async function ProvinciaPage({ params }: { params: Promise<{ prov
                 <div className="rg-footer-inner">
                     <div className="rg-footer-bottom">
                         <span>© {new Date().getFullYear()} Gasolina Barata — Datos MITECO</span>
-                        <span>Precios orientativos</span>
+                        <span>Precios orientativos.</span>
                     </div>
                 </div>
             </footer>
