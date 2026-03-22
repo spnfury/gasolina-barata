@@ -34,14 +34,25 @@ export default function NewsSection({ news }: { news: NewsItem[] }) {
                             rel="noopener noreferrer"
                             className="news-card"
                         >
-                            <div className="news-card-header">
-                                <span className="news-source">{item.source}</span>
-                                <span className="news-date">{timeAgo(item.pubDate)}</span>
+                            {item.imageUrl && (
+                                <div className="news-card-image">
+                                    <img
+                                        src={item.imageUrl}
+                                        alt={item.title}
+                                        loading="lazy"
+                                    />
+                                </div>
+                            )}
+                            <div className="news-card-body">
+                                <div className="news-card-header">
+                                    <span className="news-source">{item.source}</span>
+                                    <span className="news-date">{timeAgo(item.pubDate)}</span>
+                                </div>
+                                <h3 className="news-title">{item.title}</h3>
+                                <span className="news-read-more">
+                                    Leer artículo →
+                                </span>
                             </div>
-                            <h3 className="news-title">{item.title}</h3>
-                            <span className="news-read-more">
-                                Leer artículo →
-                            </span>
                         </a>
                     ))}
                 </div>

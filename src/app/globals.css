@@ -1200,15 +1200,40 @@
     background: var(--rg-surface);
     border: 1px solid var(--rg-border);
     border-radius: var(--rg-radius);
-    padding: 24px;
+    padding: 0;
     text-decoration: none;
     color: var(--rg-text);
     transition: all 0.3s ease;
     display: flex;
     flex-direction: column;
-    gap: 12px;
     position: relative;
     overflow: hidden;
+}
+
+.news-card-image {
+    width: 100%;
+    height: 180px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.news-card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s;
+}
+
+.news-card:hover .news-card-image img {
+    transform: scale(1.05);
+}
+
+.news-card-body {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    flex: 1;
 }
 
 .news-card::before {
