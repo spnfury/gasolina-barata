@@ -11,6 +11,6 @@ export default function robots(): MetadataRoute.Robots {
         '/preview/',
       ],
     },
-    sitemap: 'https://gasolinabarata.es/sitemap.xml',
+    sitemap: 'https://gasolinabarata.org/sitemap.xml',
   };
 }

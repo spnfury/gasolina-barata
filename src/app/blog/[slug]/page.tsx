@@ -42,7 +42,7 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
     return {
         title: post.Title,
         description: post.Excerpt,
-        alternates: { canonical: `https://gasolinabarata.es/blog/${post.Slug}` },
+        alternates: { canonical: `https://gasolinabarata.org/blog/${post.Slug}` },
         openGraph: {
             title: post.Title, description: post.Excerpt, type: 'article',
             siteName: 'Gasolina Barata', locale: 'es_ES',

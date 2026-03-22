@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next';
 import locationsData from '@/data/locations.json';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-    const baseUrl = 'https://gasolinabarata.es';
+    const baseUrl = 'https://gasolinabarata.org';
 
     const sitemapEntries: MetadataRoute.Sitemap = [
         {

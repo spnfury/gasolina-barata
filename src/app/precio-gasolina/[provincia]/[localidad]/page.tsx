@@ -26,7 +26,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     return {
         title: `Gasolina Barata en ${town.nombre} Hoy - Precios Diésel y 95 | RadarGas`,
         description: `Descubre las gasolineras más baratas en ${town.nombre} (${loc.nombreProvincia}). Consulta la evolución del precio de la gasolina 95 y diésel hoy para ahorrar al máximo.`,
-        alternates: { canonical: `https://gasolinabarata.es/precio-gasolina/${provincia}/${localidad}` },
+        alternates: { canonical: `https://gasolinabarata.org/precio-gasolina/${provincia}/${localidad}` },
     };
 }
 
@@ -104,9 +104,9 @@ export default async function LocalidadPage({ params }: PageProps) {
             <header className="blog-hero" style={{ paddingBottom: '40px' }}>
                 <div className="rg-container">
                     <Breadcrumbs items={[
-                        { name: 'Inicio', url: 'https://gasolinabarata.es' },
-                        { name: provData.nombreProvincia, url: `https://gasolinabarata.es/precio-gasolina/${provincia}` },
-                        { name: townData.nombre, url: `https://gasolinabarata.es/precio-gasolina/${provincia}/${localidad}` }
+                        { name: 'Inicio', url: 'https://gasolinabarata.org' },
+                        { name: provData.nombreProvincia, url: `https://gasolinabarata.org/precio-gasolina/${provincia}` },
+                        { name: townData.nombre, url: `https://gasolinabarata.org/precio-gasolina/${provincia}/${localidad}` }
                     ]} />
                     <div className="rg-hero-badge" style={{ marginBottom: '16px' }}>
                         <span className="dot" />

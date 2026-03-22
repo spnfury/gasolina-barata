@@ -17,7 +17,7 @@ export async function generateMetadata(
     return {
         title: `Precio de la Gasolina en ${loc.nombreProvincia} Hoy | Gasolina Barata`,
         description: `Descubre las gasolineras más baratas y la evolución del precio de la gasolina y diésel en la provincia de ${loc.nombreProvincia}. Ahorra en cada repostaje con RadarGas.`,
-        alternates: { canonical: `https://gasolinabarata.es/precio-gasolina/${provincia}` },
+        alternates: { canonical: `https://gasolinabarata.org/precio-gasolina/${provincia}` },
     };
 }
 
@@ -52,8 +52,8 @@ export default async function ProvinciaPage({ params }: { params: Promise<{ prov
             <header className="blog-hero" style={{ paddingBottom: '32px' }}>
                 <div className="rg-container">
                     <Breadcrumbs items={[
-                        { name: 'Inicio', url: 'https://gasolinabarata.es' },
-                        { name: `Gasolineras en ${location.nombreProvincia}`, url: `https://gasolinabarata.es/precio-gasolina/${provincia}` }
+                        { name: 'Inicio', url: 'https://gasolinabarata.org' },
+                        { name: `Gasolineras en ${location.nombreProvincia}`, url: `https://gasolinabarata.org/precio-gasolina/${provincia}` }
                     ]} />
                     <h1>Precio Gasolina en <span className="green">{location.nombreProvincia}</span></h1>
                     <p className="blog-hero-sub">

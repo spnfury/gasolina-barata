@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     title: 'Gasolina Barata — Directorio de Precios en España Hoy',
     description:
         'Directorio completo con los precios de gasolina y diésel actualizados hoy en todas las provincias y localidades de España. Usa RadarGas para ahorrar en cada depósito.',
-    alternates: { canonical: 'https://gasolinabarata.es' },
+    alternates: { canonical: 'https://gasolinabarata.org' },
     openGraph: {
         title: 'Gasolina Barata — Encuentra tu gasolinera más barata',
         description: 'Directorio completo de precios de surtidores de carburante en toda España.',
