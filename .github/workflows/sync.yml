@@ -25,22 +25,28 @@ jobs:
       - name: Instalar dependencias
         run: npm ci
         
-      - name: Ejecutar script de sincronización
+      - name: Ejecutar script de sincronización MITECO
         run: node scripts/sync-miteco.mjs
+
+      - name: Generar artículos de blog con Groq
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        run: node scripts/auto-news.mjs
         
-      - name: Guardar histórico y desplegar a Vercel
+      - name: Guardar datos y desplegar a Vercel
         run: |
           git config --global user.name "Sincronizador MITECO [Bot]"
           git config --global user.email "bot@radargas.app"
           
-          # Añadir archivo json modificado
-          git add src/data/locations.json
+          # Añadir archivos modificados
+          git add src/data/locations.json src/data/blog-posts.json
           
           # Hacer commit solo si hay cambios. El push activará Vercel automáticamente.
           if git diff --staged --quiet; then
-            echo "No hay cambios en los precios hoy."
+            echo "No hay cambios hoy."
           else
-            git commit -m "chore(data): 🔄 Sincronización diaria MITECO"
+            git commit -m "chore(data): 🔄 Sincronización diaria MITECO + auto-news"
             git push
-            echo "✅ Datos sincronizados. Vercel comenzará el despliegue automático de las 8.100 webs."
+            echo "✅ Datos sincronizados. Vercel comenzará el despliegue automático."
           fi
+

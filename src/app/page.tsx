@@ -52,8 +52,8 @@ export default async function Home() {
                     </Link>
                     <div className="rg-nav-links">
                         <Link href="/">Inicio</Link>
+                        <Link href="/blog">Blog</Link>
                         <a href="#provincias">Provincias</a>
-                        <a href="#noticias">Noticias</a>
                         <SmartDownloadButton variant="nav" className="rg-nav-cta" />
                     </div>
                 </div>

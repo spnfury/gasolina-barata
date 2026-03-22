@@ -68,10 +68,11 @@ export default async function ArticlePage(props: PageProps) {
         <div className="rg-landing">
             <nav className="rg-navbar">
                 <div className="rg-navbar-inner">
-                    <Link href="/" className="rg-nav-logo">💰 <span>Gasolina</span>Barata</Link>
+                    <Link href="/" className="rg-nav-logo">⛽ <span>Gasolina</span>Barata</Link>
                     <div className="rg-nav-links">
-                        <Link href="/">Blog</Link>
-                        <SmartDownloadButton variant="nav" className="rg-nav-cta" label="Mapa de Precios →" />
+                        <Link href="/">Inicio</Link>
+                        <Link href="/blog">Blog</Link>
+                        <SmartDownloadButton variant="nav" className="rg-nav-cta" />
                     </div>
                 </div>
             </nav>

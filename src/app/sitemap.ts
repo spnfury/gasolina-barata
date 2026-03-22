@@ -1,5 +1,6 @@
 import { MetadataRoute } from 'next';
 import locationsData from '@/data/locations.json';
+import blogPostsData from '@/data/blog-posts.json';
 
 export default function sitemap(): MetadataRoute.Sitemap {
     const baseUrl = 'https://gasolinabarata.org';
@@ -13,8 +14,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
         },
     ];
 
+    // Province & locality pages
     locationsData.locations.forEach((prov: any) => {
-        // Province page
         sitemapEntries.push({
             url: `${baseUrl}/precio-gasolina/${prov.provincia}`,
             lastModified: new Date(),
@@ -22,7 +23,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
             priority: 0.8,
         });
 
-        // Locality pages
         prov.localidades.forEach((loc: any) => {
             sitemapEntries.push({
                 url: `${baseUrl}/precio-gasolina/${prov.provincia}/${loc.slug}`,
@@ -31,6 +31,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
                 priority: 0.7,
             });
         });
+    });
+
+    // Blog posts
+    (blogPostsData as any[]).forEach((post: any) => {
+        if (post.slug) {
+            sitemapEntries.push({
+                url: `${baseUrl}/blog/${post.slug}`,
+                lastModified: post.publishedAt ? new Date(post.publishedAt) : new Date(),
+                changeFrequency: 'weekly',
+                priority: 0.6,
+            });
+        }
     });
 
     return sitemapEntries;
