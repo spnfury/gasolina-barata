@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { getAllPosts } from '@/lib/nocodb';
 import SmartDownloadButton from '@/components/SmartDownloadButton';
+import Navbar from '@/components/Navbar';
 
 export const metadata: Metadata = {
     title: 'Blog — Noticias sobre Gasolina y Diésel en España',
@@ -35,18 +36,7 @@ export default async function BlogPage() {
 
     return (
         <div className="rg-landing">
-            <nav className="rg-navbar">
-                <div className="rg-navbar-inner">
-                    <Link href="/" className="rg-nav-logo">
-                        ⛽ <span>Gasolina</span>Barata
-                    </Link>
-                    <div className="rg-nav-links">
-                        <Link href="/">Inicio</Link>
-                        <Link href="/blog">Blog</Link>
-                        <SmartDownloadButton variant="nav" className="rg-nav-cta" />
-                    </div>
-                </div>
-            </nav>
+            <Navbar />
 
             <section className="blog-hero">
                 <div className="rg-container">

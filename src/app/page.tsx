@@ -5,6 +5,8 @@ import locationsData from '@/data/locations.json';
 import SmartDownloadButton from '@/components/SmartDownloadButton';
 import NewsSection from '@/components/NewsSection';
 import NationalPriceChart from '@/components/NationalPriceChart';
+import Navbar from '@/components/Navbar';
+import LeadCapture from '@/components/LeadCapture';
 import { fetchNews } from '@/lib/news';
 
 export const metadata: Metadata = {
@@ -45,19 +47,7 @@ export default async function Home() {
                     }),
                 }}
             />
-            <nav className="rg-navbar">
-                <div className="rg-navbar-inner">
-                    <Link href="/" className="rg-nav-logo">
-                        ⛽ <span>Gasolina</span>Barata
-                    </Link>
-                    <div className="rg-nav-links">
-                        <Link href="/">Inicio</Link>
-                        <Link href="/blog">Blog</Link>
-                        <a href="#provincias">Provincias</a>
-                        <SmartDownloadButton variant="nav" className="rg-nav-cta" />
-                    </div>
-                </div>
-            </nav>
+            <Navbar />
 
             {/* SECCIÓN HERO */}
             <section className="blog-hero">

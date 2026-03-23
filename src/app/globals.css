@@ -1525,6 +1525,189 @@ html, body {
     line-height: 1.7;
 }
 
+/* ---- Lead Capture ---- */
+.lead-capture {
+    background: var(--rg-surface);
+    border: 1px solid var(--rg-border);
+    border-radius: var(--rg-radius);
+    padding: 32px;
+    margin: 40px 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.lead-capture::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, var(--rg-primary), transparent);
+}
+
+.lead-capture.inline {
+    padding: 24px;
+    margin: 32px 0;
+}
+
+.lead-capture-title {
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 8px;
+    color: var(--rg-text);
+}
+
+.lead-capture-subtitle {
+    color: var(--rg-text-secondary);
+    margin-bottom: 24px;
+    font-size: 0.95rem;
+}
+
+.lead-capture-form {
+    display: flex;
+    gap: 12px;
+    max-width: 480px;
+    margin: 0 auto 16px;
+}
+
+.lead-capture-input {
+    flex: 1;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--rg-border);
+    border-radius: var(--rg-radius-sm);
+    padding: 12px 16px;
+    color: var(--rg-text);
+    font-family: inherit;
+    font-size: 1rem;
+    outline: none;
+    transition: all 0.2s;
+}
+
+.lead-capture-input:focus {
+    border-color: var(--rg-primary);
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.lead-capture-btn {
+    background: var(--rg-primary);
+    color: #0A0E14;
+    border: none;
+    border-radius: var(--rg-radius-sm);
+    padding: 12px 24px;
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.lead-capture-btn:hover:not(:disabled) {
+    background: var(--rg-primary-dark);
+    transform: translateY(-1px);
+}
+
+.lead-capture-btn:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+.lead-capture-privacy {
+    font-size: 0.8rem;
+    color: var(--rg-text-muted);
+    margin: 0;
+}
+
+.lead-capture-success {
+    animation: fadeIn 0.4s ease;
+}
+
+.lead-capture-check {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    background: var(--rg-primary-glow);
+    color: var(--rg-primary);
+    border-radius: 50%;
+    font-size: 1.5rem;
+    margin-bottom: 16px;
+}
+
+/* ---- Mobile Menu (Hamburger) ---- */
+.rg-hamburger {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    z-index: 102;
+}
+
+.rg-hamburger-line {
+    display: block;
+    width: 24px;
+    height: 2px;
+    background: var(--rg-text);
+    margin: 5px 0;
+    transition: all 0.3s ease;
+}
+
+.rg-hamburger-line.open:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+}
+
+.rg-hamburger-line.open:nth-child(2) {
+    opacity: 0;
+}
+
+.rg-hamburger-line.open:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+}
+
+.rg-mobile-menu {
+    position: fixed;
+    top: 64px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(10, 14, 20, 0.95);
+    backdrop-filter: blur(10px);
+    z-index: 100;
+    display: none; /* Only flex on mobile */
+    flex-direction: column;
+    padding: 24px;
+    animation: slideDown 0.3s ease;
+}
+
+.rg-mobile-menu-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background: var(--rg-bg-alt);
+    border: 1px solid var(--rg-border);
+    border-radius: var(--rg-radius);
+    padding: 24px;
+}
+
+.rg-mobile-menu a {
+    color: var(--rg-text);
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 12px;
+    border-radius: var(--rg-radius-sm);
+    transition: background 0.2s;
+}
+
+.rg-mobile-menu a:hover {
+    background: var(--rg-surface);
+}
+
+@keyframes slideDown {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
 /* ---- Responsive: News & Chart ---- */
 @media (max-width: 768px) {
     .news-grid {
@@ -1551,6 +1734,22 @@ html, body {
     .rg-hero h1 {
         font-size: 2.5rem;
         letter-spacing: -1px;
+    }
+
+    .rg-nav-links {
+        display: none;
+    }
+    
+    .rg-hamburger {
+        display: block;
+    }
+
+    .rg-mobile-menu {
+        display: flex;
+    }
+
+    .lead-capture-form {
+        flex-direction: column;
     }
 }
 

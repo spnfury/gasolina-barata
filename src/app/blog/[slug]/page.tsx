@@ -4,6 +4,9 @@ import Link from 'next/link';
 import SmartDownloadButton from '@/components/SmartDownloadButton';
 import { getAllSlugs, getPostBySlug } from '@/lib/nocodb';
 import { notFound } from 'next/navigation';
+import Navbar from '@/components/Navbar';
+import LeadCapture from '@/components/LeadCapture';
+import ShareButtons from '@/components/ShareButtons';
 
 function markdownToHtml(md: string): string {
     let html = md
@@ -66,16 +69,7 @@ export default async function ArticlePage(props: PageProps) {
 
     return (
         <div className="rg-landing">
-            <nav className="rg-navbar">
-                <div className="rg-navbar-inner">
-                    <Link href="/" className="rg-nav-logo">⛽ <span>Gasolina</span>Barata</Link>
-                    <div className="rg-nav-links">
-                        <Link href="/">Inicio</Link>
-                        <Link href="/blog">Blog</Link>
-                        <SmartDownloadButton variant="nav" className="rg-nav-cta" />
-                    </div>
-                </div>
-            </nav>
+            <Navbar />
 
             <section className="blog-article-header">
                 <div className="rg-container">
@@ -90,6 +84,7 @@ export default async function ArticlePage(props: PageProps) {
                     </div>
                     <h1 className="blog-article-title">{post.Title}</h1>
                     <p className="blog-article-excerpt">{post.Excerpt}</p>
+                    <ShareButtons title={post.Title} />
                 </div>
             </section>
 
@@ -105,7 +100,14 @@ export default async function ArticlePage(props: PageProps) {
 
             {/* ---- Ad ---- */}
             <div className="rg-container">
+            </div>
 
+            {/* ---- Lead Capture ---- */}
+            <div className="rg-container">
+                <LeadCapture 
+                    title="📬 Repostaje Inteligente en tu Bolsillo" 
+                    subtitle="Suscríbete para recibir alertas de bajadas de precio en tu comunidad y resúmenes semanales de ahorro."
+                />
             </div>
 
             <section className="blog-cta">

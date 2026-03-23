@@ -6,6 +6,7 @@ import locationsData from '@/data/locations.json';
 import AppDownloadCta from '@/components/AppDownloadCta';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import SmartDownloadButton from '@/components/SmartDownloadButton';
+import Navbar from '@/components/Navbar';
 
 export async function generateMetadata(
     { params }: { params: Promise<{ provincia: string }> }
@@ -53,17 +54,7 @@ export default async function ProvinciaPage({ params }: { params: Promise<{ prov
 
     return (
         <div className="rg-landing">
-            <nav className="rg-navbar">
-                <div className="rg-navbar-inner">
-                    <Link href="/" className="rg-nav-logo">
-                        💰 <span>Gasolina</span>Barata
-                    </Link>
-                    <div className="rg-nav-links">
-                        <Link href="/">Inicio</Link>
-                        <SmartDownloadButton variant="nav" className="rg-nav-cta" label="Mapa de Precios →" />
-                    </div>
-                </div>
-            </nav>
+            <Navbar />
 
             <header className="blog-hero" style={{ paddingBottom: '32px' }}>
                 <div className="rg-container">

@@ -295,7 +295,7 @@ async function main() {
                 excerpt: rewritten.excerpt,
                 content: rewritten.content,
                 category: rewritten.category || 'Precios',
-                coverImage: image || '',
+                coverImage: image || `https://images.unsplash.com/photo-1545648839-fd06ea5b1695?w=1200&h=600&fit=crop&q=80&sig=${Math.floor(Math.random() * 10000)}`,
                 sourceUrl: item.link,
                 sourceName: item.source,
                 publishedAt: item.pubDate ? new Date(item.pubDate).toISOString() : new Date().toISOString(),

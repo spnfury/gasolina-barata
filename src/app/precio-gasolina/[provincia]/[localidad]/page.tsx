@@ -10,6 +10,7 @@ import FaqAccordion from '@/components/FaqAccordion';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import styles from '@/components/Seo.module.css';
 import MapWrapper from '@/components/MapWrapper';
+import Navbar from '@/components/Navbar';
 
 interface PageProps {
     params: Promise<{ provincia: string; localidad: string }>;
@@ -104,18 +105,7 @@ export default async function LocalidadPage({ params }: PageProps) {
                 }}
             />
 
-            <nav className="rg-navbar">
-                <div className="rg-navbar-inner">
-                    <Link href="/" className="rg-nav-logo">
-                        💰 <span>Gasolina</span>Barata
-                    </Link>
-                    <div className="rg-nav-links">
-                        <Link href="/">Inicio</Link>
-                        <Link href={`/precio-gasolina/${provincia}`}>Volver a {provData.nombreProvincia}</Link>
-                        <SmartDownloadButton variant="nav" className="rg-nav-cta" label="Mapa de Precios →" />
-                    </div>
-                </div>
-            </nav>
+            <Navbar />
 
             <header className="blog-hero" style={{ paddingBottom: '40px' }}>
                 <div className="rg-container">
