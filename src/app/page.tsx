@@ -109,6 +109,53 @@ export default async function Home() {
                 </div>
             </section>
 
+            {/* TOP MARCAS (SEO ENLAZADO INTERNO) */}
+            <section style={{ padding: '80px 0 0', background: 'var(--rg-bg)' }}>
+                <div className="rg-container">
+                    <div className="rg-section-title" style={{ marginBottom: '24px' }}>
+                        <h2>⛽ Busca por cadena de gasolineras</h2>
+                        <p>Filtra fácilmente las estaciones de tu marca favorita (low-cost o tradicional).</p>
+                    </div>
+                    <div style={{
+                        display: 'grid',
+                        gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))',
+                        gap: '16px',
+                        justifyContent: 'center',
+                        textAlign: 'center'
+                    }}>
+                        {[
+                            { name: 'Repsol', slug: 'repsol' },
+                            { name: 'Cepsa', slug: 'cepsa' },
+                            { name: 'Plenoil', slug: 'plenoil' },
+                            { name: 'Ballenoil', slug: 'ballenoil' },
+                            { name: 'Petroprix', slug: 'petroprix' },
+                            { name: 'Galp', slug: 'galp' },
+                            { name: 'BP', slug: 'bp' },
+                            { name: 'Shell', slug: 'shell' }
+                        ].map((brand) => (
+                            <Link 
+                                key={brand.slug}
+                                href={`/marca/${brand.slug}`}
+                                style={{
+                                    background: 'var(--rg-surface)',
+                                    border: `1px solid var(--rg-border)`,
+                                    borderRadius: 'var(--rg-radius-sm)',
+                                    padding: '20px 10px',
+                                    color: 'var(--rg-text)',
+                                    textDecoration: 'none',
+                                    fontSize: '1.05rem',
+                                    fontWeight: 700,
+                                    transition: 'background 0.2s',
+                                    boxShadow: '0 4px 12px rgba(0,0,0,0.05)'
+                                }}
+                            >
+                                {brand.name}
+                            </Link>
+                        ))}
+                    </div>
+                </div>
+            </section>
+
             {/* CIUDADES PRINCIPALES (SEO ENLAZADO INTERNO) */}
             <section style={{ padding: '40px 0 80px', background: 'var(--rg-bg)' }}>
                 <div className="rg-container">
@@ -151,16 +198,6 @@ export default async function Home() {
                                     fontSize: '0.95rem',
                                     transition: 'all 0.2s',
                                     fontWeight: 500
-                                }}
-                                onMouseEnter={(e) => {
-                                    e.currentTarget.style.background = 'var(--rg-primary)';
-                                    e.currentTarget.style.color = 'var(--rg-bg)';
-                                    e.currentTarget.style.borderColor = 'var(--rg-primary)';
-                                }}
-                                onMouseLeave={(e) => {
-                                    e.currentTarget.style.background = 'rgba(255,255,255,0.05)';
-                                    e.currentTarget.style.color = 'var(--rg-text)';
-                                    e.currentTarget.style.borderColor = 'var(--rg-border)';
                                 }}
                             >
                                 {city.name}

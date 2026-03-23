@@ -17,6 +17,7 @@ export default function Navbar() {
                 {/* Desktop nav */}
                 <div className="rg-nav-links">
                     <Link href="/">Inicio</Link>
+                    <Link href="/cerca-de-mi" style={{ color: 'var(--rg-primary)', fontWeight: 600 }}>Cerca de mí</Link>
                     <Link href="/blog">Blog</Link>
                     <Link href="/calculadora-ahorro">Calculadora</Link>
                     <a href="/#provincias">Provincias</a>
@@ -40,6 +41,7 @@ export default function Navbar() {
                 <div className="rg-mobile-menu" onClick={() => setMenuOpen(false)}>
                     <div className="rg-mobile-menu-inner" onClick={(e) => e.stopPropagation()}>
                         <Link href="/" onClick={() => setMenuOpen(false)}>🏠 Inicio</Link>
+                        <Link href="/cerca-de-mi" onClick={() => setMenuOpen(false)} style={{ color: 'var(--rg-primary)' }}>📍 Cerca de mí</Link>
                         <Link href="/blog" onClick={() => setMenuOpen(false)}>📰 Blog</Link>
                         <Link href="/calculadora-ahorro" onClick={() => setMenuOpen(false)}>🧮 Calculadora</Link>
                         <a href="/#provincias" onClick={() => setMenuOpen(false)}>⛽ Provincias</a>
