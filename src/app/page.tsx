@@ -109,6 +109,67 @@ export default async function Home() {
                 </div>
             </section>
 
+            {/* CIUDADES PRINCIPALES (SEO ENLAZADO INTERNO) */}
+            <section style={{ padding: '40px 0 80px', background: 'var(--rg-bg)' }}>
+                <div className="rg-container">
+                    <div className="rg-section-title" style={{ marginBottom: '24px' }}>
+                        <h2>🏙️ Gasolina barata en las principales ciudades</h2>
+                        <p>Accede directamente a los precios diarios de las localidades más buscadas.</p>
+                    </div>
+                    <div style={{
+                        display: 'flex',
+                        flexWrap: 'wrap',
+                        gap: '12px',
+                        justifyContent: 'center'
+                    }}>
+                        {[
+                            { name: 'Madrid', prov: 'madrid', slug: 'madrid' },
+                            { name: 'Barcelona', prov: 'barcelona', slug: 'barcelona' },
+                            { name: 'Valencia', prov: 'valencia', slug: 'valencia' },
+                            { name: 'Sevilla', prov: 'sevilla', slug: 'sevilla' },
+                            { name: 'Zaragoza', prov: 'zaragoza', slug: 'zaragoza' },
+                            { name: 'Málaga', prov: 'malaga', slug: 'malaga' },
+                            { name: 'Murcia', prov: 'murcia', slug: 'murcia' },
+                            { name: 'Palma', prov: 'illes-balears', slug: 'palma' },
+                            { name: 'Bilbao', prov: 'bizkaia', slug: 'bilbao' },
+                            { name: 'Alicante', prov: 'alicante', slug: 'alicantealacant' },
+                            { name: 'Córdoba', prov: 'cordoba', slug: 'cordoba' },
+                            { name: 'Valladolid', prov: 'valladolid', slug: 'valladolid' },
+                            { name: 'Vigo', prov: 'pontevedra', slug: 'vigo' },
+                            { name: 'L\'Hospitalet', prov: 'barcelona', slug: 'hospitalet-de-llobregat-l' }
+                        ].map((city) => (
+                            <Link 
+                                key={city.slug}
+                                href={`/precio-gasolina/${city.prov}/${city.slug}`}
+                                style={{
+                                    background: 'rgba(255,255,255,0.05)',
+                                    border: '1px solid var(--rg-border)',
+                                    borderRadius: '20px',
+                                    padding: '10px 20px',
+                                    color: 'var(--rg-text)',
+                                    textDecoration: 'none',
+                                    fontSize: '0.95rem',
+                                    transition: 'all 0.2s',
+                                    fontWeight: 500
+                                }}
+                                onMouseEnter={(e) => {
+                                    e.currentTarget.style.background = 'var(--rg-primary)';
+                                    e.currentTarget.style.color = 'var(--rg-bg)';
+                                    e.currentTarget.style.borderColor = 'var(--rg-primary)';
+                                }}
+                                onMouseLeave={(e) => {
+                                    e.currentTarget.style.background = 'rgba(255,255,255,0.05)';
+                                    e.currentTarget.style.color = 'var(--rg-text)';
+                                    e.currentTarget.style.borderColor = 'var(--rg-border)';
+                                }}
+                            >
+                                {city.name}
+                            </Link>
+                        ))}
+                    </div>
+                </div>
+            </section>
+
             {/* SEMÁNTICA SEO Y CONVERSIÓN */}
             <section className="seo-section">
                 <div className="rg-container seo-content">
