@@ -18,6 +18,7 @@ export default function Navbar() {
                 <div className="rg-nav-links">
                     <Link href="/">Inicio</Link>
                     <Link href="/blog">Blog</Link>
+                    <Link href="/calculadora-ahorro">Calculadora</Link>
                     <a href="/#provincias">Provincias</a>
                     <SmartDownloadButton variant="nav" className="rg-nav-cta" />
                 </div>
@@ -40,6 +41,7 @@ export default function Navbar() {
                     <div className="rg-mobile-menu-inner" onClick={(e) => e.stopPropagation()}>
                         <Link href="/" onClick={() => setMenuOpen(false)}>🏠 Inicio</Link>
                         <Link href="/blog" onClick={() => setMenuOpen(false)}>📰 Blog</Link>
+                        <Link href="/calculadora-ahorro" onClick={() => setMenuOpen(false)}>🧮 Calculadora</Link>
                         <a href="/#provincias" onClick={() => setMenuOpen(false)}>⛽ Provincias</a>
                         <SmartDownloadButton
                             variant="nav"
