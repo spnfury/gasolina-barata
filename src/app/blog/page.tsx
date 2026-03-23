@@ -17,6 +17,7 @@ const CATEGORY_EMOJIS: Record<string, string> = {
     Tendencias: '📈',
     Ahorro: '🐷',
     Análisis: '🔬',
+    Provincias: '📍',
 };
 
 function formatDate(dateStr: string) {
