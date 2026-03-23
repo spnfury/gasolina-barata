@@ -10,13 +10,13 @@ import LeadCapture from '@/components/LeadCapture';
 import { fetchNews } from '@/lib/news';
 
 export const metadata: Metadata = {
-    title: 'Gasolina Barata — Directorio de Precios en España Hoy',
+    title: 'Gasolina barata en España hoy | Encuentra tu gasolinera más económica',
     description:
-        'Directorio completo con los precios de gasolina y diésel actualizados hoy en todas las provincias y localidades de España. Usa RadarGas para ahorrar en cada depósito.',
+        'Descubre dónde echar gasolina barata hoy. Directorio completo con los precios de gasolina 95 y diésel en todas las gasolineras de España para que ahorres en tu ruta.',
     alternates: { canonical: 'https://gasolinabarata.org' },
     openGraph: {
-        title: 'Gasolina Barata — Encuentra tu gasolinera más barata',
-        description: 'Directorio completo de precios de surtidores de carburante en toda España.',
+        title: 'Gasolina barata en España hoy | Encuentra la más cercana',
+        description: 'Encuentra las gasolineras más baratas de España actualizadas hoy y ahorra en tu depósito.',
         type: 'website',
         locale: 'es_ES',
     },
@@ -38,7 +38,7 @@ export default async function Home() {
                         '@type': 'WebSite',
                         name: 'Gasolina Barata',
                         url: 'https://gasolinabarata.org',
-                        description: 'Directorio completo con los precios de gasolina y diésel actualizados hoy en todas las provincias y localidades de España.',
+                        description: 'Descubre dónde echar gasolina barata hoy. Directorio completo con los precios de gasolina 95 y diésel en España.',
                         potentialAction: {
                             '@type': 'SearchAction',
                             target: 'https://gasolinabarata.org/precio-gasolina/{search_term_string}',
@@ -57,11 +57,11 @@ export default async function Home() {
                         Precios actualizados a diario · Datos oficiales MITECO
                     </div>
                     <h1>
-                        Encuentra la <span className="green">Gasolina más Barata</span> de España
+                        Encuentra la <span className="green">Gasolina más barata</span> cerca de ti hoy
                     </h1>
                     <p className="blog-hero-sub">
-                        Compara precios de gasolina 95 y diésel en todas las provincias.
-                        Descarga <strong>RadarGas</strong> para ver el mapa interactivo en tiempo real.
+                        Descubre las gasolineras más económicas y compara precios de gasolina 95 y diésel en España.
+                        Ahorra al máximo en tu ruta con nuestro directorio actualizado.
                     </p>
                     <div className="rg-hero-buttons" style={{ marginTop: '32px' }}>
                         <SmartDownloadButton variant="primary" label="🚀 Descargar RadarGas" />
@@ -86,8 +86,8 @@ export default async function Home() {
             <section id="provincias" style={{ padding: '80px 0', background: 'linear-gradient(180deg, var(--rg-bg-alt) 0%, var(--rg-bg) 100%)' }}>
                 <div className="rg-container">
                     <div className="rg-section-title">
-                        <h2>⛽ Consulta el precio por Provincia</h2>
-                        <p>Selecciona tu provincia para ver las gasolineras más baratas cerca de ti.</p>
+                        <h2>⛽ Encuentra gasolina barata por provincia</h2>
+                        <p>Selecciona tu ruta o provincia para ver rápida y fácilmente las gasolineras más baratas hoy.</p>
                     </div>
                     
                     <div style={{

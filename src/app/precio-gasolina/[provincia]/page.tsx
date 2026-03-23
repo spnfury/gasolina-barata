@@ -12,11 +12,12 @@ export async function generateMetadata(
     { params }: { params: Promise<{ provincia: string }> }
 ): Promise<Metadata> {
     const { provincia } = await params;
-    const loc = locationsData.locations.find((l: any) => l.provincia === provincia);
+    const data = locationsData as any;
+    const loc = data.locations.find((l: any) => l.provincia === provincia);
     if (!loc) return { title: 'No encontrado' };
 
-    const title = `Precio de la Gasolina en ${loc.nombreProvincia} Hoy | Gasolina Barata`;
-    const description = `Descubre las gasolineras más baratas y la evolución del precio de la gasolina y diésel en la provincia de ${loc.nombreProvincia}. Ahorra en cada repostaje con RadarGas.`;
+    const title = `Gasolina barata en ${loc.nombreProvincia} hoy | Gasolineras más económicas`;
+    const description = `Descubre dónde echar gasolina barata en la provincia de ${loc.nombreProvincia}. Compara precios de gasolina 95 y diésel hoy y ahorra en tu repostaje.`;
 
     return {
         title,
@@ -39,14 +40,16 @@ export async function generateMetadata(
 }
 
 export async function generateStaticParams() {
-    return locationsData.locations.map((loc: any) => ({
+    const data = locationsData as any;
+    return data.locations.map((loc: any) => ({
         provincia: loc.provincia,
     }));
 }
 
 export default async function ProvinciaPage({ params }: { params: Promise<{ provincia: string }> }) {
     const { provincia } = await params;
-    const location = locationsData.locations.find((l: any) => l.provincia === provincia);
+    const data = locationsData as any;
+    const location = data.locations.find((l: any) => l.provincia === provincia);
 
     if (!location) {
         notFound();
@@ -62,10 +65,10 @@ export default async function ProvinciaPage({ params }: { params: Promise<{ prov
                         { name: 'Inicio', url: 'https://gasolinabarata.org' },
                         { name: `Gasolineras en ${location.nombreProvincia}`, url: `https://gasolinabarata.org/precio-gasolina/${provincia}` }
                     ]} />
-                    <h1>Precio Gasolina en <span className="green">{location.nombreProvincia}</span></h1>
+                    <h1>Gasolina barata en <span className="green">{location.nombreProvincia}</span></h1>
                     <p className="blog-hero-sub">
-                        Encuentra las localidades más baratas para repostar en {location.nombreProvincia}.
-                        Ahorra en gasolina 95, 98 y Diésel.
+                        Descubre las localidades y gasolineras más baratas para repostar hoy en {location.nombreProvincia}.
+                        Ahorra al máximo en gasolina 95, 98 y Diésel en tu ruta.
                     </p>
                 </div>
             </header>
@@ -99,7 +102,7 @@ export default async function ProvinciaPage({ params }: { params: Promise<{ prov
                             }}
                         >
                             <h3 style={{ margin: '0 0 12px', fontSize: '1.2rem', color: 'var(--rg-primary)' }}>{loc.nombre}</h3>
-                            <p style={{ margin: 0, color: 'var(--rg-text-secondary)', fontSize: '0.9rem' }}>Ver precio actualizado y gasolineras baratas →</p>
+                            <p style={{ margin: 0, color: 'var(--rg-text-secondary)', fontSize: '0.9rem' }}>Encontrar gasolina barata aquí →</p>
                         </Link>
                     ))}
                 </div>

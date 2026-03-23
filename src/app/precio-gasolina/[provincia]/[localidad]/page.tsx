@@ -24,8 +24,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
     if (!town || !loc) return { title: 'No encontrado' };
 
-    const title = `Gasolina Barata en ${town.nombre} Hoy - Precios Diésel y 95 | RadarGas`;
-    const description = `Descubre las gasolineras más baratas en ${town.nombre} (${loc.nombreProvincia}). Consulta la evolución del precio de la gasolina 95 y diésel hoy para ahorrar al máximo.`;
+    const title = `Gasolina barata en ${town.nombre} hoy | Precios Diésel y 95`;
+    const description = `Descubre las gasolineras más baratas en ${town.nombre} (${loc.nombreProvincia}). Consulta la evolución del precio de la gasolina 95 y diésel hoy para ahorrar en tu ruta.`;
 
     return {
         title,
@@ -118,9 +118,9 @@ export default async function LocalidadPage({ params }: PageProps) {
                         <span className="dot" />
                         Actualizado el {new Date((locationsData as any).lastUpdated).toLocaleDateString()}
                     </div>
-                    <h1>Precios de Gasolina en <span className="green">{townData.nombre}</span></h1>
+                    <h1>Gasolina barata en <span className="green">{townData.nombre}</span>: Precios hoy</h1>
                     <p className="blog-hero-sub">
-                        Descubre cómo están los precios de Gasolina 95, 98 y Diésel en las estaciones de servicio de {townData.nombre}. ¡Empieza a ahorrar!
+                        Ahorra al máximo en cada depósito. Encuentra aquí las gasolineras más baratas de {townData.nombre} para Gasolina 95, 98 y Diésel en tu ruta.
                     </p>
                 </div>
             </header>
@@ -129,7 +129,7 @@ export default async function LocalidadPage({ params }: PageProps) {
                 
                 {/* 1. Precio Actual */}
                 <div className={styles.card}>
-                    <h2 className={styles.priceTitle}>Precios Medios Hoy en {townData.nombre}</h2>
+                    <h2 className={styles.priceTitle}>Comparativa: Precios Medios Hoy en {townData.nombre}</h2>
                     <div className={styles.priceGrid}>
                         <div className={styles.priceItem}>
                             <span className={styles.priceLabel}>Gasolina 95</span>
