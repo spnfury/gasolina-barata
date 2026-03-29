@@ -9,6 +9,9 @@ import Navbar from '@/components/Navbar';
 import LeadCapture from '@/components/LeadCapture';
 import { fetchNews } from '@/lib/news';
 
+// ISR: regenerar como máximo 1 vez cada 24h → se sirve estática desde el CDN
+export const revalidate = 86400;
+
 export const metadata: Metadata = {
     title: 'Gasolina barata en España hoy | Encuentra tu gasolinera más económica',
     description:

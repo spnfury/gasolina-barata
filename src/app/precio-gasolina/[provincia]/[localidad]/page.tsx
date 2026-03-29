@@ -12,6 +12,9 @@ import styles from '@/components/Seo.module.css';
 import MapWrapper from '@/components/MapWrapper';
 import Navbar from '@/components/Navbar';
 
+// Solo servir rutas pre-generadas; cualquier slug desconocido → 404 instantáneo
+export const dynamicParams = false;
+
 interface PageProps {
     params: Promise<{ provincia: string; localidad: string }>;
 }
@@ -86,22 +89,58 @@ export default async function LocalidadPage({ params }: PageProps) {
 
     return (
         <div className="rg-landing">
-            {/* JSON-LD Structured Data */}
+            {/* JSON-LD Structured Data - Aggregated Offers & Local Business List */}
             <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{
-                    __html: JSON.stringify({
-                        '@context': 'https://schema.org',
-                        '@type': 'FAQPage',
-                        mainEntity: faqs.map((f) => ({
-                            '@type': 'Question',
-                            name: f.question,
-                            acceptedAnswer: {
-                                '@type': 'Answer',
-                                text: f.answer,
-                            },
-                        })),
-                    }),
+                    __html: JSON.stringify([
+                        {
+                            '@context': 'https://schema.org',
+                            '@type': 'Product',
+                            name: `Gasolina 95 en ${townData.nombre}`,
+                            description: `Compara y encuentra el precio más barato de Gasolina 95 y Diésel en ${townData.nombre} hoy.`,
+                            offers: {
+                                '@type': 'AggregateOffer',
+                                priceCurrency: 'EUR',
+                                lowPrice: townData.top5 && townData.top5.length > 0 && townData.top5[0].precio95 ? townData.top5[0].precio95 : townData.precioGasolina95,
+                                highPrice: townData.precioGasolina95,
+                                offerCount: townData.top5 && townData.top5.length > 0 ? townData.top5.length : 1,
+                            }
+                        },
+                        ...(townData.top5 && townData.top5.length > 0 ? [{
+                            '@context': 'https://schema.org',
+                            '@type': 'ItemList',
+                            name: `Gasolineras más baratas en ${townData.nombre}`,
+                            itemListElement: townData.top5.map((station: any, idx: number) => ({
+                                '@type': 'ListItem',
+                                position: idx + 1,
+                                item: {
+                                    '@type': 'GasStation',
+                                    name: station.rotulo,
+                                    address: {
+                                        '@type': 'PostalAddress',
+                                        streetAddress: station.direccion,
+                                        addressLocality: townData.nombre,
+                                        addressRegion: provData.nombreProvincia,
+                                        addressCountry: 'ES'
+                                    },
+                                    ...(station.latitud && station.longitud ? {
+                                        geo: {
+                                            '@type': 'GeoCoordinates',
+                                            latitude: station.latitud,
+                                            longitude: station.longitud
+                                        }
+                                    } : {}),
+                                    priceRange: station.precio95 ? `${station.precio95}€` : '€',
+                                    offers: {
+                                        '@type': 'Offer',
+                                        price: station.precio95 || station.precioDiesel,
+                                        priceCurrency: 'EUR'
+                                    }
+                                }
+                            }))
+                        }] : [])
+                    ]),
                 }}
             />
 

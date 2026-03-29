@@ -104,7 +104,7 @@ async function fetchOgImage(url: string): Promise<string> {
 export async function fetchNews(limit = 6): Promise<NewsItem[]> {
     try {
         const res = await fetch(GOOGLE_NEWS_RSS, {
-            next: { revalidate: 3600 },
+            next: { revalidate: 86400 },
         } as RequestInit);
 
         if (!res.ok) {
@@ -145,15 +145,9 @@ export async function fetchNews(limit = 6): Promise<NewsItem[]> {
         // Take only the top `limit` items
         const sorted = items.slice(0, limit);
 
-        // Fetch OG images in parallel (with fallback)
-        const withImages = await Promise.all(
-            sorted.map(async (item) => {
-                const imageUrl = await fetchOgImage(item.link);
-                return { ...item, imageUrl };
-            })
-        );
-
-        return withImages;
+        // Skip OG image fetching — adds ~5s of latency per regeneration
+        // and contributes to serverless compute usage unnecessarily
+        return sorted;
     } catch (err) {
         console.error('[News] Failed to fetch news:', err);
         return [];

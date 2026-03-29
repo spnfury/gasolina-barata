@@ -66,7 +66,11 @@ export async function GET(request: Request) {
         nearby.sort((a, b) => a.distance - b.distance);
 
         // Devolvemos el Top 15 más cercano
-        return NextResponse.json({ stations: nearby.slice(0, 15) });
+        return NextResponse.json({ stations: nearby.slice(0, 15) }, {
+            headers: {
+                'Cache-Control': 'public, max-age=300, s-maxage=3600, stale-while-revalidate=86400',
+            }
+        });
 
     } catch (e) {
         console.error('Error calculando ubicaciones cercanas:', e);

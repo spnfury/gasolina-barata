@@ -8,6 +8,9 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 import SmartDownloadButton from '@/components/SmartDownloadButton';
 import Navbar from '@/components/Navbar';
 
+// Solo servir rutas pre-generadas; cualquier slug desconocido → 404 instantáneo
+export const dynamicParams = false;
+
 export async function generateMetadata(
     { params }: { params: Promise<{ provincia: string }> }
 ): Promise<Metadata> {
