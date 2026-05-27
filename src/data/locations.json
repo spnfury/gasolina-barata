@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-27T22:55:35.467Z",
+  "lastUpdated": "2026-05-27T23:16:37.516Z",
   "historicoNacional": [
     {
       "date": "2026-03-09",
@@ -6310,15 +6310,6 @@
               "precioDiesel": 1.589
             },
             {
-              "rotulo": "BALLENOIL",
-              "direccion": "CARRETERA N-340A KM. 716,3",
-              "horario": "L-D: 24H",
-              "latitud": 38.258694,
-              "longitud": -0.734333,
-              "precio95": 1.429,
-              "precioDiesel": 1.589
-            },
-            {
               "rotulo": "PETROPRIX",
               "direccion": "CALLE PANAMA, S/N",
               "horario": "L-D: 24H",
@@ -6328,11 +6319,11 @@
               "precioDiesel": 1.589
             },
             {
-              "rotulo": "PLENERGY",
-              "direccion": "CALLE ALCORCÓN, 27",
+              "rotulo": "BALLENOIL",
+              "direccion": "CARRETERA N-340A KM. 716,3",
               "horario": "L-D: 24H",
-              "latitud": 38.263639,
-              "longitud": -0.723694,
+              "latitud": 38.258694,
+              "longitud": -0.734333,
               "precio95": 1.429,
               "precioDiesel": 1.589
             },
@@ -6342,6 +6333,15 @@
               "horario": "L-D: 24H",
               "latitud": 38.260222,
               "longitud": -0.722333,
+              "precio95": 1.429,
+              "precioDiesel": 1.589
+            },
+            {
+              "rotulo": "PLENERGY",
+              "direccion": "CALLE ALCORCÓN, 27",
+              "horario": "L-D: 24H",
+              "latitud": 38.263639,
+              "longitud": -0.723694,
               "precio95": 1.429,
               "precioDiesel": 1.589
             }
@@ -8368,13 +8368,13 @@
               "precioDiesel": 1.569
             },
             {
-              "rotulo": "EASYGAS",
-              "direccion": "CARRETERA NACIONAL 332 KM. 53,5",
-              "horario": "L-D: 24H",
-              "latitud": 37.946167,
-              "longitud": -0.716139,
+              "rotulo": "COMBUSTIBLES LA MURADA",
+              "direccion": "CARRETERA VILLAMARIA KM. 1",
+              "horario": "L: 24H",
+              "latitud": 38.167194,
+              "longitud": -0.963611,
               "precio95": 1.419,
-              "precioDiesel": 1.619
+              "precioDiesel": 1.599
             }
           ]
         },
@@ -8632,20 +8632,20 @@
               "precioDiesel": 1.587
             },
             {
-              "rotulo": "E.S. PETRER-ELDA",
-              "direccion": "AVENIDA DEL MEDITERRANEO, 129",
-              "horario": "L-D: 24H",
-              "latitud": 38.462861,
-              "longitud": -0.782611,
-              "precio95": 1.449,
-              "precioDiesel": 1.587
-            },
-            {
               "rotulo": "BALLENOIL",
               "direccion": "CALLE PRESBITERO CONRADO POVEDA, 1",
               "horario": "L-D: 24H",
               "latitud": 38.489028,
               "longitud": -0.783861,
+              "precio95": 1.449,
+              "precioDiesel": 1.587
+            },
+            {
+              "rotulo": "E.S. PETRER-ELDA",
+              "direccion": "AVENIDA DEL MEDITERRANEO, 129",
+              "horario": "L-D: 24H",
+              "latitud": 38.462861,
+              "longitud": -0.782611,
               "precio95": 1.449,
               "precioDiesel": 1.587
             },
@@ -9479,20 +9479,20 @@
               "precioDiesel": 1.579
             },
             {
-              "rotulo": "PLENERGY",
-              "direccion": "AVENIDA BENIDORM, 23",
-              "horario": "L-D: 24H",
-              "latitud": 38.397833,
-              "longitud": -0.430028,
-              "precio95": 1.509,
-              "precioDiesel": 1.579
-            },
-            {
               "rotulo": "PETROPRIX",
               "direccion": "CALLE DIAGONAL, 15",
               "horario": "L-D: 24H",
               "latitud": 38.39725,
               "longitud": -0.430528,
+              "precio95": 1.509,
+              "precioDiesel": 1.579
+            },
+            {
+              "rotulo": "PLENERGY",
+              "direccion": "AVENIDA BENIDORM, 23",
+              "horario": "L-D: 24H",
+              "latitud": 38.397833,
+              "longitud": -0.430028,
               "precio95": 1.509,
               "precioDiesel": 1.579
             }
@@ -9570,20 +9570,20 @@
               "precioDiesel": 1.605
             },
             {
-              "rotulo": "PLENERGY",
-              "direccion": "CARRETERA ELCHE SANTA POLA KM. 34",
-              "horario": "L-D: 24H",
-              "latitud": 38.199222,
-              "longitud": -0.567139,
-              "precio95": 1.465,
-              "precioDiesel": 1.595
-            },
-            {
               "rotulo": "VCC SANTA POLA",
               "direccion": "CARRETERA SANTA POLA KM. 21",
               "horario": "L-D: 24H",
               "latitud": 38.199139,
               "longitud": -0.567583,
+              "precio95": 1.465,
+              "precioDiesel": 1.595
+            },
+            {
+              "rotulo": "PLENERGY",
+              "direccion": "CARRETERA ELCHE SANTA POLA KM. 34",
+              "horario": "L-D: 24H",
+              "latitud": 38.199222,
+              "longitud": -0.567139,
               "precio95": 1.465,
               "precioDiesel": 1.595
             },
@@ -12680,8 +12680,8 @@
         {
           "slug": "nijar",
           "nombre": "Níjar",
-          "precioGasolina95": 1.556,
-          "precioDiesel": 1.706,
+          "precioGasolina95": 1.555,
+          "precioDiesel": 1.705,
           "historico": [
             {
               "date": "2026-03-15",
@@ -12725,8 +12725,8 @@
             },
             {
               "date": "2026-05-27",
-              "precioGasolina95": 1.556,
-              "precioDiesel": 1.706
+              "precioGasolina95": 1.555,
+              "precioDiesel": 1.705
             }
           ],
           "top5": [
@@ -12758,6 +12758,15 @@
               "precioDiesel": 1.639
             },
             {
+              "rotulo": "PETROPRIX",
+              "direccion": "CALLE VILLA MARIA SURTIDOR, S/N",
+              "horario": "L-D: 24H",
+              "latitud": 36.925778,
+              "longitud": -2.143944,
+              "precio95": 1.475,
+              "precioDiesel": 1.639
+            },
+            {
               "rotulo": "COPROHNIJAR S.C.A.",
               "direccion": "PARAJE CAÑADA MENA, PARCELAS 10-11, 10",
               "horario": "L: 07:00-22:00",
@@ -12765,15 +12774,6 @@
               "longitud": -2.172417,
               "precio95": 1.487,
               "precioDiesel": 1.657
-            },
-            {
-              "rotulo": "PETROPRIX",
-              "direccion": "CALLE VILLA MARIA SURTIDOR, S/N",
-              "horario": "L-D: 24H",
-              "latitud": 36.925778,
-              "longitud": -2.143944,
-              "precio95": 1.489,
-              "precioDiesel": 1.659
             }
           ]
         },
@@ -17070,10 +17070,10 @@
           "top5": [
             {
               "rotulo": "BALLENOIL",
-              "direccion": "AVENIDA ROCES, N",
+              "direccion": "AVENIDA CAMPONES, 14",
               "horario": "L-D: 24H",
-              "latitud": 43.508861,
-              "longitud": -5.677944,
+              "latitud": 43.534972,
+              "longitud": -5.690167,
               "precio95": 1.419,
               "precioDiesel": 1.589
             },
@@ -17087,20 +17087,20 @@
               "precioDiesel": 1.589
             },
             {
-              "rotulo": "BALLENOIL",
-              "direccion": "AVENIDA CAMPONES, 14",
-              "horario": "L-D: 24H",
-              "latitud": 43.534972,
-              "longitud": -5.690167,
-              "precio95": 1.419,
-              "precioDiesel": 1.589
-            },
-            {
               "rotulo": "PETROPRIX",
               "direccion": "AVENIDA DE LOS CAMPONES, 2",
               "horario": "L-D: 24H",
               "latitud": 43.535667,
               "longitud": -5.689361,
+              "precio95": 1.419,
+              "precioDiesel": 1.589
+            },
+            {
+              "rotulo": "BALLENOIL",
+              "direccion": "AVENIDA ROCES, N",
+              "horario": "L-D: 24H",
+              "latitud": 43.508861,
+              "longitud": -5.677944,
               "precio95": 1.419,
               "precioDiesel": 1.589
             },
@@ -20037,7 +20037,7 @@
       "provincia": "avila",
       "nombreProvincia": "ÁVILA",
       "precioMedioGasolina95": 1.602,
-      "precioMedioDiesel": 1.709,
+      "precioMedioDiesel": 1.708,
       "localidades": [
         {
           "slug": "adanero",
@@ -20361,8 +20361,8 @@
         {
           "slug": "avila",
           "nombre": "Ávila",
-          "precioGasolina95": 1.565,
-          "precioDiesel": 1.671,
+          "precioGasolina95": 1.564,
+          "precioDiesel": 1.67,
           "historico": [
             {
               "date": "2026-03-15",
@@ -20406,8 +20406,8 @@
             },
             {
               "date": "2026-05-27",
-              "precioGasolina95": 1.565,
-              "precioDiesel": 1.671
+              "precioGasolina95": 1.564,
+              "precioDiesel": 1.67
             }
           ],
           "top5": [
@@ -20872,8 +20872,8 @@
         {
           "slug": "colilla-la",
           "nombre": "Colilla (La)",
-          "precioGasolina95": 1.639,
-          "precioDiesel": 1.759,
+          "precioGasolina95": 1.629,
+          "precioDiesel": 1.749,
           "historico": [
             {
               "date": "2026-03-15",
@@ -20917,8 +20917,8 @@
             },
             {
               "date": "2026-05-27",
-              "precioGasolina95": 1.639,
-              "precioDiesel": 1.759
+              "precioGasolina95": 1.629,
+              "precioDiesel": 1.749
             }
           ],
           "top5": [
@@ -20928,8 +20928,8 @@
               "horario": "L-D: 07:00-23:00",
               "latitud": 40.635333,
               "longitud": -4.758444,
-              "precio95": 1.639,
-              "precioDiesel": 1.759
+              "precio95": 1.629,
+              "precioDiesel": 1.749
             }
           ]
         },
@@ -22766,7 +22766,7 @@
       "provincia": "badajoz",
       "nombreProvincia": "BADAJOZ",
       "precioMedioGasolina95": 1.555,
-      "precioMedioDiesel": 1.663,
+      "precioMedioDiesel": 1.662,
       "localidades": [
         {
           "slug": "acedera",
@@ -23548,7 +23548,7 @@
           "slug": "badajoz",
           "nombre": "Badajoz",
           "precioGasolina95": 1.55,
-          "precioDiesel": 1.661,
+          "precioDiesel": 1.656,
           "historico": [
             {
               "date": "2026-03-15",
@@ -23593,7 +23593,7 @@
             {
               "date": "2026-05-27",
               "precioGasolina95": 1.55,
-              "precioDiesel": 1.661
+              "precioDiesel": 1.656
             }
           ],
           "top5": [
@@ -23608,21 +23608,12 @@
             },
             {
               "rotulo": "BALLENOIL",
-              "direccion": "CALLE JERONIMO DE VALENCIA, 11",
-              "horario": "L-D: 24H",
-              "latitud": 38.894833,
-              "longitud": -6.996278,
-              "precio95": 1.439,
-              "precioDiesel": 1.589
-            },
-            {
-              "rotulo": "BALLENOIL",
               "direccion": "CALLE CORTE DE PELEAS, 120",
               "horario": "L-D: 24H",
               "latitud": 38.876222,
               "longitud": -6.954361,
               "precio95": 1.449,
-              "precioDiesel": 1.589
+              "precioDiesel": 1.539
             },
             {
               "rotulo": "OCHO AREAS DE SERVICIO",
@@ -23641,6 +23632,15 @@
               "longitud": -6.992167,
               "precio95": 1.449,
               "precioDiesel": 1.589
+            },
+            {
+              "rotulo": "BDS",
+              "direccion": "CALLE NEVERO QUINCE, 57",
+              "horario": "L-D: 24H",
+              "latitud": 38.895667,
+              "longitud": -6.987611,
+              "precio95": 1.449,
+              "precioDiesel": 1.599
             }
           ]
         },
@@ -29577,19 +29577,19 @@
           "top5": [
             {
               "rotulo": "BALLENOIL",
-              "direccion": "POLIGONO INDUSTRIAL LA CAGANCHA, 9",
+              "direccion": "AVENIDA HERNAN CORTÉS, 235",
               "horario": "L-D: 24H",
-              "latitud": 38.969389,
-              "longitud": -5.806111,
+              "latitud": 38.982278,
+              "longitud": -5.794167,
               "precio95": 1.499,
               "precioDiesel": 1.629
             },
             {
               "rotulo": "BALLENOIL",
-              "direccion": "AVENIDA HERNAN CORTÉS, 235",
+              "direccion": "POLIGONO INDUSTRIAL LA CAGANCHA, 9",
               "horario": "L-D: 24H",
-              "latitud": 38.982278,
-              "longitud": -5.794167,
+              "latitud": 38.969389,
+              "longitud": -5.806111,
               "precio95": 1.499,
               "precioDiesel": 1.629
             },
@@ -38038,7 +38038,7 @@
           "slug": "franqueses-del-valles-les",
           "nombre": "Franqueses del Vallès (Les)",
           "precioGasolina95": 1.496,
-          "precioDiesel": 1.59,
+          "precioDiesel": 1.591,
           "historico": [
             {
               "date": "2026-03-15",
@@ -38083,7 +38083,7 @@
             {
               "date": "2026-05-27",
               "precioGasolina95": 1.496,
-              "precioDiesel": 1.59
+              "precioDiesel": 1.591
             }
           ],
           "top5": [
@@ -43127,20 +43127,20 @@
           ],
           "top5": [
             {
-              "rotulo": "PETROPRIX",
-              "direccion": "CARRETERA C1413A KM. 9,7",
-              "horario": "L-D: 24H",
-              "latitud": 41.480556,
-              "longitud": 2.031417,
-              "precio95": 1.399,
-              "precioDiesel": 1.499
-            },
-            {
               "rotulo": "TAMOIL",
               "direccion": "CALLE COMP WAGNER, 21",
               "horario": "L-D: 24H",
               "latitud": 41.470806,
               "longitud": 2.024333,
+              "precio95": 1.399,
+              "precioDiesel": 1.499
+            },
+            {
+              "rotulo": "PETROPRIX",
+              "direccion": "CARRETERA C1413A KM. 9,7",
+              "horario": "L-D: 24H",
+              "latitud": 41.480556,
+              "longitud": 2.031417,
               "precio95": 1.399,
               "precioDiesel": 1.499
             },
@@ -43163,13 +43163,13 @@
               "precioDiesel": 1.559
             },
             {
-              "rotulo": "ESCLATOIL",
-              "direccion": "CARRETERA C1413A KM. 9,4",
+              "rotulo": "JULIA-OIL (FINA)",
+              "direccion": "CARRETERA C-1413 KM. 12,7",
               "horario": "L-D: 24H",
-              "latitud": 41.478528,
-              "longitud": 2.031472,
+              "latitud": 41.505667,
+              "longitud": 2.038111,
               "precio95": 1.469,
-              "precioDiesel": 1.549
+              "precioDiesel": 1.569
             }
           ]
         },
@@ -44037,20 +44037,20 @@
               "precioDiesel": 1.579
             },
             {
-              "rotulo": "BP COLL FAVA",
-              "direccion": "RONDA NORD, 30",
-              "horario": "L-D: 06:00-22:00",
-              "latitud": 41.483083,
-              "longitud": 2.086139,
-              "precio95": 1.639,
-              "precioDiesel": 1.659
-            },
-            {
               "rotulo": "BP CAN SOLA",
               "direccion": "CARRETERA CERDANYOLA KM. 108",
               "horario": "L-D: 24H",
               "latitud": 41.477306,
               "longitud": 2.096972,
+              "precio95": 1.639,
+              "precioDiesel": 1.659
+            },
+            {
+              "rotulo": "BP COLL FAVA",
+              "direccion": "RONDA NORD, 30",
+              "horario": "L-D: 06:00-22:00",
+              "latitud": 41.483083,
+              "longitud": 2.086139,
               "precio95": 1.639,
               "precioDiesel": 1.659
             }
@@ -48141,15 +48141,6 @@
               "precioDiesel": 1.549
             },
             {
-              "rotulo": "PRIMER- AREA VIC",
-              "direccion": "CALLE TORELLO, 65",
-              "horario": "L-D: 07:00-21:00",
-              "latitud": 41.93375,
-              "longitud": 2.266194,
-              "precio95": 1.399,
-              "precioDiesel": 1.459
-            },
-            {
               "rotulo": "SUPECO",
               "direccion": "C/Industria, esquina C/Torrelló , s/n (C.C.CHAMPION)",
               "horario": "L-S: 09:00-21:30",
@@ -48164,6 +48155,15 @@
               "horario": "L-D: 24H",
               "latitud": 41.954944,
               "longitud": 2.280194,
+              "precio95": 1.399,
+              "precioDiesel": 1.459
+            },
+            {
+              "rotulo": "PRIMER- AREA VIC",
+              "direccion": "CALLE TORELLO, 65",
+              "horario": "L-D: 07:00-21:00",
+              "latitud": 41.93375,
+              "longitud": 2.266194,
               "precio95": 1.399,
               "precioDiesel": 1.459
             }
@@ -52907,7 +52907,7 @@
       "provincia": "burgos",
       "nombreProvincia": "BURGOS",
       "precioMedioGasolina95": 1.598,
-      "precioMedioDiesel": 1.666,
+      "precioMedioDiesel": 1.665,
       "localidades": [
         {
           "slug": "ameyugo",
@@ -53620,15 +53620,6 @@
           ],
           "top5": [
             {
-              "rotulo": "NORPETROL",
-              "direccion": "CALLE DEL ALFOZ DE BRICIA  EN  BURGOS, 28",
-              "horario": "L-D: 24H",
-              "latitud": 42.365028,
-              "longitud": -3.698778,
-              "precio95": 1.499,
-              "precioDiesel": 1.569
-            },
-            {
               "rotulo": "BALLENOIL",
               "direccion": "CARRETERA NACIONAL I KM. 236",
               "horario": "L-D: 24H",
@@ -53636,6 +53627,15 @@
               "longitud": -3.702278,
               "precio95": 1.499,
               "precioDiesel": 1.559
+            },
+            {
+              "rotulo": "NORPETROL",
+              "direccion": "CALLE DEL ALFOZ DE BRICIA  EN  BURGOS, 28",
+              "horario": "L-D: 24H",
+              "latitud": 42.365028,
+              "longitud": -3.698778,
+              "precio95": 1.499,
+              "precioDiesel": 1.569
             },
             {
               "rotulo": "BEROIL",
@@ -56981,20 +56981,20 @@
               "precioDiesel": 1.739
             },
             {
-              "rotulo": "SHELL",
-              "direccion": "CTRA.N-620 km 6,6",
-              "horario": "L-D: 24H",
-              "latitud": 42.306722,
-              "longitud": -3.73225,
-              "precio95": 1.689,
-              "precioDiesel": 1.739
-            },
-            {
               "rotulo": "REPSOL",
               "direccion": "CARRETERA NACIONAL A-1 KM. 232,8",
               "horario": "L-D: 07:00-23:00",
               "latitud": 42.290333,
               "longitud": -3.704944,
+              "precio95": 1.689,
+              "precioDiesel": 1.739
+            },
+            {
+              "rotulo": "SHELL",
+              "direccion": "CTRA.N-620 km 6,6",
+              "horario": "L-D: 24H",
+              "latitud": 42.306722,
+              "longitud": -3.73225,
               "precio95": 1.689,
               "precioDiesel": 1.739
             }
@@ -57277,8 +57277,8 @@
         {
           "slug": "villarcayo-de-merindad-de-castilla-la-vieja",
           "nombre": "Villarcayo de Merindad de Castilla la Vieja",
-          "precioGasolina95": 1.499,
-          "precioDiesel": 1.559,
+          "precioGasolina95": 1.464,
+          "precioDiesel": 1.522,
           "historico": [
             {
               "date": "2026-03-15",
@@ -57322,8 +57322,8 @@
             },
             {
               "date": "2026-05-27",
-              "precioGasolina95": 1.499,
-              "precioDiesel": 1.559
+              "precioGasolina95": 1.464,
+              "precioDiesel": 1.522
             }
           ],
           "top5": [
@@ -57333,8 +57333,8 @@
               "horario": "L-D: 07:30-23:00",
               "latitud": 42.940389,
               "longitud": -3.570556,
-              "precio95": 1.469,
-              "precioDiesel": 1.529
+              "precio95": 1.399,
+              "precioDiesel": 1.455
             },
             {
               "rotulo": "AVIA",
@@ -57417,7 +57417,7 @@
       "provincia": "caceres",
       "nombreProvincia": "CÁCERES",
       "precioMedioGasolina95": 1.575,
-      "precioMedioDiesel": 1.699,
+      "precioMedioDiesel": 1.698,
       "localidades": [
         {
           "slug": "ahigal",
@@ -60745,8 +60745,8 @@
         {
           "slug": "navalmoral-de-la-mata",
           "nombre": "Navalmoral de la Mata",
-          "precioGasolina95": 1.495,
-          "precioDiesel": 1.624,
+          "precioGasolina95": 1.493,
+          "precioDiesel": 1.609,
           "historico": [
             {
               "date": "2026-03-15",
@@ -60790,8 +60790,8 @@
             },
             {
               "date": "2026-05-27",
-              "precioGasolina95": 1.495,
-              "precioDiesel": 1.624
+              "precioGasolina95": 1.493,
+              "precioDiesel": 1.609
             }
           ],
           "top5": [
@@ -60810,8 +60810,8 @@
               "horario": "L-D: 24H",
               "latitud": 39.899222,
               "longitud": -5.54525,
-              "precio95": 1.409,
-              "precioDiesel": 1.569
+              "precio95": 1.399,
+              "precioDiesel": 1.499
             },
             {
               "rotulo": "BALLENOIL",
@@ -60819,8 +60819,8 @@
               "horario": "L-D: 24H",
               "latitud": 39.892333,
               "longitud": -5.529944,
-              "precio95": 1.409,
-              "precioDiesel": 1.569
+              "precio95": 1.399,
+              "precioDiesel": 1.499
             },
             {
               "rotulo": "FYDEMSA",
@@ -62626,7 +62626,7 @@
         {
           "slug": "villanueva-de-la-vera",
           "nombre": "Villanueva de la Vera",
-          "precioGasolina95": 1.595,
+          "precioGasolina95": 1.575,
           "precioDiesel": 1.735,
           "historico": [
             {
@@ -62671,7 +62671,7 @@
             },
             {
               "date": "2026-05-27",
-              "precioGasolina95": 1.595,
+              "precioGasolina95": 1.575,
               "precioDiesel": 1.735
             }
           ],
@@ -62682,7 +62682,7 @@
               "horario": "L-D: 07:00-22:00",
               "latitud": 40.132694,
               "longitud": -5.433389,
-              "precio95": 1.595,
+              "precio95": 1.575,
               "precioDiesel": 1.735
             }
           ]
@@ -63990,6 +63990,15 @@
           "top5": [
             {
               "rotulo": "BALLENOIL",
+              "direccion": "CALLE ELECTRICISTAS LOS, 1",
+              "horario": "L-D: 24H",
+              "latitud": 36.411028,
+              "longitud": -6.13925,
+              "precio95": 1.465,
+              "precioDiesel": 1.589
+            },
+            {
+              "rotulo": "BALLENOIL",
               "direccion": "ALAMEDA SOLANO, 18 (N-340A km 5,1)",
               "horario": "L-D: 24H",
               "latitud": 36.426639,
@@ -64012,15 +64021,6 @@
               "horario": "L-D: 24H",
               "latitud": 36.43925,
               "longitud": -6.14375,
-              "precio95": 1.465,
-              "precioDiesel": 1.589
-            },
-            {
-              "rotulo": "BALLENOIL",
-              "direccion": "CALLE ELECTRICISTAS LOS, 1",
-              "horario": "L-D: 24H",
-              "latitud": 36.411028,
-              "longitud": -6.13925,
               "precio95": 1.465,
               "precioDiesel": 1.589
             },
@@ -64126,10 +64126,10 @@
             },
             {
               "rotulo": "MOEVE",
-              "direccion": "AVENIDA DIPUTACION, 1",
+              "direccion": "AVENIDA DE LA ESTACION, S/N",
               "horario": "L-D: 07:00-23:00",
-              "latitud": 36.738833,
-              "longitud": -6.43275,
+              "latitud": 36.736083,
+              "longitud": -6.422417,
               "precio95": 1.629,
               "precioDiesel": 1.729
             }
@@ -65291,29 +65291,11 @@
           ],
           "top5": [
             {
-              "rotulo": "BALLENOIL",
-              "direccion": "CL FERROCARRIL  34",
-              "horario": "L-D: 24H",
-              "latitud": 36.470861,
-              "longitud": -6.205833,
-              "precio95": 1.455,
-              "precioDiesel": 1.579
-            },
-            {
               "rotulo": "PLENERGY",
               "direccion": "CALLE FERROCARRIL, S/N",
               "horario": "L-D: 24H",
               "latitud": 36.475194,
               "longitud": -6.201278,
-              "precio95": 1.455,
-              "precioDiesel": 1.579
-            },
-            {
-              "rotulo": "BALLENOIL",
-              "direccion": "CALLE REMACHADORES, 2",
-              "horario": "L-D: 24H",
-              "latitud": 36.471278,
-              "longitud": -6.206056,
               "precio95": 1.455,
               "precioDiesel": 1.579
             },
@@ -65327,11 +65309,29 @@
               "precioDiesel": 1.579
             },
             {
+              "rotulo": "BALLENOIL",
+              "direccion": "CARRETERA N-IVA KM. 680",
+              "horario": "L-D: 24H",
+              "latitud": 36.456361,
+              "longitud": -6.218722,
+              "precio95": 1.455,
+              "precioDiesel": 1.579
+            },
+            {
               "rotulo": "PETROPRIX S. FERNANDO",
               "direccion": "CALLE MECANICOS, 10",
               "horario": "L-D: 24H",
               "latitud": 36.474361,
               "longitud": -6.204056,
+              "precio95": 1.455,
+              "precioDiesel": 1.579
+            },
+            {
+              "rotulo": "BALLENOIL",
+              "direccion": "CALLE REMACHADORES, 2",
+              "horario": "L-D: 24H",
+              "latitud": 36.471278,
+              "longitud": -6.206056,
               "precio95": 1.455,
               "precioDiesel": 1.579
             }
@@ -66126,7 +66126,7 @@
       "provincia": "cantabria",
       "nombreProvincia": "CANTABRIA",
       "precioMedioGasolina95": 1.579,
-      "precioMedioDiesel": 1.68,
+      "precioMedioDiesel": 1.679,
       "localidades": [
         {
           "slug": "alfoz-de-lloredo",
@@ -66857,15 +66857,6 @@
           ],
           "top5": [
             {
-              "rotulo": "BALLENOIL",
-              "direccion": "POLIGONO MOLLADAR ,BARRIO CARTES-REAL Y CUARTO, 1",
-              "horario": "L-D: 24H",
-              "latitud": 43.318833,
-              "longitud": -4.071056,
-              "precio95": 1.399,
-              "precioDiesel": 1.549
-            },
-            {
               "rotulo": "PLENERGY",
               "direccion": "CALLE SANTIAGO-LA LLANADA, 1",
               "horario": "L-D: 24H",
@@ -66873,6 +66864,15 @@
               "longitud": -4.066194,
               "precio95": 1.399,
               "precioDiesel": 1.559
+            },
+            {
+              "rotulo": "BALLENOIL",
+              "direccion": "POLIGONO MOLLADAR ,BARRIO CARTES-REAL Y CUARTO, 1",
+              "horario": "L-D: 24H",
+              "latitud": 43.318833,
+              "longitud": -4.071056,
+              "precio95": 1.399,
+              "precioDiesel": 1.549
             },
             {
               "rotulo": "PETROPRIX",
@@ -67911,7 +67911,7 @@
           "slug": "medio-cudeyo",
           "nombre": "Medio Cudeyo",
           "precioGasolina95": 1.52,
-          "precioDiesel": 1.627,
+          "precioDiesel": 1.611,
           "historico": [
             {
               "date": "2026-03-15",
@@ -67956,7 +67956,7 @@
             {
               "date": "2026-05-27",
               "precioGasolina95": 1.52,
-              "precioDiesel": 1.627
+              "precioDiesel": 1.611
             }
           ],
           "top5": [
@@ -67967,7 +67967,7 @@
               "latitud": 43.383472,
               "longitud": -3.73775,
               "precio95": 1.449,
-              "precioDiesel": 1.579
+              "precioDiesel": 1.529
             },
             {
               "rotulo": "PETROLEOS DE CUDEYO",
@@ -69412,20 +69412,20 @@
               "precioDiesel": 1.499
             },
             {
-              "rotulo": "PLENERGY",
-              "direccion": "CALLE C/ GUTIÉRREZ SOLANA, 10",
-              "horario": "L-D: 24H",
-              "latitud": 43.461194,
-              "longitud": -3.836278,
-              "precio95": 1.429,
-              "precioDiesel": 1.509
-            },
-            {
               "rotulo": "BALLENOIL",
               "direccion": "POLIGONO EL CAMPON,, S/N",
               "horario": "L-D: 24H",
               "latitud": 43.45125,
               "longitud": -3.859694,
+              "precio95": 1.429,
+              "precioDiesel": 1.509
+            },
+            {
+              "rotulo": "PLENERGY",
+              "direccion": "CALLE C/ GUTIÉRREZ SOLANA, 10",
+              "horario": "L-D: 24H",
+              "latitud": 43.461194,
+              "longitud": -3.836278,
               "precio95": 1.429,
               "precioDiesel": 1.509
             },
@@ -72129,19 +72129,19 @@
             },
             {
               "rotulo": "BALLENOIL",
-              "direccion": "AVENIDA VILLARREAL, 98",
+              "direccion": "CARRETERA RIBESALBES KM. S/N",
               "horario": "L-D: 24H",
-              "latitud": 39.974944,
-              "longitud": -0.05925,
+              "latitud": 39.979139,
+              "longitud": -0.067917,
               "precio95": 1.319,
               "precioDiesel": 1.519
             },
             {
               "rotulo": "BALLENOIL",
-              "direccion": "CARRETERA RIBESALBES KM. S/N",
+              "direccion": "AVENIDA VILLARREAL, 98",
               "horario": "L-D: 24H",
-              "latitud": 39.979139,
-              "longitud": -0.067917,
+              "latitud": 39.974944,
+              "longitud": -0.05925,
               "precio95": 1.319,
               "precioDiesel": 1.519
             },
@@ -74826,20 +74826,20 @@
           ],
           "top5": [
             {
-              "rotulo": "BALLENOIL",
-              "direccion": "AVENIDA DE LOS INSTITUTOS, S/N",
-              "horario": "L-D: 24H",
-              "latitud": 39.39225,
-              "longitud": -3.224611,
-              "precio95": 1.409,
-              "precioDiesel": 1.615
-            },
-            {
               "rotulo": "GASEXPRESS",
               "direccion": "CALLE ALBARIÑO, 2",
               "horario": "L-D: 24H",
               "latitud": 39.3995,
               "longitud": -3.2185,
+              "precio95": 1.409,
+              "precioDiesel": 1.615
+            },
+            {
+              "rotulo": "BALLENOIL",
+              "direccion": "AVENIDA DE LOS INSTITUTOS, S/N",
+              "horario": "L-D: 24H",
+              "latitud": 39.39225,
+              "longitud": -3.224611,
               "precio95": 1.409,
               "precioDiesel": 1.615
             },
@@ -75423,8 +75423,8 @@
         {
           "slug": "argamasilla-de-alba",
           "nombre": "Argamasilla de Alba",
-          "precioGasolina95": 1.552,
-          "precioDiesel": 1.708,
+          "precioGasolina95": 1.549,
+          "precioDiesel": 1.701,
           "historico": [
             {
               "date": "2026-03-15",
@@ -75468,8 +75468,8 @@
             },
             {
               "date": "2026-05-27",
-              "precioGasolina95": 1.552,
-              "precioDiesel": 1.708
+              "precioGasolina95": 1.549,
+              "precioDiesel": 1.701
             }
           ],
           "top5": [
@@ -75497,8 +75497,8 @@
               "horario": "L-S: 06:00-22:00; D: 07:00-22:00",
               "latitud": 39.131944,
               "longitud": -3.079389,
-              "precio95": 1.599,
-              "precioDiesel": 1.729
+              "precio95": 1.589,
+              "precioDiesel": 1.709
             }
           ]
         },
@@ -75556,20 +75556,20 @@
           ],
           "top5": [
             {
-              "rotulo": "GASOLEOSJUCO",
-              "direccion": "POLIGONO MANZANARES, 6",
-              "horario": "L-D: 06:00-23:00",
-              "latitud": 38.723028,
-              "longitud": -4.086778,
-              "precio95": 1.609,
-              "precioDiesel": 1.749
-            },
-            {
               "rotulo": "REPSOL",
               "direccion": "CARRETERA CR-506 KM. 3,300",
               "horario": "L-D: 06:00-22:00",
               "latitud": 38.718028,
               "longitud": -4.071306,
+              "precio95": 1.609,
+              "precioDiesel": 1.749
+            },
+            {
+              "rotulo": "GASOLEOSJUCO",
+              "direccion": "POLIGONO MANZANARES, 6",
+              "horario": "L-D: 06:00-23:00",
+              "latitud": 38.723028,
+              "longitud": -4.086778,
               "precio95": 1.609,
               "precioDiesel": 1.749
             },
@@ -76240,20 +76240,20 @@
               "precioDiesel": 1.429
             },
             {
-              "rotulo": "SIS CARBURANTES",
-              "direccion": "CARRETERA CARRION KM. 309",
-              "horario": "L-D: 24H",
-              "latitud": 38.987722,
-              "longitud": -3.912889,
-              "precio95": 1.449,
-              "precioDiesel": 1.619
-            },
-            {
               "rotulo": "PLENERGY",
               "direccion": "CARRETERA DE CARRION KM. 20",
               "horario": "L-D: 24H",
               "latitud": 38.987528,
               "longitud": -3.914222,
+              "precio95": 1.449,
+              "precioDiesel": 1.619
+            },
+            {
+              "rotulo": "SIS CARBURANTES",
+              "direccion": "CARRETERA CARRION KM. 309",
+              "horario": "L-D: 24H",
+              "latitud": 38.987722,
+              "longitud": -3.912889,
               "precio95": 1.449,
               "precioDiesel": 1.619
             },
@@ -76469,19 +76469,19 @@
             },
             {
               "rotulo": "REPSOL",
-              "direccion": "CALLE TIBURCIO, 98",
+              "direccion": "CARRETERA NACIONAL 430 KM. 269,9",
               "horario": "L-D: 06:00-22:00",
-              "latitud": 39.062222,
-              "longitud": -3.618194,
+              "latitud": 39.060639,
+              "longitud": -3.618806,
               "precio95": 1.569,
               "precioDiesel": 1.705
             },
             {
               "rotulo": "REPSOL",
-              "direccion": "CARRETERA NACIONAL 430 KM. 269,9",
+              "direccion": "CALLE TIBURCIO, 98",
               "horario": "L-D: 06:00-22:00",
-              "latitud": 39.060639,
-              "longitud": -3.618806,
+              "latitud": 39.062222,
+              "longitud": -3.618194,
               "precio95": 1.569,
               "precioDiesel": 1.705
             },
@@ -76974,7 +76974,7 @@
           "slug": "membrilla",
           "nombre": "Membrilla",
           "precioGasolina95": 1.525,
-          "precioDiesel": 1.633,
+          "precioDiesel": 1.632,
           "historico": [
             {
               "date": "2026-03-15",
@@ -77019,7 +77019,7 @@
             {
               "date": "2026-05-27",
               "precioGasolina95": 1.525,
-              "precioDiesel": 1.633
+              "precioDiesel": 1.632
             }
           ],
           "top5": [
@@ -77030,7 +77030,7 @@
               "latitud": 38.98625,
               "longitud": -3.353639,
               "precio95": 1.437,
-              "precioDiesel": 1.557
+              "precioDiesel": 1.547
             },
             {
               "rotulo": "GALÁN DE MEMBRILLA",
@@ -81173,15 +81173,6 @@
           ],
           "top5": [
             {
-              "rotulo": "SANTIAGO",
-              "direccion": "CARRETERA FUENTE PALMERA- LA VENTILLA L-120 KM. 0,500",
-              "horario": "L-D: 07:00-21:00",
-              "latitud": 37.708139,
-              "longitud": -5.098111,
-              "precio95": 1.569,
-              "precioDiesel": 1.779
-            },
-            {
               "rotulo": "REPSOL",
               "direccion": "CARRETERA ECIJA-POSADAS KM. 8,8",
               "horario": "L-D: 06:00-22:00",
@@ -81189,6 +81180,15 @@
               "longitud": -5.100028,
               "precio95": 1.569,
               "precioDiesel": 1.829
+            },
+            {
+              "rotulo": "SANTIAGO",
+              "direccion": "CARRETERA FUENTE PALMERA- LA VENTILLA L-120 KM. 0,500",
+              "horario": "L-D: 07:00-21:00",
+              "latitud": 37.708139,
+              "longitud": -5.098111,
+              "precio95": 1.569,
+              "precioDiesel": 1.779
             },
             {
               "rotulo": "E.S. RETO AHORRO",
@@ -81433,7 +81433,7 @@
           "slug": "lucena",
           "nombre": "Lucena",
           "precioGasolina95": 1.499,
-          "precioDiesel": 1.665,
+          "precioDiesel": 1.666,
           "historico": [
             {
               "date": "2026-03-15",
@@ -81478,7 +81478,7 @@
             {
               "date": "2026-05-27",
               "precioGasolina95": 1.499,
-              "precioDiesel": 1.665
+              "precioDiesel": 1.666
             }
           ],
           "top5": [
@@ -84696,7 +84696,7 @@
           "slug": "cambre",
           "nombre": "Cambre",
           "precioGasolina95": 1.508,
-          "precioDiesel": 1.648,
+          "precioDiesel": 1.646,
           "historico": [
             {
               "date": "2026-03-15",
@@ -84741,7 +84741,7 @@
             {
               "date": "2026-05-27",
               "precioGasolina95": 1.508,
-              "precioDiesel": 1.648
+              "precioDiesel": 1.646
             }
           ],
           "top5": [
@@ -84761,7 +84761,7 @@
               "latitud": 43.315667,
               "longitud": -8.355417,
               "precio95": 1.449,
-              "precioDiesel": 1.599
+              "precioDiesel": 1.589
             },
             {
               "rotulo": "CARBUGAL A BARCALA",
@@ -84937,20 +84937,20 @@
               "precioDiesel": 1.637
             },
             {
-              "rotulo": "MINGACHO OIL",
-              "direccion": "CALLE COMPOSTELA (QUINTANS), 24",
-              "horario": "L-V: 06:00-22:00; S-D: 07:00-22:00",
-              "latitud": 43.204111,
-              "longitud": -8.685472,
-              "precio95": 1.518,
-              "precioDiesel": 1.698
-            },
-            {
               "rotulo": "MINGACHO",
               "direccion": "CARRETERA AC 416, P.K. 1,270 KM. 1,270",
               "horario": "L-V: 06:30-23:00; S-D: 07:00-23:00",
               "latitud": 43.220806,
               "longitud": -8.699167,
+              "precio95": 1.518,
+              "precioDiesel": 1.698
+            },
+            {
+              "rotulo": "MINGACHO OIL",
+              "direccion": "CALLE COMPOSTELA (QUINTANS), 24",
+              "horario": "L-V: 06:00-22:00; S-D: 07:00-22:00",
+              "latitud": 43.204111,
+              "longitud": -8.685472,
               "precio95": 1.518,
               "precioDiesel": 1.698
             }
@@ -86655,8 +86655,8 @@
         {
           "slug": "mazaricos",
           "nombre": "Mazaricos",
-          "precioGasolina95": 1.589,
-          "precioDiesel": 1.692,
+          "precioGasolina95": 1.581,
+          "precioDiesel": 1.688,
           "historico": [
             {
               "date": "2026-03-15",
@@ -86700,8 +86700,8 @@
             },
             {
               "date": "2026-05-27",
-              "precioGasolina95": 1.589,
-              "precioDiesel": 1.692
+              "precioGasolina95": 1.581,
+              "precioDiesel": 1.688
             }
           ],
           "top5": [
@@ -86720,8 +86720,8 @@
               "horario": "L-D: 07:00-22:00",
               "latitud": 42.910528,
               "longitud": -8.955222,
-              "precio95": 1.598,
-              "precioDiesel": 1.743
+              "precio95": 1.583,
+              "precioDiesel": 1.729
             },
             {
               "rotulo": "CLUN",
@@ -87093,8 +87093,8 @@
         {
           "slug": "naron",
           "nombre": "Narón",
-          "precioGasolina95": 1.529,
-          "precioDiesel": 1.682,
+          "precioGasolina95": 1.526,
+          "precioDiesel": 1.681,
           "historico": [
             {
               "date": "2026-03-15",
@@ -87138,11 +87138,20 @@
             },
             {
               "date": "2026-05-27",
-              "precioGasolina95": 1.529,
-              "precioDiesel": 1.682
+              "precioGasolina95": 1.526,
+              "precioDiesel": 1.681
             }
           ],
           "top5": [
+            {
+              "rotulo": "BALLENOIL",
+              "direccion": "CARRETERA CASTILLA KM. 624",
+              "horario": "L-D: 24H",
+              "latitud": 43.498139,
+              "longitud": -8.197694,
+              "precio95": 1.399,
+              "precioDiesel": 1.579
+            },
             {
               "rotulo": "PETROCASH NARON (POL. GÁNDARA)",
               "direccion": "RUA NICASIO PEREZ LOPEZ, 57",
@@ -87168,15 +87177,6 @@
               "latitud": 43.490167,
               "longitud": -8.196972,
               "precio95": 1.419,
-              "precioDiesel": 1.599
-            },
-            {
-              "rotulo": "BALLENOIL",
-              "direccion": "CARRETERA CASTILLA KM. 624",
-              "horario": "L-D: 24H",
-              "latitud": 43.498139,
-              "longitud": -8.197694,
-              "precio95": 1.429,
               "precioDiesel": 1.599
             },
             {
@@ -88529,20 +88529,20 @@
           ],
           "top5": [
             {
-              "rotulo": "VALCARCE",
-              "direccion": "MUELLE PORTO DE RIANXO, S/N",
-              "horario": "L-V: 07:30-19:30; S-D: 08:00-16:00",
-              "latitud": 42.647722,
-              "longitud": -8.821972,
-              "precio95": 1.649,
-              "precioDiesel": 1.769
-            },
-            {
               "rotulo": "REPSOL",
               "direccion": "CARRETERA AC- 305 KM. 14,500",
               "horario": "L-S: 07:00-23:00; D: 09:00-23:00",
               "latitud": 42.679306,
               "longitud": -8.819944,
+              "precio95": 1.649,
+              "precioDiesel": 1.769
+            },
+            {
+              "rotulo": "VALCARCE",
+              "direccion": "MUELLE PORTO DE RIANXO, S/N",
+              "horario": "L-V: 07:30-19:30; S-D: 08:00-16:00",
+              "latitud": 42.647722,
+              "longitud": -8.821972,
               "precio95": 1.649,
               "precioDiesel": 1.769
             },
@@ -100876,21 +100876,21 @@
             },
             {
               "rotulo": "REPSOL",
-              "direccion": "CARRETERA C-35 KM. 97",
-              "horario": "L-V: 06:00-22:00; D: 08:00-22:00",
-              "latitud": 41.815806,
-              "longitud": 2.89925,
-              "precio95": 1.669,
-              "precioDiesel": 1.735
-            },
-            {
-              "rotulo": "REPSOL",
               "direccion": "AUTOVIA C-65 KM. 4,8",
               "horario": "L-D: 24H",
               "latitud": 41.827389,
               "longitud": 2.946889,
               "precio95": 1.669,
               "precioDiesel": 1.739
+            },
+            {
+              "rotulo": "REPSOL",
+              "direccion": "CARRETERA C-35 KM. 97",
+              "horario": "L-V: 06:00-22:00; D: 08:00-22:00",
+              "latitud": 41.815806,
+              "longitud": 2.89925,
+              "precio95": 1.669,
+              "precioDiesel": 1.735
             },
             {
               "rotulo": "REPSOL",
@@ -101048,20 +101048,20 @@
               "precioDiesel": 1.666
             },
             {
-              "rotulo": "NIEVES",
-              "direccion": "CARRER CARPETAN, S/N",
-              "horario": "L-D: 24H",
-              "latitud": 42.295333,
-              "longitud": 2.937806,
-              "precio95": null,
-              "precioDiesel": 1.699
-            },
-            {
               "rotulo": "ANDAMUR",
               "direccion": "CALLE PEGASO, S/N",
               "horario": "L-D: 24H",
               "latitud": 42.300472,
               "longitud": 2.9385,
+              "precio95": null,
+              "precioDiesel": 1.699
+            },
+            {
+              "rotulo": "NIEVES",
+              "direccion": "CARRER CARPETAN, S/N",
+              "horario": "L-D: 24H",
+              "latitud": 42.295333,
+              "longitud": 2.937806,
               "precio95": null,
               "precioDiesel": 1.699
             },
@@ -113040,13 +113040,13 @@
               "precioDiesel": 1.529
             },
             {
-              "rotulo": "BALLENOIL",
-              "direccion": "CARRETERA FONTANAR KM. 1",
+              "rotulo": "PLENERGY",
+              "direccion": "CALLE FRANCISCO ARITIO, 78",
               "horario": "L-D: 24H",
-              "latitud": 40.645861,
-              "longitud": -3.176028,
+              "latitud": 40.637583,
+              "longitud": -3.188139,
               "precio95": 1.369,
-              "precioDiesel": 1.529
+              "precioDiesel": 1.539
             }
           ]
         },
@@ -125378,19 +125378,19 @@
           "top5": [
             {
               "rotulo": "PETROPRIX",
-              "direccion": "CALLE CASTELLAR, S/N",
+              "direccion": "RONDA DE LOS OLIVARES, 107",
               "horario": "L-D: 24H",
-              "latitud": 37.794667,
-              "longitud": -3.785694,
+              "latitud": 37.793667,
+              "longitud": -3.791917,
               "precio95": 1.479,
               "precioDiesel": 1.599
             },
             {
               "rotulo": "PETROPRIX",
-              "direccion": "RONDA DE LOS OLIVARES, 107",
+              "direccion": "CALLE CASTELLAR, S/N",
               "horario": "L-D: 24H",
-              "latitud": 37.793667,
-              "longitud": -3.791917,
+              "latitud": 37.794667,
+              "longitud": -3.785694,
               "precio95": 1.479,
               "precioDiesel": 1.599
             },
@@ -130230,15 +130230,6 @@
               "precioDiesel": 1.559
             },
             {
-              "rotulo": "BALLENOIL",
-              "direccion": "AVENIDA ALCALDE MIGUEL CASTAÑO, 125",
-              "horario": "L-D: 24H",
-              "latitud": 42.583833,
-              "longitud": -5.557083,
-              "precio95": 1.419,
-              "precioDiesel": 1.559
-            },
-            {
               "rotulo": "PETROPRIX",
               "direccion": "AVENIDA ALCALDE MIGUEL CASTAÑO, 119",
               "horario": "L-D: 24H",
@@ -130249,10 +130240,10 @@
             },
             {
               "rotulo": "BALLENOIL",
-              "direccion": "AVENIDA ANTIBIOTICOS, 63",
+              "direccion": "AVENIDA ALCALDE MIGUEL CASTAÑO, 125",
               "horario": "L-D: 24H",
-              "latitud": 42.574361,
-              "longitud": -5.582861,
+              "latitud": 42.583833,
+              "longitud": -5.557083,
               "precio95": 1.419,
               "precioDiesel": 1.559
             },
@@ -130262,6 +130253,15 @@
               "horario": "L-D: 24H",
               "latitud": 42.587833,
               "longitud": -5.601111,
+              "precio95": 1.419,
+              "precioDiesel": 1.559
+            },
+            {
+              "rotulo": "BALLENOIL",
+              "direccion": "AVENIDA ANTIBIOTICOS, 63",
+              "horario": "L-D: 24H",
+              "latitud": 42.574361,
+              "longitud": -5.582861,
               "precio95": 1.419,
               "precioDiesel": 1.559
             }
@@ -143981,20 +143981,20 @@
           ],
           "top5": [
             {
-              "rotulo": "ALCAMPO",
-              "direccion": "C.C. LA DEHESA, AUTOVIA MADRID-BARCELONA km 34,0",
-              "horario": "L-D: 24H",
-              "latitud": 40.505111,
-              "longitud": -3.328833,
-              "precio95": 1.369,
-              "precioDiesel": 1.559
-            },
-            {
               "rotulo": "BALLENOIL",
               "direccion": "CALLE VARSOVIA, 2",
               "horario": "L-D: 24H",
               "latitud": 40.497694,
               "longitud": -3.341111,
+              "precio95": 1.369,
+              "precioDiesel": 1.559
+            },
+            {
+              "rotulo": "ALCAMPO",
+              "direccion": "C.C. LA DEHESA, AUTOVIA MADRID-BARCELONA km 34,0",
+              "horario": "L-D: 24H",
+              "latitud": 40.505111,
+              "longitud": -3.328833,
               "precio95": 1.369,
               "precioDiesel": 1.559
             },
@@ -144445,20 +144445,20 @@
           ],
           "top5": [
             {
-              "rotulo": "PLENERGY",
-              "direccion": "CALLE PUERTA DE ABAJO, 20",
-              "horario": "L-D: 24H",
-              "latitud": 40.659972,
-              "longitud": -4.015472,
-              "precio95": 1.485,
-              "precioDiesel": 1.557
-            },
-            {
               "rotulo": "PETROPRIX",
               "direccion": "CALLE PUERTA DE ABAJO, 57",
               "horario": "L-D: 24H",
               "latitud": 40.660694,
               "longitud": -4.012833,
+              "precio95": 1.485,
+              "precioDiesel": 1.557
+            },
+            {
+              "rotulo": "PLENERGY",
+              "direccion": "CALLE PUERTA DE ABAJO, 20",
+              "horario": "L-D: 24H",
+              "latitud": 40.659972,
+              "longitud": -4.015472,
               "precio95": 1.485,
               "precioDiesel": 1.557
             },
@@ -144628,19 +144628,19 @@
           "top5": [
             {
               "rotulo": "BALLENOIL",
-              "direccion": "AVENIDA VALDEARGANDA, 15",
+              "direccion": "CAMINO SAN MARTIN DE LA VEGA, 8",
               "horario": "L-D: 24H",
-              "latitud": 40.316417,
-              "longitud": -3.456944,
+              "latitud": 40.303222,
+              "longitud": -3.455472,
               "precio95": 1.469,
               "precioDiesel": 1.629
             },
             {
               "rotulo": "BALLENOIL",
-              "direccion": "CAMINO SAN MARTIN DE LA VEGA, 8",
+              "direccion": "CAMINO CAMINO DE SAN MARTÍN DE LA VEGA A ARGANDA, 2",
               "horario": "L-D: 24H",
-              "latitud": 40.303222,
-              "longitud": -3.455472,
+              "latitud": 40.303778,
+              "longitud": -3.451611,
               "precio95": 1.469,
               "precioDiesel": 1.629
             },
@@ -144655,10 +144655,10 @@
             },
             {
               "rotulo": "BALLENOIL",
-              "direccion": "TRAVESÍA SIERRA DE GATA, 17",
+              "direccion": "AVENIDA VALDEARGANDA, 15",
               "horario": "L-D: 24H",
-              "latitud": 40.308361,
-              "longitud": -3.475528,
+              "latitud": 40.316417,
+              "longitud": -3.456944,
               "precio95": 1.469,
               "precioDiesel": 1.629
             },
@@ -145713,20 +145713,20 @@
               "precioDiesel": 1.599
             },
             {
-              "rotulo": "GASOLINERA CIEMPOZUELOS",
-              "direccion": "CARRETERA M-404 KM. 39,8",
-              "horario": "L-D: 06:00-22:00",
-              "latitud": 40.165194,
-              "longitud": -3.635833,
-              "precio95": 1.449,
-              "precioDiesel": 1.629
-            },
-            {
               "rotulo": "SHELL",
               "direccion": "CARRETERA M-414 KM. 42,100",
               "horario": "L-D: 24H",
               "latitud": 40.1595,
               "longitud": -3.607722,
+              "precio95": 1.449,
+              "precioDiesel": 1.629
+            },
+            {
+              "rotulo": "GASOLINERA CIEMPOZUELOS",
+              "direccion": "CARRETERA M-404 KM. 39,8",
+              "horario": "L-D: 06:00-22:00",
+              "latitud": 40.165194,
+              "longitud": -3.635833,
               "precio95": 1.449,
               "precioDiesel": 1.629
             },
@@ -145950,20 +145950,20 @@
           ],
           "top5": [
             {
-              "rotulo": "PLENERGY",
-              "direccion": "CALLE CALLE POLÍGONO 5, 20",
-              "horario": "L-D: 24H",
-              "latitud": 40.637972,
-              "longitud": -4.0045,
-              "precio95": 1.485,
-              "precioDiesel": 1.557
-            },
-            {
               "rotulo": "BALLENOIL",
               "direccion": "CALLE AZUELA, 73",
               "horario": "L-D: 24H",
               "latitud": 40.625083,
               "longitud": -4.025306,
+              "precio95": 1.485,
+              "precioDiesel": 1.557
+            },
+            {
+              "rotulo": "PLENERGY",
+              "direccion": "CALLE CALLE POLÍGONO 5, 20",
+              "horario": "L-D: 24H",
+              "latitud": 40.637972,
+              "longitud": -4.0045,
               "precio95": 1.485,
               "precioDiesel": 1.557
             },
@@ -146237,7 +146237,7 @@
           "slug": "coslada",
           "nombre": "Coslada",
           "precioGasolina95": 1.545,
-          "precioDiesel": 1.691,
+          "precioDiesel": 1.689,
           "historico": [
             {
               "date": "2026-03-15",
@@ -146282,7 +146282,7 @@
             {
               "date": "2026-05-27",
               "precioGasolina95": 1.545,
-              "precioDiesel": 1.691
+              "precioDiesel": 1.689
             }
           ],
           "top5": [
@@ -146292,15 +146292,6 @@
               "horario": "L-D: 24H",
               "latitud": 40.420944,
               "longitud": -3.57425,
-              "precio95": 1.389,
-              "precioDiesel": 1.619
-            },
-            {
-              "rotulo": "BALLENOIL",
-              "direccion": "AVENIDA JARAMA (DEL), 17",
-              "horario": "L-D: 24H",
-              "latitud": 40.432778,
-              "longitud": -3.535194,
               "precio95": 1.389,
               "precioDiesel": 1.599
             },
@@ -146319,6 +146310,15 @@
               "horario": "L-D: 24H",
               "latitud": 40.438611,
               "longitud": -3.531833,
+              "precio95": 1.389,
+              "precioDiesel": 1.599
+            },
+            {
+              "rotulo": "BALLENOIL",
+              "direccion": "AVENIDA JARAMA (DEL), 17",
+              "horario": "L-D: 24H",
+              "latitud": 40.432778,
+              "longitud": -3.535194,
               "precio95": 1.389,
               "precioDiesel": 1.599
             },
@@ -146880,15 +146880,6 @@
             },
             {
               "rotulo": "BALLENOIL",
-              "direccion": "CALLE CARRETERA DE EL ESCORIAL, 94",
-              "horario": "L-D: 24H",
-              "latitud": 40.575194,
-              "longitud": -4.009444,
-              "precio95": 1.559,
-              "precioDiesel": 1.605
-            },
-            {
-              "rotulo": "BALLENOIL",
               "direccion": "CL CRTA. DE TORRELODONES, 10",
               "horario": "L-D: 24H",
               "latitud": 40.576917,
@@ -146902,6 +146893,15 @@
               "horario": "L-D: 24H",
               "latitud": 40.574417,
               "longitud": -4.006722,
+              "precio95": 1.559,
+              "precioDiesel": 1.605
+            },
+            {
+              "rotulo": "BALLENOIL",
+              "direccion": "CALLE CARRETERA DE EL ESCORIAL, 94",
+              "horario": "L-D: 24H",
+              "latitud": 40.575194,
+              "longitud": -4.009444,
               "precio95": 1.559,
               "precioDiesel": 1.605
             },
@@ -146979,20 +146979,20 @@
               "precioDiesel": 1.569
             },
             {
-              "rotulo": "BALLENOIL",
-              "direccion": "CALLE ISAS CIES, 1",
-              "horario": "L-D: 24H",
-              "latitud": 40.281056,
-              "longitud": -3.750917,
-              "precio95": 1.399,
-              "precioDiesel": 1.569
-            },
-            {
               "rotulo": "GASOLINERA GETAFE",
               "direccion": "AVDA ARCAS DE AGUA SN",
               "horario": "L-D: 06:30-22:30",
               "latitud": 40.294583,
               "longitud": -3.744833,
+              "precio95": 1.399,
+              "precioDiesel": 1.569
+            },
+            {
+              "rotulo": "BALLENOIL",
+              "direccion": "CALLE ISAS CIES, 1",
+              "horario": "L-D: 24H",
+              "latitud": 40.281056,
+              "longitud": -3.750917,
               "precio95": 1.399,
               "precioDiesel": 1.569
             },
@@ -147485,7 +147485,7 @@
           "slug": "leganes",
           "nombre": "Leganés",
           "precioGasolina95": 1.57,
-          "precioDiesel": 1.668,
+          "precioDiesel": 1.667,
           "historico": [
             {
               "date": "2026-03-15",
@@ -147530,7 +147530,7 @@
             {
               "date": "2026-05-27",
               "precioGasolina95": 1.57,
-              "precioDiesel": 1.668
+              "precioDiesel": 1.667
             }
           ],
           "top5": [
@@ -147553,6 +147553,15 @@
               "precioDiesel": 1.579
             },
             {
+              "rotulo": "BALLENOIL",
+              "direccion": "CALLE REY PASTOR, 16",
+              "horario": "L-D: 24H",
+              "latitud": 40.327806,
+              "longitud": -3.743611,
+              "precio95": 1.399,
+              "precioDiesel": 1.579
+            },
+            {
               "rotulo": "PLENERGY",
               "direccion": "CALLE REY PASTOR, 3",
               "horario": "L-D: 24H",
@@ -147567,15 +147576,6 @@
               "horario": "L-D: 24H",
               "latitud": 40.314889,
               "longitud": -3.760694,
-              "precio95": 1.399,
-              "precioDiesel": 1.579
-            },
-            {
-              "rotulo": "BALLENOIL",
-              "direccion": "CALLE REY PASTOR, 16",
-              "horario": "L-D: 24H",
-              "latitud": 40.327806,
-              "longitud": -3.743611,
               "precio95": 1.399,
               "precioDiesel": 1.579
             }
@@ -147655,18 +147655,18 @@
             {
               "rotulo": "REPSOL",
               "direccion": "AUTOPISTA AUTOPISTA R-3 LOECHES KM. 19,5",
-              "horario": "L-D: 24H",
-              "latitud": 40.34625,
-              "longitud": -3.450889,
+              "horario": "L-V: 06:00-22:00; D: 13:00-21:00",
+              "latitud": 40.345333,
+              "longitud": -3.449028,
               "precio95": 1.789,
               "precioDiesel": 1.839
             },
             {
               "rotulo": "REPSOL",
               "direccion": "AUTOPISTA AUTOPISTA R-3 LOECHES KM. 19,5",
-              "horario": "L-V: 06:00-22:00; D: 13:00-21:00",
-              "latitud": 40.345333,
-              "longitud": -3.449028,
+              "horario": "L-D: 24H",
+              "latitud": 40.34625,
+              "longitud": -3.450889,
               "precio95": 1.789,
               "precioDiesel": 1.839
             }
@@ -147873,10 +147873,10 @@
           "top5": [
             {
               "rotulo": "BALLENOIL",
-              "direccion": "CALLE FRANCISCA TORRES CATALAN, 24",
+              "direccion": "CARRETERA VICALVARO A ESTACION DE O`DONNELL KM. 22",
               "horario": "L-D: 24H",
-              "latitud": 40.406056,
-              "longitud": -3.590722,
+              "latitud": 40.405167,
+              "longitud": -3.59075,
               "precio95": 1.389,
               "precioDiesel": 1.599
             },
@@ -147890,20 +147890,20 @@
               "precioDiesel": 1.599
             },
             {
-              "rotulo": "BALLENOIL",
-              "direccion": "CARRETERA VICALVARO A ESTACION DE O`DONNELL KM. 22",
-              "horario": "L-D: 24H",
-              "latitud": 40.405167,
-              "longitud": -3.59075,
-              "precio95": 1.389,
-              "precioDiesel": 1.599
-            },
-            {
               "rotulo": "PETROPRIX",
               "direccion": "CALLE HERCE, 41",
               "horario": "L-D: 24H",
               "latitud": 40.403472,
               "longitud": -3.615639,
+              "precio95": 1.389,
+              "precioDiesel": 1.599
+            },
+            {
+              "rotulo": "BALLENOIL",
+              "direccion": "CALLE FRANCISCA TORRES CATALAN, 24",
+              "horario": "L-D: 24H",
+              "latitud": 40.406056,
+              "longitud": -3.590722,
               "precio95": 1.389,
               "precioDiesel": 1.599
             },
@@ -148450,7 +148450,7 @@
           "slug": "moraleja-de-enmedio",
           "nombre": "Moraleja de Enmedio",
           "precioGasolina95": 1.489,
-          "precioDiesel": 1.639,
+          "precioDiesel": 1.632,
           "historico": [
             {
               "date": "2026-03-15",
@@ -148495,7 +148495,7 @@
             {
               "date": "2026-05-27",
               "precioGasolina95": 1.489,
-              "precioDiesel": 1.639
+              "precioDiesel": 1.632
             }
           ],
           "top5": [
@@ -148524,7 +148524,7 @@
               "latitud": 40.261278,
               "longitud": -3.849306,
               "precio95": 1.649,
-              "precioDiesel": 1.739
+              "precioDiesel": 1.719
             }
           ]
         },
@@ -149293,15 +149293,6 @@
               "precioDiesel": 1.595
             },
             {
-              "rotulo": "BALLENOIL",
-              "direccion": "CALLE TOLEDO CV VIA DE RONDA, SN",
-              "horario": "L-D: 24H",
-              "latitud": 40.227667,
-              "longitud": -3.778722,
-              "precio95": 1.455,
-              "precioDiesel": 1.595
-            },
-            {
               "rotulo": "G.P.S. OIL ",
               "direccion": "AVENIDA CERRO DEL RUBAL, 1",
               "horario": "L-D: 24H",
@@ -149316,6 +149307,15 @@
               "horario": "L-D: 24H",
               "latitud": 40.249139,
               "longitud": -3.766333,
+              "precio95": 1.455,
+              "precioDiesel": 1.595
+            },
+            {
+              "rotulo": "BALLENOIL",
+              "direccion": "CALLE TOLEDO CV VIA DE RONDA, SN",
+              "horario": "L-D: 24H",
+              "latitud": 40.227667,
+              "longitud": -3.778722,
               "precio95": 1.455,
               "precioDiesel": 1.595
             },
@@ -149624,8 +149624,8 @@
         {
           "slug": "pinto",
           "nombre": "Pinto",
-          "precioGasolina95": 1.556,
-          "precioDiesel": 1.725,
+          "precioGasolina95": 1.555,
+          "precioDiesel": 1.724,
           "historico": [
             {
               "date": "2026-03-15",
@@ -149669,8 +149669,8 @@
             },
             {
               "date": "2026-05-27",
-              "precioGasolina95": 1.556,
-              "precioDiesel": 1.725
+              "precioGasolina95": 1.555,
+              "precioDiesel": 1.724
             }
           ],
           "top5": [
@@ -149948,20 +149948,20 @@
               "precioDiesel": 1.545
             },
             {
-              "rotulo": "BALLENOIL",
-              "direccion": "CALLE FUNDICION, 19",
-              "horario": "L-D: 24H",
-              "latitud": 40.353306,
-              "longitud": -3.542194,
-              "precio95": 1.389,
-              "precioDiesel": 1.545
-            },
-            {
               "rotulo": "PLENERGY",
               "direccion": "CALLE CARRETILLA LA, 36",
               "horario": "L-D: 24H",
               "latitud": 40.354139,
               "longitud": -3.543528,
+              "precio95": 1.389,
+              "precioDiesel": 1.545
+            },
+            {
+              "rotulo": "BALLENOIL",
+              "direccion": "CALLE FUNDICION, 19",
+              "horario": "L-D: 24H",
+              "latitud": 40.353306,
+              "longitud": -3.542194,
               "precio95": 1.389,
               "precioDiesel": 1.545
             },
@@ -150641,19 +150641,19 @@
             },
             {
               "rotulo": "BALLENOIL",
-              "direccion": "AVENIDA TENERIFE, 10",
+              "direccion": "AVENIDA PIRINEOS (DE LOS), 21",
               "horario": "L-D: 24H",
-              "latitud": 40.559389,
-              "longitud": -3.622861,
+              "latitud": 40.551972,
+              "longitud": -3.610083,
               "precio95": 1.469,
               "precioDiesel": 1.599
             },
             {
               "rotulo": "BALLENOIL",
-              "direccion": "AVENIDA PIRINEOS (DE LOS), 21",
+              "direccion": "AVENIDA TENERIFE, 10",
               "horario": "L-D: 24H",
-              "latitud": 40.551972,
-              "longitud": -3.610083,
+              "latitud": 40.559389,
+              "longitud": -3.622861,
               "precio95": 1.469,
               "precioDiesel": 1.599
             },
@@ -151270,29 +151270,29 @@
           ],
           "top5": [
             {
-              "rotulo": "GASOLINERA TORREJÓN",
-              "direccion": "AVENIDA DE LA CONSTITUCION, 108",
-              "horario": "L-D: 06:00-22:00",
-              "latitud": 40.458389,
-              "longitud": -3.466611,
+              "rotulo": "BALLENOIL",
+              "direccion": "CALLE OLMO, 1",
+              "horario": "L-D: 24H",
+              "latitud": 40.447361,
+              "longitud": -3.457083,
               "precio95": 1.389,
               "precioDiesel": 1.599
             },
             {
-              "rotulo": "T9",
-              "direccion": "CALLE MARIO VARGAS LLOSA, 4",
+              "rotulo": "BALLENOIL",
+              "direccion": "CALLE CHARCA DE LOS PECES, 2",
               "horario": "L-D: 24H",
-              "latitud": 40.471139,
-              "longitud": -3.436694,
+              "latitud": 40.446028,
+              "longitud": -3.466278,
               "precio95": 1.389,
               "precioDiesel": 1.599
             },
             {
               "rotulo": "PLENERGY",
-              "direccion": "AVENIDA PREMIOS NOBEL, 1",
+              "direccion": "AVENIDA CONSTITUCIÓN, 1",
               "horario": "L-D: 24H",
-              "latitud": 40.470111,
-              "longitud": -3.449278,
+              "latitud": 40.455,
+              "longitud": -3.488889,
               "precio95": 1.389,
               "precioDiesel": 1.599
             },
@@ -151306,11 +151306,11 @@
               "precioDiesel": 1.599
             },
             {
-              "rotulo": "BALLENOIL",
-              "direccion": "CALLE CHARCA DE LOS PECES, 2",
+              "rotulo": "T9",
+              "direccion": "CALLE MARIO VARGAS LLOSA, 4",
               "horario": "L-D: 24H",
-              "latitud": 40.446028,
-              "longitud": -3.466278,
+              "latitud": 40.471139,
+              "longitud": -3.436694,
               "precio95": 1.389,
               "precioDiesel": 1.599
             }
@@ -151944,13 +151944,13 @@
               "precioDiesel": 1.599
             },
             {
-              "rotulo": "T9",
-              "direccion": "CALLE TENERIAS, 50",
+              "rotulo": "LAS PALMERAS",
+              "direccion": "RONDA COMUNIDADES (DE LAS), 107",
               "horario": "L-D: 24H",
-              "latitud": 40.197861,
-              "longitud": -3.677722,
+              "latitud": 40.184389,
+              "longitud": -3.683972,
               "precio95": 1.419,
-              "precioDiesel": 1.599
+              "precioDiesel": 1.609
             }
           ]
         },
@@ -152519,20 +152519,20 @@
           ],
           "top5": [
             {
-              "rotulo": "ALCAMPO",
-              "direccion": "AVENIDA ESPAÑA, 1",
-              "horario": "L-D: 24H",
-              "latitud": 40.433722,
-              "longitud": -4.001194,
-              "precio95": 1.459,
-              "precioDiesel": 1.599
-            },
-            {
               "rotulo": "BALLENOIL",
               "direccion": "AVENIDA SIERRA DE GUADARRAMA, 10",
               "horario": "L-D: 24H",
               "latitud": 40.437889,
               "longitud": -4.011194,
+              "precio95": 1.459,
+              "precioDiesel": 1.599
+            },
+            {
+              "rotulo": "ALCAMPO",
+              "direccion": "AVENIDA ESPAÑA, 1",
+              "horario": "L-D: 24H",
+              "latitud": 40.433722,
+              "longitud": -4.001194,
               "precio95": 1.459,
               "precioDiesel": 1.599
             },
@@ -152898,7 +152898,7 @@
     {
       "provincia": "malaga",
       "nombreProvincia": "MÁLAGA",
-      "precioMedioGasolina95": 1.605,
+      "precioMedioGasolina95": 1.604,
       "precioMedioDiesel": 1.699,
       "localidades": [
         {
@@ -154974,8 +154974,8 @@
         {
           "slug": "estepona",
           "nombre": "Estepona",
-          "precioGasolina95": 1.623,
-          "precioDiesel": 1.723,
+          "precioGasolina95": 1.621,
+          "precioDiesel": 1.721,
           "historico": [
             {
               "date": "2026-03-15",
@@ -155019,8 +155019,8 @@
             },
             {
               "date": "2026-05-27",
-              "precioGasolina95": 1.623,
-              "precioDiesel": 1.723
+              "precioGasolina95": 1.621,
+              "precioDiesel": 1.721
             }
           ],
           "top5": [
@@ -155544,15 +155544,6 @@
           ],
           "top5": [
             {
-              "rotulo": "BALLENOIL",
-              "direccion": "AVENIDA VELAZQUEZ, 113",
-              "horario": "L-D: 24H",
-              "latitud": 36.6885,
-              "longitud": -4.459583,
-              "precio95": 1.479,
-              "precioDiesel": 1.619
-            },
-            {
               "rotulo": "SHELL",
               "direccion": "CALLE ESTEBAN SALAZAR CHAPELA, 28",
               "horario": "L-D: 24H",
@@ -155571,11 +155562,11 @@
               "precioDiesel": 1.619
             },
             {
-              "rotulo": "E.S. LAS PALMERAS",
-              "direccion": "CALLE DIDEROT, 66",
-              "horario": "L-V: 05:00-21:00; S: 05:00-20:00",
-              "latitud": 36.694444,
-              "longitud": -4.474944,
+              "rotulo": "BALLENOIL",
+              "direccion": "AVENIDA VELAZQUEZ, 113",
+              "horario": "L-D: 24H",
+              "latitud": 36.6885,
+              "longitud": -4.459583,
               "precio95": 1.479,
               "precioDiesel": 1.619
             },
@@ -155585,6 +155576,15 @@
               "horario": "L-V: 06:00-21:00; S: 09:00-15:00",
               "latitud": 36.693333,
               "longitud": -4.470583,
+              "precio95": 1.479,
+              "precioDiesel": 1.619
+            },
+            {
+              "rotulo": "E.S. LAS PALMERAS",
+              "direccion": "CALLE DIDEROT, 66",
+              "horario": "L-V: 05:00-21:00; S: 05:00-20:00",
+              "latitud": 36.694444,
+              "longitud": -4.474944,
               "precio95": 1.479,
               "precioDiesel": 1.619
             }
@@ -155726,20 +155726,20 @@
           ],
           "top5": [
             {
-              "rotulo": "NINGUNO",
-              "direccion": "CALLE ALUMINIO, S/N",
-              "horario": "L-V: 07:00-21:00; S: 07:00-15:00",
-              "latitud": 36.513611,
-              "longitud": -4.870944,
-              "precio95": 1.489,
-              "precioDiesel": 1.639
-            },
-            {
               "rotulo": "BALLENOIL",
               "direccion": "CALLE PLATA 44, POLÍGONO LA ERMITA, 44",
               "horario": "L-D: 24H",
               "latitud": 36.512056,
               "longitud": -4.866889,
+              "precio95": 1.489,
+              "precioDiesel": 1.639
+            },
+            {
+              "rotulo": "NINGUNO",
+              "direccion": "CALLE ALUMINIO, S/N",
+              "horario": "L-V: 07:00-21:00; S: 07:00-15:00",
+              "latitud": 36.513611,
+              "longitud": -4.870944,
               "precio95": 1.489,
               "precioDiesel": 1.639
             },
@@ -157628,20 +157628,20 @@
           ],
           "top5": [
             {
-              "rotulo": "BALLENOIL",
-              "direccion": "CALLE ANDRES SEGOVIA, 1",
-              "horario": "L-D: 24H",
-              "latitud": 37.409333,
-              "longitud": -1.565972,
-              "precio95": 1.419,
-              "precioDiesel": 1.599
-            },
-            {
               "rotulo": "PLENERGY",
               "direccion": "CARRETERA DE LORCA KM. 36",
               "horario": "L-D: 24H",
               "latitud": 37.410472,
               "longitud": -1.591611,
+              "precio95": 1.419,
+              "precioDiesel": 1.599
+            },
+            {
+              "rotulo": "BALLENOIL",
+              "direccion": "CALLE ANDRES SEGOVIA, 1",
+              "horario": "L-D: 24H",
+              "latitud": 37.409333,
+              "longitud": -1.565972,
               "precio95": 1.419,
               "precioDiesel": 1.599
             },
@@ -159211,15 +159211,6 @@
           ],
           "top5": [
             {
-              "rotulo": "BALLENOIL",
-              "direccion": "AVENIDA LEVANTE (DE), 42",
-              "horario": "L-D: 24H",
-              "latitud": 38.475028,
-              "longitud": -1.321806,
-              "precio95": 1.418,
-              "precioDiesel": 1.548
-            },
-            {
               "rotulo": "RENESUR-EL ALTIPLANO",
               "direccion": " CTRA. NAL. 344  JUMILLA - YECLA  (ALTIPLANO), ",
               "horario": "L-D: 00:00-23:59",
@@ -159234,6 +159225,15 @@
               "horario": "L-D: 24H",
               "latitud": 38.4885,
               "longitud": -1.323111,
+              "precio95": 1.418,
+              "precioDiesel": 1.548
+            },
+            {
+              "rotulo": "BALLENOIL",
+              "direccion": "AVENIDA LEVANTE (DE), 42",
+              "horario": "L-D: 24H",
+              "latitud": 38.475028,
+              "longitud": -1.321806,
               "precio95": 1.418,
               "precioDiesel": 1.548
             },
@@ -161752,18 +161752,18 @@
             {
               "rotulo": "REPSOL",
               "direccion": "CARRETERA N-32 KM. 5,2",
-              "horario": "L-D: 06:00-22:00",
-              "latitud": 42.80175,
-              "longitud": -1.612667,
+              "horario": "L-V: 06:00-22:00; S-D: 07:00-22:00",
+              "latitud": 42.800611,
+              "longitud": -1.611611,
               "precio95": 1.609,
               "precioDiesel": 1.739
             },
             {
               "rotulo": "REPSOL",
               "direccion": "CARRETERA N-32 KM. 5,2",
-              "horario": "L-V: 06:00-22:00; S-D: 07:00-22:00",
-              "latitud": 42.800611,
-              "longitud": -1.611611,
+              "horario": "L-D: 06:00-22:00",
+              "latitud": 42.80175,
+              "longitud": -1.612667,
               "precio95": 1.609,
               "precioDiesel": 1.739
             },
@@ -162452,20 +162452,20 @@
               "precioDiesel": 1.659
             },
             {
-              "rotulo": "NAFAROIL",
-              "direccion": "BARRIO IBARDIN, 19",
-              "horario": "L-D: 08:15-19:15",
-              "latitud": 43.309306,
-              "longitud": -1.684056,
-              "precio95": 1.559,
-              "precioDiesel": 1.659
-            },
-            {
               "rotulo": "AVIA",
               "direccion": "BARRIO IBARDIN, S/N",
               "horario": "L-D: 08:00-19:30",
               "latitud": 43.309361,
               "longitud": -1.687444,
+              "precio95": 1.559,
+              "precioDiesel": 1.659
+            },
+            {
+              "rotulo": "NAFAROIL",
+              "direccion": "BARRIO IBARDIN, 19",
+              "horario": "L-D: 08:15-19:15",
+              "latitud": 43.309306,
+              "longitud": -1.684056,
               "precio95": 1.559,
               "precioDiesel": 1.659
             },
@@ -168421,18 +168421,18 @@
             {
               "rotulo": "REPSOL",
               "direccion": "AVENIDA ESTELLA, 9",
-              "horario": "L-D: 24H",
-              "latitud": 42.792917,
-              "longitud": -1.684194,
+              "horario": "L: 06:00-22:00",
+              "latitud": 42.792833,
+              "longitud": -1.686583,
               "precio95": 1.629,
               "precioDiesel": 1.755
             },
             {
               "rotulo": "REPSOL",
               "direccion": "AVENIDA ESTELLA, 9",
-              "horario": "L: 06:00-22:00",
-              "latitud": 42.792833,
-              "longitud": -1.686583,
+              "horario": "L-D: 24H",
+              "latitud": 42.792917,
+              "longitud": -1.684194,
               "precio95": 1.629,
               "precioDiesel": 1.755
             }
@@ -173984,15 +173984,6 @@
               "precioDiesel": 1.439
             },
             {
-              "rotulo": "CANARY OIL",
-              "direccion": "CALLE LAS ADELFAS, ESQUINA LOS OLIVOS, 8",
-              "horario": "L-D: 24H",
-              "latitud": 27.859722,
-              "longitud": -15.408722,
-              "precio95": 1.329,
-              "precioDiesel": 1.439
-            },
-            {
               "rotulo": "PETROPRIX",
               "direccion": "AVENIDA DEL SURESTE, 1",
               "horario": "L-D: 24H",
@@ -174016,6 +174007,15 @@
               "horario": "L-D: 24H",
               "latitud": 27.862861,
               "longitud": -15.434361,
+              "precio95": 1.329,
+              "precioDiesel": 1.439
+            },
+            {
+              "rotulo": "PLENERGY",
+              "direccion": "CALLE CANAL IZQUIERDA CON ALGARROBO, S/N",
+              "horario": "L-D: 24H",
+              "latitud": 27.861583,
+              "longitud": -15.414556,
               "precio95": 1.329,
               "precioDiesel": 1.439
             }
@@ -184546,15 +184546,6 @@
               "precioDiesel": 1.524
             },
             {
-              "rotulo": "BALLENOIL",
-              "direccion": "CALLE NEWTON, 13",
-              "horario": "L-D: 24H",
-              "latitud": 40.943306,
-              "longitud": -5.655139,
-              "precio95": 1.349,
-              "precioDiesel": 1.527
-            },
-            {
               "rotulo": "PLENERGY",
               "direccion": "CALLE SALAMANCA, 44",
               "horario": "L-D: 24H",
@@ -184569,6 +184560,15 @@
               "horario": "L-D: 24H",
               "latitud": 40.945528,
               "longitud": -5.656194,
+              "precio95": 1.349,
+              "precioDiesel": 1.527
+            },
+            {
+              "rotulo": "BALLENOIL",
+              "direccion": "CALLE NEWTON, 13",
+              "horario": "L-D: 24H",
+              "latitud": 40.943306,
+              "longitud": -5.655139,
               "precio95": 1.349,
               "precioDiesel": 1.527
             },
@@ -186873,20 +186873,20 @@
           ],
           "top5": [
             {
-              "rotulo": "USC",
-              "direccion": "AVENIDA FUENTESAUCO, S/N",
-              "horario": "L-D: 24H",
-              "latitud": 40.996,
-              "longitud": -5.649972,
-              "precio95": 1.399,
-              "precioDiesel": 1.559
-            },
-            {
               "rotulo": "BALLENOIL",
               "direccion": "CARRETERA VALLADOLID KM. 85",
               "horario": "L-D: 24H",
               "latitud": 40.993139,
               "longitud": -5.639028,
+              "precio95": 1.399,
+              "precioDiesel": 1.559
+            },
+            {
+              "rotulo": "USC",
+              "direccion": "AVENIDA FUENTESAUCO, S/N",
+              "horario": "L-D: 24H",
+              "latitud": 40.996,
+              "longitud": -5.649972,
               "precio95": 1.399,
               "precioDiesel": 1.559
             },
@@ -192363,8 +192363,8 @@
         {
           "slug": "labajos",
           "nombre": "Labajos",
-          "precioGasolina95": 1.598,
-          "precioDiesel": 1.731,
+          "precioGasolina95": 1.583,
+          "precioDiesel": 1.717,
           "historico": [
             {
               "date": "2026-03-15",
@@ -192408,8 +192408,8 @@
             },
             {
               "date": "2026-05-27",
-              "precioGasolina95": 1.598,
-              "precioDiesel": 1.731
+              "precioGasolina95": 1.583,
+              "precioDiesel": 1.717
             }
           ],
           "top5": [
@@ -192419,8 +192419,8 @@
               "horario": "L-D: 06:00-22:00",
               "latitud": 40.837444,
               "longitud": -4.51725,
-              "precio95": 1.598,
-              "precioDiesel": 1.731
+              "precio95": 1.583,
+              "precioDiesel": 1.717
             }
           ]
         },
@@ -192479,19 +192479,19 @@
           "top5": [
             {
               "rotulo": "BALLENOIL",
-              "direccion": "CL-601 (VALLADOLID-SEGOVIA) km 105",
+              "direccion": "CARRETERA SORIA KM. 40",
               "horario": "L-D: 24H",
-              "latitud": 40.969556,
-              "longitud": -4.102722,
+              "latitud": 40.967833,
+              "longitud": -4.094667,
               "precio95": 1.519,
               "precioDiesel": 1.659
             },
             {
               "rotulo": "BALLENOIL",
-              "direccion": "CARRETERA SORIA KM. 40",
+              "direccion": "CL-601 (VALLADOLID-SEGOVIA) km 105",
               "horario": "L-D: 24H",
-              "latitud": 40.967833,
-              "longitud": -4.094667,
+              "latitud": 40.969556,
+              "longitud": -4.102722,
               "precio95": 1.519,
               "precioDiesel": 1.659
             },
@@ -193629,20 +193629,20 @@
               "precioDiesel": 1.629
             },
             {
-              "rotulo": "BALLENOIL",
-              "direccion": "CALLE GUADARRAMA, 14",
-              "horario": "L-D: 24H",
-              "latitud": 40.931444,
-              "longitud": -4.1135,
-              "precio95": 1.509,
-              "precioDiesel": 1.629
-            },
-            {
               "rotulo": "PLENERGY",
               "direccion": "CALLE NAVACERRADA, 1",
               "horario": "L-D: 24H",
               "latitud": 40.926556,
               "longitud": -4.115056,
+              "precio95": 1.509,
+              "precioDiesel": 1.629
+            },
+            {
+              "rotulo": "BALLENOIL",
+              "direccion": "CALLE GUADARRAMA, 14",
+              "horario": "L-D: 24H",
+              "latitud": 40.931444,
+              "longitud": -4.1135,
               "precio95": 1.509,
               "precioDiesel": 1.629
             },
@@ -194376,13 +194376,13 @@
               "precioDiesel": 1.599
             },
             {
-              "rotulo": "BALLENOIL",
-              "direccion": "AUTOVIA A- 92 KM. 10",
-              "horario": "L-D: 24H",
-              "latitud": 37.347806,
-              "longitud": -5.833972,
+              "rotulo": "GALP",
+              "direccion": "CARRETERA A-92 KM. 4",
+              "horario": "L-D: 06:00-22:00",
+              "latitud": 37.379361,
+              "longitud": -5.895806,
               "precio95": 1.449,
-              "precioDiesel": 1.599
+              "precioDiesel": 1.649
             }
           ]
         },
@@ -200829,20 +200829,20 @@
               "precioDiesel": 1.527
             },
             {
-              "rotulo": "MOOVE",
-              "direccion": "CALLE ASTRONOMIA, 3",
-              "horario": "L-D: 24H",
-              "latitud": 37.426833,
-              "longitud": -5.975417,
-              "precio95": 1.348,
-              "precioDiesel": 1.518
-            },
-            {
               "rotulo": "BALLENOIL",
               "direccion": "AVENIDA SAN JERONIMO, S/N",
               "horario": "L-D: 24H",
               "latitud": 37.427361,
               "longitud": -5.9785,
+              "precio95": 1.348,
+              "precioDiesel": 1.518
+            },
+            {
+              "rotulo": "MOOVE",
+              "direccion": "CALLE ASTRONOMIA, 3",
+              "horario": "L-D: 24H",
+              "latitud": 37.426833,
+              "longitud": -5.975417,
               "precio95": 1.348,
               "precioDiesel": 1.518
             },
@@ -213133,19 +213133,19 @@
           "top5": [
             {
               "rotulo": "BALLENOIL",
-              "direccion": "CARRETERA SOTO DE CAZALEGAS SECTOR 9-B, ANTIGUA NV - KM.108,6 KM. 108,6",
+              "direccion": "POLIGONO SECTOR 7 PARCELA 2, SN",
               "horario": "L-D: 24H",
-              "latitud": 39.976417,
-              "longitud": -4.745028,
+              "latitud": 39.973389,
+              "longitud": -4.752528,
               "precio95": 1.569,
               "precioDiesel": 1.557
             },
             {
               "rotulo": "BALLENOIL",
-              "direccion": "POLIGONO SECTOR 7 PARCELA 2, SN",
+              "direccion": "CARRETERA SOTO DE CAZALEGAS SECTOR 9-B, ANTIGUA NV - KM.108,6 KM. 108,6",
               "horario": "L-D: 24H",
-              "latitud": 39.973389,
-              "longitud": -4.752528,
+              "latitud": 39.976417,
+              "longitud": -4.745028,
               "precio95": 1.569,
               "precioDiesel": 1.557
             },
@@ -213511,7 +213511,7 @@
           "slug": "consuegra",
           "nombre": "Consuegra",
           "precioGasolina95": 1.548,
-          "precioDiesel": 1.651,
+          "precioDiesel": 1.644,
           "historico": [
             {
               "date": "2026-03-15",
@@ -213556,7 +213556,7 @@
             {
               "date": "2026-05-27",
               "precioGasolina95": 1.548,
-              "precioDiesel": 1.651
+              "precioDiesel": 1.644
             }
           ],
           "top5": [
@@ -213576,7 +213576,7 @@
               "latitud": 39.471528,
               "longitud": -3.615861,
               "precio95": 1.459,
-              "precioDiesel": 1.599
+              "precioDiesel": 1.569
             },
             {
               "rotulo": "CEPSA",
@@ -214546,15 +214546,6 @@
           ],
           "top5": [
             {
-              "rotulo": "PLENERGY",
-              "direccion": "AUTOVIA A-4 KM. 113",
-              "horario": "L-D: 24H",
-              "latitud": 39.518889,
-              "longitud": -3.524056,
-              "precio95": 1.459,
-              "precioDiesel": 1.555
-            },
-            {
               "rotulo": "E.S. ABOX-OIL",
               "direccion": "AVENIDA EUROPA, 156",
               "horario": "L-D: 24H",
@@ -214562,6 +214553,15 @@
               "longitud": -3.526778,
               "precio95": 1.459,
               "precioDiesel": 1.559
+            },
+            {
+              "rotulo": "PLENERGY",
+              "direccion": "AUTOVIA A-4 KM. 113",
+              "horario": "L-D: 24H",
+              "latitud": 39.518889,
+              "longitud": -3.524056,
+              "precio95": 1.459,
+              "precioDiesel": 1.555
             },
             {
               "rotulo": "PETROPRIX.COM",
@@ -214988,8 +214988,8 @@
         {
           "slug": "mocejon",
           "nombre": "Mocejón",
-          "precioGasolina95": 1.584,
-          "precioDiesel": 1.674,
+          "precioGasolina95": 1.579,
+          "precioDiesel": 1.664,
           "historico": [
             {
               "date": "2026-03-15",
@@ -215033,8 +215033,8 @@
             },
             {
               "date": "2026-05-27",
-              "precioGasolina95": 1.584,
-              "precioDiesel": 1.674
+              "precioGasolina95": 1.579,
+              "precioDiesel": 1.664
             }
           ],
           "top5": [
@@ -215053,8 +215053,8 @@
               "horario": "L-S: 07:00-22:00; D: 08:00-22:00",
               "latitud": 39.934694,
               "longitud": -3.922306,
-              "precio95": 1.659,
-              "precioDiesel": 1.719
+              "precio95": 1.649,
+              "precioDiesel": 1.699
             }
           ]
         },
@@ -215112,15 +215112,6 @@
           ],
           "top5": [
             {
-              "rotulo": "HNOS.FERNANDEZ",
-              "direccion": "CL/ TOLEDO 85 (C-400 km 30,7)",
-              "horario": "L-V: 06:00-21:00; S: 08:00-21:00; D: 08:00-14:00",
-              "latitud": 39.689194,
-              "longitud": -3.77725,
-              "precio95": 1.499,
-              "precioDiesel": 1.599
-            },
-            {
               "rotulo": "MENCHERO VEGUE CARBURANTES S.L.",
               "direccion": "PLAZA PRINCIPE DE ASTURIAS, 1",
               "horario": "L-D: 07:00-22:00",
@@ -215128,6 +215119,15 @@
               "longitud": -3.771167,
               "precio95": 1.499,
               "precioDiesel": 1.619
+            },
+            {
+              "rotulo": "HNOS.FERNANDEZ",
+              "direccion": "CL/ TOLEDO 85 (C-400 km 30,7)",
+              "horario": "L-V: 06:00-21:00; S: 08:00-21:00; D: 08:00-14:00",
+              "latitud": 39.689194,
+              "longitud": -3.77725,
+              "precio95": 1.499,
+              "precioDiesel": 1.599
             },
             {
               "rotulo": "HNOS.FERNANDEZ",
@@ -215531,20 +215531,20 @@
               "precioDiesel": 1.579
             },
             {
-              "rotulo": "BALLENOIL",
-              "direccion": "CALLE CTRA. CABAÑAS, 2",
-              "horario": "L-D: 24H",
-              "latitud": 39.953806,
-              "longitud": -3.5055,
-              "precio95": 1.439,
-              "precioDiesel": 1.579
-            },
-            {
               "rotulo": "PETROPRIX",
               "direccion": "CARRETERA N400 KM. 6",
               "horario": "L-D: 24H",
               "latitud": 39.960139,
               "longitud": -3.488778,
+              "precio95": 1.439,
+              "precioDiesel": 1.579
+            },
+            {
+              "rotulo": "BALLENOIL",
+              "direccion": "CALLE CTRA. CABAÑAS, 2",
+              "horario": "L-D: 24H",
+              "latitud": 39.953806,
+              "longitud": -3.5055,
               "precio95": 1.439,
               "precioDiesel": 1.579
             },
@@ -217214,8 +217214,8 @@
         {
           "slug": "sonseca",
           "nombre": "Sonseca",
-          "precioGasolina95": 1.558,
-          "precioDiesel": 1.649,
+          "precioGasolina95": 1.553,
+          "precioDiesel": 1.639,
           "historico": [
             {
               "date": "2026-03-15",
@@ -217259,8 +217259,8 @@
             },
             {
               "date": "2026-05-27",
-              "precioGasolina95": 1.558,
-              "precioDiesel": 1.649
+              "precioGasolina95": 1.553,
+              "precioDiesel": 1.639
             }
           ],
           "top5": [
@@ -217279,8 +217279,8 @@
               "horario": "L-S: 07:00-22:00; D: 08:00-22:00",
               "latitud": 39.684278,
               "longitud": -3.987583,
-              "precio95": 1.659,
-              "precioDiesel": 1.719
+              "precio95": 1.649,
+              "precioDiesel": 1.699
             }
           ]
         },
@@ -219084,8 +219084,8 @@
         {
           "slug": "alaquas",
           "nombre": "Alaquàs",
-          "precioGasolina95": 1.515,
-          "precioDiesel": 1.634,
+          "precioGasolina95": 1.512,
+          "precioDiesel": 1.622,
           "historico": [
             {
               "date": "2026-03-15",
@@ -219129,8 +219129,8 @@
             },
             {
               "date": "2026-05-27",
-              "precioGasolina95": 1.515,
-              "precioDiesel": 1.634
+              "precioGasolina95": 1.512,
+              "precioDiesel": 1.622
             }
           ],
           "top5": [
@@ -219149,8 +219149,8 @@
               "horario": "L-D: 24H",
               "latitud": 39.456694,
               "longitud": -0.468472,
-              "precio95": 1.429,
-              "precioDiesel": 1.565
+              "precio95": 1.415,
+              "precioDiesel": 1.495
             },
             {
               "rotulo": "ECOIL LEVANTE",
@@ -220237,20 +220237,20 @@
           ],
           "top5": [
             {
-              "rotulo": "PLENERGY",
-              "direccion": "CALLE CALLE SECTOR  AB, 1",
-              "horario": "L-D: 24H",
-              "latitud": 39.416639,
-              "longitud": -0.387722,
-              "precio95": 1.379,
-              "precioDiesel": 1.399
-            },
-            {
               "rotulo": "GASOLINERA ALFAFAR",
               "direccion": "Pgno. nº 3 - Parcela H-11",
               "horario": "L-D: 06:00-22:00",
               "latitud": 39.415528,
               "longitud": -0.398056,
+              "precio95": 1.379,
+              "precioDiesel": 1.399
+            },
+            {
+              "rotulo": "PLENERGY",
+              "direccion": "CALLE CALLE SECTOR  AB, 1",
+              "horario": "L-D: 24H",
+              "latitud": 39.416639,
+              "longitud": -0.387722,
               "precio95": 1.379,
               "precioDiesel": 1.399
             },
@@ -221076,20 +221076,20 @@
               "precioDiesel": 1.557
             },
             {
-              "rotulo": "BALLENOIL",
-              "direccion": "CALLE PROYECTO, 14",
-              "horario": "L-D: 24H",
-              "latitud": 39.160389,
-              "longitud": -0.431167,
-              "precio95": 1.355,
-              "precioDiesel": 1.557
-            },
-            {
               "rotulo": "PLENERGY",
               "direccion": "CALLE BENITO PEREZ GALDOS, 68",
               "horario": "L-D: 24H",
               "latitud": 39.149139,
               "longitud": -0.432778,
+              "precio95": 1.355,
+              "precioDiesel": 1.557
+            },
+            {
+              "rotulo": "BALLENOIL",
+              "direccion": "CALLE PROYECTO, 14",
+              "horario": "L-D: 24H",
+              "latitud": 39.160389,
+              "longitud": -0.431167,
               "precio95": 1.355,
               "precioDiesel": 1.557
             },
@@ -222668,7 +222668,7 @@
           "slug": "carcaixent",
           "nombre": "Carcaixent",
           "precioGasolina95": 1.487,
-          "precioDiesel": 1.63,
+          "precioDiesel": 1.628,
           "historico": [
             {
               "date": "2026-03-15",
@@ -222713,7 +222713,7 @@
             {
               "date": "2026-05-27",
               "precioGasolina95": 1.487,
-              "precioDiesel": 1.63
+              "precioDiesel": 1.628
             }
           ],
           "top5": [
@@ -222760,7 +222760,7 @@
               "latitud": 39.125111,
               "longitud": -0.449472,
               "precio95": 1.679,
-              "precioDiesel": 1.769
+              "precioDiesel": 1.759
             }
           ]
         },
@@ -229728,20 +229728,20 @@
           ],
           "top5": [
             {
-              "rotulo": "BALLENOIL",
-              "direccion": "CALLE CIUTAT DE PAMPLONA, 40",
-              "horario": "L-D: 24H",
-              "latitud": 39.200472,
-              "longitud": -0.302139,
-              "precio95": 1.419,
-              "precioDiesel": 1.599
-            },
-            {
               "rotulo": "GASEXPRESS SUECA",
               "direccion": "CARRETERA N-332 KM. 254,5",
               "horario": "L-D: 24H",
               "latitud": 39.197583,
               "longitud": -0.302528,
+              "precio95": 1.419,
+              "precioDiesel": 1.599
+            },
+            {
+              "rotulo": "BALLENOIL",
+              "direccion": "CALLE CIUTAT DE PAMPLONA, 40",
+              "horario": "L-D: 24H",
+              "latitud": 39.200472,
+              "longitud": -0.302139,
               "precio95": 1.419,
               "precioDiesel": 1.599
             },
@@ -230019,15 +230019,6 @@
               "precioDiesel": 1.475
             },
             {
-              "rotulo": "GASEXPRESS ",
-              "direccion": "PARTIDA TOLL L'ALBERCA, 1",
-              "horario": "L: 24H",
-              "latitud": 39.422611,
-              "longitud": -0.50725,
-              "precio95": 1.429,
-              "precioDiesel": 1.539
-            },
-            {
               "rotulo": "BALLENOIL",
               "direccion": "CALLE MAS DEL JUTGE, 2",
               "horario": "L-D: 24H",
@@ -230035,6 +230026,15 @@
               "longitud": -0.487028,
               "precio95": 1.429,
               "precioDiesel": 1.549
+            },
+            {
+              "rotulo": "GASEXPRESS ",
+              "direccion": "PARTIDA TOLL L'ALBERCA, 1",
+              "horario": "L: 24H",
+              "latitud": 39.422611,
+              "longitud": -0.50725,
+              "precio95": 1.429,
+              "precioDiesel": 1.539
             }
           ]
         },
