@@ -25,10 +25,43 @@ export const metadata: Metadata = {
     },
 };
 
+const FAQS = [
+    {
+        question: '¿Cómo encuentro la gasolinera más barata cerca de mí hoy?',
+        answer: 'Usa nuestro buscador por provincia o accede al apartado "Cerca de mí" para detectar tu ubicación y mostrar las estaciones con el precio de gasolina 95 y diésel más bajo a tu alrededor, actualizado a diario con datos del MITECO.',
+    },
+    {
+        question: '¿Con qué frecuencia se actualizan los precios?',
+        answer: 'Los precios se sincronizan cada día desde la API oficial del Ministerio para la Transición Ecológica (MITECO), que recoge la información declarada por más de 11.000 estaciones de servicio en España.',
+    },
+    {
+        question: '¿Qué gasolineras son las más baratas en España?',
+        answer: 'Las cadenas low-cost como Plenoil, Ballenoil, Petroprix y las cooperativas suelen ofrecer los precios más competitivos. Las estaciones de marcas tradicionales (Repsol, Cepsa, BP, Shell, Galp) suelen ser algo más caras pero ofrecen más servicios.',
+    },
+    {
+        question: '¿Cuánto puedo ahorrar al año comparando precios?',
+        answer: 'Un conductor medio que recorre 15.000 km al año puede ahorrar entre 150 y 300 € repostando siempre en las estaciones más baratas de su zona. Usa nuestra calculadora de ahorro para estimar tu caso.',
+    },
+    {
+        question: '¿Por qué varían tanto los precios entre gasolineras?',
+        answer: 'El precio final depende del coste del crudo Brent, los impuestos (IVA + Impuesto Especial sobre Hidrocarburos), los márgenes de la marca, la ubicación (autopista vs polígono) y el tipo de estación (low-cost vs servicio completo).',
+    },
+];
+
+function formatLastUpdated(iso: string | undefined): string {
+    if (!iso) return '';
+    try {
+        return new Date(iso).toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' });
+    } catch {
+        return '';
+    }
+}
+
 export default async function Home() {
     const provincias = (locationsData as any).locations;
     const news = await fetchNews(6);
     const historicoNacional = (locationsData as any).historicoNacional || [];
+    const lastUpdated = formatLastUpdated((locationsData as any).lastUpdated);
 
     return (
         <div className="rg-landing">
@@ -47,6 +80,21 @@ export default async function Home() {
                             target: 'https://gasolinabarata.org/precio-gasolina/{search_term_string}',
                             'query-input': 'required name=search_term_string',
                         },
+                    }),
+                }}
+            />
+            {/* JSON-LD FAQPage */}
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: JSON.stringify({
+                        '@context': 'https://schema.org',
+                        '@type': 'FAQPage',
+                        mainEntity: FAQS.map((f) => ({
+                            '@type': 'Question',
+                            name: f.question,
+                            acceptedAnswer: { '@type': 'Answer', text: f.answer },
+                        })),
                     }),
                 }}
             />
@@ -78,7 +126,38 @@ export default async function Home() {
             {/* GRÁFICA NACIONAL DE EVOLUCIÓN DE PRECIOS */}
             <section style={{ padding: '60px 0', background: 'var(--rg-bg)' }}>
                 <div className="rg-container">
+                    {lastUpdated && (
+                        <p style={{
+                            textAlign: 'center',
+                            color: 'var(--rg-text-secondary)',
+                            fontSize: '0.9rem',
+                            margin: '0 0 16px',
+                        }}>
+                            <strong>Última actualización:</strong> {lastUpdated} · Fuente oficial MITECO
+                        </p>
+                    )}
                     <NationalPriceChart historico={historicoNacional} />
+                </div>
+            </section>
+
+            {/* HUBS INTERNOS — herramientas */}
+            <section style={{ padding: '40px 0', background: 'var(--rg-bg-alt)' }}>
+                <div className="rg-container">
+                    <div style={{
+                        display: 'grid',
+                        gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))',
+                        gap: '16px',
+                    }}>
+                        <Link href="/cerca-de-mi" className="rg-btn secondary" style={{ textAlign: 'center', padding: '20px' }}>
+                            📍 Cerca de mí
+                        </Link>
+                        <Link href="/calculadora-ahorro" className="rg-btn secondary" style={{ textAlign: 'center', padding: '20px' }}>
+                            🧮 Calculadora de ahorro
+                        </Link>
+                        <Link href="/blog" className="rg-btn secondary" style={{ textAlign: 'center', padding: '20px' }}>
+                            📰 Blog y guías
+                        </Link>
+                    </div>
                 </div>
             </section>
 
@@ -236,6 +315,31 @@ export default async function Home() {
                     <div style={{ textAlign: 'center', marginTop: '40px' }}>
                         <SmartDownloadButton variant="badge" />
                     </div>
+                </div>
+            </section>
+
+            {/* FAQ */}
+            <section style={{ padding: '60px 0', background: 'var(--rg-bg-alt)' }}>
+                <div className="rg-container" style={{ maxWidth: 820 }}>
+                    <div className="rg-section-title" style={{ marginBottom: '24px' }}>
+                        <h2>❓ Preguntas frecuentes</h2>
+                    </div>
+                    {FAQS.map((f, i) => (
+                        <details key={i} style={{
+                            background: 'var(--rg-surface)',
+                            border: '1px solid var(--rg-border)',
+                            borderRadius: 'var(--rg-radius-sm)',
+                            padding: '16px 20px',
+                            marginBottom: '12px',
+                        }}>
+                            <summary style={{ cursor: 'pointer', fontWeight: 600, fontSize: '1.05rem' }}>
+                                {f.question}
+                            </summary>
+                            <p style={{ marginTop: '12px', color: 'var(--rg-text-secondary)', lineHeight: 1.6 }}>
+                                {f.answer}
+                            </p>
+                        </details>
+                    ))}
                 </div>
             </section>
 
