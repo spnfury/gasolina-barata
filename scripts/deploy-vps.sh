@@ -28,7 +28,7 @@ else
 fi
 
 echo "==> next build"
-sudo -u jenkins npm run build
+sudo -u jenkins env NEXT_PUBLIC_ADSENSE_CLIENT="${NEXT_PUBLIC_ADSENSE_CLIENT:-}" npm run build
 
 echo "==> rsync standalone -> $DST"
 mkdir -p "$DST/.next/static"
