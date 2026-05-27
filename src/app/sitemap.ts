@@ -5,53 +5,85 @@ import blogPostsData from '@/data/blog-posts.json';
 export default function sitemap(): MetadataRoute.Sitemap {
     const baseUrl = 'https://gasolinabarata.org';
 
+    const dataLastModified = (locationsData as any).lastUpdated
+        ? new Date((locationsData as any).lastUpdated)
+        : new Date();
+
     const sitemapEntries: MetadataRoute.Sitemap = [
         {
             url: baseUrl,
-            lastModified: new Date(),
+            lastModified: dataLastModified,
             changeFrequency: 'daily',
             priority: 1,
         },
         {
-            url: `${baseUrl}/blog`,
-            lastModified: new Date(),
+            url: `${baseUrl}/precio-gasolina-hoy`,
+            lastModified: dataLastModified,
+            changeFrequency: 'daily',
+            priority: 0.95,
+        },
+        {
+            url: `${baseUrl}/mapa-precios-espana`,
+            lastModified: dataLastModified,
             changeFrequency: 'daily',
             priority: 0.9,
         },
         {
+            url: `${baseUrl}/gasolineras-low-cost`,
+            lastModified: dataLastModified,
+            changeFrequency: 'daily',
+            priority: 0.85,
+        },
+        {
+            url: `${baseUrl}/gasolineras-24-horas`,
+            lastModified: dataLastModified,
+            changeFrequency: 'weekly',
+            priority: 0.8,
+        },
+        {
+            url: `${baseUrl}/cerca-de-mi`,
+            lastModified: dataLastModified,
+            changeFrequency: 'weekly',
+            priority: 0.8,
+        },
+        {
+            url: `${baseUrl}/blog`,
+            lastModified: dataLastModified,
+            changeFrequency: 'weekly',
+            priority: 0.7,
+        },
+        {
             url: `${baseUrl}/calculadora-ahorro`,
-            lastModified: new Date(),
+            lastModified: new Date('2026-04-12'),
             changeFrequency: 'monthly',
             priority: 0.8,
         },
     ];
 
-    // Province & locality pages
     locationsData.locations.forEach((prov: any) => {
         sitemapEntries.push({
             url: `${baseUrl}/precio-gasolina/${prov.provincia}`,
-            lastModified: new Date(),
+            lastModified: dataLastModified,
             changeFrequency: 'daily',
-            priority: 0.8,
+            priority: 0.7,
         });
 
         prov.localidades.forEach((loc: any) => {
             sitemapEntries.push({
                 url: `${baseUrl}/precio-gasolina/${prov.provincia}/${loc.slug}`,
-                lastModified: new Date(),
+                lastModified: dataLastModified,
                 changeFrequency: 'daily',
-                priority: 0.7,
+                priority: 0.5,
             });
         });
     });
 
-    // Blog posts
     (blogPostsData as any[]).forEach((post: any) => {
         if (post.slug) {
             sitemapEntries.push({
                 url: `${baseUrl}/blog/${post.slug}`,
-                lastModified: post.publishedAt ? new Date(post.publishedAt) : new Date(),
-                changeFrequency: 'weekly',
+                lastModified: post.publishedAt ? new Date(post.publishedAt) : dataLastModified,
+                changeFrequency: 'monthly',
                 priority: 0.6,
             });
         }

@@ -3,6 +3,8 @@ import { Inter } from 'next/font/google';
 import Script from 'next/script';
 import './globals.css';
 
+const ADSENSE_CLIENT = process.env.NEXT_PUBLIC_ADSENSE_CLIENT;
+
 const inter = Inter({
     subsets: ['latin'],
     display: 'swap',
@@ -45,7 +47,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     return (
         <html lang="es" className={inter.className}>
             <head>
-                <meta name="google-adsense-account" content="ca-pub-XXXXXXXXXX" />
+                {ADSENSE_CLIENT && (
+                    <meta name="google-adsense-account" content={ADSENSE_CLIENT} />
+                )}
                 <Script
                     defer
                     data-domain="gasolinabarata.org"
@@ -55,12 +59,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </head>
             <body style={{ margin: 0, padding: 0, background: '#0A0E14' }}>
                 {children}
-                <Script
-                    async
-                    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXX"
-                    crossOrigin="anonymous"
-                    strategy="afterInteractive"
-                />
+                {ADSENSE_CLIENT && (
+                    <Script
+                        async
+                        src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT}`}
+                        crossOrigin="anonymous"
+                        strategy="afterInteractive"
+                    />
+                )}
             </body>
         </html>
     );

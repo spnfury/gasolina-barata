@@ -6,7 +6,7 @@ import SmartDownloadButton from '@/components/SmartDownloadButton';
 import LeadCapture from '@/components/LeadCapture';
 
 export const metadata: Metadata = {
-    title: 'Calculadora de Ahorro en Gasolina — ¿Cuánto puedes ahorrar? | Gasolina Barata',
+    title: 'Calculadora de Ahorro en Gasolina — ¿Cuánto puedes ahorrar?',
     description:
         'Calcula cuánto dinero puedes ahorrar al año repostando en las gasolineras más baratas. Simulador interactivo con datos reales de MITECO.',
     alternates: { canonical: 'https://gasolinabarata.org/calculadora-ahorro' },

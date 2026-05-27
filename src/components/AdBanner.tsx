@@ -18,12 +18,14 @@ declare global {
  * Google AdSense ad banner component.
  * Place this between sections for in-content ads.
  */
+const ADSENSE_CLIENT = process.env.NEXT_PUBLIC_ADSENSE_CLIENT;
+
 export default function AdBanner({ slot, format = 'auto', style }: AdBannerProps) {
     const adRef = useRef<HTMLDivElement>(null);
     const pushed = useRef(false);
 
     useEffect(() => {
-        if (pushed.current) return;
+        if (!ADSENSE_CLIENT || pushed.current) return;
         try {
             (window.adsbygoogle = window.adsbygoogle || []).push({});
             pushed.current = true;
@@ -31,6 +33,8 @@ export default function AdBanner({ slot, format = 'auto', style }: AdBannerProps
             // AdSense not loaded or ad blocker
         }
     }, []);
+
+    if (!ADSENSE_CLIENT) return null;
 
     return (
         <div
