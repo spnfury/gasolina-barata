@@ -78,6 +78,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
         },
     ];
 
+    const BRAND_SLUGS = [
+        'repsol', 'cepsa', 'galp', 'bp', 'plenoil', 'ballenoil', 'shell', 'petroprix',
+        'petronor', 'avia', 'bonarea', 'esclatoil', 'q8', 'carrefour', 'campsa', 'alcampo',
+        'valcarce', 'eroski', 'meroil', 'beroil', 'tamoil', 'disa', 'gasexpress', 'eni',
+        'ham', 'agla', 'petromiralles', 'iberdoex', 'easygas', 'autonetoil', 'gmoil', 'petrocat',
+    ];
+    BRAND_SLUGS.forEach((slug) => {
+        sitemapEntries.push({
+            url: `${baseUrl}/marca/${slug}`,
+            lastModified: dataLastModified,
+            changeFrequency: 'weekly',
+            priority: 0.6,
+        });
+    });
+
     locationsData.locations.forEach((prov: any) => {
         sitemapEntries.push({
             url: `${baseUrl}/precio-gasolina/${prov.provincia}`,

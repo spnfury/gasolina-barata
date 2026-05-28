@@ -4,7 +4,7 @@ import Link from 'next/link';
 import locationsData from '@/data/locations.json';
 import SmartDownloadButton from '@/components/SmartDownloadButton';
 import NewsSection from '@/components/NewsSection';
-import NationalPriceChart from '@/components/NationalPriceChart';
+import NationalPriceChart from '@/components/NationalPriceChartLazy';
 import Navbar from '@/components/Navbar';
 import LeadCapture from '@/components/LeadCapture';
 import { fetchNews } from '@/lib/news';

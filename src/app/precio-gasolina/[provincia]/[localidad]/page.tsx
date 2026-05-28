@@ -5,7 +5,7 @@ import type { Metadata } from 'next';
 import locationsData from '@/data/locations.json';
 import AppDownloadCta from '@/components/AppDownloadCta';
 import SmartDownloadButton from '@/components/SmartDownloadButton';
-import PriceHistoryCard from '@/components/PriceHistoryCard';
+import PriceHistoryCard from '@/components/PriceHistoryCardLazy';
 import FaqAccordion from '@/components/FaqAccordion';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import styles from '@/components/Seo.module.css';

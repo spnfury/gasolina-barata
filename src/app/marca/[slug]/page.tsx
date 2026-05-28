@@ -15,7 +15,31 @@ const SUPPORTED_BRANDS = [
     { slug: 'plenoil', name: 'Plenoil', aliases: ['PLENOIL', 'PLENERGY'] },
     { slug: 'ballenoil', name: 'Ballenoil', aliases: ['BALLENOIL'] },
     { slug: 'shell', name: 'Shell', aliases: ['SHELL'] },
-    { slug: 'petroprix', name: 'Petroprix', aliases: ['PETROPRIX'] }
+    { slug: 'petroprix', name: 'Petroprix', aliases: ['PETROPRIX'] },
+    { slug: 'petronor', name: 'Petronor', aliases: ['PETRONOR'] },
+    { slug: 'avia', name: 'Avia', aliases: ['AVIA'] },
+    { slug: 'bonarea', name: 'BonÀrea', aliases: ['BONAREA', 'BON AREA'] },
+    { slug: 'esclatoil', name: 'Esclatoil', aliases: ['ESCLATOIL'] },
+    { slug: 'q8', name: 'Q8', aliases: ['Q8'] },
+    { slug: 'carrefour', name: 'Carrefour', aliases: ['CARREFOUR'] },
+    { slug: 'campsa', name: 'Campsa', aliases: ['CAMPSA'] },
+    { slug: 'alcampo', name: 'Alcampo', aliases: ['ALCAMPO'] },
+    { slug: 'valcarce', name: 'Valcarce', aliases: ['VALCARCE'] },
+    { slug: 'eroski', name: 'Eroski', aliases: ['EROSKI'] },
+    { slug: 'meroil', name: 'Meroil', aliases: ['MEROIL'] },
+    { slug: 'beroil', name: 'Beroil', aliases: ['BEROIL'] },
+    { slug: 'tamoil', name: 'Tamoil', aliases: ['TAMOIL'] },
+    { slug: 'disa', name: 'Disa', aliases: ['DISA'] },
+    { slug: 'gasexpress', name: 'GasExpress', aliases: ['GASEXPRESS', 'GAS EXPRESS'] },
+    { slug: 'eni', name: 'Eni', aliases: ['ENI'] },
+    { slug: 'ham', name: 'HAM', aliases: ['HAM'] },
+    { slug: 'agla', name: 'AGLA', aliases: ['AGLA'] },
+    { slug: 'petromiralles', name: 'Petromiralles', aliases: ['PETROMIRALLES'] },
+    { slug: 'iberdoex', name: 'Iberdoex', aliases: ['IBERDOEX'] },
+    { slug: 'easygas', name: 'EasyGas', aliases: ['EASYGAS', 'EASY GAS'] },
+    { slug: 'autonetoil', name: 'AutoNetOil', aliases: ['AUTONETOIL'] },
+    { slug: 'gmoil', name: 'GM Oil', aliases: ['GMOIL', 'GM OIL'] },
+    { slug: 'petrocat', name: 'Petrocat', aliases: ['PETROCAT'] }
 ];
 
 export async function generateMetadata(
