@@ -59,13 +59,39 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </head>
             <body style={{ margin: 0, padding: 0, background: '#0A0E14' }}>
                 {children}
+                <footer style={{
+                    background: '#06090d',
+                    color: '#9aa4b2',
+                    padding: '24px 16px',
+                    textAlign: 'center',
+                    fontSize: '0.85rem',
+                    borderTop: '1px solid rgba(255,255,255,0.05)',
+                }}>
+                    <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '16px', marginBottom: '10px' }}>
+                        <a href="/aviso-legal" style={{ color: 'inherit' }}>Aviso legal</a>
+                        <a href="/politica-privacidad" style={{ color: 'inherit' }}>Privacidad</a>
+                        <a href="/politica-cookies" style={{ color: 'inherit' }}>Cookies</a>
+                        <a href="https://www.miteco.gob.es" rel="noopener nofollow" style={{ color: 'inherit' }}>Fuente datos: MITECO</a>
+                    </div>
+                    <div>© {new Date().getFullYear()} gasolinabarata.org · Precios orientativos</div>
+                </footer>
                 {ADSENSE_CLIENT && (
-                    <Script
-                        async
-                        src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT}`}
-                        crossOrigin="anonymous"
-                        strategy="afterInteractive"
-                    />
+                    <>
+                        <Script
+                            async
+                            src={`https://fundingchoicesmessages.google.com/i/${ADSENSE_CLIENT}?ers=1`}
+                            strategy="afterInteractive"
+                        />
+                        <Script id="fc-signal-present" strategy="afterInteractive">
+                            {`(function(){function s(){[].forEach.call(document.querySelectorAll('.fc-rejected-message,.fc-button'),function(e){e.dispatchEvent(new Event('click'))})}window.googlefc=window.googlefc||{};window.googlefc.callbackQueue=window.googlefc.callbackQueue||[];window.googlefc.callbackQueue.push({CONSENT_DATA_READY:s});})();`}
+                        </Script>
+                        <Script
+                            async
+                            src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT}`}
+                            crossOrigin="anonymous"
+                            strategy="afterInteractive"
+                        />
+                    </>
                 )}
             </body>
         </html>
