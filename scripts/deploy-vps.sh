@@ -19,10 +19,11 @@ sudo -u jenkins npm ci --no-audit --no-fund
 echo "==> sync MITECO"
 sudo -u jenkins node scripts/sync-miteco.mjs
 
-echo "==> auto-news"
+echo "==> auto-news / provincias / evergreen"
 if [ -n "${GROQ_API_KEY:-}" ]; then
     sudo -u jenkins env GROQ_API_KEY="$GROQ_API_KEY" node scripts/auto-news.mjs || echo "auto-news falló, continuamos"
     sudo -u jenkins env GROQ_API_KEY="$GROQ_API_KEY" node scripts/auto-provincias.mjs || echo "auto-provincias falló, continuamos"
+    sudo -u jenkins env GROQ_API_KEY="$GROQ_API_KEY" node scripts/auto-evergreen.mjs || echo "auto-evergreen falló, continuamos"
 else
     echo "GROQ_API_KEY ausente, salto generación blog"
 fi
