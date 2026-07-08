@@ -7,6 +7,7 @@ import AppDownloadCta from '@/components/AppDownloadCta';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import SmartDownloadButton from '@/components/SmartDownloadButton';
 import Navbar from '@/components/Navbar';
+import AffiliateCta from '@/components/AffiliateCta';
 
 // Solo servir rutas pre-generadas; cualquier slug desconocido → 404 instantáneo
 export const dynamicParams = false;
@@ -71,6 +72,22 @@ export default async function ProvinciaPage({ params }: { params: Promise<{ prov
         notFound();
     }
 
+    // Análisis único de provincia (contenido no-plantilla)
+    const tcp = (s: string) =>
+        s.toLowerCase().replace(/(^|[\s(/-])([a-záéíóúñ])/g, (_: any, p: string, c: string) => p + c.toUpperCase());
+    const eur = (n: number) => n.toFixed(3).replace('.', ',');
+    const conPrecio = (location.localidades || []).filter((l: any) => l.precioGasolina95 > 0);
+    const barata = conPrecio.length
+        ? conPrecio.reduce((m: any, l: any) => (l.precioGasolina95 < m.precioGasolina95 ? l : m), conPrecio[0])
+        : null;
+    const cara = conPrecio.length
+        ? conPrecio.reduce((m: any, l: any) => (l.precioGasolina95 > m.precioGasolina95 ? l : m), conPrecio[0])
+        : null;
+    const spread = barata && cara ? Math.round((cara.precioGasolina95 - barata.precioGasolina95) * 100) : 0;
+    const natHist = (data.historicoNacional || []) as any[];
+    const natAvg = natHist.length ? natHist[natHist.length - 1].precioGasolina95 : 0;
+    const vsNac = natAvg > 0 ? Math.round((location.precioMedioGasolina95 - natAvg) * 100) : null;
+
     return (
         <div className="rg-landing">
             <Navbar />
@@ -100,6 +117,38 @@ export default async function ProvinciaPage({ params }: { params: Promise<{ prov
                         <span style={{ fontSize: '2rem', fontWeight: 800 }}>{location.precioMedioDiesel}€/L</span>
                     </div>
                 </div>
+
+                {barata && cara && (
+                    <section
+                        style={{
+                            background: 'var(--rg-surface)',
+                            border: '1px solid var(--rg-border)',
+                            borderRadius: 'var(--rg-radius)',
+                            padding: '28px 24px',
+                            marginBottom: '40px',
+                        }}
+                    >
+                        <h2 style={{ marginTop: 0 }}>Dónde está la gasolina más barata de {tcp(location.nombreProvincia)}</h2>
+                        <p style={{ color: 'var(--rg-text-secondary)', lineHeight: 1.7 }}>
+                            La localidad más económica para repostar gasolina 95 en {tcp(location.nombreProvincia)} es{' '}
+                            <strong>{barata.nombre}</strong>, con un precio medio de{' '}
+                            <strong>{eur(barata.precioGasolina95)}€/L</strong>, mientras que en{' '}
+                            <strong>{cara.nombre}</strong> sube hasta {eur(cara.precioGasolina95)}€/L. Eso supone una
+                            diferencia de <strong>{spread} céntimos por litro</strong> dentro de la misma provincia:
+                            hasta {((cara.precioGasolina95 - barata.precioGasolina95) * 50).toFixed(2).replace('.', ',')}€
+                            de ahorro en un depósito de 50 litros solo por elegir bien dónde repostar.
+                            {vsNac != null
+                                ? ` La media provincial (${eur(location.precioMedioGasolina95)}€/L) está ${Math.abs(
+                                      vsNac,
+                                  )} céntimo${Math.abs(vsNac) === 1 ? '' : 's'} por ${
+                                      vsNac < 0 ? 'debajo' : 'encima'
+                                  } de la media nacional.`
+                                : ''}
+                        </p>
+                    </section>
+                )}
+
+                <AffiliateCta place={tcp(location.nombreProvincia)} />
 
                 <h2>Localidades en {location.nombreProvincia}</h2>
                 <div className="blog-grid" style={{ marginTop: '24px' }}>
