@@ -27,8 +27,27 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
     if (!town || !loc) return { title: 'No encontrado' };
 
-    const title = `Gasolina barata en ${town.nombre} hoy | Precios Diésel y 95`;
-    const description = `Descubre las gasolineras más baratas en ${town.nombre} (${loc.nombreProvincia}). Consulta la evolución del precio de la gasolina 95 y diésel hoy para ahorrar en tu ruta.`;
+    // Precio vivo en el SERP → dispara CTR. Datos ya en locations.json.
+    const fmt = (n: number) => (n > 0 ? n.toFixed(3).replace('.', ',') : null);
+    const tc = (s: string) =>
+        s.toLowerCase().replace(/(^|[\s(/-])([a-záéíóúñ])/g, (_, p, c) => p + c.toUpperCase());
+    const provName = tc(loc.nombreProvincia);
+    const g95 = fmt(town.precioGasolina95);
+    const diesel = fmt(town.precioDiesel);
+    const cheapest = (town.top5 || [])
+        .map((s: any) => (s.precio95 != null ? s.precio95 : s.precioDiesel))
+        .filter((p: any) => p != null)
+        .sort((a: number, b: number) => a - b)[0];
+    const cheapStr = fmt(cheapest) || g95;
+    const cheapName = town.top5?.[0]?.rotulo;
+
+    const title = cheapStr
+        ? `Gasolina barata en ${town.nombre}: ${cheapStr}€/L hoy | Diésel y 95`
+        : `Gasolina barata en ${town.nombre} hoy | Precios Diésel y 95`;
+    const description =
+        cheapStr && g95 && diesel
+            ? `Gasolinera más barata en ${town.nombre} (${provName})${cheapName ? `: ${cheapName}` : ''} a ${cheapStr}€/L. Gasolina 95 a ${g95}€ y diésel a ${diesel}€, actualizado hoy. Compara todas y ahorra.`
+            : `Descubre las gasolineras más baratas en ${town.nombre} (${loc.nombreProvincia}). Consulta la evolución del precio de la gasolina 95 y diésel hoy para ahorrar en tu ruta.`;
 
     return {
         title,

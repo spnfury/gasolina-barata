@@ -19,8 +19,21 @@ export async function generateMetadata(
     const loc = data.locations.find((l: any) => l.provincia === provincia);
     if (!loc) return { title: 'No encontrado' };
 
-    const title = `Gasolina barata en ${loc.nombreProvincia} hoy | Gasolineras más económicas`;
-    const description = `Descubre dónde echar gasolina barata en la provincia de ${loc.nombreProvincia}. Compara precios de gasolina 95 y diésel hoy y ahorra en tu repostaje.`;
+    // Precio medio provincial en el SERP → CTR
+    const fmt = (n: number) => (n > 0 ? n.toFixed(3).replace('.', ',') : null);
+    const tc = (s: string) =>
+        s.toLowerCase().replace(/(^|[\s(/-])([a-záéíóúñ])/g, (_, p, c) => p + c.toUpperCase());
+    const prov = tc(loc.nombreProvincia);
+    const g95 = fmt(loc.precioMedioGasolina95);
+    const diesel = fmt(loc.precioMedioDiesel);
+
+    const title = g95
+        ? `Gasolina barata en ${prov}: 95 a ${g95}€/L hoy`
+        : `Gasolina barata en ${prov} hoy | Gasolineras más económicas`;
+    const description =
+        g95 && diesel
+            ? `Precio medio de la gasolina 95 en ${prov}: ${g95}€/L y diésel ${diesel}€/L, actualizado hoy. Encuentra las gasolineras más baratas por localidad y ahorra.`
+            : `Descubre dónde echar gasolina barata en la provincia de ${prov}. Compara precios de gasolina 95 y diésel hoy y ahorra en tu repostaje.`;
 
     return {
         title,
