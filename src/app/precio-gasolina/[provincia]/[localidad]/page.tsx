@@ -51,9 +51,13 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
             ? `Gasolinera más barata en ${town.nombre} (${provName})${cheapName ? `: ${cheapName}` : ''} a ${cheapStr}€/L. Gasolina 95 a ${g95}€ y diésel a ${diesel}€, actualizado hoy. Compara todas y ahorra.`
             : `Descubre las gasolineras más baratas en ${town.nombre} (${loc.nombreProvincia}). Consulta la evolución del precio de la gasolina 95 y diésel hoy para ahorrar en tu ruta.`;
 
+    // Páginas thin (<=1 estación): noindex para no lastrar la calidad global (AdSense)
+    const isThin = !town.top5 || town.top5.length <= 1;
+
     return {
         title,
         description,
+        ...(isThin ? { robots: { index: false, follow: true } } : {}),
         alternates: { canonical: `https://gasolinabarata.org/precio-gasolina/${provincia}/${localidad}` },
         openGraph: {
             title,

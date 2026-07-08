@@ -115,6 +115,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
         });
 
         prov.localidades.forEach((loc: any) => {
+            // Excluir páginas thin (<=1 estación) — van con noindex
+            if (!loc.top5 || loc.top5.length <= 1) return;
             sitemapEntries.push({
                 url: `${baseUrl}/precio-gasolina/${prov.provincia}/${loc.slug}`,
                 lastModified: dataLastModified,
