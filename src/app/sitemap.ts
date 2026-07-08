@@ -1,6 +1,7 @@
 import { MetadataRoute } from 'next';
 import locationsData from '@/data/locations.json';
 import blogPostsData from '@/data/blog-posts.json';
+import { SUPPORTED_BRANDS, brandProvinces } from '@/lib/brands';
 
 export default function sitemap(): MetadataRoute.Sitemap {
     const baseUrl = 'https://gasolinabarata.org';
@@ -90,6 +91,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
             lastModified: dataLastModified,
             changeFrequency: 'weekly',
             priority: 0.6,
+        });
+    });
+
+    // Páginas marca×provincia (solo combos reales, >= 2 estaciones)
+    SUPPORTED_BRANDS.forEach((brand) => {
+        brandProvinces(locationsData as any, brand, 2).forEach((p) => {
+            sitemapEntries.push({
+                url: `${baseUrl}/marca/${brand.slug}/${p.slug}`,
+                lastModified: dataLastModified,
+                changeFrequency: 'weekly',
+                priority: 0.55,
+            });
         });
     });
 

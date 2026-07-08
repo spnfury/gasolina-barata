@@ -6,41 +6,7 @@ import locationsData from '@/data/locations.json';
 import Navbar from '@/components/Navbar';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import SmartDownloadButton from '@/components/SmartDownloadButton';
-
-const SUPPORTED_BRANDS = [
-    { slug: 'repsol', name: 'Repsol', aliases: ['REPSOL'] },
-    { slug: 'cepsa', name: 'Cepsa', aliases: ['CEPSA', 'MOEVE'] },
-    { slug: 'galp', name: 'Galp', aliases: ['GALP'] },
-    { slug: 'bp', name: 'BP', aliases: ['BP'] },
-    { slug: 'plenoil', name: 'Plenoil', aliases: ['PLENOIL', 'PLENERGY'] },
-    { slug: 'ballenoil', name: 'Ballenoil', aliases: ['BALLENOIL'] },
-    { slug: 'shell', name: 'Shell', aliases: ['SHELL'] },
-    { slug: 'petroprix', name: 'Petroprix', aliases: ['PETROPRIX'] },
-    { slug: 'petronor', name: 'Petronor', aliases: ['PETRONOR'] },
-    { slug: 'avia', name: 'Avia', aliases: ['AVIA'] },
-    { slug: 'bonarea', name: 'BonÀrea', aliases: ['BONAREA', 'BON AREA'] },
-    { slug: 'esclatoil', name: 'Esclatoil', aliases: ['ESCLATOIL'] },
-    { slug: 'q8', name: 'Q8', aliases: ['Q8'] },
-    { slug: 'carrefour', name: 'Carrefour', aliases: ['CARREFOUR'] },
-    { slug: 'campsa', name: 'Campsa', aliases: ['CAMPSA'] },
-    { slug: 'alcampo', name: 'Alcampo', aliases: ['ALCAMPO'] },
-    { slug: 'valcarce', name: 'Valcarce', aliases: ['VALCARCE'] },
-    { slug: 'eroski', name: 'Eroski', aliases: ['EROSKI'] },
-    { slug: 'meroil', name: 'Meroil', aliases: ['MEROIL'] },
-    { slug: 'beroil', name: 'Beroil', aliases: ['BEROIL'] },
-    { slug: 'tamoil', name: 'Tamoil', aliases: ['TAMOIL'] },
-    { slug: 'disa', name: 'Disa', aliases: ['DISA'] },
-    { slug: 'gasexpress', name: 'GasExpress', aliases: ['GASEXPRESS', 'GAS EXPRESS'] },
-    { slug: 'eni', name: 'Eni', aliases: ['ENI'] },
-    { slug: 'ham', name: 'HAM', aliases: ['HAM'] },
-    { slug: 'agla', name: 'AGLA', aliases: ['AGLA'] },
-    { slug: 'petromiralles', name: 'Petromiralles', aliases: ['PETROMIRALLES'] },
-    { slug: 'iberdoex', name: 'Iberdoex', aliases: ['IBERDOEX'] },
-    { slug: 'easygas', name: 'EasyGas', aliases: ['EASYGAS', 'EASY GAS'] },
-    { slug: 'autonetoil', name: 'AutoNetOil', aliases: ['AUTONETOIL'] },
-    { slug: 'gmoil', name: 'GM Oil', aliases: ['GMOIL', 'GM OIL'] },
-    { slug: 'petrocat', name: 'Petrocat', aliases: ['PETROCAT'] }
-];
+import { SUPPORTED_BRANDS, brandProvinces } from '@/lib/brands';
 
 export async function generateMetadata(
     { params }: { params: Promise<{ slug: string }> }
@@ -119,6 +85,9 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
         .filter(st => st.precio95 && st.precio95 > 0)
         .sort((a, b) => a.precio95 - b.precio95)
         .slice(0, 15);
+
+    // Provincias con presencia de la marca → páginas marca×provincia (long-tail SEO)
+    const provincias = brandProvinces(data, brand, 2);
 
     return (
         <div className="rg-landing">
@@ -201,6 +170,27 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
                 ) : (
                     <div style={{ padding: '40px', background: 'var(--rg-surface)', borderRadius: 'var(--rg-radius)', border: '1px solid var(--rg-border)', textAlign: 'center', marginBottom: '48px' }}>
                         <p style={{ color: 'var(--rg-text-secondary)' }}>No se encontraron gasolineras para esta marca hoy.</p>
+                    </div>
+                )}
+
+                {provincias.length > 0 && (
+                    <div style={{ marginBottom: '48px' }}>
+                        <h2>Gasolineras {brand.name} baratas por provincia</h2>
+                        <p style={{ color: 'var(--rg-text-secondary)', marginBottom: '24px' }}>
+                            Consulta los precios de {brand.name} en tu provincia y encuentra la estación más económica cerca de ti.
+                        </p>
+                        <div style={{ display: 'flex', flexWrap: 'wrap', gap: '10px' }}>
+                            {provincias.map((p) => (
+                                <Link
+                                    key={p.slug}
+                                    href={`/marca/${slug}/${p.slug}`}
+                                    className="rg-btn secondary"
+                                    style={{ padding: '8px 16px', fontSize: '0.9rem' }}
+                                >
+                                    {brand.name} en {p.nombre.charAt(0) + p.nombre.slice(1).toLowerCase()} ({p.count})
+                                </Link>
+                            ))}
+                        </div>
                     </div>
                 )}
 
