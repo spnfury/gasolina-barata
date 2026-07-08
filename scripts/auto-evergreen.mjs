@@ -13,8 +13,31 @@ import path from 'path';
 const GROQ_API_KEY = process.env.GROQ_API_KEY || '';
 const GROQ_MODEL = process.env.GROQ_EVERGREEN_MODEL || 'llama-3.1-8b-instant';
 const GROQ_URL = 'https://api.groq.com/openai/v1/chat/completions';
+
+// Rotación de claves (pool GROQ_API_KEYS) + fallback de modelo ante 429.
+const GROQ_KEYS = (process.env.GROQ_API_KEYS || GROQ_API_KEY || '').split(',').map((k) => k.trim()).filter(Boolean);
+async function groqFetch(payload) {
+    const base = payload.model || GROQ_MODEL;
+    const fb = base === 'llama-3.1-8b-instant' ? 'llama-3.3-70b-versatile' : 'llama-3.1-8b-instant';
+    const models = base === fb ? [base] : [base, fb];
+    let last;
+    for (const model of models) {
+        for (const key of (GROQ_KEYS.length ? GROQ_KEYS : [''])) {
+            const res = await fetch(GROQ_URL, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${key}` },
+                body: JSON.stringify({ ...payload, model }),
+            });
+            if (res.ok) return res;
+            last = res;
+            if (res.status === 429 || res.status >= 500) continue;
+            return res;
+        }
+    }
+    return last;
+}
 const BLOG_FILE = path.join(process.cwd(), 'src/data/blog-posts.json');
-const MAX_NEW_POSTS = parseInt(process.env.MAX_EVERGREEN_POSTS || '3', 10);
+const MAX_NEW_POSTS = parseInt(process.env.MAX_EVERGREEN_POSTS || '4', 10);
 
 const TOPICS = [
     { slug: 'como-ahorrar-300-euros-al-ano-en-gasolina', title: 'Cómo ahorrar 300 € al año en gasolina: guía definitiva', keyword: 'cómo ahorrar gasolina', category: 'Ahorro' },
@@ -47,6 +70,65 @@ const TOPICS = [
     { slug: 'previsiones-precio-gasolina-2026', title: 'Previsiones del precio de la gasolina y diésel en 2026', keyword: 'precio gasolina 2026', category: 'Análisis' },
     { slug: 'consumo-cilindrada-marca-coche', title: 'Cuánto gasta cada marca de coche: ranking por cilindrada', keyword: 'consumo coche por marca', category: 'Comparativa' },
     { slug: 'aire-acondicionado-vs-ventanilla-consumo', title: 'Aire acondicionado vs ventanilla bajada: qué gasta menos gasolina', keyword: 'aire acondicionado consumo', category: 'Trucos' },
+
+    // Seguro coche (alimenta CTA afiliado)
+    { slug: 'seguro-coche-barato-como-conseguirlo', title: 'Seguro de coche barato: cómo conseguirlo sin perder cobertura en 2026', keyword: 'seguro coche barato', category: 'Guía' },
+    { slug: 'como-bajar-precio-seguro-coche', title: 'Cómo bajar el precio del seguro de tu coche: 12 trucos que funcionan', keyword: 'bajar seguro coche', category: 'Trucos' },
+    { slug: 'seguro-terceros-o-todo-riesgo-cual-elegir', title: 'Seguro a terceros o todo riesgo: cuál te conviene según tu coche', keyword: 'terceros o todo riesgo', category: 'Comparativa' },
+    { slug: 'deducir-gasolina-autonomo-irpf', title: 'Cómo deducir la gasolina siendo autónomo en el IRPF 2026', keyword: 'deducir gasolina autónomo', category: 'Guía' },
+    { slug: 'kilometraje-empresa-cuanto-se-paga', title: 'Kilometraje de empresa: cuánto se paga por km y cómo reclamarlo', keyword: 'pago kilometraje empresa', category: 'Guía' },
+
+    // Tarjetas combustible (alimenta CTA afiliado)
+    { slug: 'mejores-tarjetas-combustible-empresa', title: 'Mejores tarjetas de combustible para empresa y flota en 2026', keyword: 'tarjeta combustible empresa', category: 'Comparativa' },
+    { slug: 'waylet-vs-solred-vs-gasocard', title: 'Waylet vs Solred vs Gasocard: qué tarjeta de gasolina ahorra más', keyword: 'waylet vs solred', category: 'Comparativa' },
+
+    // Consumo por tipo de vehículo
+    { slug: 'cuanto-gasta-un-suv-gasolina-100km', title: 'Cuánto gasta un SUV de gasolina cada 100 km: cifras reales', keyword: 'consumo SUV gasolina', category: 'Análisis' },
+    { slug: 'consumo-real-furgoneta-diesel', title: 'Consumo real de una furgoneta diésel: cuánto gasta de verdad', keyword: 'consumo furgoneta diésel', category: 'Análisis' },
+    { slug: 'cuanto-gasta-una-moto-de-gasolina', title: 'Cuánto gasta una moto de gasolina cada 100 km por cilindrada', keyword: 'consumo moto gasolina', category: 'Análisis' },
+    { slug: 'por-que-mi-coche-gasta-mas-de-lo-normal', title: 'Por qué mi coche gasta más gasolina de lo normal: 9 causas', keyword: 'coche gasta mucha gasolina', category: 'Guía' },
+
+    // Trucos regionales (alta intención local)
+    { slug: 'gasolina-barata-madrid-donde-repostar', title: 'Gasolina barata en Madrid: dónde repostar y cuánto ahorras', keyword: 'gasolina barata Madrid', category: 'Guía' },
+    { slug: 'gasolina-barata-barcelona-trucos', title: 'Gasolina barata en Barcelona: trucos y mejores zonas para repostar', keyword: 'gasolina barata Barcelona', category: 'Guía' },
+    { slug: 'gasolina-barata-valencia-guia', title: 'Gasolina barata en Valencia: guía de las estaciones más económicas', keyword: 'gasolina barata Valencia', category: 'Guía' },
+    { slug: 'gasolina-barata-sevilla-donde', title: 'Gasolina barata en Sevilla: dónde encontrar los mejores precios', keyword: 'gasolina barata Sevilla', category: 'Guía' },
+
+    // Diésel y tecnología
+    { slug: 'adblue-que-es-cuanto-consume', title: 'AdBlue: qué es, cuánto consume y cuánto cuesta rellenarlo', keyword: 'AdBlue qué es', category: 'Guía' },
+    { slug: 'aditivos-diesel-merecen-la-pena', title: '¿Los aditivos para diésel merecen la pena? Lo que dicen los datos', keyword: 'aditivos diésel', category: 'Análisis' },
+    { slug: 'gasolina-95-e10-que-cambia', title: 'Gasolina 95 E10: qué cambia y si tu coche la admite', keyword: 'gasolina E10', category: 'Guía' },
+    { slug: 'repostar-diesel-en-coche-de-gasolina', title: 'Echar diésel en un coche de gasolina (o al revés): qué hacer', keyword: 'echar diésel coche gasolina', category: 'Guía' },
+    { slug: 'gasolina-caduca-cuanto-dura-deposito', title: '¿La gasolina caduca? Cuánto dura en el depósito y en un bidón', keyword: 'la gasolina caduca', category: 'Guía' },
+
+    // Etiquetas DGT / normativa
+    { slug: 'etiqueta-ambiental-dgt-tipos', title: 'Etiquetas ambientales DGT: tipos, cuál te toca y qué permiten', keyword: 'etiqueta ambiental DGT', category: 'Guía' },
+    { slug: 'etiqueta-c-b-eco-cero-diferencias', title: 'Etiqueta C, B, ECO y CERO: diferencias y restricciones 2026', keyword: 'diferencia etiquetas DGT', category: 'Guía' },
+
+    // Gasóleo calefacción (estacional, alto volumen invierno)
+    { slug: 'gasoleo-c-calefaccion-precio-ahora', title: 'Precio del gasóleo C de calefacción hoy y cómo comprarlo barato', keyword: 'precio gasóleo calefacción', category: 'Análisis' },
+    { slug: 'cuando-comprar-gasoleo-calefaccion-barato', title: 'Cuándo comprar gasóleo de calefacción más barato: guía por meses', keyword: 'gasóleo calefacción barato', category: 'Trucos' },
+
+    // Coste de viaje / peajes
+    { slug: 'cuanto-cuesta-llenar-deposito-coche', title: 'Cuánto cuesta llenar el depósito del coche en 2026 por tipo', keyword: 'cuánto cuesta llenar depósito', category: 'Análisis' },
+    { slug: 'calcular-coste-viaje-coche-gasolina', title: 'Cómo calcular el coste en gasolina de un viaje por carretera', keyword: 'coste viaje coche', category: 'Guía' },
+    { slug: 'peajes-espana-2026-cuanto-cuestan', title: 'Peajes en España 2026: cuánto cuestan y cómo evitarlos', keyword: 'peajes España', category: 'Guía' },
+
+    // Combustibles alternativos
+    { slug: 'coche-hidrogeno-vale-la-pena', title: 'Coche de hidrógeno en España: ¿vale la pena hoy?', keyword: 'coche hidrógeno', category: 'Análisis' },
+    { slug: 'biocombustibles-hvo-que-son', title: 'HVO y biocombustibles: qué son y si ahorran frente al diésel', keyword: 'HVO diésel', category: 'Análisis' },
+    { slug: 'e-fuels-combustibles-sinteticos', title: 'E-fuels o combustibles sintéticos: qué son y cuándo llegan', keyword: 'e-fuels combustibles', category: 'Análisis' },
+
+    // Ahorro y conducción
+    { slug: 'velocidad-optima-ahorrar-gasolina', title: 'Velocidad óptima para ahorrar gasolina en autovía y ciudad', keyword: 'velocidad ahorrar gasolina', category: 'Trucos' },
+    { slug: 'presion-neumaticos-y-consumo-gasolina', title: 'Cómo la presión de los neumáticos afecta al consumo de gasolina', keyword: 'presión neumáticos consumo', category: 'Trucos' },
+    { slug: 'caja-manual-vs-automatica-consumo', title: 'Caja manual vs automática: cuál gasta menos gasolina', keyword: 'manual o automático consumo', category: 'Comparativa' },
+    { slug: 'cambiar-diesel-por-electrico-conviene', title: 'Cambiar el diésel por un eléctrico: ¿compensa con los precios de hoy?', keyword: 'cambiar diésel por eléctrico', category: 'Análisis' },
+
+    // Precios / mercado
+    { slug: 'gasolina-espana-vs-europa-precio', title: 'Precio de la gasolina en España vs Europa: dónde es más cara', keyword: 'gasolina España vs Europa', category: 'Análisis' },
+    { slug: 'subvencion-20-centimos-gasolina-volvera', title: '¿Volverá la subvención de 20 céntimos a la gasolina? Situación actual', keyword: 'subvención 20 céntimos gasolina', category: 'Análisis' },
+    { slug: 'historico-precio-gasolina-espana', title: 'Histórico del precio de la gasolina en España: evolución y máximos', keyword: 'histórico precio gasolina', category: 'Análisis' },
 ];
 
 const NEWS_FALLBACK_IMG = 'https://images.unsplash.com/photo-1611431386239-37e389735c52?w=1200&h=600&fit=crop&q=80';
@@ -77,16 +159,11 @@ Devuelve SOLO JSON válido con esta estructura:
   "content": "Markdown completo del post"
 }`;
 
-    const res = await fetch(GROQ_URL, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${GROQ_API_KEY}` },
-        body: JSON.stringify({
-            model: GROQ_MODEL,
-            response_format: { type: 'json_object' },
-            messages: [{ role: 'system', content: system }, { role: 'user', content: user }],
-            temperature: 0.7,
-            max_tokens: 4000,
-        }),
+    const res = await groqFetch({
+        response_format: { type: 'json_object' },
+        messages: [{ role: 'system', content: system }, { role: 'user', content: user }],
+        temperature: 0.7,
+        max_tokens: 4000,
     });
     if (!res.ok) throw new Error(`Groq ${res.status}: ${await res.text()}`);
     const data = await res.json();
