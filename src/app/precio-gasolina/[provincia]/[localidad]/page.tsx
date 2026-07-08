@@ -4,6 +4,7 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 import locationsData from '@/data/locations.json';
 import AppDownloadCta from '@/components/AppDownloadCta';
+import AffiliateCta from '@/components/AffiliateCta';
 import SmartDownloadButton from '@/components/SmartDownloadButton';
 import PriceHistoryCard from '@/components/PriceHistoryCardLazy';
 import FaqAccordion from '@/components/FaqAccordion';
@@ -204,7 +205,10 @@ export default async function LocalidadPage({ params }: PageProps) {
                     </div>
                 </div>
 
-                {/* 2. CTA Descarga 1 */}
+                {/* 2. Ofertas afiliadas (monetización — solo renderiza si hay URLs env) */}
+                <AffiliateCta place={townData.nombre} />
+
+                {/* 3. CTA Descarga app (secundario) */}
                 <AppDownloadCta locationName={townData.nombre} />
 
                 {/* 3. Evolución y Gráficos */}
