@@ -5,6 +5,7 @@ import type { Metadata } from 'next';
 import locationsData from '@/data/locations.json';
 import AppDownloadCta from '@/components/AppDownloadCta';
 import AffiliateCta from '@/components/AffiliateCta';
+import LocalPriceAnalysis from '@/components/LocalPriceAnalysis';
 import SmartDownloadButton from '@/components/SmartDownloadButton';
 import PriceHistoryCard from '@/components/PriceHistoryCardLazy';
 import FaqAccordion from '@/components/FaqAccordion';
@@ -91,6 +92,9 @@ export default async function LocalidadPage({ params }: PageProps) {
     if (!provData || !townData) {
         notFound();
     }
+
+    const natHist = (data.historicoNacional || []) as any[];
+    const nationalAvg95 = natHist.length ? natHist[natHist.length - 1].precioGasolina95 : 0;
 
     const faqs = [
         {
@@ -204,6 +208,9 @@ export default async function LocalidadPage({ params }: PageProps) {
                         </div>
                     </div>
                 </div>
+
+                {/* Análisis local único (contenido no-plantilla) */}
+                <LocalPriceAnalysis town={townData} prov={provData} nationalAvg95={nationalAvg95} />
 
                 {/* 2. Ofertas afiliadas (monetización — solo renderiza si hay URLs env) */}
                 <AffiliateCta place={townData.nombre} />
