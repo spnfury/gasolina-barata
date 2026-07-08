@@ -60,6 +60,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
             priority: 0.8,
         },
         {
+            url: `${baseUrl}/sobre-nosotros`,
+            lastModified: new Date('2026-07-08'),
+            changeFrequency: 'yearly',
+            priority: 0.4,
+        },
+        {
+            url: `${baseUrl}/contacto`,
+            lastModified: new Date('2026-07-08'),
+            changeFrequency: 'yearly',
+            priority: 0.4,
+        },
+        {
             url: `${baseUrl}/aviso-legal`,
             lastModified: new Date('2026-05-28'),
             changeFrequency: 'yearly',

@@ -68,6 +68,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                     borderTop: '1px solid rgba(255,255,255,0.05)',
                 }}>
                     <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '16px', marginBottom: '10px' }}>
+                        <a href="/sobre-nosotros" style={{ color: 'inherit' }}>Sobre nosotros</a>
+                        <a href="/contacto" style={{ color: 'inherit' }}>Contacto</a>
                         <a href="/aviso-legal" style={{ color: 'inherit' }}>Aviso legal</a>
                         <a href="/politica-privacidad" style={{ color: 'inherit' }}>Privacidad</a>
                         <a href="/politica-cookies" style={{ color: 'inherit' }}>Cookies</a>
