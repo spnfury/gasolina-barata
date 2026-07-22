@@ -89,8 +89,48 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
     // Provincias con presencia de la marca → páginas marca×provincia (long-tail SEO)
     const provincias = brandProvinces(data, brand, 2);
 
+    // Análisis nacional único
+    const conPrecio = uniqueStations.filter((s: any) => s.precio95 && s.precio95 > 0);
+    const avg95 = conPrecio.length
+        ? conPrecio.reduce((a: number, s: any) => a + s.precio95, 0) / conPrecio.length
+        : 0;
+    const cheapestNat = topCheapest[0];
+    const eur = (n: number) => n.toFixed(3).replace('.', ',');
+    const tc = (s: string) =>
+        s.toLowerCase().replace(/(^|[\s(/-])([a-záéíóúñ])/g, (_: any, p: string, c: string) => p + c.toUpperCase());
+
     return (
         <div className="rg-landing">
+            {topCheapest.length > 0 && (
+                <script
+                    type="application/ld+json"
+                    dangerouslySetInnerHTML={{
+                        __html: JSON.stringify({
+                            '@context': 'https://schema.org',
+                            '@type': 'ItemList',
+                            name: `Gasolineras ${brand.name} más baratas de España`,
+                            numberOfItems: topCheapest.length,
+                            itemListElement: topCheapest.map((st: any, idx: number) => ({
+                                '@type': 'ListItem',
+                                position: idx + 1,
+                                item: {
+                                    '@type': 'GasStation',
+                                    name: st.rotulo,
+                                    address: {
+                                        '@type': 'PostalAddress',
+                                        addressLocality: st.localidad,
+                                        addressRegion: st.provincia,
+                                        addressCountry: 'ES',
+                                    },
+                                    ...(st.precio95
+                                        ? { priceRange: `${st.precio95}€`, offers: { '@type': 'Offer', price: st.precio95, priceCurrency: 'EUR' } }
+                                        : {}),
+                                },
+                            })),
+                        }),
+                    }}
+                />
+            )}
             <Navbar />
 
             <header className="blog-hero" style={{ paddingBottom: '32px' }}>
@@ -117,9 +157,22 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
                 </div>
 
                 <h2>Las 15 gasolineras {brand.name} más económicas de España</h2>
-                <p style={{ color: 'var(--rg-text-secondary)', marginBottom: '32px' }}>
+                <p style={{ color: 'var(--rg-text-secondary)', marginBottom: '24px' }}>
                     Esta lista se actualiza a diario con los precios oficiales. Mostramos las opciones más bajas registradas hoy en toda la red de {brand.name}.
                 </p>
+
+                {cheapestNat && avg95 > 0 && (
+                    <p style={{ color: 'var(--rg-text-secondary)', lineHeight: 1.7, marginBottom: '32px' }}>
+                        Hoy, la gasolinera <strong>{brand.name}</strong> más barata de España es{' '}
+                        <strong>{cheapestNat.rotulo}</strong> en {cheapestNat.localidad} ({tc(cheapestNat.provincia)}),
+                        con la gasolina 95 a <strong>{eur(cheapestNat.precio95)}€/L</strong>. La red {brand.name}{' '}
+                        cuenta con {uniqueStations.length} estaciones repartidas en {provincias.length} provincias,
+                        con un precio medio de {eur(avg95)}€/L en gasolina 95. Elegir la más barata frente a la
+                        media puede ahorrarte hasta{' '}
+                        {(Math.max(0, avg95 - cheapestNat.precio95) * 50).toFixed(2).replace('.', ',')}€ por
+                        depósito de 50 litros.
+                    </p>
+                )}
 
                 {topCheapest.length > 0 ? (
                     <div style={{ overflowX: 'auto', background: 'var(--rg-surface)', borderRadius: 'var(--rg-radius)', border: '1px solid var(--rg-border)', marginBottom: '48px' }}>
