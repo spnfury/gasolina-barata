@@ -83,8 +83,46 @@ export default async function BrandProvincePage({ params }: PageProps) {
 
     if (stations.length === 0) notFound();
 
+    // Análisis único de marca en provincia (contenido no-plantilla + contexto)
+    const provObj = (locationsData as any).locations.find((p: any) => p.provincia === provincia);
+    const cheapest = stations[0];
+    const avgBrand95 =
+        stations.reduce((a, s) => a + (s.precio95 as number), 0) / stations.length;
+    const provAvg95 = provObj?.precioMedioGasolina95 || 0;
+    const vsProvCent = provAvg95 > 0 ? Math.round((avgBrand95 - provAvg95) * 100) : null;
+    const eur = (n: number) => n.toFixed(3).replace('.', ',');
+
     return (
         <div className="rg-landing">
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: JSON.stringify({
+                        '@context': 'https://schema.org',
+                        '@type': 'ItemList',
+                        name: `Gasolineras ${brand.name} más baratas en ${prov}`,
+                        numberOfItems: stations.length,
+                        itemListElement: stations.slice(0, 20).map((st, idx) => ({
+                            '@type': 'ListItem',
+                            position: idx + 1,
+                            item: {
+                                '@type': 'GasStation',
+                                name: st.rotulo,
+                                address: {
+                                    '@type': 'PostalAddress',
+                                    streetAddress: st.direccion,
+                                    addressLocality: st.localidad,
+                                    addressRegion: provNombre,
+                                    addressCountry: 'ES',
+                                },
+                                ...(st.precio95
+                                    ? { priceRange: `${st.precio95}€`, offers: { '@type': 'Offer', price: st.precio95, priceCurrency: 'EUR' } }
+                                    : {}),
+                            },
+                        })),
+                    }),
+                }}
+            />
             <Navbar />
 
             <header className="blog-hero" style={{ paddingBottom: '32px' }}>
@@ -110,8 +148,23 @@ export default async function BrandProvincePage({ params }: PageProps) {
                 <h2>
                     {brand.name} más baratas de {prov} ({stations.length})
                 </h2>
-                <p style={{ color: 'var(--rg-text-secondary)', marginBottom: '32px' }}>
+                <p style={{ color: 'var(--rg-text-secondary)', marginBottom: '24px' }}>
                     Ordenadas por precio de la gasolina 95. Datos oficiales del MITECO, actualizados a diario.
+                </p>
+
+                <p style={{ color: 'var(--rg-text-secondary)', lineHeight: 1.7, marginBottom: '32px' }}>
+                    La gasolinera <strong>{brand.name}</strong> más barata de {prov} es{' '}
+                    <strong>{cheapest.rotulo}</strong> en {cheapest.localidad}, con la gasolina 95 a{' '}
+                    <strong>{eur(cheapest.precio95 as number)}€/L</strong>. El precio medio de las{' '}
+                    {stations.length} estaciones {brand.name} de la provincia es de {eur(avgBrand95)}€/L
+                    {vsProvCent != null && vsProvCent !== 0
+                        ? `, ${Math.abs(vsProvCent)} céntimo${Math.abs(vsProvCent) === 1 ? '' : 's'} por ${
+                              vsProvCent < 0 ? 'debajo' : 'encima'
+                          } de la media provincial (${eur(provAvg95)}€/L)`
+                        : ''}
+                    . Repostar en la más barata frente a la media supone hasta{' '}
+                    {(Math.max(0, avgBrand95 - (cheapest.precio95 as number)) * 50).toFixed(2).replace('.', ',')}€
+                    de ahorro por depósito de 50 litros.
                 </p>
 
                 <div
