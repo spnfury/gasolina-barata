@@ -125,6 +125,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
             changeFrequency: 'daily',
             priority: 0.7,
         });
+        sitemapEntries.push({
+            url: `${baseUrl}/precio-diesel/${prov.provincia}`,
+            lastModified: dataLastModified,
+            changeFrequency: 'daily',
+            priority: 0.65,
+        });
 
         prov.localidades.forEach((loc: any) => {
             // Excluir páginas thin (<=1 estación) — van con noindex
@@ -134,6 +140,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
                 lastModified: dataLastModified,
                 changeFrequency: 'daily',
                 priority: 0.5,
+            });
+            sitemapEntries.push({
+                url: `${baseUrl}/precio-diesel/${prov.provincia}/${loc.slug}`,
+                lastModified: dataLastModified,
+                changeFrequency: 'daily',
+                priority: 0.45,
             });
         });
     });

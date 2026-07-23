@@ -213,6 +213,13 @@ export default async function LocalidadPage({ params }: PageProps) {
                     </div>
                 </div>
 
+                {townData.top5 && townData.top5.length > 1 && (
+                    <p style={{ color: 'var(--rg-text-secondary)', margin: '16px 0 0' }}>
+                        ¿Tu coche es diésel? Consulta el{' '}
+                        <Link href={`/precio-diesel/${provincia}/${localidad}`}>precio del diésel (gasóleo A) en {townData.nombre}</Link>.
+                    </p>
+                )}
+
                 {/* Análisis local único (contenido no-plantilla) */}
                 <LocalPriceAnalysis town={townData} prov={provData} nationalAvg95={nationalAvg95} />
 
