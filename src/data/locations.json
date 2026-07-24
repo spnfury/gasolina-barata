@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-24T01:26:42.216Z",
+  "lastUpdated": "2026-07-24T04:18:16.926Z",
   "historicoNacional": [
     {
       "date": "2026-06-25",
@@ -148,7 +148,7 @@
     },
     {
       "date": "2026-07-24",
-      "precioGasolina95": 1.638,
+      "precioGasolina95": 1.639,
       "precioDiesel": 1.71
     }
   ],
@@ -156,8 +156,8 @@
     {
       "provincia": "albacete",
       "nombreProvincia": "ALBACETE",
-      "precioMedioGasolina95": 1.648,
-      "precioMedioDiesel": 1.746,
+      "precioMedioGasolina95": 1.649,
+      "precioMedioDiesel": 1.747,
       "localidades": [
         {
           "slug": "abengibre",
@@ -340,8 +340,8 @@
         {
           "slug": "albacete",
           "nombre": "Albacete",
-          "precioGasolina95": 1.625,
-          "precioDiesel": 1.738,
+          "precioGasolina95": 1.626,
+          "precioDiesel": 1.739,
           "historico": [
             {
               "date": "2026-07-11",
@@ -410,8 +410,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.625,
-              "precioDiesel": 1.738
+              "precioGasolina95": 1.626,
+              "precioDiesel": 1.739
             }
           ],
           "top5": [
@@ -1712,8 +1712,8 @@
         {
           "slug": "chinchilla-de-monte-aragon",
           "nombre": "Chinchilla de Monte-Aragón",
-          "precioGasolina95": 1.709,
-          "precioDiesel": 1.847,
+          "precioGasolina95": 1.713,
+          "precioDiesel": 1.851,
           "historico": [
             {
               "date": "2026-07-11",
@@ -1782,8 +1782,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.709,
-              "precioDiesel": 1.847
+              "precioGasolina95": 1.713,
+              "precioDiesel": 1.851
             }
           ],
           "top5": [
@@ -1815,15 +1815,6 @@
               "precioDiesel": 1.845
             },
             {
-              "rotulo": "CEPSA",
-              "direccion": "AUTOVIA A31 KM. 111",
-              "horario": "L-V: 06:00-22:00; S-D: 07:00-22:00",
-              "latitud": 38.898306,
-              "longitud": -1.502806,
-              "precio95": 1.719,
-              "precioDiesel": 1.829
-            },
-            {
               "rotulo": "REPSOL",
               "direccion": "CL AVENIDA GENERALISIMO 107 (N-301 km 276)",
               "horario": "L-D: 06:00-22:00",
@@ -1831,6 +1822,15 @@
               "longitud": -1.731861,
               "precio95": 1.729,
               "precioDiesel": 1.869
+            },
+            {
+              "rotulo": "CEPSA",
+              "direccion": "AUTOVIA A31 KM. 111",
+              "horario": "L-V: 06:00-22:00; S-D: 07:00-22:00",
+              "latitud": 38.898306,
+              "longitud": -1.502806,
+              "precio95": 1.739,
+              "precioDiesel": 1.849
             }
           ]
         },
@@ -2300,8 +2300,8 @@
         {
           "slug": "hellin",
           "nombre": "Hellín",
-          "precioGasolina95": 1.655,
-          "precioDiesel": 1.79,
+          "precioGasolina95": 1.657,
+          "precioDiesel": 1.791,
           "historico": [
             {
               "date": "2026-07-11",
@@ -2370,8 +2370,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.655,
-              "precioDiesel": 1.79
+              "precioGasolina95": 1.657,
+              "precioDiesel": 1.791
             }
           ],
           "top5": [
@@ -2404,21 +2404,21 @@
             },
             {
               "rotulo": "REPSOL",
-              "direccion": "CARRETERA JAEN KM. 47",
-              "horario": "L-D: 07:00-22:30",
-              "latitud": 38.502889,
-              "longitud": -1.714556,
-              "precio95": 1.679,
-              "precioDiesel": 1.845
-            },
-            {
-              "rotulo": "REPSOL",
               "direccion": "CARRETERA N-301 KM. 316",
               "horario": "L-D: 06:00-23:00",
               "latitud": 38.524444,
               "longitud": -1.703056,
               "precio95": 1.679,
               "precioDiesel": 1.869
+            },
+            {
+              "rotulo": "REPSOL",
+              "direccion": "CARRETERA JAEN KM. 47",
+              "horario": "L-D: 07:00-22:30",
+              "latitud": 38.502889,
+              "longitud": -1.714556,
+              "precio95": 1.679,
+              "precioDiesel": 1.845
             }
           ]
         },
@@ -2701,8 +2701,8 @@
         {
           "slug": "minaya",
           "nombre": "Minaya",
-          "precioGasolina95": 1.709,
-          "precioDiesel": 1.819,
+          "precioGasolina95": 1.729,
+          "precioDiesel": 1.839,
           "historico": [
             {
               "date": "2026-07-11",
@@ -2771,8 +2771,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.709,
-              "precioDiesel": 1.819
+              "precioGasolina95": 1.729,
+              "precioDiesel": 1.839
             }
           ],
           "top5": [
@@ -2782,8 +2782,8 @@
               "horario": "L-D: 06:00-22:00",
               "latitud": 39.276056,
               "longitud": -2.330333,
-              "precio95": 1.709,
-              "precioDiesel": 1.819
+              "precio95": 1.729,
+              "precioDiesel": 1.839
             }
           ]
         },
@@ -4894,7 +4894,7 @@
     {
       "provincia": "alicante",
       "nombreProvincia": "ALICANTE",
-      "precioMedioGasolina95": 1.681,
+      "precioMedioGasolina95": 1.682,
       "precioMedioDiesel": 1.716,
       "localidades": [
         {
@@ -5016,8 +5016,8 @@
         {
           "slug": "albatera",
           "nombre": "Albatera",
-          "precioGasolina95": 1.726,
-          "precioDiesel": 1.746,
+          "precioGasolina95": 1.73,
+          "precioDiesel": 1.754,
           "historico": [
             {
               "date": "2026-07-11",
@@ -5086,8 +5086,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.726,
-              "precioDiesel": 1.746
+              "precioGasolina95": 1.73,
+              "precioDiesel": 1.754
             }
           ],
           "top5": [
@@ -5111,21 +5111,21 @@
             },
             {
               "rotulo": "REPSOL",
-              "direccion": "N-340 km 696,7",
-              "horario": "L-D: 24H",
-              "latitud": 38.199417,
-              "longitud": -0.848722,
-              "precio95": 1.729,
-              "precioDiesel": 1.749
-            },
-            {
-              "rotulo": "REPSOL",
               "direccion": "CARRETERA N-340 KM. 696,7",
               "horario": "L-V: 06:00-22:00",
               "latitud": 38.165222,
               "longitud": -0.89475,
-              "precio95": 1.729,
-              "precioDiesel": 1.749
+              "precio95": 1.739,
+              "precioDiesel": 1.769
+            },
+            {
+              "rotulo": "REPSOL",
+              "direccion": "N-340 km 696,7",
+              "horario": "L-D: 24H",
+              "latitud": 38.199417,
+              "longitud": -0.848722,
+              "precio95": 1.739,
+              "precioDiesel": 1.769
             },
             {
               "rotulo": "REPSOL",
@@ -5783,8 +5783,8 @@
         {
           "slug": "almoradi",
           "nombre": "Almoradí",
-          "precioGasolina95": 1.617,
-          "precioDiesel": 1.679,
+          "precioGasolina95": 1.623,
+          "precioDiesel": 1.685,
           "historico": [
             {
               "date": "2026-07-11",
@@ -5853,8 +5853,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.617,
-              "precioDiesel": 1.679
+              "precioGasolina95": 1.623,
+              "precioDiesel": 1.685
             }
           ],
           "top5": [
@@ -5900,8 +5900,8 @@
               "horario": "L-V: 06:00-22:00; S-D: 07:00-22:00",
               "latitud": 38.115139,
               "longitud": -0.78875,
-              "precio95": 1.699,
-              "precioDiesel": 1.715
+              "precio95": 1.739,
+              "precioDiesel": 1.759
             }
           ]
         },
@@ -6012,19 +6012,19 @@
             },
             {
               "rotulo": "REPSOL",
-              "direccion": "CARRETERA N-332 KM. 155,5",
-              "horario": "L-D: 06:00-22:00",
-              "latitud": 38.586556,
-              "longitud": -0.064694,
+              "direccion": "CARRETERA LA NUCIA KM. 2,8",
+              "horario": "L: 07:00-22:00",
+              "latitud": 38.605917,
+              "longitud": -0.078472,
               "precio95": 1.759,
               "precioDiesel": 1.779
             },
             {
               "rotulo": "REPSOL",
-              "direccion": "CARRETERA LA NUCIA KM. 2,8",
-              "horario": "L: 07:00-22:00",
-              "latitud": 38.605917,
-              "longitud": -0.078472,
+              "direccion": "CARRETERA N-332 KM. 155,5",
+              "horario": "L-D: 06:00-22:00",
+              "latitud": 38.586556,
+              "longitud": -0.064694,
               "precio95": 1.759,
               "precioDiesel": 1.779
             }
@@ -7254,8 +7254,8 @@
         {
           "slug": "callosa-de-segura",
           "nombre": "Callosa de Segura",
-          "precioGasolina95": 1.691,
-          "precioDiesel": 1.735,
+          "precioGasolina95": 1.693,
+          "precioDiesel": 1.742,
           "historico": [
             {
               "date": "2026-07-11",
@@ -7324,8 +7324,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.691,
-              "precioDiesel": 1.735
+              "precioGasolina95": 1.693,
+              "precioDiesel": 1.742
             }
           ],
           "top5": [
@@ -7344,8 +7344,8 @@
               "horario": "L-D: 06:00-22:00",
               "latitud": 38.125694,
               "longitud": -0.867333,
-              "precio95": 1.699,
-              "precioDiesel": 1.739
+              "precio95": 1.709,
+              "precioDiesel": 1.769
             },
             {
               "rotulo": "BP OIL ESPAÑA, S.A.U.",
@@ -8517,15 +8517,6 @@
               "precioDiesel": 1.691
             },
             {
-              "rotulo": "E.S. PLUSOIL",
-              "direccion": "CALLE PANAMA, 5",
-              "horario": "L-D: 24H",
-              "latitud": 38.261528,
-              "longitud": -0.718056,
-              "precio95": 1.635,
-              "precioDiesel": 1.629
-            },
-            {
               "rotulo": "GASOLINERA D'ELX (S. ATENDIDO)",
               "direccion": "AVINGUDA DE CREVILLENTE, 4",
               "horario": "L-V: 07:00-22:00; S: 08:00-22:00; D: 08:00-21:30",
@@ -8533,6 +8524,15 @@
               "longitud": -0.717444,
               "precio95": 1.635,
               "precioDiesel": 1.635
+            },
+            {
+              "rotulo": "E.S. PLUSOIL",
+              "direccion": "CALLE PANAMA, 5",
+              "horario": "L-D: 24H",
+              "latitud": 38.261528,
+              "longitud": -0.718056,
+              "precio95": 1.635,
+              "precioDiesel": 1.629
             },
             {
               "rotulo": "GASOLINERA D'ELX (S. ATENDIDO)",
@@ -9186,15 +9186,6 @@
               "precioDiesel": 1.709
             },
             {
-              "rotulo": "MOEVE ",
-              "direccion": "CARRETERA CV 895 KM. 5,1",
-              "horario": "L-S: 07:00-21:30; D: 08:00-17:00",
-              "latitud": 38.062278,
-              "longitud": -0.673472,
-              "precio95": 1.729,
-              "precioDiesel": 1.799
-            },
-            {
               "rotulo": "CEPSA",
               "direccion": "CARRETERA NACIONAL 332 KM. 65,968",
               "horario": "L-D: 06:00-22:00",
@@ -9202,6 +9193,15 @@
               "longitud": -0.659222,
               "precio95": 1.729,
               "precioDiesel": 1.811
+            },
+            {
+              "rotulo": "MOEVE ",
+              "direccion": "CARRETERA CV 895 KM. 5,1",
+              "horario": "L-S: 07:00-21:30; D: 08:00-17:00",
+              "latitud": 38.062278,
+              "longitud": -0.673472,
+              "precio95": 1.729,
+              "precioDiesel": 1.799
             },
             {
               "rotulo": "REPSOL",
@@ -10412,8 +10412,8 @@
         {
           "slug": "novelda",
           "nombre": "Novelda",
-          "precioGasolina95": 1.699,
-          "precioDiesel": 1.715,
+          "precioGasolina95": 1.704,
+          "precioDiesel": 1.719,
           "historico": [
             {
               "date": "2026-07-11",
@@ -10482,8 +10482,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.699,
-              "precioDiesel": 1.715
+              "precioGasolina95": 1.704,
+              "precioDiesel": 1.719
             }
           ],
           "top5": [
@@ -10511,8 +10511,8 @@
               "horario": "L-D: 06:00-23:00",
               "latitud": 38.38825,
               "longitud": -0.755694,
-              "precio95": 1.709,
-              "precioDiesel": 1.739
+              "precio95": 1.739,
+              "precioDiesel": 1.765
             },
             {
               "rotulo": "BP",
@@ -12410,8 +12410,8 @@
         {
           "slug": "sant-joan-dalacant",
           "nombre": "Sant Joan d'Alacant",
-          "precioGasolina95": 1.655,
-          "precioDiesel": 1.691,
+          "precioGasolina95": 1.657,
+          "precioDiesel": 1.693,
           "historico": [
             {
               "date": "2026-07-11",
@@ -12480,8 +12480,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.655,
-              "precioDiesel": 1.691
+              "precioGasolina95": 1.657,
+              "precioDiesel": 1.693
             }
           ],
           "top5": [
@@ -15120,7 +15120,7 @@
         {
           "slug": "ejido-el",
           "nombre": "Ejido (El)",
-          "precioGasolina95": 1.551,
+          "precioGasolina95": 1.552,
           "precioDiesel": 1.62,
           "historico": [
             {
@@ -15190,7 +15190,7 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.551,
+              "precioGasolina95": 1.552,
               "precioDiesel": 1.62
             }
           ],
@@ -16280,20 +16280,20 @@
           ],
           "top5": [
             {
-              "rotulo": "NTRA SRA DEL ROSARIO",
-              "direccion": "CARRETERA CTRA. DE TAHAL KM. 3",
-              "horario": "L-V: 07:00-21:00; S: 08:00-21:00; D: 08:00-14:00",
-              "latitud": 37.333306,
-              "longitud": -2.299139,
-              "precio95": 1.489,
-              "precioDiesel": 1.599
-            },
-            {
               "rotulo": "SUIMASA",
               "direccion": "CARRETERA OLULA-MACAEL KM. 1,7",
               "horario": "L-V: 08:30-13:30 y 15:00-20:00",
               "latitud": 37.341167,
               "longitud": -2.294583,
+              "precio95": 1.489,
+              "precioDiesel": 1.599
+            },
+            {
+              "rotulo": "NTRA SRA DEL ROSARIO",
+              "direccion": "CARRETERA CTRA. DE TAHAL KM. 3",
+              "horario": "L-V: 07:00-21:00; S: 08:00-21:00; D: 08:00-14:00",
+              "latitud": 37.333306,
+              "longitud": -2.299139,
               "precio95": 1.489,
               "precioDiesel": 1.599
             }
@@ -17711,7 +17711,7 @@
           "slug": "tabernas",
           "nombre": "Tabernas",
           "precioGasolina95": 1.744,
-          "precioDiesel": 1.796,
+          "precioDiesel": 1.801,
           "historico": [
             {
               "date": "2026-07-11",
@@ -17781,7 +17781,7 @@
             {
               "date": "2026-07-24",
               "precioGasolina95": 1.744,
-              "precioDiesel": 1.796
+              "precioDiesel": 1.801
             }
           ],
           "top5": [
@@ -17801,7 +17801,7 @@
               "latitud": 37.016417,
               "longitud": -2.446056,
               "precio95": 1.755,
-              "precioDiesel": 1.797
+              "precioDiesel": 1.817
             },
             {
               "rotulo": "REPSOL",
@@ -18617,8 +18617,8 @@
         {
           "slug": "vicar",
           "nombre": "Vícar",
-          "precioGasolina95": 1.586,
-          "precioDiesel": 1.625,
+          "precioGasolina95": 1.59,
+          "precioDiesel": 1.627,
           "historico": [
             {
               "date": "2026-07-11",
@@ -18687,8 +18687,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.586,
-              "precioDiesel": 1.625
+              "precioGasolina95": 1.59,
+              "precioDiesel": 1.627
             }
           ],
           "top5": [
@@ -18711,15 +18711,6 @@
               "precioDiesel": 1.489
             },
             {
-              "rotulo": "E.S.VICASOL",
-              "direccion": "PARAJE EL VIZCONDE CARRETERA IRYDA SECTOR IV, S/N",
-              "horario": "L-D: 06:00-22:00",
-              "latitud": 36.782806,
-              "longitud": -2.675944,
-              "precio95": 1.51,
-              "precioDiesel": 1.53
-            },
-            {
               "rotulo": "PLENERGY",
               "direccion": "AVENIDA BULEVAR CIUDAD DE VÍCAR, 715",
               "horario": "L-D: 24H",
@@ -18727,6 +18718,15 @@
               "longitud": -2.623361,
               "precio95": 1.519,
               "precioDiesel": 1.549
+            },
+            {
+              "rotulo": "E.S.VICASOL",
+              "direccion": "PARAJE EL VIZCONDE CARRETERA IRYDA SECTOR IV, S/N",
+              "horario": "L-D: 06:00-22:00",
+              "latitud": 36.782806,
+              "longitud": -2.675944,
+              "precio95": 1.54,
+              "precioDiesel": 1.55
             },
             {
               "rotulo": "CONSUMOMAR",
@@ -20810,7 +20810,7 @@
     {
       "provincia": "asturias",
       "nombreProvincia": "ASTURIAS",
-      "precioMedioGasolina95": 1.705,
+      "precioMedioGasolina95": 1.706,
       "precioMedioDiesel": 1.772,
       "localidades": [
         {
@@ -21394,8 +21394,8 @@
         {
           "slug": "cangas-de-onis",
           "nombre": "Cangas de Onís",
-          "precioGasolina95": 1.719,
-          "precioDiesel": 1.732,
+          "precioGasolina95": 1.734,
+          "precioDiesel": 1.746,
           "historico": [
             {
               "date": "2026-07-11",
@@ -21464,8 +21464,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.719,
-              "precioDiesel": 1.732
+              "precioGasolina95": 1.734,
+              "precioDiesel": 1.746
             }
           ],
           "top5": [
@@ -21484,8 +21484,8 @@
               "horario": "L-D: 06:00-23:00",
               "latitud": 43.354111,
               "longitud": -5.124972,
-              "precio95": 1.679,
-              "precioDiesel": 1.689
+              "precio95": 1.699,
+              "precioDiesel": 1.719
             },
             {
               "rotulo": "REPSOL",
@@ -21493,8 +21493,8 @@
               "horario": "L-D: 06:00-23:00",
               "latitud": 43.350889,
               "longitud": -5.119889,
-              "precio95": 1.759,
-              "precioDiesel": 1.849
+              "precio95": 1.769,
+              "precioDiesel": 1.859
             }
           ]
         },
@@ -21617,8 +21617,8 @@
         {
           "slug": "carreno",
           "nombre": "Carreño",
-          "precioGasolina95": 1.702,
-          "precioDiesel": 1.763,
+          "precioGasolina95": 1.704,
+          "precioDiesel": 1.765,
           "historico": [
             {
               "date": "2026-07-11",
@@ -21687,8 +21687,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.702,
-              "precioDiesel": 1.763
+              "precioGasolina95": 1.704,
+              "precioDiesel": 1.765
             }
           ],
           "top5": [
@@ -21734,8 +21734,8 @@
               "horario": "L-D: 07:00-23:00",
               "latitud": 43.555917,
               "longitud": -5.834667,
-              "precio95": 1.719,
-              "precioDiesel": 1.789
+              "precio95": 1.729,
+              "precioDiesel": 1.799
             }
           ]
         },
@@ -23320,8 +23320,8 @@
         {
           "slug": "llanera",
           "nombre": "Llanera",
-          "precioGasolina95": 1.738,
-          "precioDiesel": 1.837,
+          "precioGasolina95": 1.74,
+          "precioDiesel": 1.84,
           "historico": [
             {
               "date": "2026-07-11",
@@ -23390,8 +23390,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.738,
-              "precioDiesel": 1.837
+              "precioGasolina95": 1.74,
+              "precioDiesel": 1.84
             }
           ],
           "top5": [
@@ -23419,8 +23419,8 @@
               "horario": "L-D: 06:00-22:00",
               "latitud": 43.432167,
               "longitud": -5.841833,
-              "precio95": 1.739,
-              "precioDiesel": 1.829
+              "precio95": 1.749,
+              "precioDiesel": 1.849
             },
             {
               "rotulo": "REPSOL",
@@ -23570,8 +23570,8 @@
         {
           "slug": "mieres",
           "nombre": "Mieres",
-          "precioGasolina95": 1.705,
-          "precioDiesel": 1.793,
+          "precioGasolina95": 1.706,
+          "precioDiesel": 1.794,
           "historico": [
             {
               "date": "2026-07-11",
@@ -23640,8 +23640,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.705,
-              "precioDiesel": 1.793
+              "precioGasolina95": 1.706,
+              "precioDiesel": 1.794
             }
           ],
           "top5": [
@@ -23950,19 +23950,19 @@
           "top5": [
             {
               "rotulo": "GALP",
-              "direccion": "CARRETERA N-634 KM. 375,1",
-              "horario": "L-S: 07:00-22:00; D: 07:00-15:00",
-              "latitud": 43.358222,
-              "longitud": -5.497333,
+              "direccion": "CARRETERA N-634 KM. 379,7",
+              "horario": "L-D: 07:00-23:00",
+              "latitud": 43.373056,
+              "longitud": -5.546583,
               "precio95": 1.699,
               "precioDiesel": 1.799
             },
             {
               "rotulo": "GALP",
-              "direccion": "CARRETERA N-634 KM. 379,7",
-              "horario": "L-D: 07:00-23:00",
-              "latitud": 43.373056,
-              "longitud": -5.546583,
+              "direccion": "CARRETERA N-634 KM. 375,1",
+              "horario": "L-S: 07:00-22:00; D: 07:00-15:00",
+              "latitud": 43.358222,
+              "longitud": -5.497333,
               "precio95": 1.699,
               "precioDiesel": 1.799
             }
@@ -24497,8 +24497,8 @@
         {
           "slug": "pilona",
           "nombre": "Piloña",
-          "precioGasolina95": 1.718,
-          "precioDiesel": 1.786,
+          "precioGasolina95": 1.721,
+          "precioDiesel": 1.789,
           "historico": [
             {
               "date": "2026-07-11",
@@ -24567,8 +24567,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.718,
-              "precioDiesel": 1.786
+              "precioGasolina95": 1.721,
+              "precioDiesel": 1.789
             }
           ],
           "top5": [
@@ -24596,8 +24596,8 @@
               "horario": "L-D: 06:00-22:00",
               "latitud": 43.365861,
               "longitud": -5.271472,
-              "precio95": 1.759,
-              "precioDiesel": 1.849
+              "precio95": 1.769,
+              "precioDiesel": 1.859
             }
           ]
         },
@@ -24889,8 +24889,8 @@
         {
           "slug": "ribadesella",
           "nombre": "Ribadesella",
-          "precioGasolina95": 1.712,
-          "precioDiesel": 1.749,
+          "precioGasolina95": 1.716,
+          "precioDiesel": 1.752,
           "historico": [
             {
               "date": "2026-07-11",
@@ -24959,8 +24959,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.712,
-              "precioDiesel": 1.749
+              "precioGasolina95": 1.716,
+              "precioDiesel": 1.752
             }
           ],
           "top5": [
@@ -24988,8 +24988,8 @@
               "horario": "L-D: 06:00-22:00",
               "latitud": 43.455917,
               "longitud": -5.061389,
-              "precio95": 1.759,
-              "precioDiesel": 1.849
+              "precio95": 1.769,
+              "precioDiesel": 1.859
             }
           ]
         },
@@ -25085,8 +25085,8 @@
         {
           "slug": "salas",
           "nombre": "Salas",
-          "precioGasolina95": 1.762,
-          "precioDiesel": 1.771,
+          "precioGasolina95": 1.764,
+          "precioDiesel": 1.775,
           "historico": [
             {
               "date": "2026-07-11",
@@ -25155,8 +25155,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.762,
-              "precioDiesel": 1.771
+              "precioGasolina95": 1.764,
+              "precioDiesel": 1.775
             }
           ],
           "top5": [
@@ -25184,8 +25184,8 @@
               "horario": "L-D: 06:00-22:00",
               "latitud": 43.40475,
               "longitud": -6.232806,
-              "precio95": 1.739,
-              "precioDiesel": 1.819
+              "precio95": 1.749,
+              "precioDiesel": 1.839
             },
             {
               "rotulo": "PETRONOR",
@@ -25486,8 +25486,8 @@
         {
           "slug": "siero",
           "nombre": "Siero",
-          "precioGasolina95": 1.683,
-          "precioDiesel": 1.759,
+          "precioGasolina95": 1.684,
+          "precioDiesel": 1.76,
           "historico": [
             {
               "date": "2026-07-11",
@@ -25556,8 +25556,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.683,
-              "precioDiesel": 1.759
+              "precioGasolina95": 1.684,
+              "precioDiesel": 1.76
             }
           ],
           "top5": [
@@ -25799,7 +25799,7 @@
           "slug": "tapia-de-casariego",
           "nombre": "Tapia de Casariego",
           "precioGasolina95": 1.665,
-          "precioDiesel": 1.729,
+          "precioDiesel": 1.734,
           "historico": [
             {
               "date": "2026-07-11",
@@ -25869,7 +25869,7 @@
             {
               "date": "2026-07-24",
               "precioGasolina95": 1.665,
-              "precioDiesel": 1.729
+              "precioDiesel": 1.734
             }
           ],
           "top5": [
@@ -25916,7 +25916,7 @@
               "latitud": 43.56825,
               "longitud": -6.944278,
               "precio95": 1.739,
-              "precioDiesel": 1.829
+              "precioDiesel": 1.849
             }
           ]
         },
@@ -26137,8 +26137,8 @@
         {
           "slug": "valdes",
           "nombre": "Valdés",
-          "precioGasolina95": 1.681,
-          "precioDiesel": 1.708,
+          "precioGasolina95": 1.683,
+          "precioDiesel": 1.709,
           "historico": [
             {
               "date": "2026-07-11",
@@ -26207,8 +26207,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.681,
-              "precioDiesel": 1.708
+              "precioGasolina95": 1.683,
+              "precioDiesel": 1.709
             }
           ],
           "top5": [
@@ -26470,7 +26470,7 @@
       "provincia": "avila",
       "nombreProvincia": "ÁVILA",
       "precioMedioGasolina95": 1.69,
-      "precioMedioDiesel": 1.768,
+      "precioMedioDiesel": 1.769,
       "localidades": [
         {
           "slug": "adanero",
@@ -26894,8 +26894,8 @@
         {
           "slug": "avila",
           "nombre": "Ávila",
-          "precioGasolina95": 1.671,
-          "precioDiesel": 1.732,
+          "precioGasolina95": 1.672,
+          "precioDiesel": 1.733,
           "historico": [
             {
               "date": "2026-07-11",
@@ -26964,8 +26964,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.671,
-              "precioDiesel": 1.732
+              "precioGasolina95": 1.672,
+              "precioDiesel": 1.733
             }
           ],
           "top5": [
@@ -28213,7 +28213,7 @@
           "slug": "mombeltran",
           "nombre": "Mombeltrán",
           "precioGasolina95": 1.789,
-          "precioDiesel": 1.829,
+          "precioDiesel": 1.849,
           "historico": [
             {
               "date": "2026-07-11",
@@ -28283,7 +28283,7 @@
             {
               "date": "2026-07-24",
               "precioGasolina95": 1.789,
-              "precioDiesel": 1.829
+              "precioDiesel": 1.849
             }
           ],
           "top5": [
@@ -28294,7 +28294,7 @@
               "latitud": 40.263972,
               "longitud": -5.014611,
               "precio95": 1.789,
-              "precioDiesel": 1.829
+              "precioDiesel": 1.849
             }
           ]
         },
@@ -30752,8 +30752,8 @@
         {
           "slug": "almendralejo",
           "nombre": "Almendralejo",
-          "precioGasolina95": 1.591,
-          "precioDiesel": 1.688,
+          "precioGasolina95": 1.592,
+          "precioDiesel": 1.69,
           "historico": [
             {
               "date": "2026-07-11",
@@ -30822,8 +30822,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.591,
-              "precioDiesel": 1.688
+              "precioGasolina95": 1.592,
+              "precioDiesel": 1.69
             }
           ],
           "top5": [
@@ -30846,15 +30846,6 @@
               "precioDiesel": 1.549
             },
             {
-              "rotulo": "GASOLINERA SAN ROQUE",
-              "direccion": "CTRA.ACEUCHAL S/N (CTRA.DON BENITO-OLIVENZA C-243 km 71.425)",
-              "horario": "L-D: 06:00-22:00",
-              "latitud": 38.677528,
-              "longitud": -6.422972,
-              "precio95": 1.509,
-              "precioDiesel": 1.619
-            },
-            {
               "rotulo": "E. S. SAN ISIDRO",
               "direccion": "CTRA DE ALANGE  EX 105-R, KM km 1,9",
               "horario": "L: 06:00-22:00",
@@ -30871,6 +30862,15 @@
               "longitud": -6.411778,
               "precio95": 1.529,
               "precioDiesel": 1.569
+            },
+            {
+              "rotulo": "GASOLINERA SAN ROQUE",
+              "direccion": "CTRA.ACEUCHAL S/N (CTRA.DON BENITO-OLIVENZA C-243 km 71.425)",
+              "horario": "L-D: 06:00-22:00",
+              "latitud": 38.677528,
+              "longitud": -6.422972,
+              "precio95": 1.529,
+              "precioDiesel": 1.639
             }
           ]
         },
@@ -35124,19 +35124,19 @@
             },
             {
               "rotulo": "REPSOL",
-              "direccion": "AUTOPISTA A-66 KM. 727",
-              "horario": "L-D: 24H",
-              "latitud": 38.029444,
-              "longitud": -6.220556,
+              "direccion": "CR N-630, 722,2",
+              "horario": "L-D: 07:00-23:00",
+              "latitud": 38.083528,
+              "longitud": -6.268417,
               "precio95": 1.729,
               "precioDiesel": 1.889
             },
             {
               "rotulo": "REPSOL",
-              "direccion": "CR N-630, 722,2",
-              "horario": "L-D: 07:00-23:00",
-              "latitud": 38.083528,
-              "longitud": -6.268417,
+              "direccion": "AUTOPISTA A-66 KM. 727",
+              "horario": "L-D: 24H",
+              "latitud": 38.029444,
+              "longitud": -6.220556,
               "precio95": 1.729,
               "precioDiesel": 1.889
             }
@@ -40011,8 +40011,8 @@
     {
       "provincia": "balears-illes",
       "nombreProvincia": "BALEARS (ILLES)",
-      "precioMedioGasolina95": 1.744,
-      "precioMedioDiesel": 1.833,
+      "precioMedioGasolina95": 1.745,
+      "precioMedioDiesel": 1.834,
       "localidades": [
         {
           "slug": "alaior",
@@ -40418,8 +40418,8 @@
         {
           "slug": "andratx",
           "nombre": "Andratx",
-          "precioGasolina95": 1.764,
-          "precioDiesel": 1.844,
+          "precioGasolina95": 1.769,
+          "precioDiesel": 1.849,
           "historico": [
             {
               "date": "2026-07-11",
@@ -40488,8 +40488,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.764,
-              "precioDiesel": 1.844
+              "precioGasolina95": 1.769,
+              "precioDiesel": 1.849
             }
           ],
           "top5": [
@@ -40499,8 +40499,8 @@
               "horario": "L-D: 24H",
               "latitud": 39.568,
               "longitud": 2.423611,
-              "precio95": 1.749,
-              "precioDiesel": 1.839
+              "precio95": 1.759,
+              "precioDiesel": 1.849
             },
             {
               "rotulo": "REPSOL",
@@ -40819,8 +40819,8 @@
         {
           "slug": "calvia",
           "nombre": "Calvià",
-          "precioGasolina95": 1.721,
-          "precioDiesel": 1.832,
+          "precioGasolina95": 1.723,
+          "precioDiesel": 1.834,
           "historico": [
             {
               "date": "2026-07-11",
@@ -40889,8 +40889,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.721,
-              "precioDiesel": 1.832
+              "precioGasolina95": 1.723,
+              "precioDiesel": 1.834
             }
           ],
           "top5": [
@@ -40909,8 +40909,8 @@
               "horario": "L-D: 24H",
               "latitud": 39.529306,
               "longitud": 2.501889,
-              "precio95": 1.679,
-              "precioDiesel": 1.769
+              "precio95": 1.689,
+              "precioDiesel": 1.779
             },
             {
               "rotulo": "REPSOL",
@@ -41475,15 +41475,6 @@
               "precioDiesel": 1.799
             },
             {
-              "rotulo": "REPSOL",
-              "direccion": "CARRETERA IBIZA - SAN JUAN KM. 1,7",
-              "horario": "L-D: 07:00-23:00",
-              "latitud": 38.922167,
-              "longitud": 1.440139,
-              "precio95": 1.779,
-              "precioDiesel": 1.875
-            },
-            {
               "rotulo": "CEPSA ",
               "direccion": "CARRER ALCALDE BARTOLOME ROSELLO SALA, 2",
               "horario": "L-D: 24H",
@@ -41491,6 +41482,15 @@
               "longitud": 1.437167,
               "precio95": 1.779,
               "precioDiesel": 1.879
+            },
+            {
+              "rotulo": "REPSOL",
+              "direccion": "CARRETERA IBIZA - SAN JUAN KM. 1,7",
+              "horario": "L-D: 07:00-23:00",
+              "latitud": 38.922167,
+              "longitud": 1.440139,
+              "precio95": 1.779,
+              "precioDiesel": 1.875
             }
           ]
         },
@@ -41987,8 +41987,8 @@
         {
           "slug": "inca",
           "nombre": "Inca",
-          "precioGasolina95": 1.718,
-          "precioDiesel": 1.802,
+          "precioGasolina95": 1.721,
+          "precioDiesel": 1.805,
           "historico": [
             {
               "date": "2026-07-11",
@@ -42057,8 +42057,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.718,
-              "precioDiesel": 1.802
+              "precioGasolina95": 1.721,
+              "precioDiesel": 1.805
             }
           ],
           "top5": [
@@ -42099,13 +42099,13 @@
               "precioDiesel": 1.849
             },
             {
-              "rotulo": "BP",
-              "direccion": "CARRETERA PALMA-ALCUDIA CRUCE CTRA.SENCELLES KM. S/N",
+              "rotulo": "REPSOL",
+              "direccion": "AVENIDA JAIME I, 143",
               "horario": "L-D: 24H",
-              "latitud": 39.711111,
-              "longitud": 2.909222,
-              "precio95": 1.749,
-              "precioDiesel": 1.839
+              "latitud": 39.716639,
+              "longitud": 2.915333,
+              "precio95": 1.755,
+              "precioDiesel": 1.869
             }
           ]
         },
@@ -42550,7 +42550,7 @@
           "slug": "manacor",
           "nombre": "Manacor",
           "precioGasolina95": 1.719,
-          "precioDiesel": 1.809,
+          "precioDiesel": 1.81,
           "historico": [
             {
               "date": "2026-07-11",
@@ -42620,7 +42620,7 @@
             {
               "date": "2026-07-24",
               "precioGasolina95": 1.719,
-              "precioDiesel": 1.809
+              "precioDiesel": 1.81
             }
           ],
           "top5": [
@@ -42667,15 +42667,15 @@
               "latitud": 39.574167,
               "longitud": 3.200528,
               "precio95": 1.745,
-              "precioDiesel": 1.865
+              "precioDiesel": 1.875
             }
           ]
         },
         {
           "slug": "marratxi",
           "nombre": "Marratxí",
-          "precioGasolina95": 1.723,
-          "precioDiesel": 1.787,
+          "precioGasolina95": 1.725,
+          "precioDiesel": 1.789,
           "historico": [
             {
               "date": "2026-07-11",
@@ -42744,8 +42744,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.723,
-              "precioDiesel": 1.787
+              "precioGasolina95": 1.725,
+              "precioDiesel": 1.789
             }
           ],
           "top5": [
@@ -42778,21 +42778,21 @@
             },
             {
               "rotulo": "REPSOL",
-              "direccion": "CARRETERA PALMA-PTO ALCUDIA KM. 8,9",
-              "horario": "L-D: 24H",
-              "latitud": 39.615806,
-              "longitud": 2.718,
-              "precio95": 1.749,
-              "precioDiesel": 1.839
-            },
-            {
-              "rotulo": "REPSOL",
               "direccion": "CARRETERA CR C-713  PALMA-PUERTO ALCUDIA KM. 13",
               "horario": "L-D: 06:00-22:00",
               "latitud": 39.647944,
               "longitud": 2.756889,
               "precio95": 1.749,
               "precioDiesel": 1.839
+            },
+            {
+              "rotulo": "REPSOL",
+              "direccion": "CARRETERA PALMA-PTO ALCUDIA KM. 8,9",
+              "horario": "L-D: 24H",
+              "latitud": 39.615806,
+              "longitud": 2.718,
+              "precio95": 1.759,
+              "precioDiesel": 1.849
             }
           ]
         },
@@ -43102,8 +43102,8 @@
         {
           "slug": "palma-de-mallorca",
           "nombre": "Palma de Mallorca",
-          "precioGasolina95": 1.737,
-          "precioDiesel": 1.824,
+          "precioGasolina95": 1.738,
+          "precioDiesel": 1.825,
           "historico": [
             {
               "date": "2026-07-11",
@@ -43172,8 +43172,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.737,
-              "precioDiesel": 1.824
+              "precioGasolina95": 1.738,
+              "precioDiesel": 1.825
             }
           ],
           "top5": [
@@ -45476,7 +45476,7 @@
       "provincia": "barcelona",
       "nombreProvincia": "BARCELONA",
       "precioMedioGasolina95": 1.603,
-      "precioMedioDiesel": 1.712,
+      "precioMedioDiesel": 1.713,
       "localidades": [
         {
           "slug": "abrera",
@@ -46658,7 +46658,7 @@
           "slug": "barbera-del-valles",
           "nombre": "Barberà del Vallès",
           "precioGasolina95": 1.596,
-          "precioDiesel": 1.713,
+          "precioDiesel": 1.714,
           "historico": [
             {
               "date": "2026-07-11",
@@ -46728,7 +46728,7 @@
             {
               "date": "2026-07-24",
               "precioGasolina95": 1.596,
-              "precioDiesel": 1.713
+              "precioDiesel": 1.714
             }
           ],
           "top5": [
@@ -46770,12 +46770,12 @@
             },
             {
               "rotulo": "REPSOL",
-              "direccion": "CARRETERA N-150 KM. 8,6",
-              "horario": "L-D: 07:00-00:00",
-              "latitud": 41.521083,
-              "longitud": 2.123889,
+              "direccion": "CL RONDA SANTA MARIA ,202-210 (ESQ.",
+              "horario": "L-D: 06:00-22:00",
+              "latitud": 41.521139,
+              "longitud": 2.12975,
               "precio95": 1.695,
-              "precioDiesel": 1.855
+              "precioDiesel": 1.859
             }
           ]
         },
@@ -46783,7 +46783,7 @@
           "slug": "barcelona",
           "nombre": "Barcelona",
           "precioGasolina95": 1.647,
-          "precioDiesel": 1.765,
+          "precioDiesel": 1.766,
           "historico": [
             {
               "date": "2026-07-11",
@@ -46853,7 +46853,7 @@
             {
               "date": "2026-07-24",
               "precioGasolina95": 1.647,
-              "precioDiesel": 1.765
+              "precioDiesel": 1.766
             }
           ],
           "top5": [
@@ -46996,8 +46996,8 @@
         {
           "slug": "berga",
           "nombre": "Berga",
-          "precioGasolina95": 1.636,
-          "precioDiesel": 1.769,
+          "precioGasolina95": 1.637,
+          "precioDiesel": 1.771,
           "historico": [
             {
               "date": "2026-07-11",
@@ -47066,8 +47066,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.636,
-              "precioDiesel": 1.769
+              "precioGasolina95": 1.637,
+              "precioDiesel": 1.771
             }
           ],
           "top5": [
@@ -47090,15 +47090,6 @@
               "precioDiesel": 1.769
             },
             {
-              "rotulo": "REPSOL",
-              "direccion": "AVINGUDA CANAL INDUSTRIAL, S/N",
-              "horario": "L-D: 06:00-22:00",
-              "latitud": 42.103944,
-              "longitud": 1.854528,
-              "precio95": 1.655,
-              "precioDiesel": 1.805
-            },
-            {
               "rotulo": "BP OIL",
               "direccion": "PASSEIG DE LA PAU, S/N",
               "horario": "L-J: 06:00-01:00; V-S: 24H; D: 06:00-01:00",
@@ -47106,6 +47097,15 @@
               "longitud": 1.845222,
               "precio95": 1.659,
               "precioDiesel": 1.795
+            },
+            {
+              "rotulo": "REPSOL",
+              "direccion": "AVINGUDA CANAL INDUSTRIAL, S/N",
+              "horario": "L-D: 06:00-22:00",
+              "latitud": 42.103944,
+              "longitud": 1.854528,
+              "precio95": 1.659,
+              "precioDiesel": 1.815
             },
             {
               "rotulo": "PETRONOR",
@@ -48235,8 +48235,8 @@
         {
           "slug": "canyelles",
           "nombre": "Canyelles",
-          "precioGasolina95": 1.687,
-          "precioDiesel": 1.767,
+          "precioGasolina95": 1.694,
+          "precioDiesel": 1.783,
           "historico": [
             {
               "date": "2026-07-11",
@@ -48305,8 +48305,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.687,
-              "precioDiesel": 1.767
+              "precioGasolina95": 1.694,
+              "precioDiesel": 1.783
             }
           ],
           "top5": [
@@ -48325,8 +48325,8 @@
               "horario": "L-D: 06:00-22:00",
               "latitud": 41.283306,
               "longitud": 1.723917,
-              "precio95": 1.734,
-              "precioDiesel": 1.834
+              "precio95": 1.749,
+              "precioDiesel": 1.866
             }
           ]
         },
@@ -49609,7 +49609,7 @@
           "slug": "cervello",
           "nombre": "Cervelló",
           "precioGasolina95": 1.604,
-          "precioDiesel": 1.732,
+          "precioDiesel": 1.737,
           "historico": [
             {
               "date": "2026-07-11",
@@ -49679,7 +49679,7 @@
             {
               "date": "2026-07-24",
               "precioGasolina95": 1.604,
-              "precioDiesel": 1.732
+              "precioDiesel": 1.737
             }
           ],
           "top5": [
@@ -49699,7 +49699,7 @@
               "latitud": 41.403278,
               "longitud": 1.992917,
               "precio95": 1.699,
-              "precioDiesel": 1.835
+              "precioDiesel": 1.845
             }
           ]
         },
@@ -50937,8 +50937,8 @@
         {
           "slug": "gironella",
           "nombre": "Gironella",
-          "precioGasolina95": 1.655,
-          "precioDiesel": 1.809,
+          "precioGasolina95": 1.665,
+          "precioDiesel": 1.815,
           "historico": [
             {
               "date": "2026-07-11",
@@ -51007,8 +51007,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.655,
-              "precioDiesel": 1.809
+              "precioGasolina95": 1.665,
+              "precioDiesel": 1.815
             }
           ],
           "top5": [
@@ -51018,8 +51018,8 @@
               "horario": "L-D: 06:00-22:00",
               "latitud": 42.016639,
               "longitud": 1.884444,
-              "precio95": 1.655,
-              "precioDiesel": 1.809
+              "precio95": 1.665,
+              "precioDiesel": 1.815
             }
           ]
         },
@@ -52310,8 +52310,8 @@
         {
           "slug": "malgrat-de-mar",
           "nombre": "Malgrat de Mar",
-          "precioGasolina95": 1.53,
-          "precioDiesel": 1.648,
+          "precioGasolina95": 1.534,
+          "precioDiesel": 1.656,
           "historico": [
             {
               "date": "2026-07-11",
@@ -52380,8 +52380,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.53,
-              "precioDiesel": 1.648
+              "precioGasolina95": 1.534,
+              "precioDiesel": 1.656
             }
           ],
           "top5": [
@@ -52418,8 +52418,8 @@
               "horario": "L-D: 06:00-22:00",
               "latitud": 41.656278,
               "longitud": 2.747528,
-              "precio95": 1.734,
-              "precioDiesel": 1.864
+              "precio95": 1.749,
+              "precioDiesel": 1.896
             }
           ]
         },
@@ -53291,8 +53291,8 @@
         {
           "slug": "moia",
           "nombre": "Moià",
-          "precioGasolina95": 1.521,
-          "precioDiesel": 1.631,
+          "precioGasolina95": 1.525,
+          "precioDiesel": 1.635,
           "historico": [
             {
               "date": "2026-07-11",
@@ -53361,8 +53361,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.521,
-              "precioDiesel": 1.631
+              "precioGasolina95": 1.525,
+              "precioDiesel": 1.635
             }
           ],
           "top5": [
@@ -53399,8 +53399,8 @@
               "horario": "L-D: 05:00-23:00",
               "latitud": 41.809306,
               "longitud": 2.102139,
-              "precio95": 1.704,
-              "precioDiesel": 1.851
+              "precio95": 1.719,
+              "precioDiesel": 1.866
             }
           ]
         },
@@ -53747,7 +53747,7 @@
           "slug": "montcada-i-reixac",
           "nombre": "Montcada i Reixac",
           "precioGasolina95": 1.647,
-          "precioDiesel": 1.762,
+          "precioDiesel": 1.763,
           "historico": [
             {
               "date": "2026-07-11",
@@ -53817,7 +53817,7 @@
             {
               "date": "2026-07-24",
               "precioGasolina95": 1.647,
-              "precioDiesel": 1.762
+              "precioDiesel": 1.763
             }
           ],
           "top5": [
@@ -55805,8 +55805,8 @@
         {
           "slug": "pineda-de-mar",
           "nombre": "Pineda de Mar",
-          "precioGasolina95": 1.59,
-          "precioDiesel": 1.688,
+          "precioGasolina95": 1.594,
+          "precioDiesel": 1.696,
           "historico": [
             {
               "date": "2026-07-11",
@@ -55875,8 +55875,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.59,
-              "precioDiesel": 1.688
+              "precioGasolina95": 1.594,
+              "precioDiesel": 1.696
             }
           ],
           "top5": [
@@ -55913,8 +55913,8 @@
               "horario": "L-D: 06:00-22:00",
               "latitud": 41.622944,
               "longitud": 2.673917,
-              "precio95": 1.734,
-              "precioDiesel": 1.864
+              "precio95": 1.749,
+              "precioDiesel": 1.896
             }
           ]
         },
@@ -57231,8 +57231,8 @@
         {
           "slug": "sabadell",
           "nombre": "Sabadell",
-          "precioGasolina95": 1.603,
-          "precioDiesel": 1.712,
+          "precioGasolina95": 1.604,
+          "precioDiesel": 1.716,
           "historico": [
             {
               "date": "2026-07-11",
@@ -57301,8 +57301,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.603,
-              "precioDiesel": 1.712
+              "precioGasolina95": 1.604,
+              "precioDiesel": 1.716
             }
           ],
           "top5": [
@@ -57325,15 +57325,6 @@
               "precioDiesel": 1.569
             },
             {
-              "rotulo": "LOWCOSTFUEL",
-              "direccion": "CALLE CARRETERA BARCELONA, 340",
-              "horario": "L-D: 24H",
-              "latitud": 41.535194,
-              "longitud": 2.110667,
-              "precio95": 1.499,
-              "precioDiesel": 1.529
-            },
-            {
               "rotulo": "BALLENOIL",
               "direccion": "PLAZA RAMON LLULL, 11",
               "horario": "L-D: 24H",
@@ -57341,6 +57332,15 @@
               "longitud": 2.106417,
               "precio95": 1.499,
               "precioDiesel": 1.559
+            },
+            {
+              "rotulo": "LOWCOSTFUEL",
+              "direccion": "CALLE CARRETERA BARCELONA, 340",
+              "horario": "L-D: 24H",
+              "latitud": 41.535194,
+              "longitud": 2.110667,
+              "precio95": 1.499,
+              "precioDiesel": 1.529
             },
             {
               "rotulo": "BALLENOIL",
@@ -57446,7 +57446,7 @@
           "slug": "sallent",
           "nombre": "Sallent",
           "precioGasolina95": 1.552,
-          "precioDiesel": 1.617,
+          "precioDiesel": 1.619,
           "historico": [
             {
               "date": "2026-07-11",
@@ -57516,7 +57516,7 @@
             {
               "date": "2026-07-24",
               "precioGasolina95": 1.552,
-              "precioDiesel": 1.617
+              "precioDiesel": 1.619
             }
           ],
           "top5": [
@@ -57554,7 +57554,7 @@
               "latitud": 41.800639,
               "longitud": 1.898056,
               "precio95": 1.679,
-              "precioDiesel": 1.819
+              "precioDiesel": 1.829
             }
           ]
         },
@@ -58239,8 +58239,8 @@
         {
           "slug": "sant-cugat-del-valles",
           "nombre": "Sant Cugat del Vallès",
-          "precioGasolina95": 1.64,
-          "precioDiesel": 1.766,
+          "precioGasolina95": 1.641,
+          "precioDiesel": 1.767,
           "historico": [
             {
               "date": "2026-07-11",
@@ -58309,8 +58309,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.64,
-              "precioDiesel": 1.766
+              "precioGasolina95": 1.641,
+              "precioDiesel": 1.767
             }
           ],
           "top5": [
@@ -60896,7 +60896,7 @@
           "slug": "santa-coloma-de-gramenet",
           "nombre": "Santa Coloma de Gramenet",
           "precioGasolina95": 1.608,
-          "precioDiesel": 1.731,
+          "precioDiesel": 1.734,
           "historico": [
             {
               "date": "2026-07-11",
@@ -60966,7 +60966,7 @@
             {
               "date": "2026-07-24",
               "precioGasolina95": 1.608,
-              "precioDiesel": 1.731
+              "precioDiesel": 1.734
             }
           ],
           "top5": [
@@ -60995,7 +60995,7 @@
               "latitud": 41.444583,
               "longitud": 2.210583,
               "precio95": 1.695,
-              "precioDiesel": 1.839
+              "precioDiesel": 1.849
             }
           ]
         },
@@ -62659,7 +62659,7 @@
         {
           "slug": "terrassa",
           "nombre": "Terrassa",
-          "precioGasolina95": 1.567,
+          "precioGasolina95": 1.568,
           "precioDiesel": 1.672,
           "historico": [
             {
@@ -62729,7 +62729,7 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.567,
+              "precioGasolina95": 1.568,
               "precioDiesel": 1.672
             }
           ],
@@ -62763,19 +62763,19 @@
             },
             {
               "rotulo": "PETRO VALLES",
-              "direccion": "CARRETERA CASTELLAR KM. 200",
+              "direccion": "AVENIDA JAIME I, 1",
               "horario": "L-D: 24H",
-              "latitud": 41.569472,
-              "longitud": 2.027167,
+              "latitud": 41.569278,
+              "longitud": 2.025444,
               "precio95": 1.449,
               "precioDiesel": 1.549
             },
             {
               "rotulo": "PETRO VALLES",
-              "direccion": "AVENIDA JAIME I, 1",
+              "direccion": "CARRETERA CASTELLAR KM. 200",
               "horario": "L-D: 24H",
-              "latitud": 41.569278,
-              "longitud": 2.025444,
+              "latitud": 41.569472,
+              "longitud": 2.027167,
               "precio95": 1.449,
               "precioDiesel": 1.549
             }
@@ -62870,19 +62870,19 @@
             },
             {
               "rotulo": "CEPSA",
-              "direccion": "CARRETERA C-17 KM. 50",
+              "direccion": "AUTOVIA C-17 KM. 50",
               "horario": "L-D: 06:00-22:00",
-              "latitud": 41.845,
-              "longitud": 2.233278,
+              "latitud": 41.845083,
+              "longitud": 2.23225,
               "precio95": 1.659,
               "precioDiesel": 1.846
             },
             {
               "rotulo": "CEPSA",
-              "direccion": "AUTOVIA C-17 KM. 50",
+              "direccion": "CARRETERA C-17 KM. 50",
               "horario": "L-D: 06:00-22:00",
-              "latitud": 41.845083,
-              "longitud": 2.23225,
+              "latitud": 41.845,
+              "longitud": 2.233278,
               "precio95": 1.659,
               "precioDiesel": 1.846
             }
@@ -63944,7 +63944,7 @@
           "slug": "viladecavalls",
           "nombre": "Viladecavalls",
           "precioGasolina95": 1.525,
-          "precioDiesel": 1.655,
+          "precioDiesel": 1.659,
           "historico": [
             {
               "date": "2026-07-11",
@@ -64014,7 +64014,7 @@
             {
               "date": "2026-07-24",
               "precioGasolina95": 1.525,
-              "precioDiesel": 1.655
+              "precioDiesel": 1.659
             }
           ],
           "top5": [
@@ -64043,15 +64043,15 @@
               "latitud": 41.562278,
               "longitud": 1.967583,
               "precio95": 1.705,
-              "precioDiesel": 1.835
+              "precioDiesel": 1.845
             }
           ]
         },
         {
           "slug": "vilafranca-del-penedes",
           "nombre": "Vilafranca del Penedès",
-          "precioGasolina95": 1.576,
-          "precioDiesel": 1.681,
+          "precioGasolina95": 1.577,
+          "precioDiesel": 1.684,
           "historico": [
             {
               "date": "2026-07-11",
@@ -64120,8 +64120,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.576,
-              "precioDiesel": 1.681
+              "precioGasolina95": 1.577,
+              "precioDiesel": 1.684
             }
           ],
           "top5": [
@@ -64692,7 +64692,7 @@
           "slug": "abanto-y-ciervana-abanto-zierbena",
           "nombre": "Abanto y Ciérvana-Abanto Zierbena",
           "precioGasolina95": 1.743,
-          "precioDiesel": 1.823,
+          "precioDiesel": 1.826,
           "historico": [
             {
               "date": "2026-07-11",
@@ -64762,7 +64762,7 @@
             {
               "date": "2026-07-24",
               "precioGasolina95": 1.743,
-              "precioDiesel": 1.823
+              "precioDiesel": 1.826
             }
           ],
           "top5": [
@@ -64791,7 +64791,7 @@
               "latitud": 43.327111,
               "longitud": -3.067722,
               "precio95": 1.749,
-              "precioDiesel": 1.835
+              "precioDiesel": 1.845
             },
             {
               "rotulo": "REPSOL",
@@ -64990,6 +64990,15 @@
               "precioDiesel": 1.835
             },
             {
+              "rotulo": "REPSOL",
+              "direccion": "CR N-634, 93",
+              "horario": "L-V: 06:00-22:00; S-D: 08:00-22:00",
+              "latitud": 43.228917,
+              "longitud": -2.752944,
+              "precio95": 1.749,
+              "precioDiesel": 1.839
+            },
+            {
               "rotulo": "PETRONOR",
               "direccion": "CR A-8  BILBAO BEHOBIA P.K. 99,7",
               "horario": "L-D: 24H",
@@ -65006,15 +65015,6 @@
               "longitud": -2.754028,
               "precio95": 1.749,
               "precioDiesel": 1.835
-            },
-            {
-              "rotulo": "REPSOL",
-              "direccion": "CR N-634, 93",
-              "horario": "L-V: 06:00-22:00; S-D: 08:00-22:00",
-              "latitud": 43.228917,
-              "longitud": -2.752944,
-              "precio95": 1.749,
-              "precioDiesel": 1.839
             }
           ]
         },
@@ -66337,6 +66337,15 @@
             },
             {
               "rotulo": "PETRONOR",
+              "direccion": "CARRETERA BI-3704 ASUA-LOIU KM. 57",
+              "horario": "L-V: 07:00-22:00; S-D: 08:00-22:00",
+              "latitud": 43.307528,
+              "longitud": -2.944833,
+              "precio95": 1.745,
+              "precioDiesel": 1.839
+            },
+            {
+              "rotulo": "PETRONOR",
               "direccion": "CARRETERA BI-3704 KM. 5,5",
               "horario": "L-V: 06:00-22:00; S-D: 08:00-22:00",
               "latitud": 43.291222,
@@ -66352,15 +66361,6 @@
               "longitud": -2.959889,
               "precio95": 1.745,
               "precioDiesel": 1.835
-            },
-            {
-              "rotulo": "PETRONOR",
-              "direccion": "CARRETERA BI-3704 ASUA-LOIU KM. 57",
-              "horario": "L-V: 07:00-22:00; S-D: 08:00-22:00",
-              "latitud": 43.307528,
-              "longitud": -2.944833,
-              "precio95": 1.745,
-              "precioDiesel": 1.839
             }
           ]
         },
@@ -67936,7 +67936,7 @@
           "slug": "markina-xemein",
           "nombre": "Markina-Xemein",
           "precioGasolina95": 1.742,
-          "precioDiesel": 1.829,
+          "precioDiesel": 1.834,
           "historico": [
             {
               "date": "2026-07-11",
@@ -68006,7 +68006,7 @@
             {
               "date": "2026-07-24",
               "precioGasolina95": 1.742,
-              "precioDiesel": 1.829
+              "precioDiesel": 1.834
             }
           ],
           "top5": [
@@ -68017,7 +68017,7 @@
               "latitud": 43.280111,
               "longitud": -2.495722,
               "precio95": 1.739,
-              "precioDiesel": 1.819
+              "precioDiesel": 1.829
             },
             {
               "rotulo": "PETRONOR",
@@ -68916,7 +68916,7 @@
           "slug": "sestao",
           "nombre": "Sestao",
           "precioGasolina95": 1.723,
-          "precioDiesel": 1.782,
+          "precioDiesel": 1.784,
           "historico": [
             {
               "date": "2026-07-11",
@@ -68986,7 +68986,7 @@
             {
               "date": "2026-07-24",
               "precioGasolina95": 1.723,
-              "precioDiesel": 1.782
+              "precioDiesel": 1.784
             }
           ],
           "top5": [
@@ -69020,20 +69020,20 @@
             {
               "rotulo": "REPSOL",
               "direccion": "CARRETERA BI-3745 KM. 9,2",
-              "horario": "L-D: 24H",
-              "latitud": 43.298528,
-              "longitud": -3.003167,
+              "horario": "L-D: 06:00-22:00",
+              "latitud": 43.298889,
+              "longitud": -3.00275,
               "precio95": 1.755,
               "precioDiesel": 1.829
             },
             {
               "rotulo": "REPSOL",
               "direccion": "CARRETERA BI-3745 KM. 9,2",
-              "horario": "L-D: 06:00-22:00",
-              "latitud": 43.298889,
-              "longitud": -3.00275,
+              "horario": "L-D: 24H",
+              "latitud": 43.298528,
+              "longitud": -3.003167,
               "precio95": 1.755,
-              "precioDiesel": 1.829
+              "precioDiesel": 1.839
             }
           ]
         },
@@ -75389,8 +75389,8 @@
         {
           "slug": "villadiego",
           "nombre": "Villadiego",
-          "precioGasolina95": 1.739,
-          "precioDiesel": 1.789,
+          "precioGasolina95": 1.759,
+          "precioDiesel": 1.809,
           "historico": [
             {
               "date": "2026-07-11",
@@ -75459,8 +75459,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.739,
-              "precioDiesel": 1.789
+              "precioGasolina95": 1.759,
+              "precioDiesel": 1.809
             }
           ],
           "top5": [
@@ -75470,8 +75470,8 @@
               "horario": "L-D: 08:00-21:00",
               "latitud": 42.512111,
               "longitud": -4.010778,
-              "precio95": 1.739,
-              "precioDiesel": 1.789
+              "precio95": 1.759,
+              "precioDiesel": 1.809
             }
           ]
         },
@@ -75693,7 +75693,7 @@
           "slug": "villalmanzo",
           "nombre": "Villalmanzo",
           "precioGasolina95": 1.712,
-          "precioDiesel": 1.765,
+          "precioDiesel": 1.771,
           "historico": [
             {
               "date": "2026-07-11",
@@ -75763,7 +75763,7 @@
             {
               "date": "2026-07-24",
               "precioGasolina95": 1.712,
-              "precioDiesel": 1.765
+              "precioDiesel": 1.771
             }
           ],
           "top5": [
@@ -75782,8 +75782,8 @@
               "horario": "L-D: 24H",
               "latitud": 42.041028,
               "longitud": -3.751667,
-              "precio95": 1.767,
-              "precioDiesel": 1.809
+              "precio95": 1.769,
+              "precioDiesel": 1.828
             },
             {
               "rotulo": "REPSOL",
@@ -82707,8 +82707,8 @@
         {
           "slug": "trujillo",
           "nombre": "Trujillo",
-          "precioGasolina95": 1.721,
-          "precioDiesel": 1.844,
+          "precioGasolina95": 1.724,
+          "precioDiesel": 1.845,
           "historico": [
             {
               "date": "2026-07-11",
@@ -82777,8 +82777,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.721,
-              "precioDiesel": 1.844
+              "precioGasolina95": 1.724,
+              "precioDiesel": 1.845
             }
           ],
           "top5": [
@@ -82810,15 +82810,6 @@
               "precioDiesel": 1.879
             },
             {
-              "rotulo": "REPSOL",
-              "direccion": "AVENIDA MADRID, 50",
-              "horario": "L-D: 06:00-22:00",
-              "latitud": 39.460472,
-              "longitud": -5.870806,
-              "precio95": 1.719,
-              "precioDiesel": 1.829
-            },
-            {
               "rotulo": "CEPSA",
               "direccion": "CARRETERA ANTIGUA N-V KM. 252",
               "horario": "L-S: 06:00-22:00; D: 07:00-22:00",
@@ -82826,6 +82817,15 @@
               "longitud": -5.863111,
               "precio95": 1.729,
               "precioDiesel": 1.876
+            },
+            {
+              "rotulo": "MOEVE",
+              "direccion": "AUTOVIA A-5 KM. 244,6",
+              "horario": "L-D: 24H",
+              "latitud": 39.526167,
+              "longitud": -5.833361,
+              "precio95": 1.729,
+              "precioDiesel": 1.866
             }
           ]
         },
@@ -86932,8 +86932,8 @@
         {
           "slug": "san-roque",
           "nombre": "San Roque",
-          "precioGasolina95": 1.681,
-          "precioDiesel": 1.745,
+          "precioGasolina95": 1.682,
+          "precioDiesel": 1.748,
           "historico": [
             {
               "date": "2026-07-11",
@@ -87002,8 +87002,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.681,
-              "precioDiesel": 1.745
+              "precioGasolina95": 1.682,
+              "precioDiesel": 1.748
             }
           ],
           "top5": [
@@ -87854,7 +87854,7 @@
       "provincia": "cantabria",
       "nombreProvincia": "CANTABRIA",
       "precioMedioGasolina95": 1.683,
-      "precioMedioDiesel": 1.745,
+      "precioMedioDiesel": 1.747,
       "localidades": [
         {
           "slug": "alfoz-de-lloredo",
@@ -88430,7 +88430,7 @@
           "slug": "cabezon-de-la-sal",
           "nombre": "Cabezón de la Sal",
           "precioGasolina95": 1.749,
-          "precioDiesel": 1.859,
+          "precioDiesel": 1.866,
           "historico": [
             {
               "date": "2026-07-11",
@@ -88500,7 +88500,7 @@
             {
               "date": "2026-07-24",
               "precioGasolina95": 1.749,
-              "precioDiesel": 1.859
+              "precioDiesel": 1.866
             }
           ],
           "top5": [
@@ -88529,7 +88529,7 @@
               "latitud": 43.327028,
               "longitud": -4.191639,
               "precio95": 1.759,
-              "precioDiesel": 1.859
+              "precioDiesel": 1.879
             }
           ]
         },
@@ -88537,7 +88537,7 @@
           "slug": "camargo",
           "nombre": "Camargo",
           "precioGasolina95": 1.679,
-          "precioDiesel": 1.737,
+          "precioDiesel": 1.738,
           "historico": [
             {
               "date": "2026-07-11",
@@ -88607,7 +88607,7 @@
             {
               "date": "2026-07-24",
               "precioGasolina95": 1.679,
-              "precioDiesel": 1.737
+              "precioDiesel": 1.738
             }
           ],
           "top5": [
@@ -88760,7 +88760,7 @@
           "slug": "cartes",
           "nombre": "Cartes",
           "precioGasolina95": 1.619,
-          "precioDiesel": 1.686,
+          "precioDiesel": 1.691,
           "historico": [
             {
               "date": "2026-07-11",
@@ -88830,7 +88830,7 @@
             {
               "date": "2026-07-24",
               "precioGasolina95": 1.619,
-              "precioDiesel": 1.686
+              "precioDiesel": 1.691
             }
           ],
           "top5": [
@@ -89785,7 +89785,7 @@
           "slug": "hazas-de-cesto",
           "nombre": "Hazas de Cesto",
           "precioGasolina95": 1.739,
-          "precioDiesel": 1.799,
+          "precioDiesel": 1.829,
           "historico": [
             {
               "date": "2026-07-11",
@@ -89855,7 +89855,7 @@
             {
               "date": "2026-07-24",
               "precioGasolina95": 1.739,
-              "precioDiesel": 1.799
+              "precioDiesel": 1.829
             }
           ],
           "top5": [
@@ -89866,7 +89866,7 @@
               "latitud": 43.414194,
               "longitud": -3.578556,
               "precio95": 1.739,
-              "precioDiesel": 1.799
+              "precioDiesel": 1.829
             }
           ]
         },
@@ -90443,8 +90443,8 @@
         {
           "slug": "miengo",
           "nombre": "Miengo",
-          "precioGasolina95": 1.712,
-          "precioDiesel": 1.777,
+          "precioGasolina95": 1.717,
+          "precioDiesel": 1.782,
           "historico": [
             {
               "date": "2026-07-11",
@@ -90513,8 +90513,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.712,
-              "precioDiesel": 1.777
+              "precioGasolina95": 1.717,
+              "precioDiesel": 1.782
             }
           ],
           "top5": [
@@ -90542,8 +90542,8 @@
               "horario": "L-D: 24H",
               "latitud": 43.407778,
               "longitud": -3.987222,
-              "precio95": 1.739,
-              "precioDiesel": 1.826
+              "precio95": 1.754,
+              "precioDiesel": 1.841
             }
           ]
         },
@@ -92083,7 +92083,7 @@
           "slug": "santa-maria-de-cayon",
           "nombre": "Santa María de Cayón",
           "precioGasolina95": 1.719,
-          "precioDiesel": 1.784,
+          "precioDiesel": 1.794,
           "historico": [
             {
               "date": "2026-07-11",
@@ -92153,7 +92153,7 @@
             {
               "date": "2026-07-24",
               "precioGasolina95": 1.719,
-              "precioDiesel": 1.784
+              "precioDiesel": 1.794
             }
           ],
           "top5": [
@@ -92173,7 +92173,7 @@
               "latitud": 43.320694,
               "longitud": -3.867861,
               "precio95": 1.729,
-              "precioDiesel": 1.799
+              "precioDiesel": 1.819
             }
           ]
         },
@@ -92181,7 +92181,7 @@
           "slug": "santander",
           "nombre": "Santander",
           "precioGasolina95": 1.664,
-          "precioDiesel": 1.695,
+          "precioDiesel": 1.696,
           "historico": [
             {
               "date": "2026-07-11",
@@ -92251,7 +92251,7 @@
             {
               "date": "2026-07-24",
               "precioGasolina95": 1.664,
-              "precioDiesel": 1.695
+              "precioDiesel": 1.696
             }
           ],
           "top5": [
@@ -92778,7 +92778,7 @@
           "slug": "suances",
           "nombre": "Suances",
           "precioGasolina95": 1.609,
-          "precioDiesel": 1.694,
+          "precioDiesel": 1.704,
           "historico": [
             {
               "date": "2026-07-11",
@@ -92848,7 +92848,7 @@
             {
               "date": "2026-07-24",
               "precioGasolina95": 1.609,
-              "precioDiesel": 1.694
+              "precioDiesel": 1.704
             }
           ],
           "top5": [
@@ -92868,7 +92868,7 @@
               "latitud": 43.397806,
               "longitud": -4.049056,
               "precio95": 1.739,
-              "precioDiesel": 1.799
+              "precioDiesel": 1.819
             }
           ]
         },
@@ -93098,8 +93098,8 @@
         {
           "slug": "valdaliga",
           "nombre": "Valdáliga",
-          "precioGasolina95": 1.752,
-          "precioDiesel": 1.866,
+          "precioGasolina95": 1.756,
+          "precioDiesel": 1.87,
           "historico": [
             {
               "date": "2026-07-11",
@@ -93168,8 +93168,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.752,
-              "precioDiesel": 1.866
+              "precioGasolina95": 1.756,
+              "precioDiesel": 1.87
             }
           ],
           "top5": [
@@ -93197,8 +93197,8 @@
               "horario": "L-D: 06:00-22:00",
               "latitud": 43.319556,
               "longitud": -4.309,
-              "precio95": 1.759,
-              "precioDiesel": 1.849
+              "precio95": 1.769,
+              "precioDiesel": 1.859
             }
           ]
         },
@@ -104120,7 +104120,7 @@
           "slug": "santa-cruz-de-mudela",
           "nombre": "Santa Cruz de Mudela",
           "precioGasolina95": 1.711,
-          "precioDiesel": 1.746,
+          "precioDiesel": 1.745,
           "historico": [
             {
               "date": "2026-07-11",
@@ -104190,7 +104190,7 @@
             {
               "date": "2026-07-24",
               "precioGasolina95": 1.711,
-              "precioDiesel": 1.746
+              "precioDiesel": 1.745
             }
           ],
           "top5": [
@@ -104244,8 +104244,8 @@
         {
           "slug": "socuellamos",
           "nombre": "Socuéllamos",
-          "precioGasolina95": 1.648,
-          "precioDiesel": 1.704,
+          "precioGasolina95": 1.651,
+          "precioDiesel": 1.707,
           "historico": [
             {
               "date": "2026-07-11",
@@ -104314,8 +104314,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.648,
-              "precioDiesel": 1.704
+              "precioGasolina95": 1.651,
+              "precioDiesel": 1.707
             }
           ],
           "top5": [
@@ -104348,21 +104348,21 @@
             },
             {
               "rotulo": "REPSOL",
-              "direccion": "CALLE PASEO DE LOS MARTIRES, 58",
-              "horario": "L-D: 06:00-14:00 y 17:00-22:00",
-              "latitud": 39.289806,
-              "longitud": -2.79575,
-              "precio95": 1.659,
-              "precioDiesel": 1.805
-            },
-            {
-              "rotulo": "REPSOL",
               "direccion": "CR CR-100, 0,9",
               "horario": "L-D: 06:00-23:59",
               "latitud": 39.278444,
               "longitud": -2.785167,
               "precio95": 1.659,
               "precioDiesel": 1.799
+            },
+            {
+              "rotulo": "REPSOL",
+              "direccion": "CALLE PASEO DE LOS MARTIRES, 58",
+              "horario": "L-D: 06:00-14:00 y 17:00-22:00",
+              "latitud": 39.289806,
+              "longitud": -2.79575,
+              "precio95": 1.659,
+              "precioDiesel": 1.805
             }
           ]
         },
@@ -104584,7 +104584,7 @@
           "slug": "tomelloso",
           "nombre": "Tomelloso",
           "precioGasolina95": 1.585,
-          "precioDiesel": 1.688,
+          "precioDiesel": 1.69,
           "historico": [
             {
               "date": "2026-07-11",
@@ -104654,7 +104654,7 @@
             {
               "date": "2026-07-24",
               "precioGasolina95": 1.585,
-              "precioDiesel": 1.688
+              "precioDiesel": 1.69
             }
           ],
           "top5": [
@@ -104677,20 +104677,20 @@
               "precioDiesel": 1.559
             },
             {
-              "rotulo": "T9",
-              "direccion": "AVENIDA JUAN CARLOS I, 86",
-              "horario": "L-D: 24H",
-              "latitud": 39.165472,
-              "longitud": -3.007417,
-              "precio95": 1.499,
-              "precioDiesel": 1.499
-            },
-            {
               "rotulo": "PLENERGY",
               "direccion": "AVENIDA JUAN CARLOS I, 12",
               "horario": "L-D: 24H",
               "latitud": 39.153778,
               "longitud": -3.009389,
+              "precio95": 1.499,
+              "precioDiesel": 1.499
+            },
+            {
+              "rotulo": "T9",
+              "direccion": "AVENIDA JUAN CARLOS I, 86",
+              "horario": "L-D: 24H",
+              "latitud": 39.165472,
+              "longitud": -3.007417,
               "precio95": 1.499,
               "precioDiesel": 1.499
             },
@@ -104701,7 +104701,7 @@
               "latitud": 39.172028,
               "longitud": -3.009972,
               "precio95": 1.549,
-              "precioDiesel": 1.629
+              "precioDiesel": 1.649
             }
           ]
         },
@@ -105681,7 +105681,7 @@
     {
       "provincia": "cordoba",
       "nombreProvincia": "CÓRDOBA",
-      "precioMedioGasolina95": 1.636,
+      "precioMedioGasolina95": 1.637,
       "precioMedioDiesel": 1.746,
       "localidades": [
         {
@@ -107140,7 +107140,7 @@
           "slug": "carlota-la",
           "nombre": "Carlota (La)",
           "precioGasolina95": 1.627,
-          "precioDiesel": 1.791,
+          "precioDiesel": 1.793,
           "historico": [
             {
               "date": "2026-07-11",
@@ -107210,7 +107210,7 @@
             {
               "date": "2026-07-24",
               "precioGasolina95": 1.627,
-              "precioDiesel": 1.791
+              "precioDiesel": 1.793
             }
           ],
           "top5": [
@@ -107772,8 +107772,8 @@
         {
           "slug": "espiel",
           "nombre": "Espiel",
-          "precioGasolina95": 1.589,
-          "precioDiesel": 1.689,
+          "precioGasolina95": 1.639,
+          "precioDiesel": 1.739,
           "historico": [
             {
               "date": "2026-07-11",
@@ -107842,8 +107842,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.589,
-              "precioDiesel": 1.689
+              "precioGasolina95": 1.639,
+              "precioDiesel": 1.739
             }
           ],
           "top5": [
@@ -107853,8 +107853,8 @@
               "horario": "L-S: 06:00-22:00",
               "latitud": 38.18525,
               "longitud": -5.029528,
-              "precio95": 1.589,
-              "precioDiesel": 1.689
+              "precio95": 1.639,
+              "precioDiesel": 1.739
             }
           ]
         },
@@ -108262,8 +108262,8 @@
         {
           "slug": "hornachuelos",
           "nombre": "Hornachuelos",
-          "precioGasolina95": 1.649,
-          "precioDiesel": 1.794,
+          "precioGasolina95": 1.656,
+          "precioDiesel": 1.804,
           "historico": [
             {
               "date": "2026-07-11",
@@ -108332,8 +108332,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.649,
-              "precioDiesel": 1.794
+              "precioGasolina95": 1.656,
+              "precioDiesel": 1.804
             }
           ],
           "top5": [
@@ -108343,8 +108343,8 @@
               "horario": "L-D: 06:00-22:00",
               "latitud": 37.829778,
               "longitud": -5.247139,
-              "precio95": 1.639,
-              "precioDiesel": 1.779
+              "precio95": 1.654,
+              "precioDiesel": 1.799
             },
             {
               "rotulo": "REPSOL",
@@ -109599,7 +109599,7 @@
         {
           "slug": "penarroya-pueblonuevo",
           "nombre": "Peñarroya-Pueblonuevo",
-          "precioGasolina95": 1.606,
+          "precioGasolina95": 1.605,
           "precioDiesel": 1.723,
           "historico": [
             {
@@ -109669,7 +109669,7 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.606,
+              "precioGasolina95": 1.605,
               "precioDiesel": 1.723
             }
           ],
@@ -109813,8 +109813,8 @@
         {
           "slug": "pozoblanco",
           "nombre": "Pozoblanco",
-          "precioGasolina95": 1.607,
-          "precioDiesel": 1.739,
+          "precioGasolina95": 1.611,
+          "precioDiesel": 1.747,
           "historico": [
             {
               "date": "2026-07-11",
@@ -109883,20 +109883,11 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.607,
-              "precioDiesel": 1.739
+              "precioGasolina95": 1.611,
+              "precioDiesel": 1.747
             }
           ],
           "top5": [
-            {
-              "rotulo": "PRODENERGY",
-              "direccion": "CALLE MUÑOZ DE SEPULVEDA, 99",
-              "horario": "L-D: 24H",
-              "latitud": 38.373861,
-              "longitud": -4.853167,
-              "precio95": 1.559,
-              "precioDiesel": 1.659
-            },
             {
               "rotulo": "PETROVAP",
               "direccion": "CALLE PRIMERA (PG.I.DEH.BOYAL), 50",
@@ -109905,6 +109896,15 @@
               "longitud": -4.84125,
               "precio95": 1.559,
               "precioDiesel": 1.659
+            },
+            {
+              "rotulo": "PRODENERGY",
+              "direccion": "CALLE MUÑOZ DE SEPULVEDA, 99",
+              "horario": "L-D: 24H",
+              "latitud": 38.373861,
+              "longitud": -4.853167,
+              "precio95": 1.579,
+              "precioDiesel": 1.689
             },
             {
               "rotulo": "SHELL",
@@ -111357,7 +111357,7 @@
       "provincia": "coruna-a",
       "nombreProvincia": "CORUÑA (A)",
       "precioMedioGasolina95": 1.668,
-      "precioMedioDiesel": 1.73,
+      "precioMedioDiesel": 1.731,
       "localidades": [
         {
           "slug": "abegondo",
@@ -114357,8 +114357,8 @@
         {
           "slug": "dodro",
           "nombre": "Dodro",
-          "precioGasolina95": 1.717,
-          "precioDiesel": 1.761,
+          "precioGasolina95": 1.701,
+          "precioDiesel": 1.772,
           "historico": [
             {
               "date": "2026-07-11",
@@ -114427,8 +114427,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.717,
-              "precioDiesel": 1.761
+              "precioGasolina95": 1.701,
+              "precioDiesel": 1.772
             }
           ],
           "top5": [
@@ -114438,8 +114438,8 @@
               "horario": "L-D: 24H",
               "latitud": 42.707639,
               "longitud": -8.7295,
-              "precio95": 1.679,
-              "precioDiesel": 1.738
+              "precio95": 1.648,
+              "precioDiesel": 1.758
             },
             {
               "rotulo": "GALP",
@@ -117634,21 +117634,21 @@
             },
             {
               "rotulo": "REPSOL",
-              "direccion": "CALLE LA CASILLA, S/N",
-              "horario": "L-V: 07:00-21:30; S: 07:00-14:30",
-              "latitud": 43.452417,
-              "longitud": -7.867222,
-              "precio95": 1.719,
-              "precioDiesel": 1.815
-            },
-            {
-              "rotulo": "REPSOL",
               "direccion": "AVENIDA AVENIDA DE LUGO, 94",
               "horario": "L-D: 07:00-23:00",
               "latitud": 43.442611,
               "longitud": -7.84625,
               "precio95": 1.719,
               "precioDiesel": 1.819
+            },
+            {
+              "rotulo": "REPSOL",
+              "direccion": "CALLE LA CASILLA, S/N",
+              "horario": "L-V: 07:00-21:30; S: 07:00-14:30",
+              "latitud": 43.452417,
+              "longitud": -7.867222,
+              "precio95": 1.719,
+              "precioDiesel": 1.815
             }
           ]
         },
@@ -117744,8 +117744,8 @@
         {
           "slug": "rianxo",
           "nombre": "Rianxo",
-          "precioGasolina95": 1.734,
-          "precioDiesel": 1.779,
+          "precioGasolina95": 1.739,
+          "precioDiesel": 1.786,
           "historico": [
             {
               "date": "2026-07-11",
@@ -117814,8 +117814,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.734,
-              "precioDiesel": 1.779
+              "precioGasolina95": 1.739,
+              "precioDiesel": 1.786
             }
           ],
           "top5": [
@@ -117843,8 +117843,8 @@
               "horario": "L-S: 07:00-23:00; D: 09:00-23:00",
               "latitud": 42.679306,
               "longitud": -8.819944,
-              "precio95": 1.729,
-              "precioDiesel": 1.769
+              "precio95": 1.749,
+              "precioDiesel": 1.799
             },
             {
               "rotulo": "BP",
@@ -118405,7 +118405,7 @@
           "slug": "santiago-de-compostela",
           "nombre": "Santiago de Compostela",
           "precioGasolina95": 1.723,
-          "precioDiesel": 1.758,
+          "precioDiesel": 1.759,
           "historico": [
             {
               "date": "2026-07-11",
@@ -118475,7 +118475,7 @@
             {
               "date": "2026-07-24",
               "precioGasolina95": 1.723,
-              "precioDiesel": 1.758
+              "precioDiesel": 1.759
             }
           ],
           "top5": [
@@ -123507,8 +123507,8 @@
         {
           "slug": "provencio-el",
           "nombre": "Provencio (El)",
-          "precioGasolina95": 1.741,
-          "precioDiesel": 1.85,
+          "precioGasolina95": 1.746,
+          "precioDiesel": 1.855,
           "historico": [
             {
               "date": "2026-07-11",
@@ -123577,8 +123577,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.741,
-              "precioDiesel": 1.85
+              "precioGasolina95": 1.746,
+              "precioDiesel": 1.855
             }
           ],
           "top5": [
@@ -123606,8 +123606,8 @@
               "horario": "L-D: 07:00-23:00",
               "latitud": 39.412194,
               "longitud": -2.589,
-              "precio95": 1.795,
-              "precioDiesel": 1.911
+              "precio95": 1.809,
+              "precioDiesel": 1.927
             }
           ]
         },
@@ -132480,8 +132480,8 @@
         {
           "slug": "cellera-de-ter-la",
           "nombre": "Cellera de Ter (La)",
-          "precioGasolina95": 1.739,
-          "precioDiesel": 1.789,
+          "precioGasolina95": 1.789,
+          "precioDiesel": 1.849,
           "historico": [
             {
               "date": "2026-07-11",
@@ -132550,8 +132550,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.739,
-              "precioDiesel": 1.789
+              "precioGasolina95": 1.789,
+              "precioDiesel": 1.849
             }
           ],
           "top5": [
@@ -132561,8 +132561,8 @@
               "horario": "L-S: 06:00-22:00; D: 07:00-14:00",
               "latitud": 41.966806,
               "longitud": 2.62525,
-              "precio95": 1.739,
-              "precioDiesel": 1.789
+              "precio95": 1.789,
+              "precioDiesel": 1.849
             }
           ]
         },
@@ -139816,7 +139816,7 @@
       "provincia": "granada",
       "nombreProvincia": "GRANADA",
       "precioMedioGasolina95": 1.624,
-      "precioMedioDiesel": 1.702,
+      "precioMedioDiesel": 1.703,
       "localidades": [
         {
           "slug": "albolote",
@@ -140748,8 +140748,8 @@
         {
           "slug": "atarfe",
           "nombre": "Atarfe",
-          "precioGasolina95": 1.566,
-          "precioDiesel": 1.619,
+          "precioGasolina95": 1.569,
+          "precioDiesel": 1.626,
           "historico": [
             {
               "date": "2026-07-11",
@@ -140818,8 +140818,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.566,
-              "precioDiesel": 1.619
+              "precioGasolina95": 1.569,
+              "precioDiesel": 1.626
             }
           ],
           "top5": [
@@ -140833,15 +140833,6 @@
               "precioDiesel": 1.539
             },
             {
-              "rotulo": "E.S. PETRONACHIL - LOS ALAMOS",
-              "direccion": "CARRETERA ATARFE-SANTA FE KM. 0,5",
-              "horario": "L-V: 07:00-21:30; S: 07:00-14:30",
-              "latitud": 37.215278,
-              "longitud": -3.700417,
-              "precio95": 1.529,
-              "precioDiesel": 1.529
-            },
-            {
               "rotulo": "E.S. EL MOLINO ATARFE DOS",
               "direccion": "CALLE RONDA LINDARAJAS, S/N",
               "horario": "L-D: 24H",
@@ -140849,6 +140840,15 @@
               "longitud": -3.681944,
               "precio95": 1.539,
               "precioDiesel": 1.599
+            },
+            {
+              "rotulo": "E.S. PETRONACHIL - LOS ALAMOS",
+              "direccion": "CARRETERA ATARFE-SANTA FE KM. 0,5",
+              "horario": "L-V: 07:00-21:30; S: 07:00-14:30",
+              "latitud": 37.215278,
+              "longitud": -3.700417,
+              "precio95": 1.549,
+              "precioDiesel": 1.589
             },
             {
               "rotulo": "PLENERGY",
@@ -142156,8 +142156,8 @@
         {
           "slug": "cijuela",
           "nombre": "Cijuela",
-          "precioGasolina95": 1.634,
-          "precioDiesel": 1.694,
+          "precioGasolina95": 1.639,
+          "precioDiesel": 1.724,
           "historico": [
             {
               "date": "2026-07-11",
@@ -142226,8 +142226,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.634,
-              "precioDiesel": 1.694
+              "precioGasolina95": 1.639,
+              "precioDiesel": 1.724
             }
           ],
           "top5": [
@@ -142246,8 +142246,8 @@
               "horario": "L-D: 24H",
               "latitud": 37.195972,
               "longitud": -3.803472,
-              "precio95": 1.669,
-              "precioDiesel": 1.749
+              "precio95": 1.679,
+              "precioDiesel": 1.809
             }
           ]
         },
@@ -142446,20 +142446,20 @@
               "precioDiesel": 1.649
             },
             {
-              "rotulo": "BP VENTA DEL PERAL I",
-              "direccion": "AUTOVIA A/92 GRANADA MURCIA KM. 354",
-              "horario": "L-D: 07:00-23:00",
-              "latitud": 37.554194,
-              "longitud": -2.608944,
-              "precio95": 1.679,
-              "precioDiesel": 1.779
-            },
-            {
               "rotulo": " BP VENTA DEL PERAL II",
               "direccion": "AUTOVIA A/92 KM. 354",
               "horario": "L-D: 24H",
               "latitud": 37.553444,
               "longitud": -2.614111,
+              "precio95": 1.679,
+              "precioDiesel": 1.779
+            },
+            {
+              "rotulo": "BP VENTA DEL PERAL I",
+              "direccion": "AUTOVIA A/92 GRANADA MURCIA KM. 354",
+              "horario": "L-D: 07:00-23:00",
+              "latitud": 37.554194,
+              "longitud": -2.608944,
               "precio95": 1.679,
               "precioDiesel": 1.779
             }
@@ -144447,7 +144447,7 @@
           "slug": "huetor-tajar",
           "nombre": "Huétor Tájar",
           "precioGasolina95": 1.596,
-          "precioDiesel": 1.664,
+          "precioDiesel": 1.665,
           "historico": [
             {
               "date": "2026-07-11",
@@ -144517,7 +144517,7 @@
             {
               "date": "2026-07-24",
               "precioGasolina95": 1.596,
-              "precioDiesel": 1.664
+              "precioDiesel": 1.665
             }
           ],
           "top5": [
@@ -160756,7 +160756,7 @@
           "slug": "fraga",
           "nombre": "Fraga",
           "precioGasolina95": 1.694,
-          "precioDiesel": 1.753,
+          "precioDiesel": 1.754,
           "historico": [
             {
               "date": "2026-07-11",
@@ -160826,7 +160826,7 @@
             {
               "date": "2026-07-24",
               "precioGasolina95": 1.694,
-              "precioDiesel": 1.753
+              "precioDiesel": 1.754
             }
           ],
           "top5": [
@@ -161473,11 +161473,11 @@
               "precioDiesel": 1.589
             },
             {
-              "rotulo": "EXIBOX",
-              "direccion": "RONDA INDUSTRIA (DE LA), 10",
-              "horario": "L-D: 07:00-23:00",
-              "latitud": 42.146889,
-              "longitud": -0.399278,
+              "rotulo": "LABOIL",
+              "direccion": "POLIGONO RONDA INDUSTRIA (DE LA), 124",
+              "horario": "L-D: 24H",
+              "latitud": 42.143639,
+              "longitud": -0.388833,
               "precio95": 1.589,
               "precioDiesel": 1.659
             }
@@ -166651,8 +166651,8 @@
         {
           "slug": "guardia-de-jaen-la",
           "nombre": "Guardia de Jaén (La)",
-          "precioGasolina95": 1.695,
-          "precioDiesel": 1.742,
+          "precioGasolina95": 1.704,
+          "precioDiesel": 1.752,
           "historico": [
             {
               "date": "2026-07-11",
@@ -166721,8 +166721,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.695,
-              "precioDiesel": 1.742
+              "precioGasolina95": 1.704,
+              "precioDiesel": 1.752
             }
           ],
           "top5": [
@@ -166741,8 +166741,8 @@
               "horario": "L-D: 24H",
               "latitud": 37.777861,
               "longitud": -3.733889,
-              "precio95": 1.719,
-              "precioDiesel": 1.859
+              "precio95": 1.739,
+              "precioDiesel": 1.879
             }
           ]
         },
@@ -168426,7 +168426,7 @@
           "slug": "mengibar",
           "nombre": "Mengíbar",
           "precioGasolina95": 1.674,
-          "precioDiesel": 1.799,
+          "precioDiesel": 1.809,
           "historico": [
             {
               "date": "2026-07-11",
@@ -168496,7 +168496,7 @@
             {
               "date": "2026-07-24",
               "precioGasolina95": 1.674,
-              "precioDiesel": 1.799
+              "precioDiesel": 1.809
             }
           ],
           "top5": [
@@ -168516,7 +168516,7 @@
               "latitud": 37.975861,
               "longitud": -3.801167,
               "precio95": 1.689,
-              "precioDiesel": 1.829
+              "precioDiesel": 1.849
             }
           ]
         },
@@ -173628,8 +173628,8 @@
         {
           "slug": "hospital-de-orbigo",
           "nombre": "Hospital de Órbigo",
-          "precioGasolina95": 1.627,
-          "precioDiesel": 1.705,
+          "precioGasolina95": 1.634,
+          "precioDiesel": 1.712,
           "historico": [
             {
               "date": "2026-07-11",
@@ -173698,8 +173698,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.627,
-              "precioDiesel": 1.705
+              "precioGasolina95": 1.634,
+              "precioDiesel": 1.712
             }
           ],
           "top5": [
@@ -173718,8 +173718,8 @@
               "horario": "L: 06:00-22:00",
               "latitud": 42.458556,
               "longitud": -5.882444,
-              "precio95": 1.664,
-              "precioDiesel": 1.771
+              "precio95": 1.679,
+              "precioDiesel": 1.786
             }
           ]
         },
@@ -178224,8 +178224,8 @@
         {
           "slug": "villaquilambre",
           "nombre": "Villaquilambre",
-          "precioGasolina95": 1.636,
-          "precioDiesel": 1.709,
+          "precioGasolina95": 1.638,
+          "precioDiesel": 1.711,
           "historico": [
             {
               "date": "2026-07-11",
@@ -178294,8 +178294,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.636,
-              "precioDiesel": 1.709
+              "precioGasolina95": 1.638,
+              "precioDiesel": 1.711
             }
           ],
           "top5": [
@@ -178323,8 +178323,8 @@
               "horario": "L-D: 06:00-00:00",
               "latitud": 42.636833,
               "longitud": -5.589778,
-              "precio95": 1.559,
-              "precioDiesel": 1.579
+              "precio95": 1.579,
+              "precioDiesel": 1.599
             },
             {
               "rotulo": "SHELL",
@@ -186462,8 +186462,8 @@
         {
           "slug": "tremp",
           "nombre": "Tremp",
-          "precioGasolina95": 1.486,
-          "precioDiesel": 1.609,
+          "precioGasolina95": 1.489,
+          "precioDiesel": 1.614,
           "historico": [
             {
               "date": "2026-07-11",
@@ -186532,8 +186532,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.486,
-              "precioDiesel": 1.609
+              "precioGasolina95": 1.489,
+              "precioDiesel": 1.614
             }
           ],
           "top5": [
@@ -186570,8 +186570,8 @@
               "horario": "L-D: 06:00-22:00",
               "latitud": 42.171361,
               "longitud": 0.895,
-              "precio95": 1.69,
-              "precioDiesel": 1.78
+              "precio95": 1.7,
+              "precioDiesel": 1.8
             }
           ]
         },
@@ -192157,7 +192157,7 @@
       "provincia": "madrid",
       "nombreProvincia": "MADRID",
       "precioMedioGasolina95": 1.675,
-      "precioMedioDiesel": 1.74,
+      "precioMedioDiesel": 1.741,
       "localidades": [
         {
           "slug": "ajalvir",
@@ -192269,7 +192269,7 @@
         {
           "slug": "alamo-el",
           "nombre": "Álamo (El)",
-          "precioGasolina95": 1.571,
+          "precioGasolina95": 1.572,
           "precioDiesel": 1.654,
           "historico": [
             {
@@ -192339,7 +192339,7 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.571,
+              "precioGasolina95": 1.572,
               "precioDiesel": 1.654
             }
           ],
@@ -192510,8 +192510,8 @@
         {
           "slug": "alcobendas",
           "nombre": "Alcobendas",
-          "precioGasolina95": 1.666,
-          "precioDiesel": 1.713,
+          "precioGasolina95": 1.667,
+          "precioDiesel": 1.716,
           "historico": [
             {
               "date": "2026-07-11",
@@ -192580,8 +192580,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.666,
-              "precioDiesel": 1.713
+              "precioGasolina95": 1.667,
+              "precioDiesel": 1.716
             }
           ],
           "top5": [
@@ -192595,15 +192595,6 @@
               "precioDiesel": 1.549
             },
             {
-              "rotulo": "ALCAMPO",
-              "direccion": "AVENIDA OLIMPICA, 9",
-              "horario": "L-D: 24H",
-              "latitud": 40.535194,
-              "longitud": -3.636806,
-              "precio95": 1.549,
-              "precioDiesel": 1.539
-            },
-            {
               "rotulo": "COMBUS",
               "direccion": "CARRETERA FUENCARRAL KM. 100",
               "horario": "L-V: 08:00-19:00",
@@ -192611,6 +192602,15 @@
               "longitud": -3.660889,
               "precio95": 1.549,
               "precioDiesel": 1.539
+            },
+            {
+              "rotulo": "ALCAMPO",
+              "direccion": "AVENIDA OLIMPICA, 9",
+              "horario": "L-D: 24H",
+              "latitud": 40.535194,
+              "longitud": -3.636806,
+              "precio95": 1.549,
+              "precioDiesel": 1.579
             },
             {
               "rotulo": "BALLENOIL",
@@ -192953,19 +192953,19 @@
             },
             {
               "rotulo": "REPSOL",
-              "direccion": "CARRETERA M-106 KM. 3,100",
-              "horario": "L-D: 24H",
-              "latitud": 40.587556,
-              "longitud": -3.545306,
+              "direccion": "CARRETERA M - 106 KM. 3,100",
+              "horario": "L-D: 06:00-23:00",
+              "latitud": 40.588222,
+              "longitud": -3.546167,
               "precio95": 1.709,
               "precioDiesel": 1.795
             },
             {
               "rotulo": "REPSOL",
-              "direccion": "CARRETERA M - 106 KM. 3,100",
-              "horario": "L-D: 06:00-23:00",
-              "latitud": 40.588222,
-              "longitud": -3.546167,
+              "direccion": "CARRETERA M-106 KM. 3,100",
+              "horario": "L-D: 24H",
+              "latitud": 40.587556,
+              "longitud": -3.545306,
               "precio95": 1.709,
               "precioDiesel": 1.795
             }
@@ -193292,19 +193292,19 @@
             },
             {
               "rotulo": "BALLENOIL",
-              "direccion": "CAMINO CAMINO DE SAN MARTÍN DE LA VEGA A ARGANDA, 2",
+              "direccion": "TRAVESÍA SIERRA DE GATA, 17",
               "horario": "L-D: 24H",
-              "latitud": 40.303778,
-              "longitud": -3.451611,
+              "latitud": 40.308361,
+              "longitud": -3.475528,
               "precio95": 1.669,
               "precioDiesel": 1.629
             },
             {
               "rotulo": "BALLENOIL",
-              "direccion": "TRAVESÍA SIERRA DE GATA, 17",
+              "direccion": "CAMINO CAMINO DE SAN MARTÍN DE LA VEGA A ARGANDA, 2",
               "horario": "L-D: 24H",
-              "latitud": 40.308361,
-              "longitud": -3.475528,
+              "latitud": 40.303778,
+              "longitud": -3.451611,
               "precio95": 1.669,
               "precioDiesel": 1.629
             },
@@ -196299,7 +196299,7 @@
         {
           "slug": "getafe",
           "nombre": "Getafe",
-          "precioGasolina95": 1.664,
+          "precioGasolina95": 1.665,
           "precioDiesel": 1.744,
           "historico": [
             {
@@ -196369,7 +196369,7 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.664,
+              "precioGasolina95": 1.665,
               "precioDiesel": 1.744
             }
           ],
@@ -196914,8 +196914,8 @@
         {
           "slug": "humanes-de-madrid",
           "nombre": "Humanes de Madrid",
-          "precioGasolina95": 1.659,
-          "precioDiesel": 1.755,
+          "precioGasolina95": 1.66,
+          "precioDiesel": 1.756,
           "historico": [
             {
               "date": "2026-07-11",
@@ -196984,8 +196984,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.659,
-              "precioDiesel": 1.755
+              "precioGasolina95": 1.66,
+              "precioDiesel": 1.756
             }
           ],
           "top5": [
@@ -197164,8 +197164,8 @@
         {
           "slug": "loeches",
           "nombre": "Loeches",
-          "precioGasolina95": 1.736,
-          "precioDiesel": 1.781,
+          "precioGasolina95": 1.741,
+          "precioDiesel": 1.817,
           "historico": [
             {
               "date": "2026-07-11",
@@ -197234,8 +197234,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.736,
-              "precioDiesel": 1.781
+              "precioGasolina95": 1.741,
+              "precioDiesel": 1.817
             }
           ],
           "top5": [
@@ -197263,8 +197263,8 @@
               "horario": "L-V: 06:00-22:00; D: 13:00-21:00",
               "latitud": 40.345333,
               "longitud": -3.449028,
-              "precio95": 1.839,
-              "precioDiesel": 1.829
+              "precio95": 1.849,
+              "precioDiesel": 1.899
             },
             {
               "rotulo": "REPSOL",
@@ -197272,8 +197272,8 @@
               "horario": "L-D: 24H",
               "latitud": 40.34625,
               "longitud": -3.450889,
-              "precio95": 1.839,
-              "precioDiesel": 1.829
+              "precio95": 1.849,
+              "precioDiesel": 1.899
             }
           ]
         },
@@ -197825,7 +197825,7 @@
           "slug": "meco",
           "nombre": "Meco",
           "precioGasolina95": 1.696,
-          "precioDiesel": 1.779,
+          "precioDiesel": 1.783,
           "historico": [
             {
               "date": "2026-07-11",
@@ -197895,7 +197895,7 @@
             {
               "date": "2026-07-24",
               "precioGasolina95": 1.696,
-              "precioDiesel": 1.779
+              "precioDiesel": 1.783
             }
           ],
           "top5": [
@@ -197918,6 +197918,15 @@
               "precioDiesel": 1.829
             },
             {
+              "rotulo": "REPSOL",
+              "direccion": "AU R-2 ,P.K. 35,5 M.D.",
+              "horario": "L-D: 06:00-22:00",
+              "latitud": 40.554361,
+              "longitud": -3.295,
+              "precio95": 1.819,
+              "precioDiesel": 1.889
+            },
+            {
               "rotulo": "IDS",
               "direccion": "CARRETERA N-II KM. 38",
               "horario": "L-D: 24H",
@@ -197933,16 +197942,7 @@
               "latitud": 40.557,
               "longitud": -3.294472,
               "precio95": 1.819,
-              "precioDiesel": 1.879
-            },
-            {
-              "rotulo": "REPSOL",
-              "direccion": "AU R-2 ,P.K. 35,5 M.D.",
-              "horario": "L-D: 06:00-22:00",
-              "latitud": 40.554361,
-              "longitud": -3.295,
-              "precio95": 1.819,
-              "precioDiesel": 1.879
+              "precioDiesel": 1.889
             }
           ]
         },
@@ -198574,7 +198574,7 @@
           "slug": "mostoles",
           "nombre": "Móstoles",
           "precioGasolina95": 1.633,
-          "precioDiesel": 1.669,
+          "precioDiesel": 1.67,
           "historico": [
             {
               "date": "2026-07-11",
@@ -198644,7 +198644,7 @@
             {
               "date": "2026-07-24",
               "precioGasolina95": 1.633,
-              "precioDiesel": 1.669
+              "precioDiesel": 1.67
             }
           ],
           "top5": [
@@ -198698,8 +198698,8 @@
         {
           "slug": "navacerrada",
           "nombre": "Navacerrada",
-          "precioGasolina95": 1.714,
-          "precioDiesel": 1.816,
+          "precioGasolina95": 1.729,
+          "precioDiesel": 1.831,
           "historico": [
             {
               "date": "2026-07-11",
@@ -198768,8 +198768,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.714,
-              "precioDiesel": 1.816
+              "precioGasolina95": 1.729,
+              "precioDiesel": 1.831
             }
           ],
           "top5": [
@@ -198779,8 +198779,8 @@
               "horario": "L-V: 08:00-15:00 y 18:00-21:00; S-D: 07:00-15:00",
               "latitud": 40.72125,
               "longitud": -4.019528,
-              "precio95": 1.714,
-              "precioDiesel": 1.816
+              "precio95": 1.729,
+              "precioDiesel": 1.831
             },
             {
               "rotulo": "MOEVE",
@@ -198788,16 +198788,16 @@
               "horario": "L-D: 05:58-23:59",
               "latitud": 40.721833,
               "longitud": -4.020472,
-              "precio95": 1.714,
-              "precioDiesel": 1.816
+              "precio95": 1.729,
+              "precioDiesel": 1.831
             }
           ]
         },
         {
           "slug": "navalcarnero",
           "nombre": "Navalcarnero",
-          "precioGasolina95": 1.63,
-          "precioDiesel": 1.707,
+          "precioGasolina95": 1.632,
+          "precioDiesel": 1.71,
           "historico": [
             {
               "date": "2026-07-11",
@@ -198866,8 +198866,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.63,
-              "precioDiesel": 1.707
+              "precioGasolina95": 1.632,
+              "precioDiesel": 1.71
             }
           ],
           "top5": [
@@ -198877,8 +198877,8 @@
               "horario": "L-D: 24H",
               "latitud": 40.291333,
               "longitud": -4.003333,
-              "precio95": 1.489,
-              "precioDiesel": 1.589
+              "precio95": 1.509,
+              "precioDiesel": 1.609
             },
             {
               "rotulo": "BALLENOIL",
@@ -200606,8 +200606,8 @@
         {
           "slug": "san-fernando-de-henares",
           "nombre": "San Fernando de Henares",
-          "precioGasolina95": 1.726,
-          "precioDiesel": 1.827,
+          "precioGasolina95": 1.722,
+          "precioDiesel": 1.823,
           "historico": [
             {
               "date": "2026-07-11",
@@ -200676,8 +200676,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.726,
-              "precioDiesel": 1.827
+              "precioGasolina95": 1.722,
+              "precioDiesel": 1.823
             }
           ],
           "top5": [
@@ -200687,8 +200687,8 @@
               "horario": "L-D: 24H",
               "latitud": 40.443639,
               "longitud": -3.499,
-              "precio95": 1.599,
-              "precioDiesel": 1.699
+              "precio95": 1.549,
+              "precioDiesel": 1.649
             },
             {
               "rotulo": "CEPSA",
@@ -205845,8 +205845,8 @@
         {
           "slug": "cartama",
           "nombre": "Cártama",
-          "precioGasolina95": 1.701,
-          "precioDiesel": 1.789,
+          "precioGasolina95": 1.704,
+          "precioDiesel": 1.791,
           "historico": [
             {
               "date": "2026-07-11",
@@ -205915,8 +205915,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.701,
-              "precioDiesel": 1.789
+              "precioGasolina95": 1.704,
+              "precioDiesel": 1.791
             }
           ],
           "top5": [
@@ -205935,8 +205935,8 @@
               "horario": "L-D: 06:00-22:00",
               "latitud": 36.722472,
               "longitud": -4.615,
-              "precio95": 1.629,
-              "precioDiesel": 1.679
+              "precio95": 1.649,
+              "precioDiesel": 1.699
             },
             {
               "rotulo": "BP RIO GRANDE",
@@ -210116,7 +210116,7 @@
     {
       "provincia": "murcia",
       "nombreProvincia": "MURCIA",
-      "precioMedioGasolina95": 1.631,
+      "precioMedioGasolina95": 1.632,
       "precioMedioDiesel": 1.703,
       "localidades": [
         {
@@ -210452,8 +210452,8 @@
         {
           "slug": "alcantarilla",
           "nombre": "Alcantarilla",
-          "precioGasolina95": 1.633,
-          "precioDiesel": 1.677,
+          "precioGasolina95": 1.636,
+          "precioDiesel": 1.681,
           "historico": [
             {
               "date": "2026-07-11",
@@ -210522,8 +210522,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.633,
-              "precioDiesel": 1.677
+              "precioGasolina95": 1.636,
+              "precioDiesel": 1.681
             }
           ],
           "top5": [
@@ -210791,8 +210791,8 @@
         {
           "slug": "alhama-de-murcia",
           "nombre": "Alhama de Murcia",
-          "precioGasolina95": 1.673,
-          "precioDiesel": 1.741,
+          "precioGasolina95": 1.677,
+          "precioDiesel": 1.753,
           "historico": [
             {
               "date": "2026-07-11",
@@ -210861,20 +210861,11 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.673,
-              "precioDiesel": 1.741
+              "precioGasolina95": 1.677,
+              "precioDiesel": 1.753
             }
           ],
           "top5": [
-            {
-              "rotulo": "REPSOL",
-              "direccion": "AVENIDA GINES CAMPOS, 7",
-              "horario": "L-D: 06:00-22:00",
-              "latitud": 37.848694,
-              "longitud": -1.420417,
-              "precio95": 1.539,
-              "precioDiesel": 1.599
-            },
             {
               "rotulo": "JUAN MARTINEZ SAURA",
               "direccion": "CARRETERA CARTAGENA KM. 1,6",
@@ -210892,6 +210883,15 @@
               "longitud": -1.40425,
               "precio95": 1.54,
               "precioDiesel": 1.64
+            },
+            {
+              "rotulo": "REPSOL",
+              "direccion": "AVENIDA GINES CAMPOS, 7",
+              "horario": "L-D: 06:00-22:00",
+              "latitud": 37.848694,
+              "longitud": -1.420417,
+              "precio95": 1.569,
+              "precioDiesel": 1.699
             },
             {
               "rotulo": "ALAZAN FRESH LINE S.L.",
@@ -212063,20 +212063,20 @@
               "precioDiesel": 1.599
             },
             {
-              "rotulo": "BP",
-              "direccion": "CALLE CAMINO DE MURCIA, 182",
-              "horario": "L-D: 06:00-00:00",
-              "latitud": 38.236833,
-              "longitud": -1.409056,
-              "precio95": 1.705,
-              "precioDiesel": 1.789
-            },
-            {
               "rotulo": "BP LOS OLIVOS",
               "direccion": "CARRETERA CARRETERA NACIONAL 301 KM. 354",
               "horario": "L-D: 07:00-23:00",
               "latitud": 38.243889,
               "longitud": -1.409306,
+              "precio95": 1.705,
+              "precioDiesel": 1.789
+            },
+            {
+              "rotulo": "BP",
+              "direccion": "CALLE CAMINO DE MURCIA, 182",
+              "horario": "L-D: 06:00-00:00",
+              "latitud": 38.236833,
+              "longitud": -1.409056,
               "precio95": 1.705,
               "precioDiesel": 1.789
             },
@@ -212469,8 +212469,8 @@
         {
           "slug": "librilla",
           "nombre": "Librilla",
-          "precioGasolina95": 1.701,
-          "precioDiesel": 1.783,
+          "precioGasolina95": 1.711,
+          "precioDiesel": 1.796,
           "historico": [
             {
               "date": "2026-07-11",
@@ -212539,20 +212539,11 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.701,
-              "precioDiesel": 1.783
+              "precioGasolina95": 1.711,
+              "precioDiesel": 1.796
             }
           ],
           "top5": [
-            {
-              "rotulo": "REPSOL",
-              "direccion": "AUTOVIA A-7 KM. 591",
-              "horario": "L-D: 24H",
-              "latitud": 37.892778,
-              "longitud": -1.339611,
-              "precio95": 1.689,
-              "precioDiesel": 1.759
-            },
             {
               "rotulo": "BP",
               "direccion": "CARRETERA N-340 KM. 309,8",
@@ -212569,6 +212560,15 @@
               "latitud": 37.912167,
               "longitud": -1.313417,
               "precio95": 1.715,
+              "precioDiesel": 1.799
+            },
+            {
+              "rotulo": "REPSOL",
+              "direccion": "AUTOVIA A-7 KM. 591",
+              "horario": "L-D: 24H",
+              "latitud": 37.892778,
+              "longitud": -1.339611,
+              "precio95": 1.719,
               "precioDiesel": 1.799
             }
           ]
@@ -213290,8 +213290,8 @@
         {
           "slug": "murcia",
           "nombre": "Murcia",
-          "precioGasolina95": 1.625,
-          "precioDiesel": 1.7,
+          "precioGasolina95": 1.626,
+          "precioDiesel": 1.701,
           "historico": [
             {
               "date": "2026-07-11",
@@ -213360,8 +213360,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.625,
-              "precioDiesel": 1.7
+              "precioGasolina95": 1.626,
+              "precioDiesel": 1.701
             }
           ],
           "top5": [
@@ -214139,7 +214139,7 @@
           "slug": "torres-de-cotillas-las",
           "nombre": "Torres de Cotillas (Las)",
           "precioGasolina95": 1.667,
-          "precioDiesel": 1.745,
+          "precioDiesel": 1.725,
           "historico": [
             {
               "date": "2026-07-11",
@@ -214209,7 +214209,7 @@
             {
               "date": "2026-07-24",
               "precioGasolina95": 1.667,
-              "precioDiesel": 1.745
+              "precioDiesel": 1.725
             }
           ],
           "top5": [
@@ -214238,7 +214238,7 @@
               "latitud": 38.035083,
               "longitud": -1.253556,
               "precio95": 1.699,
-              "precioDiesel": 1.899
+              "precioDiesel": 1.799
             },
             {
               "rotulo": "REPSOL",
@@ -216205,8 +216205,8 @@
         {
           "slug": "artajona",
           "nombre": "Artajona",
-          "precioGasolina95": 1.574,
-          "precioDiesel": 1.631,
+          "precioGasolina95": 1.579,
+          "precioDiesel": 1.655,
           "historico": [
             {
               "date": "2026-07-11",
@@ -216275,8 +216275,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.574,
-              "precioDiesel": 1.631
+              "precioGasolina95": 1.579,
+              "precioDiesel": 1.655
             }
           ],
           "top5": [
@@ -216295,8 +216295,8 @@
               "horario": "L-V: 07:00-21:00; S: 08:00-14:00",
               "latitud": 42.586528,
               "longitud": -1.76475,
-              "precio95": 1.587,
-              "precioDiesel": 1.603
+              "precio95": 1.599,
+              "precioDiesel": 1.649
             }
           ]
         },
@@ -217025,8 +217025,8 @@
         {
           "slug": "berrioplano",
           "nombre": "Berrioplano",
-          "precioGasolina95": 1.625,
-          "precioDiesel": 1.614,
+          "precioGasolina95": 1.637,
+          "precioDiesel": 1.627,
           "historico": [
             {
               "date": "2026-07-11",
@@ -217095,8 +217095,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.625,
-              "precioDiesel": 1.614
+              "precioGasolina95": 1.637,
+              "precioDiesel": 1.627
             }
           ],
           "top5": [
@@ -217133,8 +217133,8 @@
               "horario": "L-D: 08:00-22:00",
               "latitud": 42.842889,
               "longitud": -1.681833,
-              "precio95": 1.653,
-              "precioDiesel": 1.654
+              "precio95": 1.693,
+              "precioDiesel": 1.694
             },
             {
               "rotulo": "GALP",
@@ -217142,8 +217142,8 @@
               "horario": "L-D: 08:00-22:00",
               "latitud": 42.831583,
               "longitud": -1.651222,
-              "precio95": 1.689,
-              "precioDiesel": 1.679
+              "precio95": 1.699,
+              "precioDiesel": 1.704
             }
           ]
         },
@@ -223948,7 +223948,7 @@
           "slug": "tudela",
           "nombre": "Tudela",
           "precioGasolina95": 1.5,
-          "precioDiesel": 1.593,
+          "precioDiesel": 1.592,
           "historico": [
             {
               "date": "2026-07-11",
@@ -224018,7 +224018,7 @@
             {
               "date": "2026-07-24",
               "precioGasolina95": 1.5,
-              "precioDiesel": 1.593
+              "precioDiesel": 1.592
             }
           ],
           "top5": [
@@ -224050,15 +224050,6 @@
               "precioDiesel": 1.499
             },
             {
-              "rotulo": "PLENERGY",
-              "direccion": "CARRERA CORELLA, 2",
-              "horario": "L-D: 24H",
-              "latitud": 42.062278,
-              "longitud": -1.620111,
-              "precio95": 1.389,
-              "precioDiesel": 1.499
-            },
-            {
               "rotulo": "EROSKI",
               "direccion": "CARRETERA CTRA. ZARAGOZA KM. S/N",
               "horario": "L-S: 09:30-22:00",
@@ -224066,6 +224057,15 @@
               "longitud": -1.588,
               "precio95": 1.389,
               "precioDiesel": 1.439
+            },
+            {
+              "rotulo": "PLENERGY",
+              "direccion": "CARRERA CORELLA, 2",
+              "horario": "L-D: 24H",
+              "latitud": 42.062278,
+              "longitud": -1.620111,
+              "precio95": 1.389,
+              "precioDiesel": 1.499
             }
           ]
         },
@@ -225152,8 +225152,8 @@
     {
       "provincia": "ourense",
       "nombreProvincia": "OURENSE",
-      "precioMedioGasolina95": 1.681,
-      "precioMedioDiesel": 1.764,
+      "precioMedioGasolina95": 1.682,
+      "precioMedioDiesel": 1.766,
       "localidades": [
         {
           "slug": "allariz",
@@ -225612,8 +225612,8 @@
         {
           "slug": "barco-de-valdeorras-o",
           "nombre": "Barco de Valdeorras (O)",
-          "precioGasolina95": 1.616,
-          "precioDiesel": 1.681,
+          "precioGasolina95": 1.642,
+          "precioDiesel": 1.725,
           "historico": [
             {
               "date": "2026-07-11",
@@ -225682,8 +225682,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.616,
-              "precioDiesel": 1.681
+              "precioGasolina95": 1.642,
+              "precioDiesel": 1.725
             }
           ],
           "top5": [
@@ -225693,8 +225693,8 @@
               "horario": "L-D: 24H",
               "latitud": 42.415444,
               "longitud": -6.978833,
-              "precio95": 1.583,
-              "precioDiesel": 1.633
+              "precio95": 1.605,
+              "precioDiesel": 1.692
             },
             {
               "rotulo": "GALP",
@@ -225702,8 +225702,8 @@
               "horario": "L-D: 06:00-22:00",
               "latitud": 42.421278,
               "longitud": -6.993889,
-              "precio95": 1.649,
-              "precioDiesel": 1.729
+              "precio95": 1.679,
+              "precioDiesel": 1.759
             }
           ]
         },
@@ -225888,8 +225888,8 @@
         {
           "slug": "carballino-o",
           "nombre": "Carballiño (O)",
-          "precioGasolina95": 1.706,
-          "precioDiesel": 1.783,
+          "precioGasolina95": 1.709,
+          "precioDiesel": 1.793,
           "historico": [
             {
               "date": "2026-07-11",
@@ -225958,8 +225958,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.706,
-              "precioDiesel": 1.783
+              "precioGasolina95": 1.709,
+              "precioDiesel": 1.793
             }
           ],
           "top5": [
@@ -225987,8 +225987,8 @@
               "horario": "L-S: 07:00-22:30",
               "latitud": 42.425556,
               "longitud": -8.078639,
-              "precio95": 1.718,
-              "precioDiesel": 1.749
+              "precio95": 1.728,
+              "precioDiesel": 1.789
             },
             {
               "rotulo": "REPSOL",
@@ -228334,8 +228334,8 @@
         {
           "slug": "san-cibrao-das-vinas",
           "nombre": "San Cibrao das Viñas",
-          "precioGasolina95": 1.664,
-          "precioDiesel": 1.751,
+          "precioGasolina95": 1.659,
+          "precioDiesel": 1.757,
           "historico": [
             {
               "date": "2026-07-11",
@@ -228404,8 +228404,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.664,
-              "precioDiesel": 1.751
+              "precioGasolina95": 1.659,
+              "precioDiesel": 1.757
             }
           ],
           "top5": [
@@ -228433,17 +228433,8 @@
               "horario": "L-D: 24H",
               "latitud": 42.289722,
               "longitud": -7.816611,
-              "precio95": 1.679,
-              "precioDiesel": 1.738
-            },
-            {
-              "rotulo": "REPSOL",
-              "direccion": "CR  A-52 ENLACE P.K. 217",
-              "horario": "L-D: 07:00-23:00",
-              "latitud": 42.251056,
-              "longitud": -7.864722,
-              "precio95": 1.699,
-              "precioDiesel": 1.809
+              "precio95": 1.638,
+              "precioDiesel": 1.758
             },
             {
               "rotulo": "REPSOL",
@@ -228451,6 +228442,15 @@
               "horario": "L-D: 24H",
               "latitud": 42.250722,
               "longitud": -7.864556,
+              "precio95": 1.699,
+              "precioDiesel": 1.819
+            },
+            {
+              "rotulo": "REPSOL",
+              "direccion": "CR  A-52 ENLACE P.K. 217",
+              "horario": "L-D: 07:00-23:00",
+              "latitud": 42.251056,
+              "longitud": -7.864722,
               "precio95": 1.699,
               "precioDiesel": 1.809
             }
@@ -230388,21 +230388,21 @@
             },
             {
               "rotulo": "REPSOL",
-              "direccion": "CR A-62, 98,9",
-              "horario": "L-D: 05:00-23:00",
-              "latitud": 41.835389,
-              "longitud": -4.564028,
-              "precio95": 1.769,
-              "precioDiesel": 1.859
-            },
-            {
-              "rotulo": "REPSOL",
               "direccion": "CARRETERA N-620 KM. 88,9",
               "horario": "L-D: 24H",
               "latitud": 41.911889,
               "longitud": -4.512583,
               "precio95": 1.769,
               "precioDiesel": 1.865
+            },
+            {
+              "rotulo": "REPSOL",
+              "direccion": "CR A-62, 98,9",
+              "horario": "L-D: 05:00-23:00",
+              "latitud": 41.835389,
+              "longitud": -4.564028,
+              "precio95": 1.769,
+              "precioDiesel": 1.859
             },
             {
               "rotulo": "AGROPAL",
@@ -236506,7 +236506,7 @@
           "slug": "barro",
           "nombre": "Barro",
           "precioGasolina95": 1.631,
-          "precioDiesel": 1.711,
+          "precioDiesel": 1.717,
           "historico": [
             {
               "date": "2026-07-11",
@@ -236576,7 +236576,7 @@
             {
               "date": "2026-07-24",
               "precioGasolina95": 1.631,
-              "precioDiesel": 1.711
+              "precioDiesel": 1.717
             }
           ],
           "top5": [
@@ -236623,7 +236623,7 @@
               "latitud": 42.528861,
               "longitud": -8.638028,
               "precio95": 1.719,
-              "precioDiesel": 1.789
+              "precioDiesel": 1.819
             }
           ]
         },
@@ -239054,8 +239054,8 @@
         {
           "slug": "mos",
           "nombre": "Mos",
-          "precioGasolina95": 1.696,
-          "precioDiesel": 1.766,
+          "precioGasolina95": 1.693,
+          "precioDiesel": 1.768,
           "historico": [
             {
               "date": "2026-07-11",
@@ -239124,8 +239124,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.696,
-              "precioDiesel": 1.766
+              "precioGasolina95": 1.693,
+              "precioDiesel": 1.768
             }
           ],
           "top5": [
@@ -240142,8 +240142,8 @@
         {
           "slug": "porrino-o",
           "nombre": "Porriño (O)",
-          "precioGasolina95": 1.627,
-          "precioDiesel": 1.679,
+          "precioGasolina95": 1.628,
+          "precioDiesel": 1.683,
           "historico": [
             {
               "date": "2026-07-11",
@@ -240212,8 +240212,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.627,
-              "precioDiesel": 1.679
+              "precioGasolina95": 1.628,
+              "precioDiesel": 1.683
             }
           ],
           "top5": [
@@ -241454,7 +241454,7 @@
           "slug": "vigo",
           "nombre": "Vigo",
           "precioGasolina95": 1.697,
-          "precioDiesel": 1.746,
+          "precioDiesel": 1.747,
           "historico": [
             {
               "date": "2026-07-11",
@@ -241524,7 +241524,7 @@
             {
               "date": "2026-07-24",
               "precioGasolina95": 1.697,
-              "precioDiesel": 1.746
+              "precioDiesel": 1.747
             }
           ],
           "top5": [
@@ -242053,8 +242053,8 @@
     {
       "provincia": "rioja-la",
       "nombreProvincia": "RIOJA (LA)",
-      "precioMedioGasolina95": 1.645,
-      "precioMedioDiesel": 1.696,
+      "precioMedioGasolina95": 1.646,
+      "precioMedioDiesel": 1.698,
       "localidades": [
         {
           "slug": "agoncillo",
@@ -242546,19 +242546,19 @@
             },
             {
               "rotulo": "REPSOL SA",
-              "direccion": "CARRETERA CTRA. NACIONAL N-232 KM.337,80 KM. 337,80",
-              "horario": "L-D: 06:00-22:00",
-              "latitud": 42.182778,
-              "longitud": -1.762083,
+              "direccion": "AVENIDA AVDA. ZARAGOZA, 15",
+              "horario": "L-V: 08:00-15:00",
+              "latitud": 42.1785,
+              "longitud": -1.756417,
               "precio95": 1.695,
               "precioDiesel": 1.765
             },
             {
               "rotulo": "REPSOL SA",
-              "direccion": "AVENIDA AVDA. ZARAGOZA, 15",
-              "horario": "L-V: 08:00-15:00",
-              "latitud": 42.1785,
-              "longitud": -1.756417,
+              "direccion": "CARRETERA CTRA. NACIONAL N-232 KM.337,80 KM. 337,80",
+              "horario": "L-D: 06:00-22:00",
+              "latitud": 42.182778,
+              "longitud": -1.762083,
               "precio95": 1.695,
               "precioDiesel": 1.765
             }
@@ -243030,8 +243030,8 @@
         {
           "slug": "calahorra",
           "nombre": "Calahorra",
-          "precioGasolina95": 1.67,
-          "precioDiesel": 1.706,
+          "precioGasolina95": 1.674,
+          "precioDiesel": 1.711,
           "historico": [
             {
               "date": "2026-07-11",
@@ -243100,8 +243100,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.67,
-              "precioDiesel": 1.706
+              "precioGasolina95": 1.674,
+              "precioDiesel": 1.711
             }
           ],
           "top5": [
@@ -243124,24 +243124,6 @@
               "precioDiesel": 1.599
             },
             {
-              "rotulo": "ADELFAS OIL",
-              "direccion": "CARRETERA SAN ADRIAN S/N KM. ",
-              "horario": "L-V: 06:00-22:00; S: 07:00-22:00; D: 08:00-22:00",
-              "latitud": 42.31225,
-              "longitud": -1.953694,
-              "precio95": 1.675,
-              "precioDiesel": 1.673
-            },
-            {
-              "rotulo": "ADELFAS OIL",
-              "direccion": "POLIGONO TEJERIAS - TERMINO SAN LAZARO, 46",
-              "horario": "L-V: 06:00-22:00; S: 07:00-22:00; D: 08:00-22:00",
-              "latitud": 42.295361,
-              "longitud": -1.955167,
-              "precio95": 1.675,
-              "precioDiesel": 1.673
-            },
-            {
               "rotulo": "AVIA",
               "direccion": "CALLE BEBRICIO, 71",
               "horario": "L-D: 06:00-22:00",
@@ -243149,6 +243131,24 @@
               "longitud": -1.971194,
               "precio95": 1.695,
               "precioDiesel": 1.755
+            },
+            {
+              "rotulo": "REPSOL",
+              "direccion": "CARRETERA N-232 KM. 353,700",
+              "horario": "L-V: 08:00-20:00",
+              "latitud": 42.262861,
+              "longitud": -1.915306,
+              "precio95": 1.698,
+              "precioDiesel": 1.748
+            },
+            {
+              "rotulo": "REPSOL",
+              "direccion": "CARRETERA N-232 KM.353.700 KM. 353,700",
+              "horario": "L-D: 24H",
+              "latitud": 42.263389,
+              "longitud": -1.9175,
+              "precio95": 1.698,
+              "precioDiesel": 1.748
             }
           ]
         },
@@ -243913,7 +243913,7 @@
           "slug": "logrono",
           "nombre": "Logroño",
           "precioGasolina95": 1.638,
-          "precioDiesel": 1.681,
+          "precioDiesel": 1.682,
           "historico": [
             {
               "date": "2026-07-11",
@@ -243983,7 +243983,7 @@
             {
               "date": "2026-07-24",
               "precioGasolina95": 1.638,
-              "precioDiesel": 1.681
+              "precioDiesel": 1.682
             }
           ],
           "top5": [
@@ -244126,8 +244126,8 @@
         {
           "slug": "najera",
           "nombre": "Nájera",
-          "precioGasolina95": 1.675,
-          "precioDiesel": 1.673,
+          "precioGasolina95": 1.699,
+          "precioDiesel": 1.698,
           "historico": [
             {
               "date": "2026-07-11",
@@ -244196,8 +244196,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.675,
-              "precioDiesel": 1.673
+              "precioGasolina95": 1.699,
+              "precioDiesel": 1.698
             }
           ],
           "top5": [
@@ -244207,8 +244207,8 @@
               "horario": "L-D: 07:00-22:00",
               "latitud": 42.415861,
               "longitud": -2.71725,
-              "precio95": 1.675,
-              "precioDiesel": 1.673
+              "precio95": 1.699,
+              "precioDiesel": 1.698
             }
           ]
         },
@@ -244491,8 +244491,8 @@
         {
           "slug": "quel",
           "nombre": "Quel",
-          "precioGasolina95": 1.675,
-          "precioDiesel": 1.673,
+          "precioGasolina95": 1.699,
+          "precioDiesel": 1.698,
           "historico": [
             {
               "date": "2026-07-11",
@@ -244561,8 +244561,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.675,
-              "precioDiesel": 1.673
+              "precioGasolina95": 1.699,
+              "precioDiesel": 1.698
             }
           ],
           "top5": [
@@ -244572,8 +244572,8 @@
               "horario": "L-S: 07:00-22:00; D: 08:00-22:00",
               "latitud": 42.233972,
               "longitud": -2.0635,
-              "precio95": 1.675,
-              "precioDiesel": 1.673
+              "precio95": 1.699,
+              "precioDiesel": 1.698
             }
           ]
         },
@@ -245230,8 +245230,8 @@
         {
           "slug": "villar-de-torre",
           "nombre": "Villar de Torre",
-          "precioGasolina95": 1.675,
-          "precioDiesel": 1.673,
+          "precioGasolina95": 1.699,
+          "precioDiesel": 1.698,
           "historico": [
             {
               "date": "2026-07-11",
@@ -245300,8 +245300,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.675,
-              "precioDiesel": 1.673
+              "precioGasolina95": 1.699,
+              "precioDiesel": 1.698
             }
           ],
           "top5": [
@@ -245311,8 +245311,8 @@
               "horario": "L-D: 24H",
               "latitud": 42.369611,
               "longitud": -2.858139,
-              "precio95": 1.675,
-              "precioDiesel": 1.673
+              "precio95": 1.699,
+              "precioDiesel": 1.698
             }
           ]
         },
@@ -249282,8 +249282,8 @@
         {
           "slug": "tamames",
           "nombre": "Tamames",
-          "precioGasolina95": 1.689,
-          "precioDiesel": 1.799,
+          "precioGasolina95": 1.699,
+          "precioDiesel": 1.819,
           "historico": [
             {
               "date": "2026-07-11",
@@ -249352,8 +249352,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.689,
-              "precioDiesel": 1.799
+              "precioGasolina95": 1.699,
+              "precioDiesel": 1.819
             }
           ],
           "top5": [
@@ -249363,8 +249363,8 @@
               "horario": "L-D: 07:00-23:00",
               "latitud": 40.659917,
               "longitud": -6.113917,
-              "precio95": 1.689,
-              "precioDiesel": 1.799
+              "precio95": 1.699,
+              "precioDiesel": 1.819
             }
           ]
         },
@@ -249803,15 +249803,6 @@
           ],
           "top5": [
             {
-              "rotulo": "CEPSA",
-              "direccion": "CARRETERA LEDESMA KM. 9,5",
-              "horario": "L-D: 07:00-22:00",
-              "latitud": 41.018472,
-              "longitud": -5.71725,
-              "precio95": 1.685,
-              "precioDiesel": 1.795
-            },
-            {
               "rotulo": "REPSOL",
               "direccion": "CR C-300 5,4",
               "horario": "L-D: 07:00-23:00",
@@ -249819,6 +249810,15 @@
               "longitud": -5.687889,
               "precio95": 1.685,
               "precioDiesel": 1.809
+            },
+            {
+              "rotulo": "CEPSA",
+              "direccion": "CARRETERA LEDESMA KM. 9,5",
+              "horario": "L-D: 07:00-22:00",
+              "latitud": 41.018472,
+              "longitud": -5.71725,
+              "precio95": 1.685,
+              "precioDiesel": 1.795
             }
           ]
         },
@@ -252606,8 +252606,8 @@
         {
           "slug": "orotava-la",
           "nombre": "Orotava (La)",
-          "precioGasolina95": 1.413,
-          "precioDiesel": 1.467,
+          "precioGasolina95": 1.414,
+          "precioDiesel": 1.468,
           "historico": [
             {
               "date": "2026-07-11",
@@ -252676,8 +252676,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.413,
-              "precioDiesel": 1.467
+              "precioGasolina95": 1.414,
+              "precioDiesel": 1.468
             }
           ],
           "top5": [
@@ -252700,15 +252700,6 @@
               "precioDiesel": 1.419
             },
             {
-              "rotulo": "CEPSA LA CAÑADA",
-              "direccion": "CARRETERA LAS CAÑADAS KM. 5",
-              "horario": "L-D: 06:00-00:00",
-              "latitud": 28.38825,
-              "longitud": -16.515194,
-              "precio95": 1.389,
-              "precioDiesel": 1.439
-            },
-            {
               "rotulo": "DISA",
               "direccion": "PLAZA LA PAZ, S/N",
               "horario": "L-D: 24H",
@@ -252716,6 +252707,15 @@
               "longitud": -16.519861,
               "precio95": 1.389,
               "precioDiesel": 1.439
+            },
+            {
+              "rotulo": "CEPSA LA CAÑADA",
+              "direccion": "CARRETERA LAS CAÑADAS KM. 5",
+              "horario": "L-D: 06:00-00:00",
+              "latitud": 28.38825,
+              "longitud": -16.515194,
+              "precio95": 1.399,
+              "precioDiesel": 1.449
             },
             {
               "rotulo": "DISA",
@@ -252829,8 +252829,8 @@
         {
           "slug": "puerto-de-la-cruz",
           "nombre": "Puerto de la Cruz",
-          "precioGasolina95": 1.413,
-          "precioDiesel": 1.473,
+          "precioGasolina95": 1.417,
+          "precioDiesel": 1.475,
           "historico": [
             {
               "date": "2026-07-11",
@@ -252899,8 +252899,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.413,
-              "precioDiesel": 1.473
+              "precioGasolina95": 1.417,
+              "precioDiesel": 1.475
             }
           ],
           "top5": [
@@ -252910,8 +252910,8 @@
               "horario": "L: 06:00-00:00",
               "latitud": 28.412528,
               "longitud": -16.543778,
-              "precio95": 1.389,
-              "precioDiesel": 1.439
+              "precio95": 1.409,
+              "precioDiesel": 1.449
             },
             {
               "rotulo": "SHELL EL AGUILA",
@@ -252954,8 +252954,8 @@
         {
           "slug": "puntagorda",
           "nombre": "Puntagorda",
-          "precioGasolina95": 1.57,
-          "precioDiesel": 1.6,
+          "precioGasolina95": 1.59,
+          "precioDiesel": 1.63,
           "historico": [
             {
               "date": "2026-07-11",
@@ -253024,8 +253024,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.57,
-              "precioDiesel": 1.6
+              "precioGasolina95": 1.59,
+              "precioDiesel": 1.63
             }
           ],
           "top5": [
@@ -253035,8 +253035,8 @@
               "horario": "L-D: 06:00-23:00",
               "latitud": 28.7635,
               "longitud": -17.97775,
-              "precio95": 1.57,
-              "precioDiesel": 1.6
+              "precio95": 1.59,
+              "precioDiesel": 1.63
             }
           ]
         },
@@ -253677,7 +253677,7 @@
           "slug": "san-miguel-de-abona",
           "nombre": "San Miguel de Abona",
           "precioGasolina95": 1.401,
-          "precioDiesel": 1.482,
+          "precioDiesel": 1.483,
           "historico": [
             {
               "date": "2026-07-11",
@@ -253747,7 +253747,7 @@
             {
               "date": "2026-07-24",
               "precioGasolina95": 1.401,
-              "precioDiesel": 1.482
+              "precioDiesel": 1.483
             }
           ],
           "top5": [
@@ -253767,7 +253767,7 @@
               "latitud": 28.052333,
               "longitud": -16.636556,
               "precio95": 1.389,
-              "precioDiesel": 1.489
+              "precioDiesel": 1.499
             },
             {
               "rotulo": "PCAN",
@@ -254006,8 +254006,8 @@
         {
           "slug": "santa-cruz-de-tenerife",
           "nombre": "Santa Cruz de Tenerife",
-          "precioGasolina95": 1.399,
-          "precioDiesel": 1.472,
+          "precioGasolina95": 1.4,
+          "precioDiesel": 1.473,
           "historico": [
             {
               "date": "2026-07-11",
@@ -254076,8 +254076,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.399,
-              "precioDiesel": 1.472
+              "precioGasolina95": 1.4,
+              "precioDiesel": 1.473
             }
           ],
           "top5": [
@@ -259743,8 +259743,8 @@
     {
       "provincia": "sevilla",
       "nombreProvincia": "SEVILLA",
-      "precioMedioGasolina95": 1.628,
-      "precioMedioDiesel": 1.719,
+      "precioMedioGasolina95": 1.629,
+      "precioMedioDiesel": 1.72,
       "localidades": [
         {
           "slug": "aguadulce",
@@ -259936,8 +259936,8 @@
         {
           "slug": "alcala-de-guadaira",
           "nombre": "Alcalá de Guadaíra",
-          "precioGasolina95": 1.636,
-          "precioDiesel": 1.745,
+          "precioGasolina95": 1.637,
+          "precioDiesel": 1.747,
           "historico": [
             {
               "date": "2026-07-11",
@@ -260006,8 +260006,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.636,
-              "precioDiesel": 1.745
+              "precioGasolina95": 1.637,
+              "precioDiesel": 1.747
             }
           ],
           "top5": [
@@ -261532,8 +261532,8 @@
         {
           "slug": "cabezas-de-san-juan-las",
           "nombre": "Cabezas de San Juan (Las)",
-          "precioGasolina95": 1.642,
-          "precioDiesel": 1.71,
+          "precioGasolina95": 1.645,
+          "precioDiesel": 1.716,
           "historico": [
             {
               "date": "2026-07-11",
@@ -261602,8 +261602,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.642,
-              "precioDiesel": 1.71
+              "precioGasolina95": 1.645,
+              "precioDiesel": 1.716
             }
           ],
           "top5": [
@@ -261635,15 +261635,6 @@
               "precioDiesel": 1.679
             },
             {
-              "rotulo": "MORA Y CIUDAD COMBUSTIBLES ",
-              "direccion": "POLIGONO MARISMILLAS, S/N",
-              "horario": "L-S: 06:30-21:30; D: 08:00-21:00",
-              "latitud": 37.002333,
-              "longitud": -6.000194,
-              "precio95": 1.618,
-              "precioDiesel": 1.698
-            },
-            {
               "rotulo": "SHELL",
               "direccion": "CARRETERA A-471 KM. 16,600",
               "horario": "L-D: 05:30-23:30",
@@ -261651,6 +261642,15 @@
               "longitud": -5.960667,
               "precio95": 1.619,
               "precioDiesel": 1.709
+            },
+            {
+              "rotulo": "MORA Y CIUDAD COMBUSTIBLES ",
+              "direccion": "POLIGONO MARISMILLAS, S/N",
+              "horario": "L-S: 06:30-21:30; D: 08:00-21:00",
+              "latitud": 37.002333,
+              "longitud": -6.000194,
+              "precio95": 1.638,
+              "precioDiesel": 1.748
             }
           ]
         },
@@ -264893,8 +264893,8 @@
         {
           "slug": "lebrija",
           "nombre": "Lebrija",
-          "precioGasolina95": 1.633,
-          "precioDiesel": 1.714,
+          "precioGasolina95": 1.642,
+          "precioDiesel": 1.729,
           "historico": [
             {
               "date": "2026-07-11",
@@ -264963,20 +264963,11 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.633,
-              "precioDiesel": 1.714
+              "precioGasolina95": 1.642,
+              "precioDiesel": 1.729
             }
           ],
           "top5": [
-            {
-              "rotulo": "LIBRE",
-              "direccion": "CARRETERA LEBRIJA-TREBUJENA A-471 KM. 34",
-              "horario": "L-V: 06:00-22:00; S: 07:00-22:00; D: 09:00-21:00",
-              "latitud": 36.900694,
-              "longitud": -6.125389,
-              "precio95": 1.498,
-              "precioDiesel": 1.548
-            },
             {
               "rotulo": "AVIA",
               "direccion": "CARRETERA SE-6300 KM. 5",
@@ -264985,6 +264976,15 @@
               "longitud": -6.034944,
               "precio95": 1.559,
               "precioDiesel": 1.619
+            },
+            {
+              "rotulo": "LIBRE",
+              "direccion": "CARRETERA LEBRIJA-TREBUJENA A-471 KM. 34",
+              "horario": "L-V: 06:00-22:00; S: 07:00-22:00; D: 09:00-21:00",
+              "latitud": 36.900694,
+              "longitud": -6.125389,
+              "precio95": 1.568,
+              "precioDiesel": 1.668
             },
             {
               "rotulo": "E.S. ATENAS",
@@ -265018,8 +265018,8 @@
         {
           "slug": "lora-del-rio",
           "nombre": "Lora del Río",
-          "precioGasolina95": 1.659,
-          "precioDiesel": 1.766,
+          "precioGasolina95": 1.668,
+          "precioDiesel": 1.775,
           "historico": [
             {
               "date": "2026-07-11",
@@ -265088,8 +265088,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.659,
-              "precioDiesel": 1.766
+              "precioGasolina95": 1.668,
+              "precioDiesel": 1.775
             }
           ],
           "top5": [
@@ -265099,8 +265099,8 @@
               "horario": "L-D: 24H",
               "latitud": 37.651778,
               "longitud": -5.548361,
-              "precio95": 1.559,
-              "precioDiesel": 1.659
+              "precio95": 1.599,
+              "precioDiesel": 1.699
             },
             {
               "rotulo": "ES LOS MONOS",
@@ -265130,13 +265130,13 @@
               "precioDiesel": 1.749
             },
             {
-              "rotulo": "BP EL ALAMO",
-              "direccion": "CARRETERA CARRETERA LORA DEL RIO - CARMONA, KM 2,5 KM. 2,5",
-              "horario": "L-D: 24H",
-              "latitud": 37.63775,
-              "longitud": -5.535472,
-              "precio95": 1.689,
-              "precioDiesel": 1.829
+              "rotulo": "BP MATALLANA LORA DEL RIO",
+              "direccion": "POLIGONO IND. MATALLANA, C/CARRETERIA, 1",
+              "horario": "L-D: 06:00-22:00",
+              "latitud": 37.651389,
+              "longitud": -5.548472,
+              "precio95": 1.699,
+              "precioDiesel": 1.839
             }
           ]
         },
@@ -265794,8 +265794,8 @@
         {
           "slug": "molares-los",
           "nombre": "Molares (Los)",
-          "precioGasolina95": 1.716,
-          "precioDiesel": 1.771,
+          "precioGasolina95": 1.767,
+          "precioDiesel": 1.84,
           "historico": [
             {
               "date": "2026-07-11",
@@ -265864,8 +265864,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.716,
-              "precioDiesel": 1.771
+              "precioGasolina95": 1.767,
+              "precioDiesel": 1.84
             }
           ],
           "top5": [
@@ -265875,8 +265875,8 @@
               "horario": "L-D: 06:00-22:00",
               "latitud": 37.149806,
               "longitud": -5.738889,
-              "precio95": 1.716,
-              "precioDiesel": 1.771
+              "precio95": 1.767,
+              "precioDiesel": 1.84
             }
           ]
         },
@@ -266855,8 +266855,8 @@
         {
           "slug": "pedroso-el",
           "nombre": "Pedroso (El)",
-          "precioGasolina95": 1.689,
-          "precioDiesel": 1.759,
+          "precioGasolina95": 1.729,
+          "precioDiesel": 1.829,
           "historico": [
             {
               "date": "2026-07-11",
@@ -266925,8 +266925,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.689,
-              "precioDiesel": 1.759
+              "precioGasolina95": 1.729,
+              "precioDiesel": 1.829
             }
           ],
           "top5": [
@@ -266936,16 +266936,16 @@
               "horario": "L-D: 06:00-22:00",
               "latitud": 37.837278,
               "longitud": -5.762444,
-              "precio95": 1.689,
-              "precioDiesel": 1.759
+              "precio95": 1.729,
+              "precioDiesel": 1.829
             }
           ]
         },
         {
           "slug": "penaflor",
           "nombre": "Peñaflor",
-          "precioGasolina95": 1.644,
-          "precioDiesel": 1.792,
+          "precioGasolina95": 1.654,
+          "precioDiesel": 1.807,
           "historico": [
             {
               "date": "2026-07-11",
@@ -267014,8 +267014,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.644,
-              "precioDiesel": 1.792
+              "precioGasolina95": 1.654,
+              "precioDiesel": 1.807
             }
           ],
           "top5": [
@@ -267025,8 +267025,8 @@
               "horario": "L-D: 06:00-22:00",
               "latitud": 37.708472,
               "longitud": -5.355556,
-              "precio95": 1.629,
-              "precioDiesel": 1.749
+              "precio95": 1.649,
+              "precioDiesel": 1.779
             },
             {
               "rotulo": "REPSOL",
@@ -267043,7 +267043,7 @@
           "slug": "pilas",
           "nombre": "Pilas",
           "precioGasolina95": 1.627,
-          "precioDiesel": 1.708,
+          "precioDiesel": 1.71,
           "historico": [
             {
               "date": "2026-07-11",
@@ -267113,7 +267113,7 @@
             {
               "date": "2026-07-24",
               "precioGasolina95": 1.627,
-              "precioDiesel": 1.708
+              "precioDiesel": 1.71
             }
           ],
           "top5": [
@@ -267160,7 +267160,7 @@
               "latitud": 37.301917,
               "longitud": -6.289722,
               "precio95": 1.69,
-              "precioDiesel": 1.779
+              "precioDiesel": 1.79
             }
           ]
         },
@@ -268495,8 +268495,8 @@
         {
           "slug": "sevilla",
           "nombre": "Sevilla",
-          "precioGasolina95": 1.632,
-          "precioDiesel": 1.733,
+          "precioGasolina95": 1.634,
+          "precioDiesel": 1.736,
           "historico": [
             {
               "date": "2026-07-11",
@@ -268565,8 +268565,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.632,
-              "precioDiesel": 1.733
+              "precioGasolina95": 1.634,
+              "precioDiesel": 1.736
             }
           ],
           "top5": [
@@ -268728,7 +268728,7 @@
           "slug": "tomares",
           "nombre": "Tomares",
           "precioGasolina95": 1.591,
-          "precioDiesel": 1.651,
+          "precioDiesel": 1.65,
           "historico": [
             {
               "date": "2026-07-11",
@@ -268798,7 +268798,7 @@
             {
               "date": "2026-07-24",
               "precioGasolina95": 1.591,
-              "precioDiesel": 1.651
+              "precioDiesel": 1.65
             }
           ],
           "top5": [
@@ -268812,20 +268812,20 @@
               "precioDiesel": 1.549
             },
             {
-              "rotulo": "KARLAVADO.COM",
-              "direccion": "CALLE CASTAÑEDA, S/N",
-              "horario": "L-D: 24H",
-              "latitud": 37.37925,
-              "longitud": -6.027417,
-              "precio95": 1.579,
-              "precioDiesel": 1.619
-            },
-            {
               "rotulo": "Q8",
               "direccion": "CALLE SALADILLA, 4",
               "horario": "L-D: 24H",
               "latitud": 37.374667,
               "longitud": -6.030528,
+              "precio95": 1.579,
+              "precioDiesel": 1.619
+            },
+            {
+              "rotulo": "KARLAVADO.COM",
+              "direccion": "CALLE CASTAÑEDA, S/N",
+              "horario": "L-D: 24H",
+              "latitud": 37.37925,
+              "longitud": -6.027417,
               "precio95": 1.579,
               "precioDiesel": 1.619
             },
@@ -268932,8 +268932,8 @@
         {
           "slug": "utrera",
           "nombre": "Utrera",
-          "precioGasolina95": 1.549,
-          "precioDiesel": 1.657,
+          "precioGasolina95": 1.551,
+          "precioDiesel": 1.658,
           "historico": [
             {
               "date": "2026-07-11",
@@ -269002,8 +269002,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.549,
-              "precioDiesel": 1.657
+              "precioGasolina95": 1.551,
+              "precioDiesel": 1.658
             }
           ],
           "top5": [
@@ -269031,8 +269031,8 @@
               "horario": "L: 24H",
               "latitud": 37.20925,
               "longitud": -5.805056,
-              "precio95": 1.469,
-              "precioDiesel": 1.579
+              "precio95": 1.489,
+              "precioDiesel": 1.589
             },
             {
               "rotulo": "GASOLINERA UTRERA",
@@ -271731,7 +271731,7 @@
     {
       "provincia": "tarragona",
       "nombreProvincia": "TARRAGONA",
-      "precioMedioGasolina95": 1.626,
+      "precioMedioGasolina95": 1.627,
       "precioMedioDiesel": 1.699,
       "localidades": [
         {
@@ -272638,8 +272638,8 @@
         {
           "slug": "arboc-l",
           "nombre": "Arboç (L')",
-          "precioGasolina95": 1.676,
-          "precioDiesel": 1.697,
+          "precioGasolina95": 1.683,
+          "precioDiesel": 1.701,
           "historico": [
             {
               "date": "2026-07-11",
@@ -272708,8 +272708,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.676,
-              "precioDiesel": 1.697
+              "precioGasolina95": 1.683,
+              "precioDiesel": 1.701
             }
           ],
           "top5": [
@@ -272732,15 +272732,6 @@
               "precioDiesel": 1.699
             },
             {
-              "rotulo": "MOEVE",
-              "direccion": "CARRETERA N-340 KM. 1201,8",
-              "horario": "L-D: 06:00-22:00",
-              "latitud": 41.285889,
-              "longitud": 1.618583,
-              "precio95": 1.714,
-              "precioDiesel": 1.824
-            },
-            {
               "rotulo": "REPSOL",
               "direccion": "AUTOPISTA AP7 KM. 208",
               "horario": "L-D: 24H",
@@ -272748,6 +272739,15 @@
               "longitud": 1.593528,
               "precio95": 1.715,
               "precioDiesel": 1.819
+            },
+            {
+              "rotulo": "MOEVE",
+              "direccion": "CARRETERA N-340 KM. 1201,8",
+              "horario": "L-D: 06:00-22:00",
+              "latitud": 41.285889,
+              "longitud": 1.618583,
+              "precio95": 1.734,
+              "precioDiesel": 1.841
             }
           ]
         },
@@ -272755,7 +272755,7 @@
           "slug": "bellvei",
           "nombre": "Bellvei",
           "precioGasolina95": 1.719,
-          "precioDiesel": 1.809,
+          "precioDiesel": 1.819,
           "historico": [
             {
               "date": "2026-07-11",
@@ -272825,7 +272825,7 @@
             {
               "date": "2026-07-24",
               "precioGasolina95": 1.719,
-              "precioDiesel": 1.809
+              "precioDiesel": 1.819
             }
           ],
           "top5": [
@@ -272836,7 +272836,7 @@
               "latitud": 41.235389,
               "longitud": 1.56575,
               "precio95": 1.719,
-              "precioDiesel": 1.809
+              "precioDiesel": 1.819
             }
           ]
         },
@@ -273235,8 +273235,8 @@
         {
           "slug": "cambrils",
           "nombre": "Cambrils",
-          "precioGasolina95": 1.629,
-          "precioDiesel": 1.707,
+          "precioGasolina95": 1.633,
+          "precioDiesel": 1.711,
           "historico": [
             {
               "date": "2026-07-11",
@@ -273305,8 +273305,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.629,
-              "precioDiesel": 1.707
+              "precioGasolina95": 1.633,
+              "precioDiesel": 1.711
             }
           ],
           "top5": [
@@ -277138,7 +277138,7 @@
           "slug": "tarragona",
           "nombre": "Tarragona",
           "precioGasolina95": 1.631,
-          "precioDiesel": 1.708,
+          "precioDiesel": 1.709,
           "historico": [
             {
               "date": "2026-07-11",
@@ -277208,7 +277208,7 @@
             {
               "date": "2026-07-24",
               "precioGasolina95": 1.631,
-              "precioDiesel": 1.708
+              "precioDiesel": 1.709
             }
           ],
           "top5": [
@@ -290691,10 +290691,10 @@
             },
             {
               "rotulo": "BALLENOIL",
-              "direccion": "CARRETERA N-V KM 114 PARQUE COMERCIAL EL GOLF KM. 114",
+              "direccion": "CARRETERA A CERVERA DE LOS MONTES KM. 1",
               "horario": "L-D: 24H",
-              "latitud": 39.965222,
-              "longitud": -4.796472,
+              "latitud": 39.972111,
+              "longitud": -4.829222,
               "precio95": 1.539,
               "precioDiesel": 1.629
             }
@@ -292816,8 +292816,8 @@
     {
       "provincia": "valencia-valencia",
       "nombreProvincia": "VALENCIA / VALÈNCIA",
-      "precioMedioGasolina95": 1.63,
-      "precioMedioDiesel": 1.683,
+      "precioMedioGasolina95": 1.629,
+      "precioMedioDiesel": 1.684,
       "localidades": [
         {
           "slug": "ademuz",
@@ -293313,7 +293313,7 @@
           "slug": "albal",
           "nombre": "Albal",
           "precioGasolina95": 1.517,
-          "precioDiesel": 1.592,
+          "precioDiesel": 1.599,
           "historico": [
             {
               "date": "2026-07-11",
@@ -293383,7 +293383,7 @@
             {
               "date": "2026-07-24",
               "precioGasolina95": 1.517,
-              "precioDiesel": 1.592
+              "precioDiesel": 1.599
             }
           ],
           "top5": [
@@ -293839,7 +293839,7 @@
           "slug": "alboraya",
           "nombre": "Alboraya",
           "precioGasolina95": 1.645,
-          "precioDiesel": 1.665,
+          "precioDiesel": 1.666,
           "historico": [
             {
               "date": "2026-07-11",
@@ -293909,7 +293909,7 @@
             {
               "date": "2026-07-24",
               "precioGasolina95": 1.645,
-              "precioDiesel": 1.665
+              "precioDiesel": 1.666
             }
           ],
           "top5": [
@@ -293947,7 +293947,7 @@
               "latitud": 39.500222,
               "longitud": -0.346,
               "precio95": 1.759,
-              "precioDiesel": 1.769
+              "precioDiesel": 1.779
             },
             {
               "rotulo": "REPSOL",
@@ -294382,7 +294382,7 @@
         {
           "slug": "aldaia",
           "nombre": "Aldaia",
-          "precioGasolina95": 1.584,
+          "precioGasolina95": 1.582,
           "precioDiesel": 1.627,
           "historico": [
             {
@@ -294452,7 +294452,7 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.584,
+              "precioGasolina95": 1.582,
               "precioDiesel": 1.627
             }
           ],
@@ -294467,20 +294467,20 @@
               "precioDiesel": 1.555
             },
             {
-              "rotulo": "PETROMAX DE LEVANTE",
-              "direccion": "CALLE SOLIDARITAT, 28",
-              "horario": "L: 24H",
-              "latitud": 39.475306,
-              "longitud": -0.454444,
-              "precio95": 1.515,
-              "precioDiesel": 1.555
-            },
-            {
               "rotulo": "FULL & GO",
               "direccion": "CALLE PARTIDA DE ZAMARRA, 13",
               "horario": "L-D: 24H",
               "latitud": 39.463917,
               "longitud": -0.440944,
+              "precio95": 1.499,
+              "precioDiesel": 1.555
+            },
+            {
+              "rotulo": "PETROMAX DE LEVANTE",
+              "direccion": "CALLE SOLIDARITAT, 28",
+              "horario": "L: 24H",
+              "latitud": 39.475306,
+              "longitud": -0.454444,
               "precio95": 1.515,
               "precioDiesel": 1.555
             },
@@ -294810,8 +294810,8 @@
         {
           "slug": "algemesi",
           "nombre": "Algemesí",
-          "precioGasolina95": 1.574,
-          "precioDiesel": 1.631,
+          "precioGasolina95": 1.58,
+          "precioDiesel": 1.636,
           "historico": [
             {
               "date": "2026-07-11",
@@ -294880,8 +294880,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.574,
-              "precioDiesel": 1.631
+              "precioGasolina95": 1.58,
+              "precioDiesel": 1.636
             }
           ],
           "top5": [
@@ -294927,8 +294927,8 @@
               "horario": "L-D: 06:00-22:00",
               "latitud": 39.19125,
               "longitud": -0.441056,
-              "precio95": 1.709,
-              "precioDiesel": 1.755
+              "precio95": 1.729,
+              "precioDiesel": 1.775
             }
           ]
         },
@@ -300426,8 +300426,8 @@
         {
           "slug": "gandia",
           "nombre": "Gandia",
-          "precioGasolina95": 1.682,
-          "precioDiesel": 1.721,
+          "precioGasolina95": 1.685,
+          "precioDiesel": 1.723,
           "historico": [
             {
               "date": "2026-07-11",
@@ -300496,8 +300496,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.682,
-              "precioDiesel": 1.721
+              "precioGasolina95": 1.685,
+              "precioDiesel": 1.723
             }
           ],
           "top5": [
@@ -300509,15 +300509,6 @@
               "longitud": -0.164278,
               "precio95": 1.527,
               "precioDiesel": 1.527
-            },
-            {
-              "rotulo": "GASOLWIN",
-              "direccion": "AVENIDA ALACANT, 126",
-              "horario": "L-D: 24H",
-              "latitud": 38.962278,
-              "longitud": -0.173056,
-              "precio95": 1.569,
-              "precioDiesel": 1.599
             },
             {
               "rotulo": "SAFOROIL",
@@ -300545,6 +300536,15 @@
               "longitud": -0.174278,
               "precio95": 1.589,
               "precioDiesel": 1.629
+            },
+            {
+              "rotulo": "GASOLWIN",
+              "direccion": "AVENIDA ALACANT, 126",
+              "horario": "L-D: 24H",
+              "latitud": 38.962278,
+              "longitud": -0.173056,
+              "precio95": 1.619,
+              "precioDiesel": 1.649
             }
           ]
         },
@@ -301709,8 +301709,8 @@
         {
           "slug": "manises",
           "nombre": "Manises",
-          "precioGasolina95": 1.64,
-          "precioDiesel": 1.697,
+          "precioGasolina95": 1.648,
+          "precioDiesel": 1.706,
           "historico": [
             {
               "date": "2026-07-11",
@@ -301779,8 +301779,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.64,
-              "precioDiesel": 1.697
+              "precioGasolina95": 1.648,
+              "precioDiesel": 1.706
             }
           ],
           "top5": [
@@ -301808,8 +301808,8 @@
               "horario": "L-D: 24H",
               "latitud": 39.500194,
               "longitud": -0.495889,
-              "precio95": 1.535,
-              "precioDiesel": 1.575
+              "precio95": 1.585,
+              "precioDiesel": 1.625
             },
             {
               "rotulo": "PETROPRIX",
@@ -303251,8 +303251,8 @@
         {
           "slug": "naquera",
           "nombre": "Náquera",
-          "precioGasolina95": 1.654,
-          "precioDiesel": 1.699,
+          "precioGasolina95": 1.689,
+          "precioDiesel": 1.724,
           "historico": [
             {
               "date": "2026-07-11",
@@ -303321,8 +303321,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.654,
-              "precioDiesel": 1.699
+              "precioGasolina95": 1.689,
+              "precioDiesel": 1.724
             }
           ],
           "top5": [
@@ -303332,8 +303332,8 @@
               "horario": "L-D: 24H",
               "latitud": 39.600333,
               "longitud": -0.398722,
-              "precio95": 1.549,
-              "precioDiesel": 1.619
+              "precio95": 1.619,
+              "precioDiesel": 1.669
             },
             {
               "rotulo": "REPSOL",
@@ -303653,7 +303653,7 @@
           "slug": "olleria-l",
           "nombre": "Olleria (l')",
           "precioGasolina95": 1.628,
-          "precioDiesel": 1.726,
+          "precioDiesel": 1.729,
           "historico": [
             {
               "date": "2026-07-11",
@@ -303723,7 +303723,7 @@
             {
               "date": "2026-07-24",
               "precioGasolina95": 1.628,
-              "precioDiesel": 1.726
+              "precioDiesel": 1.729
             }
           ],
           "top5": [
@@ -303752,7 +303752,7 @@
               "latitud": 38.88525,
               "longitud": -0.576583,
               "precio95": 1.735,
-              "precioDiesel": 1.799
+              "precioDiesel": 1.809
             },
             {
               "rotulo": "REPSOL",
@@ -305230,7 +305230,7 @@
         {
           "slug": "pucol",
           "nombre": "Puçol",
-          "precioGasolina95": 1.608,
+          "precioGasolina95": 1.582,
           "precioDiesel": 1.638,
           "historico": [
             {
@@ -305300,11 +305300,20 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.608,
+              "precioGasolina95": 1.582,
               "precioDiesel": 1.638
             }
           ],
           "top5": [
+            {
+              "rotulo": "PUZOL",
+              "direccion": "CARRETERA N-340 KM. 18",
+              "horario": "L-D: 24H",
+              "latitud": 39.622417,
+              "longitud": -0.305,
+              "precio95": 1.499,
+              "precioDiesel": 1.709
+            },
             {
               "rotulo": "COPUZOL",
               "direccion": "POLIGONO SPI-1 PARCELA 2, 2",
@@ -305340,15 +305349,6 @@
               "longitud": -0.303028,
               "precio95": 1.547,
               "precioDiesel": 1.547
-            },
-            {
-              "rotulo": "PUÇOIL",
-              "direccion": "CALLE SALZES, ESQUINA A CALLE LLIMERES, 1",
-              "horario": "L-D: 24H",
-              "latitud": 39.626389,
-              "longitud": -0.30525,
-              "precio95": 1.589,
-              "precioDiesel": 1.674
             }
           ]
         },
@@ -306345,7 +306345,7 @@
         {
           "slug": "saguntosagunt",
           "nombre": "Sagunto/Sagunt",
-          "precioGasolina95": 1.604,
+          "precioGasolina95": 1.593,
           "precioDiesel": 1.664,
           "historico": [
             {
@@ -306415,7 +306415,7 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.604,
+              "precioGasolina95": 1.593,
               "precioDiesel": 1.664
             }
           ],
@@ -307952,8 +307952,8 @@
         {
           "slug": "valencia",
           "nombre": "Valencia",
-          "precioGasolina95": 1.679,
-          "precioDiesel": 1.715,
+          "precioGasolina95": 1.674,
+          "precioDiesel": 1.716,
           "historico": [
             {
               "date": "2026-07-11",
@@ -308022,8 +308022,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.679,
-              "precioDiesel": 1.715
+              "precioGasolina95": 1.674,
+              "precioDiesel": 1.716
             }
           ],
           "top5": [
@@ -308046,31 +308046,31 @@
               "precioDiesel": 1.549
             },
             {
-              "rotulo": "GASEXPRESS TRES CRUCES",
-              "direccion": "AVENIDA TRES CRUCES, 48",
+              "rotulo": "BP",
+              "direccion": "AV DE ARAGON, 6",
               "horario": "L-D: 24H",
-              "latitud": 39.459333,
-              "longitud": -0.403806,
-              "precio95": 1.505,
-              "precioDiesel": 1.545
+              "latitud": 39.468722,
+              "longitud": -0.359417,
+              "precio95": 1.499,
+              "precioDiesel": 1.769
             },
             {
-              "rotulo": "BALLENOIL",
-              "direccion": "CALLE LLUIS PEIXO, 50",
+              "rotulo": "FULL & GO",
+              "direccion": "AVENIDA AV AL PUERTO, 150",
               "horario": "L-D: 24H",
-              "latitud": 39.474917,
-              "longitud": -0.333389,
-              "precio95": 1.509,
-              "precioDiesel": 1.555
+              "latitud": 39.464194,
+              "longitud": -0.347778,
+              "precio95": 1.499,
+              "precioDiesel": 1.599
             },
             {
-              "rotulo": "BALLENOIL",
-              "direccion": "AVENIDA REINO DE VALENCIA, 83",
+              "rotulo": "FULL & GO",
+              "direccion": "AVENIDA PUERTO DEL, 147",
               "horario": "L-D: 24H",
-              "latitud": 39.462778,
-              "longitud": -0.362417,
-              "precio95": 1.509,
-              "precioDiesel": 1.555
+              "latitud": 39.464,
+              "longitud": -0.345722,
+              "precio95": 1.499,
+              "precioDiesel": 1.599
             }
           ]
         },
@@ -309022,7 +309022,7 @@
         {
           "slug": "xirivella",
           "nombre": "Xirivella",
-          "precioGasolina95": 1.542,
+          "precioGasolina95": 1.534,
           "precioDiesel": 1.582,
           "historico": [
             {
@@ -309092,11 +309092,20 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.542,
+              "precioGasolina95": 1.534,
               "precioDiesel": 1.582
             }
           ],
           "top5": [
+            {
+              "rotulo": "FULL & GO",
+              "direccion": "AV  CAMI NOU, 180",
+              "horario": "L-D: 24H",
+              "latitud": 39.46425,
+              "longitud": -0.43475,
+              "precio95": 1.499,
+              "precioDiesel": 1.569
+            },
             {
               "rotulo": "GAX",
               "direccion": "CALLE LES MORERES, 39",
@@ -309105,15 +309114,6 @@
               "longitud": -0.435333,
               "precio95": 1.509,
               "precioDiesel": 1.549
-            },
-            {
-              "rotulo": "FULL & GO",
-              "direccion": "AV  CAMI NOU, 180",
-              "horario": "L-D: 24H",
-              "latitud": 39.46425,
-              "longitud": -0.43475,
-              "precio95": 1.529,
-              "precioDiesel": 1.569
             },
             {
               "rotulo": "PLENERGY",
@@ -317717,8 +317717,8 @@
         {
           "slug": "toro",
           "nombre": "Toro",
-          "precioGasolina95": 1.677,
-          "precioDiesel": 1.719,
+          "precioGasolina95": 1.679,
+          "precioDiesel": 1.722,
           "historico": [
             {
               "date": "2026-07-11",
@@ -317787,8 +317787,8 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.677,
-              "precioDiesel": 1.719
+              "precioGasolina95": 1.679,
+              "precioDiesel": 1.722
             }
           ],
           "top5": [
@@ -317834,8 +317834,8 @@
               "horario": "L-D: 06:00-00:00",
               "latitud": 41.526833,
               "longitud": -5.3985,
-              "precio95": 1.729,
-              "precioDiesel": 1.825
+              "precio95": 1.739,
+              "precioDiesel": 1.839
             }
           ]
         },
@@ -318119,7 +318119,7 @@
           "slug": "villalpando",
           "nombre": "Villalpando",
           "precioGasolina95": 1.632,
-          "precioDiesel": 1.691,
+          "precioDiesel": 1.69,
           "historico": [
             {
               "date": "2026-07-11",
@@ -318189,7 +318189,7 @@
             {
               "date": "2026-07-24",
               "precioGasolina95": 1.632,
-              "precioDiesel": 1.691
+              "precioDiesel": 1.69
             }
           ],
           "top5": [
@@ -325285,6 +325285,15 @@
             },
             {
               "rotulo": "REPSOL",
+              "direccion": "AUTOVIA CARRETERA NACIONAL  232 KM. 249,5",
+              "horario": "L-D: 05:00-22:00",
+              "latitud": 41.695694,
+              "longitud": -0.989639,
+              "precio95": 1.719,
+              "precioDiesel": 1.785
+            },
+            {
+              "rotulo": "REPSOL",
               "direccion": "AUTOPISTA AUTOPISTA A-68 KM. 246",
               "horario": "L-D: 06:00-22:00",
               "latitud": 41.678639,
@@ -325298,15 +325307,6 @@
               "horario": "L-V: 07:00-21:00; S: 08:00-15:00",
               "latitud": 41.677167,
               "longitud": -0.957889,
-              "precio95": 1.719,
-              "precioDiesel": 1.785
-            },
-            {
-              "rotulo": "REPSOL",
-              "direccion": "AUTOVIA CARRETERA NACIONAL  232 KM. 249,5",
-              "horario": "L-D: 05:00-22:00",
-              "latitud": 41.695694,
-              "longitud": -0.989639,
               "precio95": 1.719,
               "precioDiesel": 1.785
             }
@@ -325787,7 +325787,7 @@
         {
           "slug": "zaragoza",
           "nombre": "Zaragoza",
-          "precioGasolina95": 1.662,
+          "precioGasolina95": 1.663,
           "precioDiesel": 1.738,
           "historico": [
             {
@@ -325857,7 +325857,7 @@
             },
             {
               "date": "2026-07-24",
-              "precioGasolina95": 1.662,
+              "precioGasolina95": 1.663,
               "precioDiesel": 1.738
             }
           ],
