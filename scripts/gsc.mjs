@@ -249,7 +249,7 @@ async function cmdIndex(args) {
             });
             console.log(`  ✅ ${url}`);
         } catch (e) {
-            console.log(`  ❌ ${url} → ${e.message.slice(0, 140)}`);
+            console.log(`  ❌ ${url} → ${e.message.slice(0, 400)}`);
         }
     }
 }
