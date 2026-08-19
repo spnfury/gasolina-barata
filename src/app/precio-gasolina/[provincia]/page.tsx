@@ -144,6 +144,10 @@ export default async function ProvinciaPage({ params }: { params: Promise<{ prov
                                       vsNac < 0 ? 'debajo' : 'encima'
                                   } de la media nacional.`
                                 : ''}
+                            {' '}¿Repostas diésel? Consulta el{' '}
+                            <Link href={`/precio-diesel/${provincia}`}>
+                                precio del diésel (gasóleo A) en {tcp(location.nombreProvincia)}
+                            </Link>.
                         </p>
                     </section>
                 )}

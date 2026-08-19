@@ -191,6 +191,33 @@ export default async function Home() {
                 </div>
             </section>
 
+            {/* DIRECTORIO DE PROVINCIAS · DIÉSEL */}
+            <section id="provincias-diesel" style={{ padding: '80px 0', background: 'var(--rg-bg)' }}>
+                <div className="rg-container">
+                    <div className="rg-section-title">
+                        <h2>🚚 Precio del diésel por provincia</h2>
+                        <p>Gasóleo A actualizado cada día. Elige tu provincia para ver las estaciones más baratas.</p>
+                    </div>
+
+                    <div style={{
+                        display: 'grid',
+                        gridTemplateColumns: 'repeat(auto-fill, minmax(260px, 1fr))',
+                        gap: '12px'
+                    }}>
+                        {provincias.map((prov: any) => (
+                            <Link
+                                href={`/precio-diesel/${prov.provincia}`}
+                                key={prov.provincia}
+                                className="prov-card"
+                            >
+                                <span className="prov-card-name">Diésel en {prov.nombreProvincia}</span>
+                                <span className="prov-card-arrow">→</span>
+                            </Link>
+                        ))}
+                    </div>
+                </div>
+            </section>
+
             {/* TOP MARCAS (SEO ENLAZADO INTERNO) */}
             <section style={{ padding: '80px 0 0', background: 'var(--rg-bg)' }}>
                 <div className="rg-container">

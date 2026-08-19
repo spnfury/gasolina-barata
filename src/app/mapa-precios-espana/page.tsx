@@ -33,6 +33,12 @@ export default function MapaPreciosPage() {
     const min = provincias[0]?.precioMedioGasolina95 || 0;
     const max = provincias[provincias.length - 1]?.precioMedioGasolina95 || 0;
 
+    const provinciasDiesel = [...data.locations]
+        .filter((p: any) => p.precioMedioDiesel > 0)
+        .sort((a: any, b: any) => a.precioMedioDiesel - b.precioMedioDiesel);
+    const minD = provinciasDiesel[0]?.precioMedioDiesel || 0;
+    const maxD = provinciasDiesel[provinciasDiesel.length - 1]?.precioMedioDiesel || 0;
+
     return (
         <div className="rg-landing">
             <Navbar />
@@ -76,6 +82,33 @@ export default function MapaPreciosPage() {
                         >
                             <span style={{ display: 'block', fontWeight: 700 }}>{tc(p.nombreProvincia)}</span>
                             <span style={{ fontSize: '1.2rem', fontWeight: 800 }}>{eur(p.precioMedioGasolina95)}€</span>
+                        </Link>
+                    ))}
+                </div>
+
+                <h2 style={{ marginTop: 48 }}>Mapa de precios del diésel por provincia</h2>
+                <p style={{ color: 'var(--rg-text-secondary)', lineHeight: 1.7, marginBottom: 24 }}>
+                    El gasóleo A va desde los <strong>{eur(minD)}€/L</strong> de la provincia más barata hasta los{' '}
+                    <strong>{eur(maxD)}€/L</strong> de la más cara: <strong>{Math.round((maxD - minD) * 100)} céntimos
+                    por litro</strong> de diferencia. Pulsa una provincia para ver sus localidades.
+                </p>
+
+                <div style={{ display: 'grid', gap: 10, gridTemplateColumns: 'repeat(auto-fill,minmax(160px,1fr))' }}>
+                    {provinciasDiesel.map((p: any) => (
+                        <Link
+                            key={p.provincia}
+                            href={`/precio-diesel/${p.provincia}`}
+                            style={{
+                                background: heat(p.precioMedioDiesel, minD, maxD),
+                                border: '1px solid var(--rg-border)',
+                                borderRadius: 10,
+                                padding: '14px 16px',
+                                textDecoration: 'none',
+                                color: '#eaf4f8',
+                            }}
+                        >
+                            <span style={{ display: 'block', fontWeight: 700 }}>{tc(p.nombreProvincia)}</span>
+                            <span style={{ fontSize: '1.2rem', fontWeight: 800 }}>{eur(p.precioMedioDiesel)}€</span>
                         </Link>
                     ))}
                 </div>
