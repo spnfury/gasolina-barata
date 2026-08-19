@@ -68,6 +68,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                     borderTop: '1px solid rgba(255,255,255,0.05)',
                 }}>
                     <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '16px', marginBottom: '10px' }}>
+                        <a href="/precio-gasolina-hoy" style={{ color: 'inherit' }}>Precio gasolina hoy</a>
+                        <a href="/mapa-precios-espana" style={{ color: 'inherit' }}>Mapa de precios</a>
+                        <a href="/gasolineras-low-cost" style={{ color: 'inherit' }}>Gasolineras low cost</a>
+                        <a href="/gasolineras-24-horas" style={{ color: 'inherit' }}>Gasolineras 24 horas</a>
+                        <a href="/calculadora-ahorro" style={{ color: 'inherit' }}>Calculadora de ahorro</a>
+                    </div>
+                    <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '16px', marginBottom: '10px' }}>
                         <a href="/sobre-nosotros" style={{ color: 'inherit' }}>Sobre nosotros</a>
                         <a href="/contacto" style={{ color: 'inherit' }}>Contacto</a>
                         <a href="/aviso-legal" style={{ color: 'inherit' }}>Aviso legal</a>

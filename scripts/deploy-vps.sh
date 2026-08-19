@@ -52,11 +52,12 @@ if [ -f "$GSC_KEY" ]; then
     # Monitor indexación: escribe gsc-inspect-problems.json solo si hay problemas
     rm -f src/data/gsc-inspect-problems.json
     sudo -u jenkins env GSC_SA_KEY="$GSC_KEY" node scripts/gsc.mjs inspect || true
-    if [ -f src/data/gsc-inspect-problems.json ] && [ -n "${RESEND_API_KEY:-}" ]; then
-        n=$(grep -c '"url"' src/data/gsc-inspect-problems.json || echo '?')
-        curl -s -X POST https://api.resend.com/emails \
-            -H "Authorization: Bearer $RESEND_API_KEY" -H "Content-Type: application/json" \
-            -d "{\"from\":\"onboarding@resend.dev\",\"to\":\"thevega82@gmail.com\",\"subject\":\"[GSC] $n URLs con problemas de indexacion\",\"text\":\"Search Console detecto URLs no indexadas en gasolinabarata.org. Detalle: src/data/gsc-inspect-problems.json\"}" >/dev/null || true
+    # Aviso por email desactivado 2026-08-19: la Inspection API devuelve el ultimo
+    # estado conocido por Google, no un fetch en vivo, asi que las rutas nuevas
+    # salian como 404 durante semanas y el correo llegaba a diario sin accion util.
+    # El informe se sigue escribiendo en src/data/gsc-inspect-problems.json.
+    if [ -f src/data/gsc-inspect-problems.json ]; then
+        echo "   aviso: $(grep -c '"url"' src/data/gsc-inspect-problems.json || echo '?') URLs en gsc-inspect-problems.json"
     fi
 else
     echo "GSC_SA_KEY ausente ($GSC_KEY), salto Search Console"
