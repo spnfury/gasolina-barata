@@ -109,7 +109,7 @@ export default async function BlogPage() {
                         en cada repostaje.
                     </p>
                     <div className="rg-hero-buttons">
-                        <SmartDownloadButton variant="primary" label="🚀 Descargar RadarGas" />
+                        <SmartDownloadButton variant="primary" label="🚀 Descargar RadarGas" placement="blog" />
                         <Link href="/" className="rg-btn secondary">
                             ← Volver al inicio
                         </Link>

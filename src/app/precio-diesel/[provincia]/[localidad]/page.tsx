@@ -178,7 +178,7 @@ export default async function DieselLocalidadPage({ params }: PageProps) {
                     </>
                 )}
 
-                <AppDownloadCta locationName={town.nombre} />
+                <AppDownloadCta locationName={town.nombre} placement="diesel-localidad" />
                 <FaqAccordion faqs={faqs} />
             </main>
         </div>

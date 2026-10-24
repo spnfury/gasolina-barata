@@ -1,13 +1,9 @@
 'use client';
 
 import React, { useEffect, useState } from 'react';
+import { storeUrl, downloadEventClass } from '@/lib/stores';
 
 type Platform = 'ios' | 'android' | 'desktop';
-
-const STORE_LINKS = {
-  ios: 'https://apps.apple.com/us/app/radargas-gasolina-barata/id6760366244',
-  android: 'https://play.google.com/store/apps/details?id=com.radargas.app',
-};
 
 /* Official badge URLs (Spanish locale) */
 const BADGE_IOS =
@@ -30,11 +26,13 @@ interface SmartDownloadButtonProps {
   variant?: 'primary' | 'nav' | 'badge';
   /** Custom label — overrides auto-generated text (only for nav/primary variants) */
   label?: string;
+  /** Tipo de página donde está el botón: va como campaña a las stores y a Plausible */
+  placement: string;
 }
 
 /* ─── Badge link (reusable) ─── */
-function StoreBadge({ store }: { store: 'ios' | 'android' }) {
-  const href = store === 'ios' ? STORE_LINKS.ios : STORE_LINKS.android;
+function StoreBadge({ store, placement }: { store: 'ios' | 'android'; placement: string }) {
+  const href = storeUrl(store, placement);
   const src = store === 'ios' ? BADGE_IOS : BADGE_ANDROID;
   const alt =
     store === 'ios'
@@ -42,7 +40,7 @@ function StoreBadge({ store }: { store: 'ios' | 'android' }) {
       : 'Disponible en Google Play';
 
   return (
-    <a href={href} target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block' }}>
+    <a href={href} className={downloadEventClass(store, placement)} target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block' }}>
       <img
         src={src}
         alt={alt}
@@ -56,7 +54,7 @@ function StoreBadge({ store }: { store: 'ios' | 'android' }) {
   );
 }
 
-function DownloadModal({ onClose }: { onClose: () => void }) {
+function DownloadModal({ onClose, placement }: { onClose: () => void; placement: string }) {
   return (
     <div style={{
       position: 'fixed',
@@ -108,8 +106,8 @@ function DownloadModal({ onClose }: { onClose: () => void }) {
           Consigue alertas de precios, encuentra las gasolineras más baratas de tu zona al instante y ahorra dinero en cada repostaje. Totalmente gratis.
         </p>
         <div style={{ display: 'flex', flexDirection: 'column', gap: '16px', alignItems: 'center' }}>
-          <StoreBadge store="ios" />
-          <StoreBadge store="android" />
+          <StoreBadge store="ios" placement={placement} />
+          <StoreBadge store="android" placement={placement} />
         </div>
       </div>
     </div>
@@ -121,6 +119,7 @@ export default function SmartDownloadButton({
   style,
   variant = 'primary',
   label,
+  placement,
 }: SmartDownloadButtonProps) {
   const [platform, setPlatform] = useState<Platform>('desktop');
   const [modalOpen, setModalOpen] = useState(false);
@@ -160,15 +159,15 @@ export default function SmartDownloadButton({
           >
             {text}
           </button>
-          {modalOpen && <DownloadModal onClose={() => setModalOpen(false)} />}
+          {modalOpen && <DownloadModal onClose={() => setModalOpen(false)} placement={placement} />}
         </>
       );
     }
 
-    const href = platform === 'ios' ? STORE_LINKS.ios : STORE_LINKS.android;
+    const store = platform === 'ios' ? 'ios' : 'android';
 
     return (
-      <a href={href} className={className} style={{...style, display: 'inline-block'}} target="_blank" rel="noopener noreferrer">
+      <a href={storeUrl(store, placement)} className={`${className ?? ''} ${downloadEventClass(store, placement)}`} style={{...style, display: 'inline-block'}} target="_blank" rel="noopener noreferrer">
         {text}
       </a>
     );
@@ -177,16 +176,16 @@ export default function SmartDownloadButton({
   /* ── BADGE variant: official store badges ── */
   if (variant === 'badge') {
     if (platform === 'ios') {
-      return <StoreBadge store="ios" />;
+      return <StoreBadge store="ios" placement={placement} />;
     }
     if (platform === 'android') {
-      return <StoreBadge store="android" />;
+      return <StoreBadge store="android" placement={placement} />;
     }
     /* Desktop → both badges */
     return (
       <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap', justifyContent: 'center', alignItems: 'center', ...style }}>
-        <StoreBadge store="ios" />
-        <StoreBadge store="android" />
+        <StoreBadge store="ios" placement={placement} />
+        <StoreBadge store="android" placement={placement} />
       </div>
     );
   }
@@ -196,12 +195,12 @@ export default function SmartDownloadButton({
     /* Desktop with primary variant → also show both badges */
     return (
       <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap', justifyContent: 'center', alignItems: 'center', ...style }}>
-        <StoreBadge store="ios" />
-        <StoreBadge store="android" />
+        <StoreBadge store="ios" placement={placement} />
+        <StoreBadge store="android" placement={placement} />
       </div>
     );
   }
 
   /* Mobile with primary → single badge */
-  return platform === 'ios' ? <StoreBadge store="ios" /> : <StoreBadge store="android" />;
+  return platform === 'ios' ? <StoreBadge store="ios" placement={placement} /> : <StoreBadge store="android" placement={placement} />;
 }

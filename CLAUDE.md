@@ -31,7 +31,7 @@ Reglas mientras dure la unificación (ver informe de auditoría de 2026-10):
 - Rutas dinámicas con `dynamicParams=false`: `precio-gasolina/[provincia]/[localidad]`, `precio-diesel/[provincia]/[localidad]` (solo localidades con 2 o más estaciones), `marca/[slug]/[provincia]` y `blog/[slug]`.
 - Las localidades con 1 estación o menos llevan `noindex,follow`.
 - Blog: `src/data/blog-posts.json`, leído por `src/lib/nocodb.ts`. El nombre engaña: es JSON local, no NocoDB. Lo alimentan `scripts/auto-news.mjs`, `auto-provincias.mjs` y `auto-evergreen.mjs` mediante la API de Groq.
-- Todos los CTAs de descarga salen de `src/components/SmartDownloadButton.tsx` (y `AppDownloadCta.tsx`). `AffiliateCta.tsx` es de afiliados (seguros, tarjetas), no de la app.
+- Todos los CTAs de descarga salen de `src/components/SmartDownloadButton.tsx` (y `AppDownloadCta.tsx`), con la prop obligatoria `placement` (tipo de página). Las URLs y el evento "Descarga" de Plausible vienen de `src/lib/stores.ts`, copia del de radargas. `AffiliateCta.tsx` es de afiliados (seguros, tarjetas), no de la app.
 
 ## Search Console
 

@@ -42,7 +42,7 @@ export default function CalculadoraPage() {
             <section style={{ padding: '0 0 64px' }}>
                 <div className="rg-container">
                     <div style={{ textAlign: 'center' }}>
-                        <SmartDownloadButton variant="primary" label="🚀 Descargar RadarGas Gratis" />
+                        <SmartDownloadButton variant="primary" label="🚀 Descargar RadarGas Gratis" placement="calculadora" />
                     </div>
                 </div>
             </section>
@@ -80,7 +80,7 @@ export default function CalculadoraPage() {
                     </ul>
 
                     <div style={{ textAlign: 'center', marginTop: '40px' }}>
-                        <SmartDownloadButton variant="badge" />
+                        <SmartDownloadButton variant="badge" placement="calculadora-final" />
                     </div>
                 </div>
             </section>

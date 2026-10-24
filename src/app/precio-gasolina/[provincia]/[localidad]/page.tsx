@@ -227,7 +227,7 @@ export default async function LocalidadPage({ params }: PageProps) {
                 <AffiliateCta place={townData.nombre} />
 
                 {/* 3. CTA Descarga app (secundario) */}
-                <AppDownloadCta locationName={townData.nombre} />
+                <AppDownloadCta locationName={townData.nombre} placement="localidad" />
 
                 {/* 3. Evolución y Gráficos */}
                 <PriceHistoryCard 

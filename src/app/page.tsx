@@ -115,7 +115,7 @@ export default async function Home() {
                         Ahorra al máximo en tu ruta con nuestro directorio actualizado.
                     </p>
                     <div className="rg-hero-buttons" style={{ marginTop: '32px' }}>
-                        <SmartDownloadButton variant="primary" label="🚀 Descargar RadarGas" />
+                        <SmartDownloadButton variant="primary" label="🚀 Descargar RadarGas" placement="home-hero" />
                         <a href="#provincias" className="rg-btn secondary">
                             Ver por Provincias
                         </a>
@@ -340,7 +340,7 @@ export default async function Home() {
                         Mientras que este portal web funciona de manera excepcional para revisar el precio por comunidad autónoma, el <strong>verdadero poder reside en la App Móvil RadarGas</strong>. Utiliza geolocalización avanzada en tiempo real, trazado de rutas GPS y favoritos para que el ahorro forme parte de tu conducción diaria de manera invisible.
                     </p>
                     <div style={{ textAlign: 'center', marginTop: '40px' }}>
-                        <SmartDownloadButton variant="badge" />
+                        <SmartDownloadButton variant="badge" placement="home-final" />
                     </div>
                 </div>
             </section>

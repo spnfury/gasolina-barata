@@ -115,7 +115,7 @@ export default async function ArticlePage(props: PageProps) {
                     <h2>Compara precios en tu zona</h2>
                     <p>Usa RadarGas para ver el mapa de precios en tiempo real.</p>
                     <div className="rg-hero-buttons">
-                        <SmartDownloadButton variant="primary" label="🚀 Ver Precios" />
+                        <SmartDownloadButton variant="primary" label="🚀 Ver Precios" placement="blog-post" />
                         <Link href="/" className="rg-btn secondary">← Volver al blog</Link>
                     </div>
                 </div>

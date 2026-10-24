@@ -250,7 +250,7 @@ export default async function BrandProvincePage({ params }: PageProps) {
                         <Link href={`/marca/${slug}`} className="rg-btn secondary">
                             {brand.name} en toda España
                         </Link>
-                        <SmartDownloadButton variant="primary" />
+                        <SmartDownloadButton variant="primary" placement="marca-provincia" />
                     </div>
                 </div>
             </main>

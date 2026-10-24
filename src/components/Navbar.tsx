@@ -23,7 +23,7 @@ export default function Navbar() {
                     <Link href="/blog">Blog</Link>
                     <Link href="/calculadora-ahorro">Calculadora</Link>
                     <a href="/#provincias">Provincias</a>
-                    <SmartDownloadButton variant="nav" className="rg-nav-cta" />
+                    <SmartDownloadButton variant="nav" className="rg-nav-cta" placement="nav" />
                 </div>
 
                 {/* Hamburger button */}
@@ -55,6 +55,7 @@ export default function Navbar() {
                             variant="nav"
                             className="rg-nav-cta"
                             style={{ textAlign: 'center', marginTop: '8px' }}
+                            placement="nav-movil"
                         />
                     </div>
                 </div>

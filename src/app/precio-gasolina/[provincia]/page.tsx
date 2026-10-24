@@ -176,7 +176,7 @@ export default async function ProvinciaPage({ params }: { params: Promise<{ prov
                     ))}
                 </div>
 
-                <AppDownloadCta locationName={location.nombreProvincia} />
+                <AppDownloadCta locationName={location.nombreProvincia} placement="provincia" />
             </main>
 
             <footer className="rg-footer">

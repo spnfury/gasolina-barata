@@ -257,7 +257,7 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
                             Activar "Cerca de mí" 📍
                         </Link>
                         <span style={{ color: 'var(--rg-text-secondary)' }}>o</span>
-                        <SmartDownloadButton variant="primary" />
+                        <SmartDownloadButton variant="primary" placement="marca" />
                     </div>
                 </div>
 
