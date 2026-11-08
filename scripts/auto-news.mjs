@@ -9,8 +9,8 @@
  *   or:   node --env-file=.env.local scripts/auto-news.mjs
  */
 
-import fs from 'fs';
 import path from 'path';
+import { readPosts, writePosts } from './lib/blog-store.mjs';
 
 // ── Config ──
 const GROQ_API_KEY = process.env.GROQ_API_KEY || '';
@@ -18,6 +18,9 @@ const GROQ_MODEL = 'llama-3.3-70b-versatile';
 const GROQ_URL = 'https://api.groq.com/openai/v1/chat/completions';
 const BLOG_FILE = path.join(process.cwd(), 'src/data/blog-posts.json');
 const MAX_NEW_POSTS = 5;
+// Techo del archivo. Al alcanzarlo se deja de generar; nunca se borran posts
+// existentes (cada slug es una URL indexada: borrarla la convierte en un 404).
+const MAX_BLOG_POSTS = parseInt(process.env.MAX_BLOG_POSTS || '300', 10);
 const GOOGLE_NEWS_RSS =
     'https://news.google.com/rss/search?q=precio+gasolina+Espa%C3%B1a+combustible&hl=es&gl=ES&ceid=ES:es';
 
@@ -241,18 +244,17 @@ async function main() {
     }
 
     // Load existing posts
-    let existingPosts = [];
-    if (fs.existsSync(BLOG_FILE)) {
-        try {
-            existingPosts = JSON.parse(fs.readFileSync(BLOG_FILE, 'utf8'));
-            if (!Array.isArray(existingPosts)) existingPosts = [];
-        } catch {
-            existingPosts = [];
-        }
-    }
+    const existingPosts = readPosts(BLOG_FILE);
 
     const existingUrls = new Set(existingPosts.map(p => p.sourceUrl));
     console.log(`📚 ${existingPosts.length} existing posts loaded\n`);
+
+    const room = MAX_BLOG_POSTS - existingPosts.length;
+    if (room <= 0) {
+        console.log(`⏸  Archivo en el techo de ${MAX_BLOG_POSTS} posts: no se generan noticias nuevas.`);
+        console.log('   Los posts existentes NO se borran. Sube MAX_BLOG_POSTS o archiva a mano.');
+        return;
+    }
 
     // Fetch RSS
     const rssItems = await fetchRssItems(MAX_NEW_POSTS * 2);
@@ -266,7 +268,7 @@ async function main() {
         return;
     }
 
-    const toProcess = newItems.slice(0, MAX_NEW_POSTS);
+    const toProcess = newItems.slice(0, Math.min(MAX_NEW_POSTS, room));
     let generated = 0;
 
     for (const item of toProcess) {
@@ -314,15 +316,9 @@ async function main() {
         }
     }
 
-    // Keep only the last 50 posts (to prevent unlimited growth)
-    if (existingPosts.length > 50) {
-        existingPosts = existingPosts.slice(0, 50);
-    }
-
-    // Save
-    const dir = path.dirname(BLOG_FILE);
-    if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
-    fs.writeFileSync(BLOG_FILE, JSON.stringify(existingPosts, null, 2));
+    // El crecimiento se limita arriba al generar (MAX_BLOG_POSTS). Aquí NO se
+    // trunca: writePosts rechaza cualquier escritura que elimine un slug.
+    writePosts(BLOG_FILE, existingPosts);
 
     console.log(`\n✅ Done! Generated ${generated} new posts. Total: ${existingPosts.length} posts.`);
     console.log(`📁 Saved to: ${BLOG_FILE}`);

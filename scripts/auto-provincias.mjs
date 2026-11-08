@@ -1,10 +1,10 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { readPosts, writePosts } from './lib/blog-store.mjs';
 
-// Env setup (for local testing, CI passes this via env)
-import dotenv from 'dotenv';
-dotenv.config({ path: '.env.local' });
+// Las variables de entorno las pasa el job de despliegue (ver deploy-vps.sh).
+// En local: node --env-file=.env.local scripts/auto-provincias.mjs
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -116,14 +116,7 @@ async function main() {
     }
 
     // Load existing blog posts
-    let blogPosts = [];
-    if (fs.existsSync(BLOG_FILE)) {
-        try {
-            blogPosts = JSON.parse(fs.readFileSync(BLOG_FILE, 'utf8'));
-        } catch {
-            blogPosts = [];
-        }
-    }
+    const blogPosts = readPosts(BLOG_FILE);
 
     // Find the 5 "oldest" or uncreated provinces
     const allProvinces = locationsData.locations;
@@ -201,7 +194,7 @@ async function main() {
 
     // Save final JSON
     blogPosts.sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime());
-    fs.writeFileSync(BLOG_FILE, JSON.stringify(blogPosts, null, 2), 'utf8');
+    writePosts(BLOG_FILE, blogPosts);
     
     console.log(`\n💾 Guardado en ${BLOG_FILE}`);
     console.log('✅ Finalizado');
