@@ -7,8 +7,8 @@
  * Uso: GROQ_API_KEY=gsk_... node scripts/auto-evergreen.mjs
  */
 
-import fs from 'fs';
 import path from 'path';
+import { readPosts, writePosts } from './lib/blog-store.mjs';
 
 const GROQ_API_KEY = process.env.GROQ_API_KEY || '';
 const GROQ_MODEL = process.env.GROQ_EVERGREEN_MODEL || 'llama-3.1-8b-instant';
@@ -178,12 +178,7 @@ async function main() {
         return;
     }
 
-    let blog = [];
-    try {
-        blog = JSON.parse(fs.readFileSync(BLOG_FILE, 'utf-8'));
-    } catch (_) {
-        blog = [];
-    }
+    const blog = readPosts(BLOG_FILE);
 
     const existingSlugs = new Set(blog.map((p) => p.slug));
     const pending = TOPICS.filter((t) => !existingSlugs.has(t.slug));
@@ -224,7 +219,7 @@ async function main() {
     }
 
     if (created > 0) {
-        fs.writeFileSync(BLOG_FILE, JSON.stringify(blog, null, 2));
+        writePosts(BLOG_FILE, blog);
         console.log(`✅ ${created} posts evergreen añadidos. Total blog: ${blog.length}`);
     }
 }
