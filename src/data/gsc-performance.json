@@ -1,19 +1,19 @@
 {
   "site": "sc-domain:gasolinabarata.org",
   "range": {
-    "start": "2026-10-27",
-    "end": "2026-11-24",
+    "start": "2026-10-29",
+    "end": "2026-11-26",
     "days": 28
   },
   "dimensions": [
     "query",
     "page"
   ],
-  "generatedAt": "2026-11-24T04:22:36.532Z",
+  "generatedAt": "2026-11-26T04:23:47.498Z",
   "totals": {
     "clicks": 24,
-    "impressions": 10600,
-    "ctr": 0.0023
+    "impressions": 10956,
+    "ctr": 0.0022
   },
   "rows": [
     {
@@ -21,10 +21,10 @@
         "plenoil",
         "https://gasolinabarata.org/marca/plenoil/madrid"
       ],
-      "clicks": 5,
-      "impressions": 505,
-      "ctr": 0.0099,
-      "position": 6.34
+      "clicks": 7,
+      "impressions": 483,
+      "ctr": 0.0145,
+      "position": 6.47
     },
     {
       "keys": [
@@ -32,19 +32,9 @@
         "https://gasolinabarata.org/precio-diesel/albacete"
       ],
       "clicks": 1,
-      "impressions": 2,
-      "ctr": 0.5,
-      "position": 11
-    },
-    {
-      "keys": [
-        "diesel barato",
-        "https://gasolinabarata.org/precio-diesel/burgos"
-      ],
-      "clicks": 1,
-      "impressions": 5,
-      "ctr": 0.2,
-      "position": 11.4
+      "impressions": 4,
+      "ctr": 0.25,
+      "position": 10.75
     },
     {
       "keys": [
@@ -62,19 +52,9 @@
         "https://gasolinabarata.org/marca/plenoil/madrid"
       ],
       "clicks": 1,
-      "impressions": 32,
-      "ctr": 0.0313,
-      "position": 7.94
-    },
-    {
-      "keys": [
-        "plenoil",
-        "https://gasolinabarata.org/marca/plenoil/cuenca"
-      ],
-      "clicks": 1,
-      "impressions": 12,
-      "ctr": 0.0833,
-      "position": 5.67
+      "impressions": 29,
+      "ctr": 0.0345,
+      "position": 7.97
     },
     {
       "keys": [
@@ -82,9 +62,9 @@
         "https://gasolinabarata.org/marca/plenoil/granada"
       ],
       "clicks": 1,
-      "impressions": 102,
-      "ctr": 0.0098,
-      "position": 6.61
+      "impressions": 104,
+      "ctr": 0.0096,
+      "position": 6.64
     },
     {
       "keys": [
@@ -92,9 +72,9 @@
         "https://gasolinabarata.org/marca/plenoil/palmas-las"
       ],
       "clicks": 1,
-      "impressions": 13,
-      "ctr": 0.0769,
-      "position": 6.15
+      "impressions": 12,
+      "ctr": 0.0833,
+      "position": 6
     },
     {
       "keys": [
@@ -102,9 +82,9 @@
         "https://gasolinabarata.org/marca/plenoil/santa-cruz-de-tenerife"
       ],
       "clicks": 1,
-      "impressions": 42,
-      "ctr": 0.0238,
-      "position": 4.81
+      "impressions": 44,
+      "ctr": 0.0227,
+      "position": 4.91
     },
     {
       "keys": [
@@ -122,9 +102,9 @@
         "https://gasolinabarata.org/marca/plenoil/madrid"
       ],
       "clicks": 1,
-      "impressions": 48,
-      "ctr": 0.0208,
-      "position": 6.29
+      "impressions": 55,
+      "ctr": 0.0182,
+      "position": 6.27
     },
     {
       "keys": [
@@ -132,9 +112,9 @@
         "https://gasolinabarata.org/marca/plenoil/malaga"
       ],
       "clicks": 1,
-      "impressions": 15,
-      "ctr": 0.0667,
-      "position": 4.53
+      "impressions": 16,
+      "ctr": 0.0625,
+      "position": 4.69
     },
     {
       "keys": [
@@ -192,9 +172,9 @@
         "https://gasolinabarata.org/marca/plenoil/lugo"
       ],
       "clicks": 1,
-      "impressions": 19,
-      "ctr": 0.0526,
-      "position": 9.89
+      "impressions": 22,
+      "ctr": 0.0455,
+      "position": 9.5
     },
     {
       "keys": [
@@ -202,9 +182,9 @@
         "https://gasolinabarata.org/marca/plenoil/santa-cruz-de-tenerife"
       ],
       "clicks": 1,
-      "impressions": 3,
-      "ctr": 0.3333,
-      "position": 5.67
+      "impressions": 4,
+      "ctr": 0.25,
+      "position": 5.5
     },
     {
       "keys": [
@@ -328,6 +308,16 @@
     },
     {
       "keys": [
+        "a cuanto esta el litro de diesel",
+        "https://gasolinabarata.org/precio-diesel/leon"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "keys": [
         "a cuanto esta el litro de gasolina",
         "https://gasolinabarata.org/precio-gasolina/granada"
       ],
@@ -339,22 +329,22 @@
     {
       "keys": [
         "a cuanto esta el litro de gasolina",
+        "https://gasolinabarata.org/precio-gasolina/lugo"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "keys": [
+        "a cuanto esta el litro de gasolina",
         "https://gasolinabarata.org/precio-gasolina/salamanca"
       ],
       "clicks": 0,
       "impressions": 2,
       "ctr": 0,
       "position": 10.5
-    },
-    {
-      "keys": [
-        "a cuanto esta el litro de gasolina",
-        "https://gasolinabarata.org/precio-gasolina/sevilla/lebrija"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 10
     },
     {
       "keys": [
@@ -378,36 +368,6 @@
     },
     {
       "keys": [
-        "a cuanto esta la gasolina hoy",
-        "https://gasolinabarata.org/precio-gasolina/bizkaia/basauri"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 10
-    },
-    {
-      "keys": [
-        "a cuanto está el diesel hoy",
-        "https://gasolinabarata.org/precio-diesel/salamanca"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 11
-    },
-    {
-      "keys": [
-        "a cuánto está el litro de diesel",
-        "https://gasolinabarata.org/precio-diesel/cadiz"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 4
-    },
-    {
-      "keys": [
         "a cuánto está el litro de diesel",
         "https://gasolinabarata.org/precio-diesel/cordoba"
       ],
@@ -415,16 +375,6 @@
       "impressions": 1,
       "ctr": 0,
       "position": 10
-    },
-    {
-      "keys": [
-        "a cuánto está el litro de diésel",
-        "https://gasolinabarata.org/precio-diesel/salamanca"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 11
     },
     {
       "keys": [
@@ -472,29 +422,29 @@
         "https://gasolinabarata.org/precio-gasolina/madrid/valdemoro"
       ],
       "clicks": 0,
-      "impressions": 13,
+      "impressions": 12,
       "ctr": 0,
-      "position": 24.62
+      "position": 24.92
     },
     {
       "keys": [
         "ahorrar carburante madrid",
         "https://gasolinabarata.org/precio-gasolina/madrid"
+      ],
+      "clicks": 0,
+      "impressions": 14,
+      "ctr": 0,
+      "position": 53.93
+    },
+    {
+      "keys": [
+        "ahorrar carburante madrid",
+        "https://gasolinabarata.org/precio-gasolina/madrid/madrid"
       ],
       "clicks": 0,
       "impressions": 11,
       "ctr": 0,
-      "position": 54.27
-    },
-    {
-      "keys": [
-        "ahorrar carburante madrid",
-        "https://gasolinabarata.org/precio-gasolina/madrid/madrid"
-      ],
-      "clicks": 0,
-      "impressions": 9,
-      "ctr": 0,
-      "position": 55
+      "position": 56.36
     },
     {
       "keys": [
@@ -502,9 +452,9 @@
         "https://gasolinabarata.org/precio-gasolina/madrid"
       ],
       "clicks": 0,
-      "impressions": 28,
+      "impressions": 31,
       "ctr": 0,
-      "position": 73.32
+      "position": 71.13
     },
     {
       "keys": [
@@ -512,9 +462,9 @@
         "https://gasolinabarata.org/precio-gasolina/madrid/madrid"
       ],
       "clicks": 0,
-      "impressions": 26,
+      "impressions": 27,
       "ctr": 0,
-      "position": 78.65
+      "position": 79
     },
     {
       "keys": [
@@ -522,9 +472,9 @@
         "https://gasolinabarata.org/precio-gasolina/madrid"
       ],
       "clicks": 0,
-      "impressions": 22,
+      "impressions": 23,
       "ctr": 0,
-      "position": 55.55
+      "position": 54.52
     },
     {
       "keys": [
@@ -534,7 +484,7 @@
       "clicks": 0,
       "impressions": 23,
       "ctr": 0,
-      "position": 62.91
+      "position": 63.17
     },
     {
       "keys": [
@@ -542,9 +492,9 @@
         "https://gasolinabarata.org/precio-diesel/madrid/madrid"
       ],
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 6,
       "ctr": 0,
-      "position": 60.67
+      "position": 61.5
     },
     {
       "keys": [
@@ -552,9 +502,9 @@
         "https://gasolinabarata.org/precio-gasolina/madrid"
       ],
       "clicks": 0,
-      "impressions": 8,
+      "impressions": 11,
       "ctr": 0,
-      "position": 45.63
+      "position": 45.73
     },
     {
       "keys": [
@@ -562,9 +512,19 @@
         "https://gasolinabarata.org/precio-gasolina/madrid/madrid"
       ],
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 7,
       "ctr": 0,
-      "position": 54.75
+      "position": 53.29
+    },
+    {
+      "keys": [
+        "alcampo descuento gasolina",
+        "https://gasolinabarata.org/marca/alcampo"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 55
     },
     {
       "keys": [
@@ -582,7 +542,7 @@
         "https://gasolinabarata.org/marca/alcampo/valencia-valencia"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
       "position": 8
     },
@@ -662,19 +622,9 @@
         "https://gasolinabarata.org/marca/avia/toledo"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
       "position": 10
-    },
-    {
-      "keys": [
-        "bajará el precio de la gasolina",
-        "https://gasolinabarata.org/blog/cuando-bajara-el-precio-del-combustible-en-espana-todo-lo-que-debes-saber-muxlkpac"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 77
     },
     {
       "keys": [
@@ -822,9 +772,9 @@
         "https://gasolinabarata.org/marca/bp"
       ],
       "clicks": 0,
-      "impressions": 9,
+      "impressions": 10,
       "ctr": 0,
-      "position": 63.33
+      "position": 60.8
     },
     {
       "keys": [
@@ -938,6 +888,16 @@
     },
     {
       "keys": [
+        "calcula bien",
+        "https://gasolinabarata.org/precio-gasolina/almeria"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 2
+    },
+    {
+      "keys": [
         "calidad gasolina alicante",
         "https://gasolinabarata.org/precio-gasolina/alicante/alicantealacant"
       ],
@@ -1002,9 +962,9 @@
         "https://gasolinabarata.org/marca/cepsa/valencia-valencia"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 8
+      "position": 7.5
     },
     {
       "keys": [
@@ -1022,9 +982,9 @@
         "https://gasolinabarata.org/marca/cepsa/valencia-valencia"
       ],
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 4,
       "ctr": 0,
-      "position": 36.67
+      "position": 32
     },
     {
       "keys": [
@@ -1035,6 +995,16 @@
       "impressions": 2,
       "ctr": 0,
       "position": 38.5
+    },
+    {
+      "keys": [
+        "cepsa malaga",
+        "https://gasolinabarata.org/marca/cepsa/malaga"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 13
     },
     {
       "keys": [
@@ -1062,9 +1032,9 @@
         "https://gasolinabarata.org/blog"
       ],
       "clicks": 0,
-      "impressions": 12,
+      "impressions": 8,
       "ctr": 0,
-      "position": 23.17
+      "position": 26.5
     },
     {
       "keys": [
@@ -1094,7 +1064,7 @@
       "clicks": 0,
       "impressions": 24,
       "ctr": 0,
-      "position": 28.38
+      "position": 28.42
     },
     {
       "keys": [
@@ -1102,9 +1072,9 @@
         "https://gasolinabarata.org/precio-gasolina/alicante/alicantealacant"
       ],
       "clicks": 0,
-      "impressions": 19,
+      "impressions": 20,
       "ctr": 0,
-      "position": 25.89
+      "position": 29.35
     },
     {
       "keys": [
@@ -1132,9 +1102,9 @@
         "https://gasolinabarata.org/marca/plenoil/madrid"
       ],
       "clicks": 0,
-      "impressions": 6,
+      "impressions": 4,
       "ctr": 0,
-      "position": 42.83
+      "position": 43.75
     },
     {
       "keys": [
@@ -1142,9 +1112,9 @@
         "https://gasolinabarata.org/precio-diesel/madrid/madrid"
       ],
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 6,
       "ctr": 0,
-      "position": 39.75
+      "position": 34.5
     },
     {
       "keys": [
@@ -1152,9 +1122,9 @@
         "https://gasolinabarata.org/precio-gasolina/madrid/madrid"
       ],
       "clicks": 0,
-      "impressions": 37,
+      "impressions": 41,
       "ctr": 0,
-      "position": 31.11
+      "position": 32.34
     },
     {
       "keys": [
@@ -1172,9 +1142,9 @@
         "https://gasolinabarata.org/precio-gasolina/murcia"
       ],
       "clicks": 0,
-      "impressions": 18,
+      "impressions": 19,
       "ctr": 0,
-      "position": 33.33
+      "position": 33.68
     },
     {
       "keys": [
@@ -1182,9 +1152,9 @@
         "https://gasolinabarata.org/precio-gasolina/murcia/murcia"
       ],
       "clicks": 0,
-      "impressions": 16,
+      "impressions": 15,
       "ctr": 0,
-      "position": 22.19
+      "position": 22.27
     },
     {
       "keys": [
@@ -1222,9 +1192,9 @@
         "https://gasolinabarata.org/precio-gasolina/alicante"
       ],
       "clicks": 0,
-      "impressions": 9,
+      "impressions": 12,
       "ctr": 0,
-      "position": 52.89
+      "position": 50.92
     },
     {
       "keys": [
@@ -1232,9 +1202,9 @@
         "https://gasolinabarata.org/precio-gasolina/alicante/alicantealacant"
       ],
       "clicks": 0,
-      "impressions": 9,
+      "impressions": 10,
       "ctr": 0,
-      "position": 32.78
+      "position": 35.9
     },
     {
       "keys": [
@@ -1278,16 +1248,6 @@
     },
     {
       "keys": [
-        "conductor",
-        "https://gasolinabarata.org/precio-diesel/ciudad-real"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 4
-    },
-    {
-      "keys": [
         "consumo elevado de combustible barato",
         "https://gasolinabarata.org/blog/por-que-sube-la-gasolina-y-el-diesel-en-espana-pese-a-los-descuentos-del-gobiern-mvt19v2v"
       ],
@@ -1302,9 +1262,9 @@
         "https://gasolinabarata.org/blog/por-que-sube-la-gasolina-y-el-diesel-en-espana-pese-a-los-descuentos-gubernament-muhvr5bd"
       ],
       "clicks": 0,
-      "impressions": 6,
+      "impressions": 4,
       "ctr": 0,
-      "position": 66.33
+      "position": 64.5
     },
     {
       "keys": [
@@ -1418,6 +1378,16 @@
     },
     {
       "keys": [
+        "cuanto cuesta un litro de gasolina",
+        "https://gasolinabarata.org/precio-gasolina/jaen"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "keys": [
         "cuanto vale un litro de gasolina",
         "https://gasolinabarata.org/precio-gasolina/madrid/colmenar-viejo"
       ],
@@ -1435,6 +1405,16 @@
       "impressions": 1,
       "ctr": 0,
       "position": 10
+    },
+    {
+      "keys": [
+        "cuánto cuesta un litro de gasolina",
+        "https://gasolinabarata.org/precio-gasolina/murcia"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
     },
     {
       "keys": [
@@ -1482,9 +1462,9 @@
         "https://gasolinabarata.org/precio-gasolina/alicante/alicantealacant"
       ],
       "clicks": 0,
-      "impressions": 7,
+      "impressions": 8,
       "ctr": 0,
-      "position": 44.14
+      "position": 44.75
     },
     {
       "keys": [
@@ -1492,9 +1472,9 @@
         "https://gasolinabarata.org/precio-gasolina/valladolid"
       ],
       "clicks": 0,
-      "impressions": 10,
+      "impressions": 12,
       "ctr": 0,
-      "position": 62.9
+      "position": 62.58
     },
     {
       "keys": [
@@ -1502,9 +1482,9 @@
         "https://gasolinabarata.org/precio-gasolina/valladolid/valladolid"
       ],
       "clicks": 0,
-      "impressions": 11,
+      "impressions": 13,
       "ctr": 0,
-      "position": 52.82
+      "position": 50.46
     },
     {
       "keys": [
@@ -1569,12 +1549,22 @@
     {
       "keys": [
         "diesel barato",
+        "https://gasolinabarata.org/precio-diesel/burgos"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 11.67
+    },
+    {
+      "keys": [
+        "diesel barato",
         "https://gasolinabarata.org/precio-diesel/cadiz"
       ],
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 3,
       "ctr": 0,
-      "position": 12.25
+      "position": 12.33
     },
     {
       "keys": [
@@ -1592,9 +1582,9 @@
         "https://gasolinabarata.org/precio-diesel/gipuzkoa"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0,
-      "position": 11
+      "position": 10
     },
     {
       "keys": [
@@ -1612,9 +1602,9 @@
         "https://gasolinabarata.org/precio-diesel/granada"
       ],
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 4,
       "ctr": 0,
-      "position": 12
+      "position": 12.5
     },
     {
       "keys": [
@@ -1672,9 +1662,9 @@
         "https://gasolinabarata.org/precio-diesel/sevilla"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 35
+      "position": 22.5
     },
     {
       "keys": [
@@ -1714,7 +1704,7 @@
       "clicks": 0,
       "impressions": 26,
       "ctr": 0,
-      "position": 15.08
+      "position": 15.65
     },
     {
       "keys": [
@@ -1732,9 +1722,9 @@
         "https://gasolinabarata.org/precio-gasolina/alicante/alicantealacant"
       ],
       "clicks": 0,
-      "impressions": 14,
+      "impressions": 15,
       "ctr": 0,
-      "position": 26.14
+      "position": 31.07
     },
     {
       "keys": [
@@ -1809,6 +1799,16 @@
     {
       "keys": [
         "diesel barato cerca de mí",
+        "https://gasolinabarata.org/precio-diesel/madrid/meco"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 22
+    },
+    {
+      "keys": [
+        "diesel barato cerca de mí",
         "https://gasolinabarata.org/precio-diesel/segovia/espinar-el"
       ],
       "clicks": 0,
@@ -1822,9 +1822,9 @@
         "https://gasolinabarata.org/precio-diesel/coruna-a"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 19
+      "position": 16
     },
     {
       "keys": [
@@ -1862,9 +1862,9 @@
         "https://gasolinabarata.org/precio-diesel/madrid"
       ],
       "clicks": 0,
-      "impressions": 13,
+      "impressions": 11,
       "ctr": 0,
-      "position": 14.08
+      "position": 14.55
     },
     {
       "keys": [
@@ -1882,9 +1882,9 @@
         "https://gasolinabarata.org/precio-diesel/pontevedra"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 14
+      "position": 11.5
     },
     {
       "keys": [
@@ -1892,9 +1892,9 @@
         "https://gasolinabarata.org/precio-diesel/salamanca"
       ],
       "clicks": 0,
-      "impressions": 10,
+      "impressions": 12,
       "ctr": 0,
-      "position": 12.4
+      "position": 12.33
     },
     {
       "keys": [
@@ -1929,16 +1929,6 @@
     {
       "keys": [
         "diesel baratos",
-        "https://gasolinabarata.org/precio-diesel/coruna-a"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 63
-    },
-    {
-      "keys": [
-        "diesel baratos",
         "https://gasolinabarata.org/precio-diesel/granada"
       ],
       "clicks": 0,
@@ -1962,9 +1952,9 @@
         "https://gasolinabarata.org/precio-diesel/madrid/madrid"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 12
+      "position": 20.5
     },
     {
       "keys": [
@@ -1979,12 +1969,22 @@
     {
       "keys": [
         "diesel baratos",
+        "https://gasolinabarata.org/precio-diesel/santa-cruz-de-tenerife"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 19.5
+    },
+    {
+      "keys": [
+        "diesel baratos",
         "https://gasolinabarata.org/precio-diesel/sevilla"
       ],
       "clicks": 0,
-      "impressions": 5,
+      "impressions": 7,
       "ctr": 0,
-      "position": 39.6
+      "position": 32
     },
     {
       "keys": [
@@ -1999,12 +1999,22 @@
     {
       "keys": [
         "diesel baratos",
-        "https://gasolinabarata.org/precio-diesel/zaragoza"
+        "https://gasolinabarata.org/precio-diesel/valladolid"
       ],
       "clicks": 0,
       "impressions": 1,
       "ctr": 0,
-      "position": 11
+      "position": 54
+    },
+    {
+      "keys": [
+        "diesel baratos",
+        "https://gasolinabarata.org/precio-diesel/zaragoza"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 21
     },
     {
       "keys": [
@@ -2022,9 +2032,9 @@
         "https://gasolinabarata.org/precio-diesel/coruna-a"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0,
-      "position": 20
+      "position": 32
     },
     {
       "keys": [
@@ -2085,6 +2095,16 @@
       "impressions": 1,
       "ctr": 0,
       "position": 10
+    },
+    {
+      "keys": [
+        "diesel gasolina",
+        "https://gasolinabarata.org/precio-diesel/madrid/colmenar-viejo"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
     },
     {
       "keys": [
@@ -2159,16 +2179,6 @@
     {
       "keys": [
         "diesel hoy precio",
-        "https://gasolinabarata.org/precio-diesel/barcelona/hospitalet-de-llobregat-l"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 8
-    },
-    {
-      "keys": [
-        "diesel hoy precio",
         "https://gasolinabarata.org/precio-diesel/madrid/majadahonda"
       ],
       "clicks": 0,
@@ -2228,13 +2238,33 @@
     },
     {
       "keys": [
-        "diesel madrid",
-        "https://gasolinabarata.org/precio-diesel/madrid"
+        "diesel low cost",
+        "https://gasolinabarata.org/precio-diesel/valladolid"
       ],
       "clicks": 0,
       "impressions": 1,
       "ctr": 0,
-      "position": 81
+      "position": 13
+    },
+    {
+      "keys": [
+        "diesel madrid",
+        "https://gasolinabarata.org/precio-diesel/madrid"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 55.33
+    },
+    {
+      "keys": [
+        "diesel madrid",
+        "https://gasolinabarata.org/precio-diesel/madrid/madrid"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 58
     },
     {
       "keys": [
@@ -2245,16 +2275,6 @@
       "impressions": 1,
       "ctr": 0,
       "position": 10
-    },
-    {
-      "keys": [
-        "diesel mas barato cerca de mi",
-        "https://gasolinabarata.org/precio-diesel/barcelona/hospitalet-de-llobregat-l"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 13
     },
     {
       "keys": [
@@ -2279,12 +2299,32 @@
     {
       "keys": [
         "diesel mas barato cerca de mi",
+        "https://gasolinabarata.org/precio-diesel/ourense/ourense"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "keys": [
+        "diesel mas barato cerca de mi",
         "https://gasolinabarata.org/precio-diesel/segovia/espinar-el"
       ],
       "clicks": 0,
       "impressions": 1,
       "ctr": 0,
       "position": 10
+    },
+    {
+      "keys": [
+        "diesel mas barato hoy",
+        "https://gasolinabarata.org/precio-diesel/malaga/torremolinos"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
     },
     {
       "keys": [
@@ -2388,6 +2428,16 @@
     },
     {
       "keys": [
+        "diesel precio hoy",
+        "https://gasolinabarata.org/precio-diesel/madrid/colmenar-viejo"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "keys": [
         "diesel salamanca",
         "https://gasolinabarata.org/precio-diesel/salamanca"
       ],
@@ -2419,16 +2469,6 @@
     {
       "keys": [
         "dieselbarato",
-        "https://gasolinabarata.org/precio-diesel/almeria"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 5
-    },
-    {
-      "keys": [
-        "dieselbarato",
         "https://gasolinabarata.org/precio-diesel/asturias"
       ],
       "clicks": 0,
@@ -2442,9 +2482,9 @@
         "https://gasolinabarata.org/precio-diesel/barcelona"
       ],
       "clicks": 0,
-      "impressions": 11,
+      "impressions": 12,
       "ctr": 0,
-      "position": 6.45
+      "position": 6.5
     },
     {
       "keys": [
@@ -2462,9 +2502,9 @@
         "https://gasolinabarata.org/precio-diesel/cadiz"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0,
-      "position": 3.5
+      "position": 4
     },
     {
       "keys": [
@@ -2484,7 +2524,7 @@
       "clicks": 0,
       "impressions": 1,
       "ctr": 0,
-      "position": 5
+      "position": 2
     },
     {
       "keys": [
@@ -2544,7 +2584,7 @@
       "clicks": 0,
       "impressions": 19,
       "ctr": 0,
-      "position": 6.16
+      "position": 6.11
     },
     {
       "keys": [
@@ -2552,9 +2592,9 @@
         "https://gasolinabarata.org/precio-diesel/madrid/madrid"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 5,
       "ctr": 0,
-      "position": 6
+      "position": 7.8
     },
     {
       "keys": [
@@ -2662,9 +2702,9 @@
         "https://gasolinabarata.org/precio-diesel/toledo"
       ],
       "clicks": 0,
-      "impressions": 10,
+      "impressions": 11,
       "ctr": 0,
-      "position": 4.5
+      "position": 4.64
     },
     {
       "keys": [
@@ -2692,9 +2732,9 @@
         "https://gasolinabarata.org/precio-diesel/zaragoza"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0,
-      "position": 6.5
+      "position": 7
     },
     {
       "keys": [
@@ -2708,8 +2748,8 @@
     },
     {
       "keys": [
-        "diésel",
-        "https://gasolinabarata.org/precio-diesel/albacete"
+        "dieselygasolina",
+        "https://gasolinabarata.org/precio-diesel/zamora"
       ],
       "clicks": 0,
       "impressions": 1,
@@ -2719,12 +2759,12 @@
     {
       "keys": [
         "diésel",
-        "https://gasolinabarata.org/precio-diesel/albacete/villarrobledo"
+        "https://gasolinabarata.org/precio-diesel/albacete"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0,
-      "position": 10
+      "position": 11
     },
     {
       "keys": [
@@ -2742,9 +2782,9 @@
         "https://gasolinabarata.org/precio-diesel/cordoba"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 7
+      "position": 9
     },
     {
       "keys": [
@@ -2752,9 +2792,9 @@
         "https://gasolinabarata.org/precio-diesel/huelva"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 9
+      "position": 9.5
     },
     {
       "keys": [
@@ -2772,9 +2812,9 @@
         "https://gasolinabarata.org/precio-diesel/jaen/jaen"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 3,
       "ctr": 0,
-      "position": 12
+      "position": 11
     },
     {
       "keys": [
@@ -2782,9 +2822,9 @@
         "https://gasolinabarata.org/precio-diesel/leon/leon"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 4,
       "ctr": 0,
-      "position": 7
+      "position": 9
     },
     {
       "keys": [
@@ -2792,9 +2832,9 @@
         "https://gasolinabarata.org/precio-diesel/lugo"
       ],
       "clicks": 0,
-      "impressions": 17,
+      "impressions": 19,
       "ctr": 0,
-      "position": 6.65
+      "position": 6.89
     },
     {
       "keys": [
@@ -2859,6 +2899,16 @@
     {
       "keys": [
         "diésel",
+        "https://gasolinabarata.org/precio-diesel/soria/medinaceli"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 13
+    },
+    {
+      "keys": [
+        "diésel",
         "https://gasolinabarata.org/precio-diesel/tarragona/salou"
       ],
       "clicks": 0,
@@ -2882,9 +2932,9 @@
         "https://gasolinabarata.org/precio-diesel/madrid"
       ],
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 4,
       "ctr": 0,
-      "position": 12.33
+      "position": 12.25
     },
     {
       "keys": [
@@ -2948,16 +2998,6 @@
     },
     {
       "keys": [
-        "donde está la gasolina más barata cerca de mi",
-        "https://gasolinabarata.org/precio-gasolina/salamanca"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 13
-    },
-    {
-      "keys": [
         "donde la gasolina es mas barata",
         "https://gasolinabarata.org/precio-gasolina/bizkaia/bilbao"
       ],
@@ -2968,13 +3008,23 @@
     },
     {
       "keys": [
-        "easy gas precio",
+        "easy gas",
+        "https://gasolinabarata.org/marca/easygas/bizkaia"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 5.67
+    },
+    {
+      "keys": [
+        "easygas gasolineras",
         "https://gasolinabarata.org/marca/easygas/bizkaia"
       ],
       "clicks": 0,
       "impressions": 1,
       "ctr": 0,
-      "position": 12
+      "position": 20
     },
     {
       "keys": [
@@ -2984,7 +3034,7 @@
       "clicks": 0,
       "impressions": 2,
       "ctr": 0,
-      "position": 11
+      "position": 7
     },
     {
       "keys": [
@@ -2994,7 +3044,7 @@
       "clicks": 0,
       "impressions": 11,
       "ctr": 0,
-      "position": 12.64
+      "position": 12.55
     },
     {
       "keys": [
@@ -3002,9 +3052,9 @@
         "https://gasolinabarata.org/precio-gasolina/madrid"
       ],
       "clicks": 0,
-      "impressions": 9,
+      "impressions": 12,
       "ctr": 0,
-      "position": 69.44
+      "position": 64.08
     },
     {
       "keys": [
@@ -3038,6 +3088,26 @@
     },
     {
       "keys": [
+        "estaciones bp cerca de mi",
+        "https://gasolinabarata.org/marca/bp/cordoba"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "keys": [
+        "estación de servicio plenoil",
+        "https://gasolinabarata.org/marca/plenoil/barcelona"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "keys": [
         "estación de servicio shell cerca de mi ubicación",
         "https://gasolinabarata.org/marca/shell"
       ],
@@ -3045,6 +3115,16 @@
       "impressions": 1,
       "ctr": 0,
       "position": 28
+    },
+    {
+      "keys": [
+        "galp cerca de mi",
+        "https://gasolinabarata.org/marca/galp/girona"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11
     },
     {
       "keys": [
@@ -3078,13 +3158,23 @@
     },
     {
       "keys": [
-        "gas express cerca de mi",
-        "https://gasolinabarata.org/marca/gasexpress/murcia"
+        "galp precio gasolina 95 hoy",
+        "https://gasolinabarata.org/marca/galp/burgos"
       ],
       "clicks": 0,
       "impressions": 1,
       "ctr": 0,
-      "position": 76
+      "position": 8
+    },
+    {
+      "keys": [
+        "gas express cerca de mi",
+        "https://gasolinabarata.org/marca/gasexpress/murcia"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 48.5
     },
     {
       "keys": [
@@ -3098,13 +3188,23 @@
     },
     {
       "keys": [
-        "gasexpress murcia",
+        "gas express precio hoy",
         "https://gasolinabarata.org/marca/gasexpress/murcia"
       ],
       "clicks": 0,
       "impressions": 1,
       "ctr": 0,
-      "position": 54
+      "position": 10
+    },
+    {
+      "keys": [
+        "gasexpress murcia",
+        "https://gasolinabarata.org/marca/gasexpress/murcia"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 39
     },
     {
       "keys": [
@@ -3112,9 +3212,19 @@
         "https://gasolinabarata.org/precio-diesel/melilla"
       ],
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 6,
       "ctr": 0,
-      "position": 64
+      "position": 66
+    },
+    {
+      "keys": [
+        "gasoil al campo",
+        "https://gasolinabarata.org/marca/alcampo/valencia-valencia"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
     },
     {
       "keys": [
@@ -3168,6 +3278,16 @@
     },
     {
       "keys": [
+        "gasoil barato cantabria",
+        "https://gasolinabarata.org/precio-diesel/cantabria"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 39
+    },
+    {
+      "keys": [
         "gasoil barato cerca de mi",
         "https://gasolinabarata.org/precio-diesel/balears-illes/eivissa"
       ],
@@ -3182,7 +3302,7 @@
         "https://gasolinabarata.org/precio-diesel/madrid/colmenar-viejo"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 4,
       "ctr": 0,
       "position": 12
     },
@@ -3238,13 +3358,23 @@
     },
     {
       "keys": [
-        "gasoil barato en valencia",
-        "https://gasolinabarata.org/precio-gasolina/valencia-valencia"
+        "gasoil barato en sevilla",
+        "https://gasolinabarata.org/precio-gasolina/sevilla/sevilla"
       ],
       "clicks": 0,
       "impressions": 1,
       "ctr": 0,
-      "position": 26
+      "position": 43
+    },
+    {
+      "keys": [
+        "gasoil barato en valencia",
+        "https://gasolinabarata.org/precio-gasolina/valencia-valencia"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 30
     },
     {
       "keys": [
@@ -3322,9 +3452,9 @@
         "https://gasolinabarata.org/precio-gasolina/sevilla/sevilla"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 3,
       "ctr": 0,
-      "position": 42
+      "position": 48
     },
     {
       "keys": [
@@ -3362,9 +3492,9 @@
         "https://gasolinabarata.org/precio-gasolina/valencia-valencia"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 3,
       "ctr": 0,
-      "position": 40
+      "position": 37.67
     },
     {
       "keys": [
@@ -3372,9 +3502,9 @@
         "https://gasolinabarata.org/precio-diesel/tarragona/alcover"
       ],
       "clicks": 0,
-      "impressions": 10,
+      "impressions": 11,
       "ctr": 0,
-      "position": 41.8
+      "position": 42.09
     },
     {
       "keys": [
@@ -3382,7 +3512,7 @@
         "https://gasolinabarata.org/precio-diesel/castellon-castello/benicasimbenicassim"
       ],
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 1,
       "ctr": 0,
       "position": 81
     },
@@ -3442,7 +3572,7 @@
         "https://gasolinabarata.org/precio-gasolina/coruna-a/betanzos"
       ],
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 1,
       "ctr": 0,
       "position": 11
     },
@@ -3475,6 +3605,16 @@
       "impressions": 1,
       "ctr": 0,
       "position": 12
+    },
+    {
+      "keys": [
+        "gasoil más barato tenerife hoy",
+        "https://gasolinabarata.org/precio-gasolina/santa-cruz-de-tenerife"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 37
     },
     {
       "keys": [
@@ -3582,9 +3722,9 @@
         "https://gasolinabarata.org/precio-gasolina/alicante/alicantealacant"
       ],
       "clicks": 0,
-      "impressions": 5,
+      "impressions": 6,
       "ctr": 0,
-      "position": 10.2
+      "position": 10.33
     },
     {
       "keys": [
@@ -3602,9 +3742,9 @@
         "https://gasolinabarata.org/precio-gasolina/alicante/elda"
       ],
       "clicks": 0,
-      "impressions": 5,
+      "impressions": 6,
       "ctr": 0,
-      "position": 9
+      "position": 8.83
     },
     {
       "keys": [
@@ -3649,12 +3789,12 @@
     {
       "keys": [
         "gasolina",
-        "https://gasolinabarata.org/precio-gasolina/badajoz/montijo"
+        "https://gasolinabarata.org/precio-gasolina/balears-illes/capdepera"
       ],
       "clicks": 0,
       "impressions": 1,
       "ctr": 0,
-      "position": 8
+      "position": 12
     },
     {
       "keys": [
@@ -3682,9 +3822,9 @@
         "https://gasolinabarata.org/precio-gasolina/bizkaia/bilbao"
       ],
       "clicks": 0,
-      "impressions": 15,
+      "impressions": 16,
       "ctr": 0,
-      "position": 9.4
+      "position": 9.56
     },
     {
       "keys": [
@@ -3692,9 +3832,9 @@
         "https://gasolinabarata.org/precio-gasolina/cadiz/barbate"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 3,
       "ctr": 0,
-      "position": 8
+      "position": 9.67
     },
     {
       "keys": [
@@ -3712,9 +3852,9 @@
         "https://gasolinabarata.org/precio-gasolina/coruna-a"
       ],
       "clicks": 0,
-      "impressions": 60,
+      "impressions": 68,
       "ctr": 0,
-      "position": 7.95
+      "position": 7.81
     },
     {
       "keys": [
@@ -3752,9 +3892,9 @@
         "https://gasolinabarata.org/precio-gasolina/huesca"
       ],
       "clicks": 0,
-      "impressions": 12,
+      "impressions": 14,
       "ctr": 0,
-      "position": 8.33
+      "position": 8.07
     },
     {
       "keys": [
@@ -3769,22 +3909,22 @@
     {
       "keys": [
         "gasolina",
-        "https://gasolinabarata.org/precio-gasolina/jaen/linares"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 9
-    },
-    {
-      "keys": [
-        "gasolina",
         "https://gasolinabarata.org/precio-gasolina/lugo"
       ],
       "clicks": 0,
       "impressions": 14,
       "ctr": 0,
       "position": 8.36
+    },
+    {
+      "keys": [
+        "gasolina",
+        "https://gasolinabarata.org/precio-gasolina/madrid/getafe"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
     },
     {
       "keys": [
@@ -3832,9 +3972,9 @@
         "https://gasolinabarata.org/precio-gasolina/murcia/moratalla"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 3,
       "ctr": 0,
-      "position": 7.5
+      "position": 8.67
     },
     {
       "keys": [
@@ -3872,9 +4012,9 @@
         "https://gasolinabarata.org/precio-gasolina/pontevedra"
       ],
       "clicks": 0,
-      "impressions": 113,
+      "impressions": 119,
       "ctr": 0,
-      "position": 8.23
+      "position": 8.11
     },
     {
       "keys": [
@@ -3885,6 +4025,16 @@
       "impressions": 1,
       "ctr": 0,
       "position": 9
+    },
+    {
+      "keys": [
+        "gasolina",
+        "https://gasolinabarata.org/precio-gasolina/pontevedra/vigo"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 7.5
     },
     {
       "keys": [
@@ -4012,9 +4162,9 @@
         "https://gasolinabarata.org/marca/alcampo/valencia-valencia"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0,
-      "position": 11.5
+      "position": 12
     },
     {
       "keys": [
@@ -4022,19 +4172,19 @@
         "https://gasolinabarata.org/precio-gasolina/coruna-a/betanzos"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0,
-      "position": 12.5
+      "position": 12
     },
     {
       "keys": [
-        "gasolina 95 mas barata cerca de mi",
-        "https://gasolinabarata.org/precio-gasolina/barcelona/hospitalet-de-llobregat-l"
+        "gasolina 95 bp",
+        "https://gasolinabarata.org/marca/bp/granada"
       ],
       "clicks": 0,
       "impressions": 1,
       "ctr": 0,
-      "position": 10
+      "position": 5
     },
     {
       "keys": [
@@ -4139,16 +4289,6 @@
     {
       "keys": [
         "gasolina barata",
-        "https://gasolinabarata.org/precio-diesel/ceuta"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 17
-    },
-    {
-      "keys": [
-        "gasolina barata",
         "https://gasolinabarata.org/precio-gasolina/alicante/alicantealacant"
       ],
       "clicks": 0,
@@ -4179,16 +4319,6 @@
     {
       "keys": [
         "gasolina barata",
-        "https://gasolinabarata.org/precio-gasolina/barcelona/vilanova-i-la-geltru"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 10
-    },
-    {
-      "keys": [
-        "gasolina barata",
         "https://gasolinabarata.org/precio-gasolina/caceres/caceres"
       ],
       "clicks": 0,
@@ -4205,6 +4335,16 @@
       "impressions": 1,
       "ctr": 0,
       "position": 13
+    },
+    {
+      "keys": [
+        "gasolina barata",
+        "https://gasolinabarata.org/precio-gasolina/cadiz/sanlucar-de-barrameda"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 12
     },
     {
       "keys": [
@@ -4229,16 +4369,6 @@
     {
       "keys": [
         "gasolina barata",
-        "https://gasolinabarata.org/precio-gasolina/huesca"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 86
-    },
-    {
-      "keys": [
-        "gasolina barata",
         "https://gasolinabarata.org/precio-gasolina/lleida"
       ],
       "clicks": 0,
@@ -4259,12 +4389,22 @@
     {
       "keys": [
         "gasolina barata",
-        "https://gasolinabarata.org/precio-gasolina/madrid/colmenar-viejo"
+        "https://gasolinabarata.org/precio-gasolina/madrid"
       ],
       "clicks": 0,
       "impressions": 1,
       "ctr": 0,
-      "position": 13
+      "position": 11
+    },
+    {
+      "keys": [
+        "gasolina barata",
+        "https://gasolinabarata.org/precio-gasolina/madrid/colmenar-viejo"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 12
     },
     {
       "keys": [
@@ -4292,9 +4432,9 @@
         "https://gasolinabarata.org/precio-gasolina/ourense"
       ],
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 5,
       "ctr": 0,
-      "position": 68.33
+      "position": 51.2
     },
     {
       "keys": [
@@ -4329,6 +4469,16 @@
     {
       "keys": [
         "gasolina barata",
+        "https://gasolinabarata.org/precio-gasolina/toledo/esquivias"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 6
+    },
+    {
+      "keys": [
+        "gasolina barata",
         "https://gasolinabarata.org/precio-gasolina/valencia-valencia"
       ],
       "clicks": 0,
@@ -4344,7 +4494,7 @@
       "clicks": 0,
       "impressions": 2,
       "ctr": 0,
-      "position": 10.5
+      "position": 9.5
     },
     {
       "keys": [
@@ -4392,9 +4542,9 @@
         "https://gasolinabarata.org/precio-gasolina/alicante"
       ],
       "clicks": 0,
-      "impressions": 23,
+      "impressions": 24,
       "ctr": 0,
-      "position": 25.61
+      "position": 25.25
     },
     {
       "keys": [
@@ -4402,29 +4552,9 @@
         "https://gasolinabarata.org/precio-gasolina/alicante/alicantealacant"
       ],
       "clicks": 0,
-      "impressions": 17,
+      "impressions": 18,
       "ctr": 0,
-      "position": 27.12
-    },
-    {
-      "keys": [
-        "gasolina barata asturias",
-        "https://gasolinabarata.org/precio-diesel/asturias"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 43
-    },
-    {
-      "keys": [
-        "gasolina barata asturias",
-        "https://gasolinabarata.org/precio-gasolina/asturias"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 52
+      "position": 28.5
     },
     {
       "keys": [
@@ -4432,9 +4562,9 @@
         "https://gasolinabarata.org/precio-gasolina/badajoz"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 27
+      "position": 26
     },
     {
       "keys": [
@@ -4492,9 +4622,9 @@
         "https://gasolinabarata.org/marca/bp/burgos"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 26
+      "position": 19
     },
     {
       "keys": [
@@ -4502,9 +4632,29 @@
         "https://gasolinabarata.org/precio-gasolina/burgos"
       ],
       "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 25.67
+    },
+    {
+      "keys": [
+        "gasolina barata cadiz",
+        "https://gasolinabarata.org/precio-diesel/cadiz"
+      ],
+      "clicks": 0,
       "impressions": 2,
       "ctr": 0,
-      "position": 25
+      "position": 14.5
+    },
+    {
+      "keys": [
+        "gasolina barata cadiz",
+        "https://gasolinabarata.org/precio-gasolina/cadiz"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 37
     },
     {
       "keys": [
@@ -4598,26 +4748,6 @@
     },
     {
       "keys": [
-        "gasolina barata cerca de mi",
-        "https://gasolinabarata.org/precio-gasolina/salamanca/fuentes-de-onoro"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 12
-    },
-    {
-      "keys": [
-        "gasolina barata cerca de mi",
-        "https://gasolinabarata.org/precio-gasolina/tarragona/salou"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 12
-    },
-    {
-      "keys": [
         "gasolina barata cordoba",
         "https://gasolinabarata.org/precio-gasolina/cordoba"
       ],
@@ -4682,9 +4812,9 @@
         "https://gasolinabarata.org/precio-gasolina/sevilla/sevilla"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0,
-      "position": 30.5
+      "position": 36
     },
     {
       "keys": [
@@ -4839,22 +4969,12 @@
     {
       "keys": [
         "gasolina barata pontevedra",
-        "https://gasolinabarata.org/precio-diesel/pontevedra"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 5
-    },
-    {
-      "keys": [
-        "gasolina barata pontevedra",
         "https://gasolinabarata.org/precio-gasolina/pontevedra"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 36
+      "position": 31.5
     },
     {
       "keys": [
@@ -4872,9 +4992,9 @@
         "https://gasolinabarata.org/precio-gasolina/segovia"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 11
+      "position": 12
     },
     {
       "keys": [
@@ -4902,9 +5022,9 @@
         "https://gasolinabarata.org/precio-diesel/tarragona"
       ],
       "clicks": 0,
-      "impressions": 13,
+      "impressions": 12,
       "ctr": 0,
-      "position": 15.23
+      "position": 14.33
     },
     {
       "keys": [
@@ -4912,9 +5032,9 @@
         "https://gasolinabarata.org/precio-gasolina/tarragona"
       ],
       "clicks": 0,
-      "impressions": 21,
+      "impressions": 23,
       "ctr": 0,
-      "position": 19.29
+      "position": 19.87
     },
     {
       "keys": [
@@ -5042,9 +5162,9 @@
         "https://gasolinabarata.org/marca/alcampo/valencia-valencia"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 4,
       "ctr": 0,
-      "position": 24
+      "position": 23.5
     },
     {
       "keys": [
@@ -5065,6 +5185,16 @@
       "impressions": 1,
       "ctr": 0,
       "position": 8
+    },
+    {
+      "keys": [
+        "gasolina en madrid",
+        "https://gasolinabarata.org/precio-gasolina/madrid/madrid"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 32
     },
     {
       "keys": [
@@ -5095,6 +5225,16 @@
       "impressions": 1,
       "ctr": 0,
       "position": 21
+    },
+    {
+      "keys": [
+        "gasolina hoje",
+        "https://gasolinabarata.org/precio-gasolina/alicante/elda"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 5
     },
     {
       "keys": [
@@ -5152,9 +5292,9 @@
         "https://gasolinabarata.org/precio-gasolina/salamanca"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 12
+      "position": 12.5
     },
     {
       "keys": [
@@ -5182,9 +5322,9 @@
         "https://gasolinabarata.org/precio-gasolina/alicante"
       ],
       "clicks": 0,
-      "impressions": 15,
+      "impressions": 20,
       "ctr": 0,
-      "position": 23.07
+      "position": 22
     },
     {
       "keys": [
@@ -5202,9 +5342,9 @@
         "https://gasolinabarata.org/marca/bp/barcelona"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 3,
       "ctr": 0,
-      "position": 21
+      "position": 19.33
     },
     {
       "keys": [
@@ -5212,9 +5352,9 @@
         "https://gasolinabarata.org/precio-gasolina/barcelona/barcelona"
       ],
       "clicks": 0,
-      "impressions": 20,
+      "impressions": 19,
       "ctr": 0,
-      "position": 23.9
+      "position": 23.84
     },
     {
       "keys": [
@@ -5312,9 +5452,9 @@
         "https://gasolinabarata.org/marca/bp/granada"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 28
+      "position": 28.5
     },
     {
       "keys": [
@@ -5322,9 +5462,9 @@
         "https://gasolinabarata.org/precio-gasolina/granada"
       ],
       "clicks": 0,
-      "impressions": 6,
+      "impressions": 5,
       "ctr": 0,
-      "position": 25.67
+      "position": 25.4
     },
     {
       "keys": [
@@ -5342,9 +5482,19 @@
         "https://gasolinabarata.org/marca/bp/madrid"
       ],
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 5,
       "ctr": 0,
-      "position": 61
+      "position": 53.8
+    },
+    {
+      "keys": [
+        "gasolina mas barata madrid",
+        "https://gasolinabarata.org/precio-diesel/madrid/madrid"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 20
     },
     {
       "keys": [
@@ -5358,13 +5508,33 @@
     },
     {
       "keys": [
+        "gasolina mas barata murcia",
+        "https://gasolinabarata.org/precio-gasolina/murcia"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 27
+    },
+    {
+      "keys": [
+        "gasolina mas barata murcia",
+        "https://gasolinabarata.org/precio-gasolina/murcia/murcia"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 48
+    },
+    {
+      "keys": [
         "gasolina mas barata sevilla",
         "https://gasolinabarata.org/precio-gasolina/sevilla"
       ],
       "clicks": 0,
-      "impressions": 13,
+      "impressions": 12,
       "ctr": 0,
-      "position": 23.85
+      "position": 23.92
     },
     {
       "keys": [
@@ -5382,9 +5552,9 @@
         "https://gasolinabarata.org/marca/plenoil/valencia-valencia"
       ],
       "clicks": 0,
-      "impressions": 9,
+      "impressions": 7,
       "ctr": 0,
-      "position": 25.89
+      "position": 27.29
     },
     {
       "keys": [
@@ -5402,9 +5572,9 @@
         "https://gasolinabarata.org/precio-gasolina/valencia-valencia"
       ],
       "clicks": 0,
-      "impressions": 12,
+      "impressions": 10,
       "ctr": 0,
-      "position": 28.92
+      "position": 29
     },
     {
       "keys": [
@@ -5412,7 +5582,7 @@
         "https://gasolinabarata.org/precio-gasolina/zaragoza"
       ],
       "clicks": 0,
-      "impressions": 11,
+      "impressions": 10,
       "ctr": 0,
       "position": 22
     },
@@ -5459,12 +5629,32 @@
     {
       "keys": [
         "gasolina más barata cerca de mí",
+        "https://gasolinabarata.org/precio-gasolina/asturias/cudillero"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "keys": [
+        "gasolina más barata cerca de mí",
         "https://gasolinabarata.org/precio-gasolina/cadiz/sanlucar-de-barrameda"
       ],
       "clicks": 0,
       "impressions": 1,
       "ctr": 0,
       "position": 9
+    },
+    {
+      "keys": [
+        "gasolina más barata cerca de mí",
+        "https://gasolinabarata.org/precio-gasolina/lleida"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 12
     },
     {
       "keys": [
@@ -5518,6 +5708,16 @@
     },
     {
       "keys": [
+        "gasolina petroprix",
+        "https://gasolinabarata.org/marca/petroprix"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 26
+    },
+    {
+      "keys": [
         "gasolina plenoil",
         "https://gasolinabarata.org/marca/plenoil/granada"
       ],
@@ -5552,9 +5752,9 @@
         "https://gasolinabarata.org/marca/plenoil/granada"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 3,
       "ctr": 0,
-      "position": 5.5
+      "position": 5
     },
     {
       "keys": [
@@ -5572,9 +5772,9 @@
         "https://gasolinabarata.org/marca/plenoil/madrid"
       ],
       "clicks": 0,
-      "impressions": 17,
+      "impressions": 20,
       "ctr": 0,
-      "position": 5.35
+      "position": 5.6
     },
     {
       "keys": [
@@ -5648,16 +5848,6 @@
     },
     {
       "keys": [
-        "gasolina precio",
-        "https://gasolinabarata.org/precio-gasolina/tarragona"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 17
-    },
-    {
-      "keys": [
         "gasolina precio alicante",
         "https://gasolinabarata.org/precio-gasolina/alicante"
       ],
@@ -5712,9 +5902,9 @@
         "https://gasolinabarata.org/marca/plenoil/madrid"
       ],
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 2,
       "ctr": 0,
-      "position": 46.67
+      "position": 49.5
     },
     {
       "keys": [
@@ -5758,6 +5948,16 @@
     },
     {
       "keys": [
+        "gasolinabarata",
+        "https://gasolinabarata.org/precio-gasolina/ourense"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 30
+    },
+    {
+      "keys": [
         "gasolinadiesel",
         "https://gasolinabarata.org/precio-diesel/lleida"
       ],
@@ -5772,9 +5972,9 @@
         "https://gasolinabarata.org/marca/alcampo/valencia-valencia"
       ],
       "clicks": 0,
-      "impressions": 22,
+      "impressions": 23,
       "ctr": 0,
-      "position": 39.55
+      "position": 38.48
     },
     {
       "keys": [
@@ -5802,9 +6002,9 @@
         "https://gasolinabarata.org/marca/alcampo/valencia-valencia"
       ],
       "clicks": 0,
-      "impressions": 6,
+      "impressions": 7,
       "ctr": 0,
-      "position": 24.17
+      "position": 21.57
     },
     {
       "keys": [
@@ -5822,9 +6022,9 @@
         "https://gasolinabarata.org/marca/alcampo/valencia-valencia"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0,
-      "position": 16.5
+      "position": 23
     },
     {
       "keys": [
@@ -5888,6 +6088,36 @@
     },
     {
       "keys": [
+        "gasolinera barata alicante",
+        "https://gasolinabarata.org/precio-gasolina/alicante"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 22
+    },
+    {
+      "keys": [
+        "gasolinera barata alicante",
+        "https://gasolinabarata.org/precio-gasolina/alicante/alicantealacant"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 47
+    },
+    {
+      "keys": [
+        "gasolinera barata barcelona",
+        "https://gasolinabarata.org/marca/bp/barcelona"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1
+    },
+    {
+      "keys": [
         "gasolinera barata cerca de aquí",
         "https://gasolinabarata.org/precio-gasolina/tarragona/salou"
       ],
@@ -5909,6 +6139,16 @@
     {
       "keys": [
         "gasolinera barata cerca de mi",
+        "https://gasolinabarata.org/precio-gasolina/alicante/pedreguer"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "keys": [
+        "gasolinera barata cerca de mi",
         "https://gasolinabarata.org/precio-gasolina/barcelona/garriga-la"
       ],
       "clicks": 0,
@@ -5922,29 +6162,39 @@
         "https://gasolinabarata.org/precio-gasolina/barcelona/hospitalet-de-llobregat-l"
       ],
       "clicks": 0,
-      "impressions": 6,
+      "impressions": 7,
       "ctr": 0,
-      "position": 11.33
+      "position": 11.43
     },
     {
       "keys": [
         "gasolinera barata cerca de mi",
-        "https://gasolinabarata.org/precio-gasolina/castellon-castello/villarrealvila-real"
+        "https://gasolinabarata.org/precio-gasolina/barcelona/sant-joan-despi"
       ],
       "clicks": 0,
       "impressions": 1,
       "ctr": 0,
-      "position": 11
+      "position": 12
     },
     {
       "keys": [
         "gasolinera barata cerca de mi",
-        "https://gasolinabarata.org/precio-gasolina/gipuzkoa/onati"
+        "https://gasolinabarata.org/precio-gasolina/castellon-castello/morella"
       ],
       "clicks": 0,
       "impressions": 1,
       "ctr": 0,
-      "position": 7
+      "position": 10
+    },
+    {
+      "keys": [
+        "gasolinera barata cerca de mi",
+        "https://gasolinabarata.org/precio-gasolina/castellon-castello/torreblanca"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 10
     },
     {
       "keys": [
@@ -5998,6 +6248,16 @@
     },
     {
       "keys": [
+        "gasolinera barata cerca de mí ubicación",
+        "https://gasolinabarata.org/precio-gasolina/castellon-castello/torreblanca"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 12
+    },
+    {
+      "keys": [
         "gasolinera barata elda",
         "https://gasolinabarata.org/precio-gasolina/alicante/elda"
       ],
@@ -6022,9 +6282,9 @@
         "https://gasolinabarata.org/precio-gasolina/valencia-valencia/gandia"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0,
-      "position": 20
+      "position": 19
     },
     {
       "keys": [
@@ -6035,6 +6295,16 @@
       "impressions": 1,
       "ctr": 0,
       "position": 66
+    },
+    {
+      "keys": [
+        "gasolinera barata hospitalet",
+        "https://gasolinabarata.org/precio-gasolina/barcelona/hospitalet-de-llobregat-l"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 12
     },
     {
       "keys": [
@@ -6132,9 +6402,9 @@
         "https://gasolinabarata.org/marca/repsol"
       ],
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 1,
       "ctr": 0,
-      "position": 31
+      "position": 52
     },
     {
       "keys": [
@@ -6144,7 +6414,27 @@
       "clicks": 0,
       "impressions": 2,
       "ctr": 0,
-      "position": 49.5
+      "position": 32
+    },
+    {
+      "keys": [
+        "gasolinera barata repsol",
+        "https://gasolinabarata.org/marca/repsol/cantabria"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 43
+    },
+    {
+      "keys": [
+        "gasolinera barata salamanca",
+        "https://gasolinabarata.org/precio-gasolina/salamanca"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 20
     },
     {
       "keys": [
@@ -6182,9 +6472,9 @@
         "https://gasolinabarata.org/precio-gasolina/tarragona"
       ],
       "clicks": 0,
-      "impressions": 25,
+      "impressions": 27,
       "ctr": 0,
-      "position": 21.96
+      "position": 22.48
     },
     {
       "keys": [
@@ -6232,9 +6522,9 @@
         "https://gasolinabarata.org/marca/shell/zaragoza"
       ],
       "clicks": 0,
-      "impressions": 13,
+      "impressions": 12,
       "ctr": 0,
-      "position": 70.54
+      "position": 69.33
     },
     {
       "keys": [
@@ -6242,9 +6532,9 @@
         "https://gasolinabarata.org/precio-gasolina/zaragoza/zaragoza"
       ],
       "clicks": 0,
-      "impressions": 5,
+      "impressions": 14,
       "ctr": 0,
-      "position": 54.8
+      "position": 41.43
     },
     {
       "keys": [
@@ -6328,13 +6618,23 @@
     },
     {
       "keys": [
+        "gasolinera cerca de mi",
+        "https://gasolinabarata.org/precio-gasolina/barcelona/teia"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "keys": [
         "gasolinera cerca de mi plenoil",
         "https://gasolinabarata.org/marca/plenoil/madrid"
       ],
       "clicks": 0,
-      "impressions": 8,
+      "impressions": 3,
       "ctr": 0,
-      "position": 10.25
+      "position": 10.33
     },
     {
       "keys": [
@@ -6352,9 +6652,9 @@
         "https://gasolinabarata.org/marca/alcampo/valencia-valencia"
       ],
       "clicks": 0,
-      "impressions": 6,
+      "impressions": 4,
       "ctr": 0,
-      "position": 10.83
+      "position": 11
     },
     {
       "keys": [
@@ -6429,6 +6729,26 @@
     {
       "keys": [
         "gasolinera low cost cerca de mi ubicación",
+        "https://gasolinabarata.org/precio-diesel/cantabria/colindres"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "keys": [
+        "gasolinera low cost cerca de mi ubicación",
+        "https://gasolinabarata.org/precio-gasolina/cadiz/alcala-de-los-gazules"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "keys": [
+        "gasolinera low cost cerca de mi ubicación",
         "https://gasolinabarata.org/precio-gasolina/girona/hostalric"
       ],
       "clicks": 0,
@@ -6468,6 +6788,16 @@
     },
     {
       "keys": [
+        "gasolinera low cost cáceres",
+        "https://gasolinabarata.org/precio-gasolina/caceres"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 43
+    },
+    {
+      "keys": [
         "gasolinera low cost en granada",
         "https://gasolinabarata.org/marca/bp/granada"
       ],
@@ -6482,19 +6812,19 @@
         "https://gasolinabarata.org/precio-gasolina/granada"
       ],
       "clicks": 0,
-      "impressions": 8,
+      "impressions": 6,
       "ctr": 0,
-      "position": 48.88
+      "position": 49.5
     },
     {
       "keys": [
-        "gasolinera low cost más cercana",
-        "https://gasolinabarata.org/precio-gasolina/caceres/trujillo"
+        "gasolinera low cost en valladolid",
+        "https://gasolinabarata.org/precio-gasolina/valladolid/valladolid"
       ],
       "clicks": 0,
       "impressions": 1,
       "ctr": 0,
-      "position": 9
+      "position": 33
     },
     {
       "keys": [
@@ -6522,9 +6852,9 @@
         "https://gasolinabarata.org/marca/petrocat/tarragona"
       ],
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 6,
       "ctr": 0,
-      "position": 50
+      "position": 48.83
     },
     {
       "keys": [
@@ -6532,9 +6862,9 @@
         "https://gasolinabarata.org/precio-gasolina/tarragona"
       ],
       "clicks": 0,
-      "impressions": 18,
+      "impressions": 20,
       "ctr": 0,
-      "position": 39.83
+      "position": 39.15
     },
     {
       "keys": [
@@ -6548,13 +6878,43 @@
     },
     {
       "keys": [
+        "gasolinera low cost valladolid",
+        "https://gasolinabarata.org/precio-gasolina/valladolid/valladolid"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 33
+    },
+    {
+      "keys": [
         "gasolinera mas barata alicante",
         "https://gasolinabarata.org/precio-gasolina/alicante/alicantealacant"
       ],
       "clicks": 0,
       "impressions": 1,
       "ctr": 0,
-      "position": 13
+      "position": 34
+    },
+    {
+      "keys": [
+        "gasolinera mas barata bizkaia",
+        "https://gasolinabarata.org/marca/bp/bizkaia"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 46
+    },
+    {
+      "keys": [
+        "gasolinera mas barata bizkaia",
+        "https://gasolinabarata.org/precio-gasolina/bizkaia"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 31
     },
     {
       "keys": [
@@ -6648,6 +7008,16 @@
     },
     {
       "keys": [
+        "gasolinera mas barata gijon",
+        "https://gasolinabarata.org/precio-gasolina/asturias/gijon"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 41
+    },
+    {
+      "keys": [
         "gasolinera mas barata gran canaria",
         "https://gasolinabarata.org/precio-diesel/palmas-las/palmas-de-gran-canaria-las"
       ],
@@ -6665,6 +7035,16 @@
       "impressions": 1,
       "ctr": 0,
       "position": 12
+    },
+    {
+      "keys": [
+        "gasolinera mas barata madrid",
+        "https://gasolinabarata.org/precio-gasolina/madrid/madrid"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 2
     },
     {
       "keys": [
@@ -6762,9 +7142,19 @@
         "https://gasolinabarata.org/precio-gasolina/barcelona/hospitalet-de-llobregat-l"
       ],
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 2,
       "ctr": 0,
-      "position": 11
+      "position": 12
+    },
+    {
+      "keys": [
+        "gasolinera más barata cerca de mí",
+        "https://gasolinabarata.org/precio-gasolina/alicante/onil"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
     },
     {
       "keys": [
@@ -6815,6 +7205,16 @@
       "impressions": 1,
       "ctr": 0,
       "position": 2
+    },
+    {
+      "keys": [
+        "gasolinera más barata de sevilla",
+        "https://gasolinabarata.org/precio-gasolina/sevilla/sevilla"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 41
     },
     {
       "keys": [
@@ -6912,9 +7312,9 @@
         "https://gasolinabarata.org/precio-gasolina/santa-cruz-de-tenerife"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 78
+      "position": 53.5
     },
     {
       "keys": [
@@ -6989,26 +7389,6 @@
     {
       "keys": [
         "gasolinera plenoil",
-        "https://gasolinabarata.org/marca/plenoil/girona"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 5
-    },
-    {
-      "keys": [
-        "gasolinera plenoil",
-        "https://gasolinabarata.org/marca/plenoil/madrid"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 10
-    },
-    {
-      "keys": [
-        "gasolinera plenoil",
         "https://gasolinabarata.org/marca/plenoil/murcia"
       ],
       "clicks": 0,
@@ -7022,7 +7402,7 @@
         "https://gasolinabarata.org/marca/plenoil/santa-cruz-de-tenerife"
       ],
       "clicks": 0,
-      "impressions": 5,
+      "impressions": 4,
       "ctr": 0,
       "position": 5
     },
@@ -7045,6 +7425,16 @@
       "impressions": 1,
       "ctr": 0,
       "position": 5
+    },
+    {
+      "keys": [
+        "gasolinera plenoil cerca",
+        "https://gasolinabarata.org/marca/plenoil/madrid"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 9
     },
     {
       "keys": [
@@ -7089,6 +7479,16 @@
     {
       "keys": [
         "gasolinera plenoil cerca de mi",
+        "https://gasolinabarata.org/marca/plenoil/murcia"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 6
+    },
+    {
+      "keys": [
+        "gasolinera plenoil cerca de mi",
         "https://gasolinabarata.org/marca/plenoil/palmas-las"
       ],
       "clicks": 0,
@@ -7122,9 +7522,9 @@
         "https://gasolinabarata.org/marca/plenoil/almeria"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 10
+      "position": 9
     },
     {
       "keys": [
@@ -7212,9 +7612,9 @@
         "https://gasolinabarata.org/marca/plenoil/madrid"
       ],
       "clicks": 0,
-      "impressions": 8,
+      "impressions": 9,
       "ctr": 0,
-      "position": 5.13
+      "position": 5.56
     },
     {
       "keys": [
@@ -7259,22 +7659,22 @@
     {
       "keys": [
         "gasolinera plenoil precio hoy",
+        "https://gasolinabarata.org/marca/plenoil/alicante"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 6
+    },
+    {
+      "keys": [
+        "gasolinera plenoil precio hoy",
         "https://gasolinabarata.org/marca/plenoil/almeria"
       ],
       "clicks": 0,
       "impressions": 1,
       "ctr": 0,
       "position": 1
-    },
-    {
-      "keys": [
-        "gasolinera plenoil precio hoy",
-        "https://gasolinabarata.org/marca/plenoil/cantabria"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 11
     },
     {
       "keys": [
@@ -7312,9 +7712,9 @@
         "https://gasolinabarata.org/marca/plenoil/valencia-valencia"
       ],
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 2,
       "ctr": 0,
-      "position": 7
+      "position": 8
     },
     {
       "keys": [
@@ -7468,6 +7868,16 @@
     },
     {
       "keys": [
+        "gasolineras asturias",
+        "https://gasolinabarata.org/precio-gasolina/asturias"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 28
+    },
+    {
+      "keys": [
         "gasolineras baratas",
         "https://gasolinabarata.org/"
       ],
@@ -7542,9 +7952,9 @@
         "https://gasolinabarata.org/precio-gasolina/alicante/alicantealacant"
       ],
       "clicks": 0,
-      "impressions": 38,
+      "impressions": 37,
       "ctr": 0,
-      "position": 25.08
+      "position": 25.27
     },
     {
       "keys": [
@@ -7552,9 +7962,9 @@
         "https://gasolinabarata.org/marca/plenoil/almeria"
       ],
       "clicks": 0,
-      "impressions": 25,
+      "impressions": 23,
       "ctr": 0,
-      "position": 31.72
+      "position": 32.57
     },
     {
       "keys": [
@@ -7622,9 +8032,9 @@
         "https://gasolinabarata.org/marca/bp/barcelona"
       ],
       "clicks": 0,
-      "impressions": 16,
+      "impressions": 18,
       "ctr": 0,
-      "position": 38.13
+      "position": 36.89
     },
     {
       "keys": [
@@ -7635,26 +8045,6 @@
       "impressions": 2,
       "ctr": 0,
       "position": 66
-    },
-    {
-      "keys": [
-        "gasolineras baratas barcelona",
-        "https://gasolinabarata.org/precio-gasolina/barcelona/barcelona"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 29
-    },
-    {
-      "keys": [
-        "gasolineras baratas benicasim",
-        "https://gasolinabarata.org/precio-gasolina/castellon-castello/benicasimbenicassim"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 11
     },
     {
       "keys": [
@@ -7682,9 +8072,9 @@
         "https://gasolinabarata.org/precio-gasolina/bizkaia"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 55
+      "position": 51.5
     },
     {
       "keys": [
@@ -7729,12 +8119,22 @@
     {
       "keys": [
         "gasolineras baratas caceres",
+        "https://gasolinabarata.org/precio-diesel/caceres"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 60
+    },
+    {
+      "keys": [
+        "gasolineras baratas caceres",
         "https://gasolinabarata.org/precio-gasolina/caceres"
       ],
       "clicks": 0,
-      "impressions": 30,
+      "impressions": 31,
       "ctr": 0,
-      "position": 48.93
+      "position": 48.74
     },
     {
       "keys": [
@@ -7842,9 +8242,9 @@
         "https://gasolinabarata.org/marca/bp/cordoba"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 7
+      "position": 13.5
     },
     {
       "keys": [
@@ -8028,6 +8428,26 @@
     },
     {
       "keys": [
+        "gasolineras baratas en pontevedra",
+        "https://gasolinabarata.org/precio-gasolina/pontevedra"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 48
+    },
+    {
+      "keys": [
+        "gasolineras baratas en sevilla",
+        "https://gasolinabarata.org/precio-gasolina/sevilla/sevilla"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 54
+    },
+    {
+      "keys": [
         "gasolineras baratas en vigo",
         "https://gasolinabarata.org/precio-gasolina/pontevedra/vigo"
       ],
@@ -8162,9 +8582,9 @@
         "https://gasolinabarata.org/precio-gasolina/guadalajara"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 3,
       "ctr": 0,
-      "position": 34
+      "position": 28.33
     },
     {
       "keys": [
@@ -8172,9 +8592,9 @@
         "https://gasolinabarata.org/precio-gasolina/barcelona/hospitalet-de-llobregat-l"
       ],
       "clicks": 0,
-      "impressions": 10,
+      "impressions": 11,
       "ctr": 0,
-      "position": 13.1
+      "position": 13
     },
     {
       "keys": [
@@ -8195,6 +8615,16 @@
       "impressions": 1,
       "ctr": 0,
       "position": 13
+    },
+    {
+      "keys": [
+        "gasolineras baratas huesca",
+        "https://gasolinabarata.org/precio-gasolina/huesca"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11
     },
     {
       "keys": [
@@ -8272,9 +8702,9 @@
         "https://gasolinabarata.org/precio-diesel/madrid/madrid"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 11
+      "position": 13
     },
     {
       "keys": [
@@ -8348,13 +8778,23 @@
     },
     {
       "keys": [
+        "gasolineras baratas oviedo",
+        "https://gasolinabarata.org/precio-gasolina/asturias/oviedo"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 49
+    },
+    {
+      "keys": [
         "gasolineras baratas palma",
         "https://gasolinabarata.org/precio-gasolina/balears-illes/palma-de-mallorca"
       ],
       "clicks": 0,
-      "impressions": 5,
+      "impressions": 6,
       "ctr": 0,
-      "position": 42.2
+      "position": 42
     },
     {
       "keys": [
@@ -8362,9 +8802,9 @@
         "https://gasolinabarata.org/precio-gasolina/pontevedra"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 3,
       "ctr": 0,
-      "position": 40.5
+      "position": 42.67
     },
     {
       "keys": [
@@ -8422,9 +8862,9 @@
         "https://gasolinabarata.org/marca/plenoil/salamanca"
       ],
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 4,
       "ctr": 0,
-      "position": 38.33
+      "position": 31.75
     },
     {
       "keys": [
@@ -8432,9 +8872,9 @@
         "https://gasolinabarata.org/precio-gasolina/salamanca"
       ],
       "clicks": 0,
-      "impressions": 40,
+      "impressions": 44,
       "ctr": 0,
-      "position": 25.82
+      "position": 25.86
     },
     {
       "keys": [
@@ -8532,9 +8972,9 @@
         "https://gasolinabarata.org/marca/plenoil/valencia-valencia"
       ],
       "clicks": 0,
-      "impressions": 17,
+      "impressions": 20,
       "ctr": 0,
-      "position": 56
+      "position": 47.25
     },
     {
       "keys": [
@@ -8562,9 +9002,9 @@
         "https://gasolinabarata.org/precio-gasolina/valladolid"
       ],
       "clicks": 0,
-      "impressions": 23,
+      "impressions": 22,
       "ctr": 0,
-      "position": 43.87
+      "position": 44.55
     },
     {
       "keys": [
@@ -8574,7 +9014,7 @@
       "clicks": 0,
       "impressions": 40,
       "ctr": 0,
-      "position": 27.9
+      "position": 27.88
     },
     {
       "keys": [
@@ -8585,16 +9025,6 @@
       "impressions": 34,
       "ctr": 0,
       "position": 26.53
-    },
-    {
-      "keys": [
-        "gasolineras baratas vila real",
-        "https://gasolinabarata.org/precio-gasolina/castellon-castello/villarrealvila-real"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 13
     },
     {
       "keys": [
@@ -8652,9 +9082,9 @@
         "https://gasolinabarata.org/precio-gasolina/bizkaia/bilbao"
       ],
       "clicks": 0,
-      "impressions": 36,
+      "impressions": 37,
       "ctr": 0,
-      "position": 41.39
+      "position": 41.54
     },
     {
       "keys": [
@@ -8748,6 +9178,26 @@
     },
     {
       "keys": [
+        "gasolineras cepsa",
+        "https://gasolinabarata.org/marca/cepsa/asturias"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "keys": [
+        "gasolineras cepsa valencia",
+        "https://gasolinabarata.org/marca/cepsa/valencia-valencia"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 16
+    },
+    {
+      "keys": [
         "gasolineras easygas",
         "https://gasolinabarata.org/marca/easygas/bizkaia"
       ],
@@ -8792,9 +9242,9 @@
         "https://gasolinabarata.org/precio-gasolina/granada"
       ],
       "clicks": 0,
-      "impressions": 6,
+      "impressions": 4,
       "ctr": 0,
-      "position": 39.33
+      "position": 43.5
     },
     {
       "keys": [
@@ -8848,16 +9298,6 @@
     },
     {
       "keys": [
-        "gasolineras linares",
-        "https://gasolinabarata.org/precio-gasolina/jaen/linares"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 83
-    },
-    {
-      "keys": [
         "gasolineras low cost albacete",
         "https://gasolinabarata.org/precio-gasolina/albacete"
       ],
@@ -8882,9 +9322,9 @@
         "https://gasolinabarata.org/marca/plenoil/alicante"
       ],
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 4,
       "ctr": 0,
-      "position": 21
+      "position": 18.75
     },
     {
       "keys": [
@@ -8928,16 +9368,6 @@
     },
     {
       "keys": [
-        "gasolineras low cost cerca de mi ubicación abierto ahora",
-        "https://gasolinabarata.org/precio-gasolina/santa-cruz-de-tenerife/san-sebastian-de-la-gomera"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 12
-    },
-    {
-      "keys": [
         "gasolineras low cost en zaragoza",
         "https://gasolinabarata.org/precio-gasolina/zaragoza/zaragoza"
       ],
@@ -8952,9 +9382,9 @@
         "https://gasolinabarata.org/marca/bp/granada"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 5,
       "ctr": 0,
-      "position": 21.5
+      "position": 24.2
     },
     {
       "keys": [
@@ -9002,9 +9432,9 @@
         "https://gasolinabarata.org/precio-gasolina/salamanca"
       ],
       "clicks": 0,
-      "impressions": 13,
+      "impressions": 11,
       "ctr": 0,
-      "position": 27.15
+      "position": 27
     },
     {
       "keys": [
@@ -9022,9 +9452,9 @@
         "https://gasolinabarata.org/precio-gasolina/sevilla/sevilla"
       ],
       "clicks": 0,
-      "impressions": 7,
+      "impressions": 8,
       "ctr": 0,
-      "position": 26.57
+      "position": 27.88
     },
     {
       "keys": [
@@ -9032,9 +9462,9 @@
         "https://gasolinabarata.org/marca/plenoil/valencia-valencia"
       ],
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 5,
       "ctr": 0,
-      "position": 28.25
+      "position": 26.4
     },
     {
       "keys": [
@@ -9062,9 +9492,9 @@
         "https://gasolinabarata.org/precio-gasolina/valladolid/valladolid"
       ],
       "clicks": 0,
-      "impressions": 11,
+      "impressions": 13,
       "ctr": 0,
-      "position": 26.64
+      "position": 26.92
     },
     {
       "keys": [
@@ -9122,9 +9552,9 @@
         "https://gasolinabarata.org/marca/bp/bizkaia"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 49
+      "position": 46.5
     },
     {
       "keys": [
@@ -9132,9 +9562,9 @@
         "https://gasolinabarata.org/precio-gasolina/bizkaia"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 37
+      "position": 33.5
     },
     {
       "keys": [
@@ -9208,6 +9638,16 @@
     },
     {
       "keys": [
+        "gasolineras menorca",
+        "https://gasolinabarata.org/precio-gasolina/balears-illes/ciutadella-de-menorca"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 25
+    },
+    {
+      "keys": [
         "gasolineras más baratas cerca de mí",
         "https://gasolinabarata.org/precio-gasolina/alicante/pedreguer"
       ],
@@ -9238,6 +9678,16 @@
     },
     {
       "keys": [
+        "gasolineras más baratas hoy",
+        "https://gasolinabarata.org/precio-gasolina/salamanca"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "keys": [
         "gasolineras oropesa del mar",
         "https://gasolinabarata.org/precio-gasolina/castellon-castello/oropesa-del-marorpesa"
       ],
@@ -9245,6 +9695,16 @@
       "impressions": 1,
       "ctr": 0,
       "position": 12
+    },
+    {
+      "keys": [
+        "gasolineras oviedo",
+        "https://gasolinabarata.org/precio-gasolina/asturias/oviedo"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 24
     },
     {
       "keys": [
@@ -9274,7 +9734,7 @@
       "clicks": 0,
       "impressions": 6,
       "ctr": 0,
-      "position": 9
+      "position": 9.33
     },
     {
       "keys": [
@@ -9292,9 +9752,9 @@
         "https://gasolinabarata.org/marca/plenoil/almeria"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0,
-      "position": 10.5
+      "position": 10
     },
     {
       "keys": [
@@ -9372,9 +9832,9 @@
         "https://gasolinabarata.org/marca/plenoil/madrid"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 9
+      "position": 8
     },
     {
       "keys": [
@@ -9382,9 +9842,9 @@
         "https://gasolinabarata.org/marca/q8/barcelona"
       ],
       "clicks": 0,
-      "impressions": 30,
+      "impressions": 29,
       "ctr": 0,
-      "position": 89.37
+      "position": 89.03
     },
     {
       "keys": [
@@ -9392,9 +9852,9 @@
         "https://gasolinabarata.org/marca/repsol/alicante"
       ],
       "clicks": 0,
-      "impressions": 14,
+      "impressions": 15,
       "ctr": 0,
-      "position": 43.86
+      "position": 42.73
     },
     {
       "keys": [
@@ -9442,9 +9902,9 @@
         "https://gasolinabarata.org/marca/shell"
       ],
       "clicks": 0,
-      "impressions": 6,
+      "impressions": 5,
       "ctr": 0,
-      "position": 17.67
+      "position": 18.6
     },
     {
       "keys": [
@@ -9480,6 +9940,26 @@
       "keys": [
         "girona",
         "https://gasolinabarata.org/marca/plenoil/girona"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 5
+    },
+    {
+      "keys": [
+        "ha bajado el gasoil hoy",
+        "https://gasolinabarata.org/precio-diesel/madrid/majadahonda"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 5
+    },
+    {
+      "keys": [
+        "ha bajado la gasolina hoy",
+        "https://gasolinabarata.org/precio-gasolina/coruna-a/betanzos"
       ],
       "clicks": 0,
       "impressions": 1,
@@ -9525,6 +10005,26 @@
       "impressions": 1,
       "ctr": 0,
       "position": 26
+    },
+    {
+      "keys": [
+        "litro de gasoil precio",
+        "https://gasolinabarata.org/precio-diesel/balears-illes/eivissa"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "keys": [
+        "litro de gasolina precio",
+        "https://gasolinabarata.org/precio-gasolina/ourense"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 4
     },
     {
       "keys": [
@@ -9578,16 +10078,6 @@
     },
     {
       "keys": [
-        "mejor precio de gasolina cerca de mí",
-        "https://gasolinabarata.org/precio-gasolina/barcelona/hospitalet-de-llobregat-l"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 13
-    },
-    {
-      "keys": [
         "oferta gasolina alicante",
         "https://gasolinabarata.org/marca/plenoil/alicante"
       ],
@@ -9602,9 +10092,9 @@
         "https://gasolinabarata.org/precio-gasolina/alicante"
       ],
       "clicks": 0,
-      "impressions": 16,
+      "impressions": 18,
       "ctr": 0,
-      "position": 32.81
+      "position": 31.94
     },
     {
       "keys": [
@@ -9612,9 +10102,9 @@
         "https://gasolinabarata.org/precio-gasolina/alicante/alicantealacant"
       ],
       "clicks": 0,
-      "impressions": 15,
+      "impressions": 17,
       "ctr": 0,
-      "position": 32.47
+      "position": 35.06
     },
     {
       "keys": [
@@ -9688,6 +10178,16 @@
     },
     {
       "keys": [
+        "petroprix",
+        "https://gasolinabarata.org/marca/petroprix"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 2
+    },
+    {
+      "keys": [
         "petroprix arteixo precio",
         "https://gasolinabarata.org/marca/petroprix"
       ],
@@ -9705,6 +10205,16 @@
       "impressions": 1,
       "ctr": 0,
       "position": 46
+    },
+    {
+      "keys": [
+        "petroprix cerca",
+        "https://gasolinabarata.org/marca/petroprix"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 20.5
     },
     {
       "keys": [
@@ -9728,11 +10238,41 @@
     },
     {
       "keys": [
+        "petroprix cerca de mi",
+        "https://gasolinabarata.org/marca/petroprix/castellon-castello"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "keys": [
         "petroprix cerca de mí",
         "https://gasolinabarata.org/marca/petroprix"
       ],
       "clicks": 0,
       "impressions": 2,
+      "ctr": 0,
+      "position": 29
+    },
+    {
+      "keys": [
+        "petroprix gasolineras",
+        "https://gasolinabarata.org/marca/petroprix"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 26
+    },
+    {
+      "keys": [
+        "petroprix gasolineras",
+        "https://gasolinabarata.org/marca/petroprix/barcelona"
+      ],
+      "clicks": 0,
+      "impressions": 1,
       "ctr": 0,
       "position": 29
     },
@@ -9788,6 +10328,16 @@
     },
     {
       "keys": [
+        "petroprix siero",
+        "https://gasolinabarata.org/marca/petroprix"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 34
+    },
+    {
+      "keys": [
         "petroprix telde",
         "https://gasolinabarata.org/marca/petroprix"
       ],
@@ -9822,9 +10372,9 @@
         "https://gasolinabarata.org/marca/plenoil/murcia"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0,
-      "position": 5
+      "position": 7
     },
     {
       "keys": [
@@ -9858,6 +10408,16 @@
     },
     {
       "keys": [
+        "plenergy toledo",
+        "https://gasolinabarata.org/marca/plenoil/toledo"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "keys": [
         "plenioil",
         "https://gasolinabarata.org/marca/plenoil/cuenca"
       ],
@@ -9872,24 +10432,14 @@
         "https://gasolinabarata.org/marca/plenoil/madrid"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 8
+      "position": 9
     },
     {
       "keys": [
         "plenioil",
         "https://gasolinabarata.org/marca/plenoil/malaga"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 4
-    },
-    {
-      "keys": [
-        "plenioil",
-        "https://gasolinabarata.org/marca/plenoil/santa-cruz-de-tenerife"
       ],
       "clicks": 0,
       "impressions": 1,
@@ -9992,9 +10542,9 @@
         "https://gasolinabarata.org/marca/plenoil/barcelona"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 8,
       "ctr": 0,
-      "position": 15.5
+      "position": 9
     },
     {
       "keys": [
@@ -10002,9 +10552,9 @@
         "https://gasolinabarata.org/marca/plenoil/cadiz"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 3,
       "ctr": 0,
-      "position": 7
+      "position": 5.67
     },
     {
       "keys": [
@@ -10012,9 +10562,9 @@
         "https://gasolinabarata.org/marca/plenoil/cantabria"
       ],
       "clicks": 0,
-      "impressions": 12,
+      "impressions": 11,
       "ctr": 0,
-      "position": 5.58
+      "position": 5.55
     },
     {
       "keys": [
@@ -10022,9 +10572,29 @@
         "https://gasolinabarata.org/marca/plenoil/castellon-castello"
       ],
       "clicks": 0,
-      "impressions": 36,
+      "impressions": 35,
       "ctr": 0,
-      "position": 7.11
+      "position": 7.09
+    },
+    {
+      "keys": [
+        "plenoil",
+        "https://gasolinabarata.org/marca/plenoil/coruna-a"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 4
+    },
+    {
+      "keys": [
+        "plenoil",
+        "https://gasolinabarata.org/marca/plenoil/cuenca"
+      ],
+      "clicks": 0,
+      "impressions": 13,
+      "ctr": 0,
+      "position": 6.54
     },
     {
       "keys": [
@@ -10042,9 +10612,9 @@
         "https://gasolinabarata.org/marca/plenoil/lugo"
       ],
       "clicks": 0,
-      "impressions": 44,
+      "impressions": 46,
       "ctr": 0,
-      "position": 7.59
+      "position": 7.54
     },
     {
       "keys": [
@@ -10052,9 +10622,9 @@
         "https://gasolinabarata.org/marca/plenoil/malaga"
       ],
       "clicks": 0,
-      "impressions": 90,
+      "impressions": 81,
       "ctr": 0,
-      "position": 5.96
+      "position": 6.25
     },
     {
       "keys": [
@@ -10062,9 +10632,9 @@
         "https://gasolinabarata.org/marca/plenoil/murcia"
       ],
       "clicks": 0,
-      "impressions": 211,
+      "impressions": 203,
       "ctr": 0,
-      "position": 6.64
+      "position": 6.49
     },
     {
       "keys": [
@@ -10072,9 +10642,9 @@
         "https://gasolinabarata.org/marca/plenoil/pontevedra"
       ],
       "clicks": 0,
-      "impressions": 28,
+      "impressions": 29,
       "ctr": 0,
-      "position": 5.54
+      "position": 5.45
     },
     {
       "keys": [
@@ -10082,9 +10652,9 @@
         "https://gasolinabarata.org/marca/plenoil/salamanca"
       ],
       "clicks": 0,
-      "impressions": 25,
+      "impressions": 23,
       "ctr": 0,
-      "position": 8.44
+      "position": 8.39
     },
     {
       "keys": [
@@ -10092,9 +10662,9 @@
         "https://gasolinabarata.org/marca/plenoil/toledo"
       ],
       "clicks": 0,
-      "impressions": 23,
+      "impressions": 21,
       "ctr": 0,
-      "position": 7.83
+      "position": 7.95
     },
     {
       "keys": [
@@ -10102,9 +10672,9 @@
         "https://gasolinabarata.org/marca/plenoil/valencia-valencia"
       ],
       "clicks": 0,
-      "impressions": 46,
+      "impressions": 49,
       "ctr": 0,
-      "position": 7.74
+      "position": 8.06
     },
     {
       "keys": [
@@ -10122,9 +10692,9 @@
         "https://gasolinabarata.org/marca/plenoil/alicante"
       ],
       "clicks": 0,
-      "impressions": 14,
+      "impressions": 16,
       "ctr": 0,
-      "position": 9.57
+      "position": 9.88
     },
     {
       "keys": [
@@ -10132,9 +10702,9 @@
         "https://gasolinabarata.org/marca/plenoil/almeria"
       ],
       "clicks": 0,
-      "impressions": 5,
+      "impressions": 6,
       "ctr": 0,
-      "position": 27.8
+      "position": 24.67
     },
     {
       "keys": [
@@ -10142,9 +10712,9 @@
         "https://gasolinabarata.org/marca/plenoil/almeria"
       ],
       "clicks": 0,
-      "impressions": 10,
+      "impressions": 6,
       "ctr": 0,
-      "position": 10.1
+      "position": 9.83
     },
     {
       "keys": [
@@ -10162,9 +10732,9 @@
         "https://gasolinabarata.org/marca/plenoil/almeria"
       ],
       "clicks": 0,
-      "impressions": 9,
+      "impressions": 7,
       "ctr": 0,
-      "position": 10
+      "position": 9.86
     },
     {
       "keys": [
@@ -10185,16 +10755,6 @@
       "impressions": 1,
       "ctr": 0,
       "position": 9
-    },
-    {
-      "keys": [
-        "plenoil benalmadena",
-        "https://gasolinabarata.org/marca/plenoil/malaga"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 11
     },
     {
       "keys": [
@@ -10302,9 +10862,19 @@
         "https://gasolinabarata.org/marca/plenoil/almeria"
       ],
       "clicks": 0,
-      "impressions": 19,
+      "impressions": 22,
       "ctr": 0,
-      "position": 7.05
+      "position": 6.91
+    },
+    {
+      "keys": [
+        "plenoil cerca de mi",
+        "https://gasolinabarata.org/marca/plenoil/barcelona"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 6
     },
     {
       "keys": [
@@ -10322,9 +10892,9 @@
         "https://gasolinabarata.org/marca/plenoil/castellon-castello"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 5,
       "ctr": 0,
-      "position": 6
+      "position": 7
     },
     {
       "keys": [
@@ -10335,6 +10905,16 @@
       "impressions": 3,
       "ctr": 0,
       "position": 7.33
+    },
+    {
+      "keys": [
+        "plenoil cerca de mi",
+        "https://gasolinabarata.org/marca/plenoil/girona"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
     },
     {
       "keys": [
@@ -10372,9 +10952,9 @@
         "https://gasolinabarata.org/marca/plenoil/madrid"
       ],
       "clicks": 0,
-      "impressions": 154,
+      "impressions": 153,
       "ctr": 0,
-      "position": 8
+      "position": 8.03
     },
     {
       "keys": [
@@ -10382,9 +10962,9 @@
         "https://gasolinabarata.org/marca/plenoil/malaga"
       ],
       "clicks": 0,
-      "impressions": 23,
+      "impressions": 20,
       "ctr": 0,
-      "position": 6.48
+      "position": 6.35
     },
     {
       "keys": [
@@ -10392,9 +10972,9 @@
         "https://gasolinabarata.org/marca/plenoil/murcia"
       ],
       "clicks": 0,
-      "impressions": 45,
+      "impressions": 46,
       "ctr": 0,
-      "position": 7.22
+      "position": 7.24
     },
     {
       "keys": [
@@ -10402,9 +10982,9 @@
         "https://gasolinabarata.org/marca/plenoil/palmas-las"
       ],
       "clicks": 0,
-      "impressions": 9,
+      "impressions": 8,
       "ctr": 0,
-      "position": 9
+      "position": 8.75
     },
     {
       "keys": [
@@ -10442,9 +11022,9 @@
         "https://gasolinabarata.org/marca/plenoil/toledo"
       ],
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 4,
       "ctr": 0,
-      "position": 6.33
+      "position": 6.25
     },
     {
       "keys": [
@@ -10452,9 +11032,9 @@
         "https://gasolinabarata.org/marca/plenoil/valencia-valencia"
       ],
       "clicks": 0,
-      "impressions": 18,
+      "impressions": 20,
       "ctr": 0,
-      "position": 8.44
+      "position": 8.25
     },
     {
       "keys": [
@@ -10469,22 +11049,12 @@
     {
       "keys": [
         "plenoil cerca de mi precio",
-        "https://gasolinabarata.org/marca/plenoil"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 9
-    },
-    {
-      "keys": [
-        "plenoil cerca de mi precio",
         "https://gasolinabarata.org/marca/plenoil/madrid"
       ],
       "clicks": 0,
-      "impressions": 5,
+      "impressions": 6,
       "ctr": 0,
-      "position": 6.4
+      "position": 6.33
     },
     {
       "keys": [
@@ -10515,16 +11085,6 @@
       "impressions": 1,
       "ctr": 0,
       "position": 8
-    },
-    {
-      "keys": [
-        "plenoil cerca de mi ubicación",
-        "https://gasolinabarata.org/marca/plenoil/malaga"
-      ],
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0,
-      "position": 9
     },
     {
       "keys": [
@@ -10569,16 +11129,6 @@
     {
       "keys": [
         "plenoil cerca de mí",
-        "https://gasolinabarata.org/marca/plenoil/malaga"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 5
-    },
-    {
-      "keys": [
-        "plenoil cerca de mí",
         "https://gasolinabarata.org/marca/plenoil/salamanca"
       ],
       "clicks": 0,
@@ -10592,9 +11142,9 @@
         "https://gasolinabarata.org/marca/plenoil/santa-cruz-de-tenerife"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 6
+      "position": 7
     },
     {
       "keys": [
@@ -10612,9 +11162,9 @@
         "https://gasolinabarata.org/marca/plenoil/coruna-a"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 3,
       "ctr": 0,
-      "position": 5
+      "position": 10.67
     },
     {
       "keys": [
@@ -10622,9 +11172,9 @@
         "https://gasolinabarata.org/marca/plenoil/cuenca"
       ],
       "clicks": 0,
-      "impressions": 38,
+      "impressions": 39,
       "ctr": 0,
-      "position": 7.71
+      "position": 7.59
     },
     {
       "keys": [
@@ -10722,9 +11272,9 @@
         "https://gasolinabarata.org/marca/plenoil/santa-cruz-de-tenerife"
       ],
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 2,
       "ctr": 0,
-      "position": 6.67
+      "position": 6
     },
     {
       "keys": [
@@ -10742,9 +11292,9 @@
         "https://gasolinabarata.org/marca/plenoil/granada"
       ],
       "clicks": 0,
-      "impressions": 11,
+      "impressions": 12,
       "ctr": 0,
-      "position": 10.82
+      "position": 10.42
     },
     {
       "keys": [
@@ -10752,9 +11302,9 @@
         "https://gasolinabarata.org/marca/plenoil/granada"
       ],
       "clicks": 0,
-      "impressions": 29,
+      "impressions": 28,
       "ctr": 0,
-      "position": 7.76
+      "position": 7.89
     },
     {
       "keys": [
@@ -10808,13 +11358,23 @@
     },
     {
       "keys": [
+        "plenoil lugo",
+        "https://gasolinabarata.org/marca/plenoil/lugo"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 13
+    },
+    {
+      "keys": [
         "plenoil lugo precio",
         "https://gasolinabarata.org/marca/plenoil/lugo"
       ],
       "clicks": 0,
-      "impressions": 31,
+      "impressions": 36,
       "ctr": 0,
-      "position": 9.97
+      "position": 10.06
     },
     {
       "keys": [
@@ -10822,9 +11382,9 @@
         "https://gasolinabarata.org/marca/plenoil/lugo"
       ],
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 3,
       "ctr": 0,
-      "position": 10.25
+      "position": 10
     },
     {
       "keys": [
@@ -10844,7 +11404,7 @@
       "clicks": 0,
       "impressions": 23,
       "ctr": 0,
-      "position": 8.22
+      "position": 8.61
     },
     {
       "keys": [
@@ -10855,6 +11415,16 @@
       "impressions": 10,
       "ctr": 0,
       "position": 7.8
+    },
+    {
+      "keys": [
+        "plenoil mas cercana",
+        "https://gasolinabarata.org/marca/plenoil/murcia"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
     },
     {
       "keys": [
@@ -10872,9 +11442,9 @@
         "https://gasolinabarata.org/marca/plenoil/murcia"
       ],
       "clicks": 0,
-      "impressions": 5,
+      "impressions": 8,
       "ctr": 0,
-      "position": 11.2
+      "position": 10.75
     },
     {
       "keys": [
@@ -10882,9 +11452,9 @@
         "https://gasolinabarata.org/marca/plenoil/murcia"
       ],
       "clicks": 0,
-      "impressions": 31,
+      "impressions": 32,
       "ctr": 0,
-      "position": 9.48
+      "position": 9.5
     },
     {
       "keys": [
@@ -10962,9 +11532,9 @@
         "https://gasolinabarata.org/marca/plenoil/pontevedra"
       ],
       "clicks": 0,
-      "impressions": 8,
+      "impressions": 6,
       "ctr": 0,
-      "position": 7.38
+      "position": 7.33
     },
     {
       "keys": [
@@ -10982,9 +11552,9 @@
         "https://gasolinabarata.org/marca/plenoil/almeria"
       ],
       "clicks": 0,
-      "impressions": 13,
+      "impressions": 17,
       "ctr": 0,
-      "position": 5.54
+      "position": 6.12
     },
     {
       "keys": [
@@ -11009,6 +11579,16 @@
     {
       "keys": [
         "plenoil precio",
+        "https://gasolinabarata.org/marca/plenoil/coruna-a"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "keys": [
+        "plenoil precio",
         "https://gasolinabarata.org/marca/plenoil/cuenca"
       ],
       "clicks": 0,
@@ -11022,9 +11602,9 @@
         "https://gasolinabarata.org/marca/plenoil/granada"
       ],
       "clicks": 0,
-      "impressions": 7,
+      "impressions": 6,
       "ctr": 0,
-      "position": 5.43
+      "position": 5.67
     },
     {
       "keys": [
@@ -11042,7 +11622,7 @@
         "https://gasolinabarata.org/marca/plenoil/lugo"
       ],
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 4,
       "ctr": 0,
       "position": 7
     },
@@ -11052,9 +11632,9 @@
         "https://gasolinabarata.org/marca/plenoil/malaga"
       ],
       "clicks": 0,
-      "impressions": 17,
+      "impressions": 18,
       "ctr": 0,
-      "position": 5.53
+      "position": 5.5
     },
     {
       "keys": [
@@ -11062,9 +11642,9 @@
         "https://gasolinabarata.org/marca/plenoil/murcia"
       ],
       "clicks": 0,
-      "impressions": 12,
+      "impressions": 11,
       "ctr": 0,
-      "position": 8.92
+      "position": 8.55
     },
     {
       "keys": [
@@ -11082,9 +11662,9 @@
         "https://gasolinabarata.org/marca/plenoil/pontevedra"
       ],
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 4,
       "ctr": 0,
-      "position": 11
+      "position": 11.25
     },
     {
       "keys": [
@@ -11112,9 +11692,9 @@
         "https://gasolinabarata.org/marca/plenoil/toledo"
       ],
       "clicks": 0,
-      "impressions": 11,
+      "impressions": 9,
       "ctr": 0,
-      "position": 8.18
+      "position": 8.33
     },
     {
       "keys": [
@@ -11124,7 +11704,7 @@
       "clicks": 0,
       "impressions": 6,
       "ctr": 0,
-      "position": 5.83
+      "position": 5.33
     },
     {
       "keys": [
@@ -11152,9 +11732,9 @@
         "https://gasolinabarata.org/marca/plenoil/madrid"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0,
-      "position": 10.5
+      "position": 11
     },
     {
       "keys": [
@@ -11165,16 +11745,6 @@
       "impressions": 1,
       "ctr": 0,
       "position": 4
-    },
-    {
-      "keys": [
-        "plenoil precio diesel",
-        "https://gasolinabarata.org/marca/plenoil/valencia-valencia"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 11
     },
     {
       "keys": [
@@ -11258,23 +11828,13 @@
     },
     {
       "keys": [
-        "plenoil precio gasolina 95",
-        "https://gasolinabarata.org/marca/plenoil/santa-cruz-de-tenerife"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 4
-    },
-    {
-      "keys": [
         "plenoil precio gasolina hoy",
         "https://gasolinabarata.org/marca/plenoil/madrid"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 4,
       "ctr": 0,
-      "position": 6
+      "position": 7.5
     },
     {
       "keys": [
@@ -11299,6 +11859,16 @@
     {
       "keys": [
         "plenoil precio hoy",
+        "https://gasolinabarata.org/marca/plenoil/barcelona"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "keys": [
+        "plenoil precio hoy",
         "https://gasolinabarata.org/marca/plenoil/cadiz"
       ],
       "clicks": 0,
@@ -11312,9 +11882,9 @@
         "https://gasolinabarata.org/marca/plenoil/cantabria"
       ],
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 2,
       "ctr": 0,
-      "position": 5.5
+      "position": 4.5
     },
     {
       "keys": [
@@ -11344,7 +11914,7 @@
       "clicks": 0,
       "impressions": 2,
       "ctr": 0,
-      "position": 7
+      "position": 7.5
     },
     {
       "keys": [
@@ -11362,9 +11932,9 @@
         "https://gasolinabarata.org/marca/plenoil/lugo"
       ],
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 5,
       "ctr": 0,
-      "position": 9.25
+      "position": 9.2
     },
     {
       "keys": [
@@ -11372,9 +11942,9 @@
         "https://gasolinabarata.org/marca/plenoil/madrid"
       ],
       "clicks": 0,
-      "impressions": 39,
+      "impressions": 43,
       "ctr": 0,
-      "position": 5.79
+      "position": 6.09
     },
     {
       "keys": [
@@ -11382,9 +11952,9 @@
         "https://gasolinabarata.org/marca/plenoil/palmas-las"
       ],
       "clicks": 0,
-      "impressions": 8,
+      "impressions": 10,
       "ctr": 0,
-      "position": 8.25
+      "position": 8.8
     },
     {
       "keys": [
@@ -11402,9 +11972,9 @@
         "https://gasolinabarata.org/marca/plenoil/santa-cruz-de-tenerife"
       ],
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 5,
       "ctr": 0,
-      "position": 6.25
+      "position": 5.8
     },
     {
       "keys": [
@@ -11422,9 +11992,9 @@
         "https://gasolinabarata.org/marca/plenoil/valencia-valencia"
       ],
       "clicks": 0,
-      "impressions": 15,
+      "impressions": 16,
       "ctr": 0,
-      "position": 6.67
+      "position": 6.75
     },
     {
       "keys": [
@@ -11432,9 +12002,9 @@
         "https://gasolinabarata.org/marca/plenoil/alicante"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 3,
       "ctr": 0,
-      "position": 8
+      "position": 8.33
     },
     {
       "keys": [
@@ -11462,9 +12032,9 @@
         "https://gasolinabarata.org/marca/plenoil/madrid"
       ],
       "clicks": 0,
-      "impressions": 14,
+      "impressions": 13,
       "ctr": 0,
-      "position": 5.21
+      "position": 5.62
     },
     {
       "keys": [
@@ -11512,9 +12082,9 @@
         "https://gasolinabarata.org/marca/plenoil/toledo"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 7
+      "position": 6
     },
     {
       "keys": [
@@ -11542,19 +12112,19 @@
         "https://gasolinabarata.org/marca/plenoil/madrid"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 10
+      "position": 5.5
     },
     {
       "keys": [
         "plenoil precios hoy",
-        "https://gasolinabarata.org/marca/plenoil/palmas-las"
+        "https://gasolinabarata.org/marca/plenoil/santa-cruz-de-tenerife"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 10
+      "position": 6
     },
     {
       "keys": [
@@ -11572,9 +12142,9 @@
         "https://gasolinabarata.org/marca/plenoil/salamanca"
       ],
       "clicks": 0,
-      "impressions": 27,
+      "impressions": 28,
       "ctr": 0,
-      "position": 10.78
+      "position": 11
     },
     {
       "keys": [
@@ -11592,9 +12162,9 @@
         "https://gasolinabarata.org/marca/plenoil/santa-cruz-de-tenerife"
       ],
       "clicks": 0,
-      "impressions": 13,
+      "impressions": 12,
       "ctr": 0,
-      "position": 8.85
+      "position": 8.75
     },
     {
       "keys": [
@@ -11612,7 +12182,7 @@
         "https://gasolinabarata.org/marca/plenoil/toledo"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 3,
       "ctr": 0,
       "position": 11
     },
@@ -11622,7 +12192,7 @@
         "https://gasolinabarata.org/marca/plenoil/toledo"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 4,
       "ctr": 0,
       "position": 11.5
     },
@@ -11632,9 +12202,9 @@
         "https://gasolinabarata.org/marca/plenoil/valencia-valencia"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 4,
       "ctr": 0,
-      "position": 9
+      "position": 10.75
     },
     {
       "keys": [
@@ -11642,9 +12212,9 @@
         "https://gasolinabarata.org/marca/plenoil/valencia-valencia"
       ],
       "clicks": 0,
-      "impressions": 12,
+      "impressions": 11,
       "ctr": 0,
-      "position": 9.92
+      "position": 9.91
     },
     {
       "keys": [
@@ -11762,9 +12332,9 @@
         "https://gasolinabarata.org/blog/por-que-el-diesel-no-baja-y-el-descuento-en-gasolina-se-retrasa-analisis-y-conse-murvteb8"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 3,
       "ctr": 0,
-      "position": 9.5
+      "position": 9.67
     },
     {
       "keys": [
@@ -11818,6 +12388,16 @@
     },
     {
       "keys": [
+        "porque ha subido la gasolina en españa",
+        "https://gasolinabarata.org/blog/por-que-sube-la-gasolina-y-el-diesel-en-espana-pese-a-los-descuentos-del-gobiern-mvt19v2v"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 73
+    },
+    {
+      "keys": [
         "porque no baja el diesel",
         "https://gasolinabarata.org/blog/por-que-el-diesel-no-baja-y-el-descuento-en-gasolina-se-retrasa-analisis-y-conse-murvteb8"
       ],
@@ -11834,7 +12414,7 @@
       "clicks": 0,
       "impressions": 2,
       "ctr": 0,
-      "position": 10
+      "position": 10.5
     },
     {
       "keys": [
@@ -11858,16 +12438,6 @@
     },
     {
       "keys": [
-        "precio carburantes hoy",
-        "https://gasolinabarata.org/precio-gasolina/barcelona/vilanova-i-la-geltru"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 11
-    },
-    {
-      "keys": [
         "precio cepsa",
         "https://gasolinabarata.org/marca/cepsa/valencia-valencia"
       ],
@@ -11875,16 +12445,6 @@
       "impressions": 2,
       "ctr": 0,
       "position": 60
-    },
-    {
-      "keys": [
-        "precio combustible",
-        "https://gasolinabarata.org/precio-gasolina/coruna-a"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 24
     },
     {
       "keys": [
@@ -11904,7 +12464,7 @@
       "clicks": 0,
       "impressions": 23,
       "ctr": 0,
-      "position": 34.78
+      "position": 35.57
     },
     {
       "keys": [
@@ -11914,7 +12474,7 @@
       "clicks": 0,
       "impressions": 23,
       "ctr": 0,
-      "position": 28.13
+      "position": 30.87
     },
     {
       "keys": [
@@ -11942,9 +12502,9 @@
         "https://gasolinabarata.org/blog/por-que-sube-la-gasolina-y-el-diesel-en-espana-pese-a-los-descuentos-gubernament-muhvr5bd"
       ],
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 3,
       "ctr": 0,
-      "position": 48
+      "position": 46.33
     },
     {
       "keys": [
@@ -12038,6 +12598,26 @@
     },
     {
       "keys": [
+        "precio de gasolina en madrid",
+        "https://gasolinabarata.org/precio-diesel/madrid/madrid"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 26
+    },
+    {
+      "keys": [
+        "precio de gasolina en madrid",
+        "https://gasolinabarata.org/precio-gasolina/madrid"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 40
+    },
+    {
+      "keys": [
         "precio de gasolina en tenerife",
         "https://gasolinabarata.org/precio-gasolina/santa-cruz-de-tenerife"
       ],
@@ -12112,9 +12692,29 @@
         "https://gasolinabarata.org/precio-gasolina/alicante/alicantealacant"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 33
+      "position": 31.5
+    },
+    {
+      "keys": [
+        "precio de la gasolina",
+        "https://gasolinabarata.org/precio-gasolina/barcelona/hospitalet-de-llobregat-l"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "keys": [
+        "precio de la gasolina",
+        "https://gasolinabarata.org/precio-gasolina/lugo/guitiriz"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 11
     },
     {
       "keys": [
@@ -12128,6 +12728,16 @@
     },
     {
       "keys": [
+        "precio de la gasolina 95 en alcampo",
+        "https://gasolinabarata.org/marca/alcampo/valencia-valencia"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 6
+    },
+    {
+      "keys": [
         "precio de la gasolina alicante",
         "https://gasolinabarata.org/precio-gasolina/alicante/alicantealacant"
       ],
@@ -12135,6 +12745,16 @@
       "impressions": 1,
       "ctr": 0,
       "position": 29
+    },
+    {
+      "keys": [
+        "precio de la gasolina cerca de mi",
+        "https://gasolinabarata.org/precio-gasolina/huelva"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 33
     },
     {
       "keys": [
@@ -12198,6 +12818,16 @@
     },
     {
       "keys": [
+        "precio de la gasolina en león",
+        "https://gasolinabarata.org/precio-gasolina/leon"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 42
+    },
+    {
+      "keys": [
         "precio de la gasolina en madrid",
         "https://gasolinabarata.org/precio-gasolina/madrid"
       ],
@@ -12215,6 +12845,16 @@
       "impressions": 4,
       "ctr": 0,
       "position": 36.75
+    },
+    {
+      "keys": [
+        "precio de la gasolina en murcia",
+        "https://gasolinabarata.org/precio-gasolina/murcia"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 32
     },
     {
       "keys": [
@@ -12242,9 +12882,9 @@
         "https://gasolinabarata.org/marca/plenoil/madrid"
       ],
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 2,
       "ctr": 0,
-      "position": 6.67
+      "position": 8.5
     },
     {
       "keys": [
@@ -12292,7 +12932,7 @@
         "https://gasolinabarata.org/precio-gasolina/zaragoza/zaragoza"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
       "position": 28
     },
@@ -12315,6 +12955,16 @@
       "impressions": 1,
       "ctr": 0,
       "position": 8
+    },
+    {
+      "keys": [
+        "precio de la gasolina hoy",
+        "https://gasolinabarata.org/precio-gasolina/huelva/aracena"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
     },
     {
       "keys": [
@@ -12392,9 +13042,9 @@
         "https://gasolinabarata.org/marca/plenoil/toledo"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 3,
       "ctr": 0,
-      "position": 4.5
+      "position": 4.67
     },
     {
       "keys": [
@@ -12469,6 +13119,16 @@
     {
       "keys": [
         "precio del diesel",
+        "https://gasolinabarata.org/precio-diesel/gipuzkoa/zumaia"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "keys": [
+        "precio del diesel",
         "https://gasolinabarata.org/precio-diesel/huelva"
       ],
       "clicks": 0,
@@ -12482,7 +13142,7 @@
         "https://gasolinabarata.org/precio-diesel/guadalajara"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0,
       "position": 11
     },
@@ -12495,6 +13155,16 @@
       "impressions": 1,
       "ctr": 0,
       "position": 9
+    },
+    {
+      "keys": [
+        "precio del diesel hoy",
+        "https://gasolinabarata.org/precio-diesel/gipuzkoa/zumaia"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 6
     },
     {
       "keys": [
@@ -12528,23 +13198,13 @@
     },
     {
       "keys": [
-        "precio del gasoil",
-        "https://gasolinabarata.org/precio-gasolina/badajoz/montijo"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 10
-    },
-    {
-      "keys": [
         "precio del gasoil coche madrid",
         "https://gasolinabarata.org/precio-diesel/madrid"
       ],
       "clicks": 0,
-      "impressions": 20,
+      "impressions": 19,
       "ctr": 0,
-      "position": 45.75
+      "position": 46.42
     },
     {
       "keys": [
@@ -12562,9 +13222,9 @@
         "https://gasolinabarata.org/precio-gasolina/madrid/madrid"
       ],
       "clicks": 0,
-      "impressions": 6,
+      "impressions": 5,
       "ctr": 0,
-      "position": 47.67
+      "position": 49
     },
     {
       "keys": [
@@ -12648,6 +13308,16 @@
     },
     {
       "keys": [
+        "precio del gasoil en madrid",
+        "https://gasolinabarata.org/precio-diesel/madrid/madrid"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "keys": [
         "precio del gasoil en palencia",
         "https://gasolinabarata.org/precio-diesel/palencia"
       ],
@@ -12669,32 +13339,12 @@
     {
       "keys": [
         "precio del gasoil en plenoil",
-        "https://gasolinabarata.org/marca/plenoil/granada"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 10
-    },
-    {
-      "keys": [
-        "precio del gasoil en plenoil",
         "https://gasolinabarata.org/marca/plenoil/malaga"
       ],
       "clicks": 0,
       "impressions": 1,
       "ctr": 0,
       "position": 4
-    },
-    {
-      "keys": [
-        "precio del gasoil en plenoil",
-        "https://gasolinabarata.org/marca/plenoil/pontevedra"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 11
     },
     {
       "keys": [
@@ -12732,9 +13382,9 @@
         "https://gasolinabarata.org/precio-diesel/santa-cruz-de-tenerife"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 29
+      "position": 29.5
     },
     {
       "keys": [
@@ -12745,6 +13395,26 @@
       "impressions": 1,
       "ctr": 0,
       "position": 55
+    },
+    {
+      "keys": [
+        "precio del gasoil en tenerife hoy",
+        "https://gasolinabarata.org/precio-diesel/santa-cruz-de-tenerife"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 25
+    },
+    {
+      "keys": [
+        "precio del gasoil en tenerife hoy",
+        "https://gasolinabarata.org/precio-gasolina/santa-cruz-de-tenerife"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 59
     },
     {
       "keys": [
@@ -12819,12 +13489,32 @@
     {
       "keys": [
         "precio diesel",
+        "https://gasolinabarata.org/precio-diesel/alicante/pinoso"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 5
+    },
+    {
+      "keys": [
+        "precio diesel",
         "https://gasolinabarata.org/precio-diesel/avila"
       ],
       "clicks": 0,
       "impressions": 1,
       "ctr": 0,
       "position": 12
+    },
+    {
+      "keys": [
+        "precio diesel",
+        "https://gasolinabarata.org/precio-diesel/badajoz/villanueva-de-la-serena"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
     },
     {
       "keys": [
@@ -12862,9 +13552,9 @@
         "https://gasolinabarata.org/precio-diesel/ciudad-real"
       ],
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 4,
       "ctr": 0,
-      "position": 9.33
+      "position": 9
     },
     {
       "keys": [
@@ -12889,6 +13579,26 @@
     {
       "keys": [
         "precio diesel",
+        "https://gasolinabarata.org/precio-diesel/madrid/san-lorenzo-de-el-escorial"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "keys": [
+        "precio diesel",
+        "https://gasolinabarata.org/precio-diesel/murcia"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 15
+    },
+    {
+      "keys": [
+        "precio diesel",
         "https://gasolinabarata.org/precio-diesel/murcia/cehegin"
       ],
       "clicks": 0,
@@ -12902,9 +13612,19 @@
         "https://gasolinabarata.org/precio-diesel/sevilla"
       ],
       "clicks": 0,
-      "impressions": 6,
+      "impressions": 10,
       "ctr": 0,
-      "position": 13
+      "position": 13.3
+    },
+    {
+      "keys": [
+        "precio diesel albacete",
+        "https://gasolinabarata.org/precio-diesel/albacete"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 21
     },
     {
       "keys": [
@@ -12924,7 +13644,7 @@
       "clicks": 0,
       "impressions": 28,
       "ctr": 0,
-      "position": 25.96
+      "position": 26.46
     },
     {
       "keys": [
@@ -12932,9 +13652,9 @@
         "https://gasolinabarata.org/precio-gasolina/alicante/alicantealacant"
       ],
       "clicks": 0,
-      "impressions": 25,
+      "impressions": 24,
       "ctr": 0,
-      "position": 27.2
+      "position": 28.46
     },
     {
       "keys": [
@@ -12985,6 +13705,36 @@
       "impressions": 2,
       "ctr": 0,
       "position": 29
+    },
+    {
+      "keys": [
+        "precio diesel bizkaia",
+        "https://gasolinabarata.org/precio-diesel/bizkaia"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 16
+    },
+    {
+      "keys": [
+        "precio diesel caceres",
+        "https://gasolinabarata.org/precio-diesel/caceres"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 31
+    },
+    {
+      "keys": [
+        "precio diesel cantabria",
+        "https://gasolinabarata.org/precio-diesel/cantabria"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 17
     },
     {
       "keys": [
@@ -13102,9 +13852,9 @@
         "https://gasolinabarata.org/precio-diesel/badajoz/villanueva-de-la-serena"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 3,
       "ctr": 0,
-      "position": 9
+      "position": 8.67
     },
     {
       "keys": [
@@ -13122,9 +13872,9 @@
         "https://gasolinabarata.org/precio-diesel/barcelona/hospitalet-de-llobregat-l"
       ],
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 1,
       "ctr": 0,
-      "position": 10.67
+      "position": 11
     },
     {
       "keys": [
@@ -13142,9 +13892,19 @@
         "https://gasolinabarata.org/precio-diesel/ciudad-real"
       ],
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 2,
       "ctr": 0,
       "position": 11
+    },
+    {
+      "keys": [
+        "precio diesel hoy",
+        "https://gasolinabarata.org/precio-diesel/cordoba/baena"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 8.67
     },
     {
       "keys": [
@@ -13262,9 +14022,9 @@
         "https://gasolinabarata.org/precio-diesel/sevilla/dos-hermanas"
       ],
       "clicks": 0,
-      "impressions": 5,
+      "impressions": 6,
       "ctr": 0,
-      "position": 8.8
+      "position": 8.5
     },
     {
       "keys": [
@@ -13362,9 +14122,19 @@
         "https://gasolinabarata.org/precio-diesel/madrid"
       ],
       "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 26
+    },
+    {
+      "keys": [
+        "precio diesel hoy madrid",
+        "https://gasolinabarata.org/precio-diesel/madrid/madrid"
+      ],
+      "clicks": 0,
       "impressions": 1,
       "ctr": 0,
-      "position": 27
+      "position": 44
     },
     {
       "keys": [
@@ -13418,13 +14188,83 @@
     },
     {
       "keys": [
+        "precio diesel majadahonda",
+        "https://gasolinabarata.org/precio-diesel/madrid/majadahonda"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 21
+    },
+    {
+      "keys": [
+        "precio diesel malaga",
+        "https://gasolinabarata.org/precio-diesel/malaga"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 30
+    },
+    {
+      "keys": [
+        "precio diesel mallorca",
+        "https://gasolinabarata.org/precio-gasolina/balears-illes/palma-de-mallorca"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 35
+    },
+    {
+      "keys": [
         "precio diesel murcia",
         "https://gasolinabarata.org/precio-diesel/murcia"
       ],
       "clicks": 0,
-      "impressions": 20,
+      "impressions": 19,
       "ctr": 0,
-      "position": 45.4
+      "position": 45.21
+    },
+    {
+      "keys": [
+        "precio diesel ourense",
+        "https://gasolinabarata.org/precio-diesel/ourense"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 42
+    },
+    {
+      "keys": [
+        "precio diesel ourense",
+        "https://gasolinabarata.org/precio-diesel/ourense/ourense"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 16
+    },
+    {
+      "keys": [
+        "precio diesel palencia",
+        "https://gasolinabarata.org/precio-diesel/palencia"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 24
+    },
+    {
+      "keys": [
+        "precio diesel palencia",
+        "https://gasolinabarata.org/precio-gasolina/palencia"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 50
     },
     {
       "keys": [
@@ -13432,9 +14272,9 @@
         "https://gasolinabarata.org/marca/plenoil/granada"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0,
-      "position": 7.5
+      "position": 7
     },
     {
       "keys": [
@@ -13462,9 +14302,9 @@
         "https://gasolinabarata.org/marca/plenoil/lugo"
       ],
       "clicks": 0,
-      "impressions": 16,
+      "impressions": 22,
       "ctr": 0,
-      "position": 13.75
+      "position": 12.82
     },
     {
       "keys": [
@@ -13482,9 +14322,9 @@
         "https://gasolinabarata.org/precio-diesel/salamanca"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 3,
       "ctr": 0,
-      "position": 33
+      "position": 26.33
     },
     {
       "keys": [
@@ -13515,6 +14355,26 @@
       "impressions": 1,
       "ctr": 0,
       "position": 43
+    },
+    {
+      "keys": [
+        "precio diesel sevilla",
+        "https://gasolinabarata.org/precio-diesel/sevilla"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 28
+    },
+    {
+      "keys": [
+        "precio diesel sevilla",
+        "https://gasolinabarata.org/precio-gasolina/sevilla/sevilla"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 60
     },
     {
       "keys": [
@@ -13552,9 +14412,9 @@
         "https://gasolinabarata.org/precio-diesel/valencia-valencia"
       ],
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 4,
       "ctr": 0,
-      "position": 32
+      "position": 31
     },
     {
       "keys": [
@@ -13668,6 +14528,26 @@
     },
     {
       "keys": [
+        "precio diésel hoy madrid",
+        "https://gasolinabarata.org/precio-diesel/madrid"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 25
+    },
+    {
+      "keys": [
+        "precio diésel hoy madrid",
+        "https://gasolinabarata.org/precio-diesel/madrid/madrid"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 46
+    },
+    {
+      "keys": [
         "precio diésel madrid",
         "https://gasolinabarata.org/precio-diesel/madrid"
       ],
@@ -13718,6 +14598,16 @@
     },
     {
       "keys": [
+        "precio diésel vigo hoy",
+        "https://gasolinabarata.org/precio-gasolina/pontevedra/vigo"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 26
+    },
+    {
+      "keys": [
         "precio easygas",
         "https://gasolinabarata.org/marca/easygas/bizkaia"
       ],
@@ -13725,6 +14615,16 @@
       "impressions": 2,
       "ctr": 0,
       "position": 11.5
+    },
+    {
+      "keys": [
+        "precio gasoil",
+        "https://gasolinabarata.org/precio-diesel/alicante/pinoso"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
     },
     {
       "keys": [
@@ -13792,9 +14692,9 @@
         "https://gasolinabarata.org/precio-gasolina/alicante/alicantealacant"
       ],
       "clicks": 0,
-      "impressions": 41,
+      "impressions": 42,
       "ctr": 0,
-      "position": 33.37
+      "position": 33.38
     },
     {
       "keys": [
@@ -13865,6 +14765,16 @@
       "impressions": 2,
       "ctr": 0,
       "position": 67.5
+    },
+    {
+      "keys": [
+        "precio gasoil avila",
+        "https://gasolinabarata.org/precio-diesel/avila"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 21
     },
     {
       "keys": [
@@ -14068,6 +14978,16 @@
     },
     {
       "keys": [
+        "precio gasoil coche hoy",
+        "https://gasolinabarata.org/precio-diesel/girona/ripoll"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "keys": [
         "precio gasoil cordoba",
         "https://gasolinabarata.org/precio-diesel/cordoba"
       ],
@@ -14118,6 +15038,16 @@
     },
     {
       "keys": [
+        "precio gasoil cuenca",
+        "https://gasolinabarata.org/precio-diesel/cuenca"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 36
+    },
+    {
+      "keys": [
         "precio gasoil cáceres",
         "https://gasolinabarata.org/precio-gasolina/caceres"
       ],
@@ -14125,6 +15055,16 @@
       "impressions": 1,
       "ctr": 0,
       "position": 50
+    },
+    {
+      "keys": [
+        "precio gasoil en cuenca",
+        "https://gasolinabarata.org/precio-gasolina/cuenca/cuenca"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 23
     },
     {
       "keys": [
@@ -14138,13 +15078,23 @@
     },
     {
       "keys": [
+        "precio gasoil en plenoil",
+        "https://gasolinabarata.org/marca/plenoil/lugo"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 6
+    },
+    {
+      "keys": [
         "precio gasoil en plenoil hoy",
         "https://gasolinabarata.org/marca/plenoil/santa-cruz-de-tenerife"
       ],
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 2,
       "ctr": 0,
-      "position": 4.67
+      "position": 5
     },
     {
       "keys": [
@@ -14165,6 +15115,16 @@
       "impressions": 2,
       "ctr": 0,
       "position": 49
+    },
+    {
+      "keys": [
+        "precio gasoil gandia",
+        "https://gasolinabarata.org/precio-gasolina/valencia-valencia/gandia"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 40
     },
     {
       "keys": [
@@ -14198,16 +15158,6 @@
     },
     {
       "keys": [
-        "precio gasoil gipuzkoa",
-        "https://gasolinabarata.org/precio-diesel/gipuzkoa"
-      ],
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0,
-      "position": 9
-    },
-    {
-      "keys": [
         "precio gasoil gipuzkoa hoy",
         "https://gasolinabarata.org/precio-gasolina/gipuzkoa"
       ],
@@ -14225,6 +15175,16 @@
       "impressions": 36,
       "ctr": 0,
       "position": 56.86
+    },
+    {
+      "keys": [
+        "precio gasoil gran canaria hoy",
+        "https://gasolinabarata.org/precio-diesel/palmas-las/palmas-de-gran-canaria-las"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 40.5
     },
     {
       "keys": [
@@ -14278,16 +15238,6 @@
     },
     {
       "keys": [
-        "precio gasoil hoy",
-        "https://gasolinabarata.org/precio-gasolina/sevilla/rinconada-la"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 11
-    },
-    {
-      "keys": [
         "precio gasoil hoy asturias",
         "https://gasolinabarata.org/precio-diesel/asturias"
       ],
@@ -14308,33 +15258,13 @@
     },
     {
       "keys": [
-        "precio gasoil hoy cerca de mi",
-        "https://gasolinabarata.org/precio-gasolina/madrid/valdemorillo"
+        "precio gasoil hoy madrid",
+        "https://gasolinabarata.org/precio-diesel/madrid/madrid"
       ],
       "clicks": 0,
       "impressions": 1,
       "ctr": 0,
-      "position": 10
-    },
-    {
-      "keys": [
-        "precio gasoil hoy cordoba",
-        "https://gasolinabarata.org/precio-diesel/cordoba"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 30
-    },
-    {
-      "keys": [
-        "precio gasoil hoy cordoba",
-        "https://gasolinabarata.org/precio-gasolina/cordoba/cordoba"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 56
+      "position": 43
     },
     {
       "keys": [
@@ -14578,6 +15508,16 @@
     },
     {
       "keys": [
+        "precio gasoil malaga",
+        "https://gasolinabarata.org/precio-diesel/malaga"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 37
+    },
+    {
+      "keys": [
         "precio gasoil malaga más barato",
         "https://gasolinabarata.org/marca/bp/malaga"
       ],
@@ -14615,6 +15555,16 @@
       "impressions": 1,
       "ctr": 0,
       "position": 57
+    },
+    {
+      "keys": [
+        "precio gasoil navarra",
+        "https://gasolinabarata.org/precio-gasolina/navarra"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 42
     },
     {
       "keys": [
@@ -14702,9 +15652,9 @@
         "https://gasolinabarata.org/marca/plenoil/santa-cruz-de-tenerife"
       ],
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 1,
       "ctr": 0,
-      "position": 4.33
+      "position": 4
     },
     {
       "keys": [
@@ -14715,6 +15665,16 @@
       "impressions": 3,
       "ctr": 0,
       "position": 6.33
+    },
+    {
+      "keys": [
+        "precio gasoil plenoil hoy",
+        "https://gasolinabarata.org/marca/plenoil/santa-cruz-de-tenerife"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 3
     },
     {
       "keys": [
@@ -14758,6 +15718,16 @@
     },
     {
       "keys": [
+        "precio gasoil salamanca hoy",
+        "https://gasolinabarata.org/precio-gasolina/salamanca"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 34
+    },
+    {
+      "keys": [
         "precio gasoil sarria",
         "https://gasolinabarata.org/precio-gasolina/lugo/sarria"
       ],
@@ -14768,6 +15738,16 @@
     },
     {
       "keys": [
+        "precio gasoil segovia",
+        "https://gasolinabarata.org/precio-gasolina/segovia"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 39
+    },
+    {
+      "keys": [
         "precio gasoil sevilla",
         "https://gasolinabarata.org/precio-gasolina/sevilla/sevilla"
       ],
@@ -14775,6 +15755,16 @@
       "impressions": 31,
       "ctr": 0,
       "position": 44.61
+    },
+    {
+      "keys": [
+        "precio gasoil sevilla hoy",
+        "https://gasolinabarata.org/precio-gasolina/sevilla/sevilla"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 51
     },
     {
       "keys": [
@@ -14848,6 +15838,16 @@
     },
     {
       "keys": [
+        "precio gasoil valladolid hoy",
+        "https://gasolinabarata.org/precio-gasolina/valladolid/valladolid"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 35
+    },
+    {
+      "keys": [
         "precio gasoil vigo",
         "https://gasolinabarata.org/precio-gasolina/pontevedra/vigo"
       ],
@@ -14865,6 +15865,16 @@
       "impressions": 1,
       "ctr": 0,
       "position": 43
+    },
+    {
+      "keys": [
+        "precio gasoil villanueva de la serena",
+        "https://gasolinabarata.org/precio-diesel/badajoz/villanueva-de-la-serena"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 28
     },
     {
       "keys": [
@@ -14918,6 +15928,16 @@
     },
     {
       "keys": [
+        "precio gasoleo valladolid",
+        "https://gasolinabarata.org/precio-gasolina/valladolid/valladolid"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 28
+    },
+    {
+      "keys": [
         "precio gasoli a",
         "https://gasolinabarata.org/precio-gasolina/barcelona/garriga-la"
       ],
@@ -14952,9 +15972,9 @@
         "https://gasolinabarata.org/precio-gasolina/barcelona/vilanova-i-la-geltru"
       ],
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 2,
       "ctr": 0,
-      "position": 10
+      "position": 10.5
     },
     {
       "keys": [
@@ -14962,7 +15982,7 @@
         "https://gasolinabarata.org/precio-gasolina/caceres/trujillo"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0,
       "position": 11
     },
@@ -14979,12 +15999,22 @@
     {
       "keys": [
         "precio gasolina",
+        "https://gasolinabarata.org/precio-gasolina/girona/llanca"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "keys": [
+        "precio gasolina",
         "https://gasolinabarata.org/precio-gasolina/huelva"
       ],
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 4,
       "ctr": 0,
-      "position": 12
+      "position": 13.75
     },
     {
       "keys": [
@@ -14992,9 +16022,9 @@
         "https://gasolinabarata.org/precio-gasolina/murcia"
       ],
       "clicks": 0,
-      "impressions": 6,
+      "impressions": 2,
       "ctr": 0,
-      "position": 21.5
+      "position": 20.5
     },
     {
       "keys": [
@@ -15005,6 +16035,16 @@
       "impressions": 14,
       "ctr": 0,
       "position": 28.36
+    },
+    {
+      "keys": [
+        "precio gasolina",
+        "https://gasolinabarata.org/precio-gasolina/pontevedra"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 26
     },
     {
       "keys": [
@@ -15079,16 +16119,6 @@
     {
       "keys": [
         "precio gasolina 95",
-        "https://gasolinabarata.org/precio-gasolina/caceres/trujillo"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 10
-    },
-    {
-      "keys": [
-        "precio gasolina 95",
         "https://gasolinabarata.org/precio-gasolina/valencia-valencia/gandia"
       ],
       "clicks": 0,
@@ -15148,6 +16178,16 @@
     },
     {
       "keys": [
+        "precio gasolina 95 en alcampo",
+        "https://gasolinabarata.org/marca/alcampo/valencia-valencia"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "keys": [
         "precio gasolina 95 guadalajara",
         "https://gasolinabarata.org/precio-gasolina/guadalajara"
       ],
@@ -15172,9 +16212,9 @@
         "https://gasolinabarata.org/precio-gasolina/murcia"
       ],
       "clicks": 0,
-      "impressions": 15,
+      "impressions": 16,
       "ctr": 0,
-      "position": 42.73
+      "position": 41.94
     },
     {
       "keys": [
@@ -15182,9 +16222,9 @@
         "https://gasolinabarata.org/precio-gasolina/murcia/murcia"
       ],
       "clicks": 0,
-      "impressions": 14,
+      "impressions": 15,
       "ctr": 0,
-      "position": 38.5
+      "position": 39.33
     },
     {
       "keys": [
@@ -15202,9 +16242,9 @@
         "https://gasolinabarata.org/marca/plenoil/madrid"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 3,
       "ctr": 0,
-      "position": 7
+      "position": 6.33
     },
     {
       "keys": [
@@ -15284,7 +16324,7 @@
       "clicks": 0,
       "impressions": 18,
       "ctr": 0,
-      "position": 77.28
+      "position": 74.61
     },
     {
       "keys": [
@@ -15294,7 +16334,7 @@
       "clicks": 0,
       "impressions": 17,
       "ctr": 0,
-      "position": 59.65
+      "position": 60.24
     },
     {
       "keys": [
@@ -15342,9 +16382,9 @@
         "https://gasolinabarata.org/precio-gasolina/alicante"
       ],
       "clicks": 0,
-      "impressions": 78,
+      "impressions": 82,
       "ctr": 0,
-      "position": 30.27
+      "position": 29.55
     },
     {
       "keys": [
@@ -15354,7 +16394,7 @@
       "clicks": 0,
       "impressions": 61,
       "ctr": 0,
-      "position": 21.85
+      "position": 22.92
     },
     {
       "keys": [
@@ -15458,16 +16498,6 @@
     },
     {
       "keys": [
-        "precio gasolina baleares",
-        "https://gasolinabarata.org/precio-gasolina/balears-illes"
-      ],
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 6
-    },
-    {
-      "keys": [
         "precio gasolina ballenoil",
         "https://gasolinabarata.org/marca/ballenoil/caceres"
       ],
@@ -15488,6 +16518,16 @@
     },
     {
       "keys": [
+        "precio gasolina barata",
+        "https://gasolinabarata.org/precio-gasolina/barcelona/sant-joan-despi"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "keys": [
         "precio gasolina barata cerca de mi",
         "https://gasolinabarata.org/precio-gasolina/salamanca"
       ],
@@ -15504,7 +16544,7 @@
       "clicks": 0,
       "impressions": 45,
       "ctr": 0,
-      "position": 45.78
+      "position": 45.76
     },
     {
       "keys": [
@@ -15512,9 +16552,9 @@
         "https://gasolinabarata.org/precio-gasolina/barcelona/barcelona"
       ],
       "clicks": 0,
-      "impressions": 59,
+      "impressions": 58,
       "ctr": 0,
-      "position": 26.58
+      "position": 26.52
     },
     {
       "keys": [
@@ -15522,9 +16562,9 @@
         "https://gasolinabarata.org/precio-gasolina/bizkaia/bilbao"
       ],
       "clicks": 0,
-      "impressions": 28,
+      "impressions": 30,
       "ctr": 0,
-      "position": 30.64
+      "position": 30.53
     },
     {
       "keys": [
@@ -15538,6 +16578,16 @@
     },
     {
       "keys": [
+        "precio gasolina bizkaia hoy",
+        "https://gasolinabarata.org/precio-gasolina/bizkaia"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 28
+    },
+    {
+      "keys": [
         "precio gasolina bo",
         "https://gasolinabarata.org/marca/bp/barcelona"
       ],
@@ -15545,6 +16595,16 @@
       "impressions": 1,
       "ctr": 0,
       "position": 10
+    },
+    {
+      "keys": [
+        "precio gasolina bo",
+        "https://gasolinabarata.org/marca/bp/malaga"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11
     },
     {
       "keys": [
@@ -15632,9 +16692,9 @@
         "https://gasolinabarata.org/precio-gasolina/cadiz"
       ],
       "clicks": 0,
-      "impressions": 31,
+      "impressions": 32,
       "ctr": 0,
-      "position": 39.71
+      "position": 39.31
     },
     {
       "keys": [
@@ -15672,9 +16732,9 @@
         "https://gasolinabarata.org/marca/carrefour/madrid"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 11
+      "position": 9
     },
     {
       "keys": [
@@ -15732,9 +16792,9 @@
         "https://gasolinabarata.org/precio-gasolina/barcelona/hospitalet-de-llobregat-l"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 13
+      "position": 12
     },
     {
       "keys": [
@@ -15888,6 +16948,16 @@
     },
     {
       "keys": [
+        "precio gasolina en cordoba",
+        "https://gasolinabarata.org/precio-gasolina/cordoba/cordoba"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 52
+    },
+    {
+      "keys": [
         "precio gasolina en gasolinera alcampo",
         "https://gasolinabarata.org/marca/alcampo/valencia-valencia"
       ],
@@ -15992,9 +17062,9 @@
         "https://gasolinabarata.org/marca/plenoil/madrid"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 7
+      "position": 6.5
     },
     {
       "keys": [
@@ -16012,9 +17082,9 @@
         "https://gasolinabarata.org/marca/plenoil/murcia"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 11
+      "position": 10.5
     },
     {
       "keys": [
@@ -16035,6 +17105,16 @@
       "impressions": 1,
       "ctr": 0,
       "position": 11
+    },
+    {
+      "keys": [
+        "precio gasolina en plenoil hoy",
+        "https://gasolinabarata.org/marca/plenoil/pontevedra"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
     },
     {
       "keys": [
@@ -16202,9 +17282,9 @@
         "https://gasolinabarata.org/precio-gasolina/granada"
       ],
       "clicks": 0,
-      "impressions": 38,
+      "impressions": 36,
       "ctr": 0,
-      "position": 39.68
+      "position": 40.31
     },
     {
       "keys": [
@@ -16312,9 +17392,9 @@
         "https://gasolinabarata.org/precio-gasolina/cadiz/sanlucar-de-barrameda"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 10
+      "position": 9.5
     },
     {
       "keys": [
@@ -16382,9 +17462,9 @@
         "https://gasolinabarata.org/precio-gasolina/alicante"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 32
+      "position": 25.5
     },
     {
       "keys": [
@@ -16392,9 +17472,9 @@
         "https://gasolinabarata.org/precio-gasolina/alicante/alicantealacant"
       ],
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 5,
       "ctr": 0,
-      "position": 22.5
+      "position": 27.2
     },
     {
       "keys": [
@@ -16412,9 +17492,9 @@
         "https://gasolinabarata.org/marca/plenoil/almeria"
       ],
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 4,
       "ctr": 0,
-      "position": 10.33
+      "position": 10.25
     },
     {
       "keys": [
@@ -16425,6 +17505,16 @@
       "impressions": 1,
       "ctr": 0,
       "position": 27
+    },
+    {
+      "keys": [
+        "precio gasolina hoy bizkaia",
+        "https://gasolinabarata.org/precio-gasolina/bizkaia"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 26
     },
     {
       "keys": [
@@ -16445,6 +17535,26 @@
       "impressions": 1,
       "ctr": 0,
       "position": 1
+    },
+    {
+      "keys": [
+        "precio gasolina hoy en barcelona",
+        "https://gasolinabarata.org/precio-gasolina/barcelona"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 30
+    },
+    {
+      "keys": [
+        "precio gasolina hoy en barcelona",
+        "https://gasolinabarata.org/precio-gasolina/barcelona/barcelona"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 50
     },
     {
       "keys": [
@@ -16472,9 +17582,19 @@
         "https://gasolinabarata.org/marca/plenoil/madrid"
       ],
       "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 4.67
+    },
+    {
+      "keys": [
+        "precio gasolina hoy girona",
+        "https://gasolinabarata.org/precio-gasolina/girona"
+      ],
+      "clicks": 0,
       "impressions": 2,
       "ctr": 0,
-      "position": 4.5
+      "position": 25
     },
     {
       "keys": [
@@ -16542,7 +17662,7 @@
         "https://gasolinabarata.org/marca/plenoil/madrid"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
       "position": 1
     },
@@ -16568,13 +17688,23 @@
     },
     {
       "keys": [
-        "precio gasolina hoy valencia",
-        "https://gasolinabarata.org/precio-gasolina/valencia-valencia"
+        "precio gasolina hoy tenerife",
+        "https://gasolinabarata.org/precio-gasolina/santa-cruz-de-tenerife"
       ],
       "clicks": 0,
       "impressions": 1,
       "ctr": 0,
-      "position": 29
+      "position": 27
+    },
+    {
+      "keys": [
+        "precio gasolina hoy valencia",
+        "https://gasolinabarata.org/precio-gasolina/valencia-valencia"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 28.5
     },
     {
       "keys": [
@@ -16588,6 +17718,16 @@
     },
     {
       "keys": [
+        "precio gasolina hoy vigo",
+        "https://gasolinabarata.org/precio-gasolina/pontevedra/vigo"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 28
+    },
+    {
+      "keys": [
         "precio gasolina huelva",
         "https://gasolinabarata.org/precio-gasolina/huelva"
       ],
@@ -16598,13 +17738,33 @@
     },
     {
       "keys": [
+        "precio gasolina ibiza",
+        "https://gasolinabarata.org/precio-gasolina/balears-illes"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 44
+    },
+    {
+      "keys": [
         "precio gasolina jaen",
         "https://gasolinabarata.org/precio-gasolina/jaen"
       ],
       "clicks": 0,
-      "impressions": 27,
+      "impressions": 28,
       "ctr": 0,
-      "position": 48.41
+      "position": 47.54
+    },
+    {
+      "keys": [
+        "precio gasolina jaen hoy",
+        "https://gasolinabarata.org/precio-gasolina/jaen"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 2
     },
     {
       "keys": [
@@ -16622,9 +17782,9 @@
         "https://gasolinabarata.org/precio-gasolina/murcia/jumilla"
       ],
       "clicks": 0,
-      "impressions": 24,
+      "impressions": 22,
       "ctr": 0,
-      "position": 42.17
+      "position": 42
     },
     {
       "keys": [
@@ -16652,9 +17812,9 @@
         "https://gasolinabarata.org/precio-gasolina/palmas-las"
       ],
       "clicks": 0,
-      "impressions": 31,
+      "impressions": 32,
       "ctr": 0,
-      "position": 48.23
+      "position": 47.38
     },
     {
       "keys": [
@@ -16712,9 +17872,9 @@
         "https://gasolinabarata.org/precio-gasolina/madrid"
       ],
       "clicks": 0,
-      "impressions": 52,
+      "impressions": 53,
       "ctr": 0,
-      "position": 34.52
+      "position": 34.38
     },
     {
       "keys": [
@@ -16722,9 +17882,9 @@
         "https://gasolinabarata.org/precio-gasolina/madrid/madrid"
       ],
       "clicks": 0,
-      "impressions": 44,
+      "impressions": 41,
       "ctr": 0,
-      "position": 33.57
+      "position": 34.46
     },
     {
       "keys": [
@@ -16748,6 +17908,16 @@
     },
     {
       "keys": [
+        "precio gasolina madridejos",
+        "https://gasolinabarata.org/precio-diesel/toledo/madridejos"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 37
+    },
+    {
+      "keys": [
         "precio gasolina malaga",
         "https://gasolinabarata.org/precio-gasolina/malaga"
       ],
@@ -16768,6 +17938,16 @@
     },
     {
       "keys": [
+        "precio gasolina menorca",
+        "https://gasolinabarata.org/precio-gasolina/balears-illes/ciutadella-de-menorca"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 25
+    },
+    {
+      "keys": [
         "precio gasolina montehermoso",
         "https://gasolinabarata.org/precio-gasolina/caceres/montehermoso"
       ],
@@ -16782,9 +17962,9 @@
         "https://gasolinabarata.org/precio-gasolina/murcia"
       ],
       "clicks": 0,
-      "impressions": 56,
+      "impressions": 57,
       "ctr": 0,
-      "position": 41.11
+      "position": 40.63
     },
     {
       "keys": [
@@ -16792,9 +17972,9 @@
         "https://gasolinabarata.org/precio-gasolina/murcia/murcia"
       ],
       "clicks": 0,
-      "impressions": 54,
+      "impressions": 55,
       "ctr": 0,
-      "position": 32.81
+      "position": 33.73
     },
     {
       "keys": [
@@ -16812,9 +17992,19 @@
         "https://gasolinabarata.org/precio-gasolina/asturias/oviedo"
       ],
       "clicks": 0,
-      "impressions": 5,
+      "impressions": 6,
       "ctr": 0,
-      "position": 30.4
+      "position": 30.67
+    },
+    {
+      "keys": [
+        "precio gasolina oviedo hoy",
+        "https://gasolinabarata.org/precio-gasolina/asturias/oviedo"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 34
     },
     {
       "keys": [
@@ -16848,6 +18038,16 @@
     },
     {
       "keys": [
+        "precio gasolina petroprix valladolid",
+        "https://gasolinabarata.org/marca/petroprix/valladolid"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 17.5
+    },
+    {
+      "keys": [
         "precio gasolina plenoil",
         "https://gasolinabarata.org/marca/plenoil/alicante"
       ],
@@ -16855,6 +18055,16 @@
       "impressions": 1,
       "ctr": 0,
       "position": 7
+    },
+    {
+      "keys": [
+        "precio gasolina plenoil",
+        "https://gasolinabarata.org/marca/plenoil/barcelona"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 6.5
     },
     {
       "keys": [
@@ -16902,9 +18112,9 @@
         "https://gasolinabarata.org/marca/plenoil/jaen"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0,
-      "position": 5.5
+      "position": 6
     },
     {
       "keys": [
@@ -16922,9 +18132,9 @@
         "https://gasolinabarata.org/marca/plenoil/madrid"
       ],
       "clicks": 0,
-      "impressions": 12,
+      "impressions": 14,
       "ctr": 0,
-      "position": 7.83
+      "position": 7.64
     },
     {
       "keys": [
@@ -17002,9 +18212,9 @@
         "https://gasolinabarata.org/marca/plenoil/alicante"
       ],
       "clicks": 0,
-      "impressions": 13,
+      "impressions": 14,
       "ctr": 0,
-      "position": 9.08
+      "position": 9.14
     },
     {
       "keys": [
@@ -17012,9 +18222,9 @@
         "https://gasolinabarata.org/marca/plenoil/almeria"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 4,
       "ctr": 0,
-      "position": 10.5
+      "position": 9.5
     },
     {
       "keys": [
@@ -17044,7 +18254,7 @@
       "clicks": 0,
       "impressions": 8,
       "ctr": 0,
-      "position": 7
+      "position": 7.25
     },
     {
       "keys": [
@@ -17062,9 +18272,9 @@
         "https://gasolinabarata.org/marca/plenoil/lugo"
       ],
       "clicks": 0,
-      "impressions": 14,
+      "impressions": 15,
       "ctr": 0,
-      "position": 9.86
+      "position": 9.67
     },
     {
       "keys": [
@@ -17072,9 +18282,9 @@
         "https://gasolinabarata.org/marca/plenoil/madrid"
       ],
       "clicks": 0,
-      "impressions": 9,
+      "impressions": 8,
       "ctr": 0,
-      "position": 6.44
+      "position": 6.25
     },
     {
       "keys": [
@@ -17082,9 +18292,9 @@
         "https://gasolinabarata.org/marca/plenoil/malaga"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0,
-      "position": 8.5
+      "position": 8
     },
     {
       "keys": [
@@ -17092,9 +18302,9 @@
         "https://gasolinabarata.org/marca/plenoil/salamanca"
       ],
       "clicks": 0,
-      "impressions": 12,
+      "impressions": 13,
       "ctr": 0,
-      "position": 8.92
+      "position": 8.85
     },
     {
       "keys": [
@@ -17108,6 +18318,16 @@
     },
     {
       "keys": [
+        "precio gasolina ponferrada",
+        "https://gasolinabarata.org/precio-gasolina/leon/ponferrada"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 38
+    },
+    {
+      "keys": [
         "precio gasolina pontevedra",
         "https://gasolinabarata.org/precio-gasolina/pontevedra"
       ],
@@ -17115,6 +18335,16 @@
       "impressions": 3,
       "ctr": 0,
       "position": 42
+    },
+    {
+      "keys": [
+        "precio gasolina ribeira",
+        "https://gasolinabarata.org/precio-gasolina/coruna-a/ribeira"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 11
     },
     {
       "keys": [
@@ -17158,13 +18388,23 @@
     },
     {
       "keys": [
+        "precio gasolina segovia",
+        "https://gasolinabarata.org/precio-gasolina/segovia"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 34
+    },
+    {
+      "keys": [
         "precio gasolina sevilla",
         "https://gasolinabarata.org/precio-gasolina/sevilla"
       ],
       "clicks": 0,
-      "impressions": 55,
+      "impressions": 53,
       "ctr": 0,
-      "position": 31.87
+      "position": 32.13
     },
     {
       "keys": [
@@ -17178,13 +18418,53 @@
     },
     {
       "keys": [
+        "precio gasolina sevilla hoy",
+        "https://gasolinabarata.org/precio-gasolina/sevilla"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 33
+    },
+    {
+      "keys": [
+        "precio gasolina sevilla hoy",
+        "https://gasolinabarata.org/precio-gasolina/sevilla/sevilla"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 51
+    },
+    {
+      "keys": [
+        "precio gasolina soria",
+        "https://gasolinabarata.org/precio-gasolina/soria"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 31
+    },
+    {
+      "keys": [
         "precio gasolina tarragona",
         "https://gasolinabarata.org/precio-gasolina/tarragona"
       ],
       "clicks": 0,
-      "impressions": 34,
+      "impressions": 35,
       "ctr": 0,
-      "position": 38.94
+      "position": 38.51
+    },
+    {
+      "keys": [
+        "precio gasolina tarragona hoy",
+        "https://gasolinabarata.org/precio-gasolina/tarragona"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 21
     },
     {
       "keys": [
@@ -17192,9 +18472,29 @@
         "https://gasolinabarata.org/precio-gasolina/santa-cruz-de-tenerife"
       ],
       "clicks": 0,
-      "impressions": 9,
+      "impressions": 8,
       "ctr": 0,
-      "position": 27.78
+      "position": 29.25
+    },
+    {
+      "keys": [
+        "precio gasolina tenerife hoy",
+        "https://gasolinabarata.org/precio-gasolina/santa-cruz-de-tenerife"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 31.5
+    },
+    {
+      "keys": [
+        "precio gasolina teruel",
+        "https://gasolinabarata.org/precio-gasolina/teruel"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 30
     },
     {
       "keys": [
@@ -17222,9 +18522,9 @@
         "https://gasolinabarata.org/precio-gasolina/alicante/torrevieja"
       ],
       "clicks": 0,
-      "impressions": 20,
+      "impressions": 18,
       "ctr": 0,
-      "position": 60.75
+      "position": 61.11
     },
     {
       "keys": [
@@ -17232,9 +18532,9 @@
         "https://gasolinabarata.org/precio-gasolina/valencia-valencia"
       ],
       "clicks": 0,
-      "impressions": 41,
+      "impressions": 43,
       "ctr": 0,
-      "position": 38.34
+      "position": 37.93
     },
     {
       "keys": [
@@ -17252,9 +18552,9 @@
         "https://gasolinabarata.org/precio-gasolina/valladolid"
       ],
       "clicks": 0,
-      "impressions": 48,
+      "impressions": 47,
       "ctr": 0,
-      "position": 42.88
+      "position": 43.19
     },
     {
       "keys": [
@@ -17264,7 +18564,7 @@
       "clicks": 0,
       "impressions": 47,
       "ctr": 0,
-      "position": 36.66
+      "position": 36.7
     },
     {
       "keys": [
@@ -17292,9 +18592,19 @@
         "https://gasolinabarata.org/precio-gasolina/pontevedra/vigo"
       ],
       "clicks": 0,
-      "impressions": 66,
+      "impressions": 65,
       "ctr": 0,
-      "position": 30.36
+      "position": 30.37
+    },
+    {
+      "keys": [
+        "precio gasolina vigo hoy",
+        "https://gasolinabarata.org/precio-gasolina/pontevedra/vigo"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 28
     },
     {
       "keys": [
@@ -17332,9 +18642,9 @@
         "https://gasolinabarata.org/precio-gasolina/zaragoza"
       ],
       "clicks": 0,
-      "impressions": 48,
+      "impressions": 49,
       "ctr": 0,
-      "position": 37.13
+      "position": 37.06
     },
     {
       "keys": [
@@ -17342,9 +18652,9 @@
         "https://gasolinabarata.org/precio-gasolina/zaragoza/zaragoza"
       ],
       "clicks": 0,
-      "impressions": 56,
+      "impressions": 54,
       "ctr": 0,
-      "position": 20.66
+      "position": 21.41
     },
     {
       "keys": [
@@ -17352,9 +18662,9 @@
         "https://gasolinabarata.org/marca/alcampo/valencia-valencia"
       ],
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 5,
       "ctr": 0,
-      "position": 51.75
+      "position": 43.2
     },
     {
       "keys": [
@@ -17395,6 +18705,16 @@
       "impressions": 1,
       "ctr": 0,
       "position": 9
+    },
+    {
+      "keys": [
+        "precio gasolinera plenoil",
+        "https://gasolinabarata.org/marca/plenoil/granada"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 5
     },
     {
       "keys": [
@@ -17482,9 +18802,9 @@
         "https://gasolinabarata.org/precio-gasolina/avila/avila"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 3,
       "ctr": 0,
-      "position": 38
+      "position": 34
     },
     {
       "keys": [
@@ -17555,6 +18875,26 @@
       "impressions": 3,
       "ctr": 0,
       "position": 45
+    },
+    {
+      "keys": [
+        "precio gasolineras collado villalba",
+        "https://gasolinabarata.org/precio-gasolina/madrid/collado-villalba"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 31
+    },
+    {
+      "keys": [
+        "precio gasolineras cordoba",
+        "https://gasolinabarata.org/precio-gasolina/cordoba"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 29
     },
     {
       "keys": [
@@ -17698,6 +19038,16 @@
     },
     {
       "keys": [
+        "precio gasolineras ponferrada",
+        "https://gasolinabarata.org/precio-gasolina/leon/ponferrada"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 39
+    },
+    {
+      "keys": [
         "precio gasolineras pontevedra",
         "https://gasolinabarata.org/precio-gasolina/pontevedra"
       ],
@@ -17705,6 +19055,16 @@
       "impressions": 3,
       "ctr": 0,
       "position": 47
+    },
+    {
+      "keys": [
+        "precio gasolineras segovia",
+        "https://gasolinabarata.org/precio-gasolina/segovia"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 35
     },
     {
       "keys": [
@@ -17722,9 +19082,9 @@
         "https://gasolinabarata.org/precio-gasolina/tarragona"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 39
+      "position": 33
     },
     {
       "keys": [
@@ -17735,6 +19095,16 @@
       "impressions": 1,
       "ctr": 0,
       "position": 35
+    },
+    {
+      "keys": [
+        "precio gasolineras teruel",
+        "https://gasolinabarata.org/precio-gasolina/teruel"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 39
     },
     {
       "keys": [
@@ -17832,9 +19202,9 @@
         "https://gasolinabarata.org/precio-diesel/madrid/madrid"
       ],
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 5,
       "ctr": 0,
-      "position": 35.67
+      "position": 34.4
     },
     {
       "keys": [
@@ -17872,9 +19242,9 @@
         "https://gasolinabarata.org/marca/plenoil/almeria"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 6
+      "position": 8.5
     },
     {
       "keys": [
@@ -17912,9 +19282,9 @@
         "https://gasolinabarata.org/marca/plenoil/madrid"
       ],
       "clicks": 0,
-      "impressions": 13,
+      "impressions": 14,
       "ctr": 0,
-      "position": 14
+      "position": 13.64
     },
     {
       "keys": [
@@ -17962,9 +19332,9 @@
         "https://gasolinabarata.org/marca/plenoil/valencia-valencia"
       ],
       "clicks": 0,
-      "impressions": 12,
+      "impressions": 11,
       "ctr": 0,
-      "position": 15.42
+      "position": 16.27
     },
     {
       "keys": [
@@ -17972,9 +19342,9 @@
         "https://gasolinabarata.org/marca/plenoil/almeria"
       ],
       "clicks": 0,
-      "impressions": 19,
+      "impressions": 18,
       "ctr": 0,
-      "position": 11.58
+      "position": 11.56
     },
     {
       "keys": [
@@ -17992,9 +19362,9 @@
         "https://gasolinabarata.org/marca/plenoil/castellon-castello"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0,
-      "position": 4
+      "position": 7
     },
     {
       "keys": [
@@ -18052,9 +19422,9 @@
         "https://gasolinabarata.org/marca/plenoil/valencia-valencia"
       ],
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 4,
       "ctr": 0,
-      "position": 4.67
+      "position": 5.5
     },
     {
       "keys": [
@@ -18062,9 +19432,9 @@
         "https://gasolinabarata.org/marca/plenoil/lugo"
       ],
       "clicks": 0,
-      "impressions": 22,
+      "impressions": 24,
       "ctr": 0,
-      "position": 10.64
+      "position": 10.46
     },
     {
       "keys": [
@@ -18072,9 +19442,9 @@
         "https://gasolinabarata.org/marca/plenoil/murcia"
       ],
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 5,
       "ctr": 0,
-      "position": 7.5
+      "position": 7.6
     },
     {
       "keys": [
@@ -18082,9 +19452,9 @@
         "https://gasolinabarata.org/marca/plenoil/toledo"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 4,
       "ctr": 0,
-      "position": 11
+      "position": 10.25
     },
     {
       "keys": [
@@ -18095,6 +19465,16 @@
       "impressions": 1,
       "ctr": 0,
       "position": 9
+    },
+    {
+      "keys": [
+        "precios cepsa",
+        "https://gasolinabarata.org/marca/cepsa/valencia-valencia"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 25
     },
     {
       "keys": [
@@ -18125,6 +19505,16 @@
       "impressions": 1,
       "ctr": 0,
       "position": 50
+    },
+    {
+      "keys": [
+        "precios de la gasolina",
+        "https://gasolinabarata.org/precio-gasolina/rioja-la/autol"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
     },
     {
       "keys": [
@@ -18162,9 +19552,9 @@
         "https://gasolinabarata.org/precio-diesel/sevilla"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 7
+      "position": 7.5
     },
     {
       "keys": [
@@ -18175,6 +19565,16 @@
       "impressions": 2,
       "ctr": 0,
       "position": 25.5
+    },
+    {
+      "keys": [
+        "precios diesel cerca de mi",
+        "https://gasolinabarata.org/precio-diesel/lleida"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
     },
     {
       "keys": [
@@ -18195,6 +19595,16 @@
       "impressions": 2,
       "ctr": 0,
       "position": 5
+    },
+    {
+      "keys": [
+        "precios gasoil bizkaia",
+        "https://gasolinabarata.org/precio-gasolina/bizkaia"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 28
     },
     {
       "keys": [
@@ -18288,6 +19698,16 @@
     },
     {
       "keys": [
+        "precios gasoil palencia",
+        "https://gasolinabarata.org/precio-gasolina/palencia"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 57
+    },
+    {
+      "keys": [
         "precios gasoil salamanca",
         "https://gasolinabarata.org/precio-gasolina/salamanca"
       ],
@@ -18372,9 +19792,9 @@
         "https://gasolinabarata.org/precio-gasolina/albacete"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 3,
       "ctr": 0,
-      "position": 56.5
+      "position": 50
     },
     {
       "keys": [
@@ -18509,6 +19929,16 @@
     {
       "keys": [
         "precios gasolina cepsa",
+        "https://gasolinabarata.org/marca/cepsa/malaga"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 29
+    },
+    {
+      "keys": [
+        "precios gasolina cepsa",
         "https://gasolinabarata.org/marca/cepsa/valencia-valencia"
       ],
       "clicks": 0,
@@ -18625,6 +20055,16 @@
       "impressions": 1,
       "ctr": 0,
       "position": 8
+    },
+    {
+      "keys": [
+        "precios gasolina hoy madrid",
+        "https://gasolinabarata.org/precio-gasolina/madrid/madrid"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 4
     },
     {
       "keys": [
@@ -18782,7 +20222,7 @@
         "https://gasolinabarata.org/marca/shell"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
       "position": 22
     },
@@ -18855,6 +20295,16 @@
       "impressions": 1,
       "ctr": 0,
       "position": 12
+    },
+    {
+      "keys": [
+        "precios gasolineras",
+        "https://gasolinabarata.org/precio-gasolina/huelva/aracena"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11
     },
     {
       "keys": [
@@ -19138,6 +20588,16 @@
     },
     {
       "keys": [
+        "precios gasolineras ponferrada",
+        "https://gasolinabarata.org/precio-gasolina/leon/ponferrada"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 37
+    },
+    {
+      "keys": [
         "precios gasolineras pontevedra",
         "https://gasolinabarata.org/precio-gasolina/pontevedra"
       ],
@@ -19222,9 +20682,9 @@
         "https://gasolinabarata.org/precio-gasolina/valladolid/valladolid"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 49
+      "position": 42
     },
     {
       "keys": [
@@ -19349,12 +20809,22 @@
     {
       "keys": [
         "prenoil",
+        "https://gasolinabarata.org/marca/plenoil/coruna-a"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "keys": [
+        "prenoil",
         "https://gasolinabarata.org/marca/plenoil/malaga"
       ],
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 1,
       "ctr": 0,
-      "position": 5.75
+      "position": 5
     },
     {
       "keys": [
@@ -19362,9 +20832,9 @@
         "https://gasolinabarata.org/blog/por-que-sube-la-gasolina-y-el-diesel-en-espana-pese-a-los-descuentos-gubernament-muhvr5bd"
       ],
       "clicks": 0,
-      "impressions": 6,
+      "impressions": 5,
       "ctr": 0,
-      "position": 62
+      "position": 61.8
     },
     {
       "keys": [
@@ -19428,6 +20898,16 @@
     },
     {
       "keys": [
+        "prix diesel figueres espagne",
+        "https://gasolinabarata.org/precio-diesel/girona/figueres"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "keys": [
         "prix gasoil huesca",
         "https://gasolinabarata.org/precio-diesel/huesca"
       ],
@@ -19452,9 +20932,9 @@
         "https://gasolinabarata.org/precio-gasolina/alicante/alicantealacant"
       ],
       "clicks": 0,
-      "impressions": 5,
+      "impressions": 6,
       "ctr": 0,
-      "position": 63.4
+      "position": 63.5
     },
     {
       "keys": [
@@ -19482,7 +20962,7 @@
         "https://gasolinabarata.org/precio-gasolina/barcelona/vilanova-i-la-geltru"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0,
       "position": 6
     },
@@ -19532,9 +21012,9 @@
         "https://gasolinabarata.org/precio-gasolina/alicante"
       ],
       "clicks": 0,
-      "impressions": 8,
+      "impressions": 9,
       "ctr": 0,
-      "position": 30.88
+      "position": 30.56
     },
     {
       "keys": [
@@ -19544,7 +21024,7 @@
       "clicks": 0,
       "impressions": 9,
       "ctr": 0,
-      "position": 48.44
+      "position": 51.22
     },
     {
       "keys": [
@@ -19552,9 +21032,9 @@
         "https://gasolinabarata.org/precio-gasolina/murcia"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 4,
       "ctr": 0,
-      "position": 49
+      "position": 55.25
     },
     {
       "keys": [
@@ -19582,9 +21062,9 @@
         "https://gasolinabarata.org/precio-gasolina/murcia"
       ],
       "clicks": 0,
-      "impressions": 11,
+      "impressions": 10,
       "ctr": 0,
-      "position": 34
+      "position": 34.9
     },
     {
       "keys": [
@@ -19592,9 +21072,9 @@
         "https://gasolinabarata.org/precio-gasolina/murcia/murcia"
       ],
       "clicks": 0,
-      "impressions": 9,
+      "impressions": 8,
       "ctr": 0,
-      "position": 28.33
+      "position": 29.25
     },
     {
       "keys": [
@@ -19628,13 +21108,23 @@
     },
     {
       "keys": [
+        "repsol castellon",
+        "https://gasolinabarata.org/marca/repsol/castellon-castello"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 33
+    },
+    {
+      "keys": [
         "repsol guadalajara",
         "https://gasolinabarata.org/marca/repsol/guadalajara"
       ],
       "clicks": 0,
-      "impressions": 10,
+      "impressions": 12,
       "ctr": 0,
-      "position": 65.9
+      "position": 63.67
     },
     {
       "keys": [
@@ -19712,9 +21202,9 @@
         "https://gasolinabarata.org/blog/por-que-sube-la-gasolina-y-el-diesel-en-espana-pese-a-los-descuentos-del-gobiern-mvt19v2v"
       ],
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 4,
       "ctr": 0,
-      "position": 3.67
+      "position": 21.75
     },
     {
       "keys": [
@@ -19732,9 +21222,19 @@
         "https://gasolinabarata.org/precio-gasolina/ciudad-real"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 3,
       "ctr": 0,
-      "position": 94
+      "position": 90.67
+    },
+    {
+      "keys": [
+        "talleres cuesta fuente vaqueros",
+        "https://gasolinabarata.org/precio-diesel/granada/fuente-vaqueros"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
     },
     {
       "keys": [
@@ -19762,9 +21262,9 @@
         "https://gasolinabarata.org/precio-diesel/avila"
       ],
       "clicks": 0,
-      "impressions": 7,
+      "impressions": 6,
       "ctr": 0,
-      "position": 45.86
+      "position": 47.83
     },
     {
       "keys": [
@@ -19895,6 +21395,16 @@
       "impressions": 2,
       "ctr": 0,
       "position": 11.5
+    },
+    {
+      "keys": [
+        "¿por qué está tan cara la gasolina en españa?",
+        "https://gasolinabarata.org/blog/por-que-sube-la-gasolina-y-el-diesel-en-espana-pese-a-los-descuentos-del-gobiern-mvt19v2v"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
     },
     {
       "keys": [
